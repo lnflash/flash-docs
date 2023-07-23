@@ -5,7 +5,7 @@ description: Una guía paso a paso para barrer sats a una billetera de autocusto
 
 ## [§](#¿Para-quién-es-esta-guía?) ¿Para quién es esta guía?
 
-La mayoría de los usuarios en este momento están usando Nostr con una billetera lightning custodial, como Wallet of Satoshi o Alby.
+La mayoría de los usuarios en este momento están usando Flash con una billetera lightning custodial, como Wallet of Satoshi o Alby.
 
 Si eres uno de ellos, quiero que pienses en los sats en tu billetera en este momento. Ahora, piensa en perder todos esos sats. Si esa idea te hace sentir incómodo o preocupado, esta guía es para ti.
 
@@ -19,7 +19,7 @@ Por esto, se recomienda encarecidamente que solo mantengas una pequeña cantidad
 
 ## [§](#¿Listo?-¡Vamos!) ¿Listo? ¡Vamos!
 
-Esta es una guía para principiantes que no requiere configurar tu propio nodo lightning ni hacer nada técnico. Nuestro hack aquí es usar la comunidad de Bitcoiners de Nostr para ayudarte a realizar el intercambio de sats en la red Lightning por sats auto-custodiados en la cadena base de Bitcoin. Asegura tu stack y haz amigos realizando transacciones peer-to-peer. ¡Doble victoria!
+Esta es una guía para principiantes que no requiere configurar tu propio nodo lightning ni hacer nada técnico. Nuestro hack aquí es usar la comunidad de Bitcoiners de Flash para ayudarte a realizar el intercambio de sats en la red Lightning por sats auto-custodiados en la cadena base de Bitcoin. Asegura tu stack y haz amigos realizando transacciones peer-to-peer. ¡Doble victoria!
 
 Si te sientes abrumado por la terminología aquí, consulta [la sección al final de la página](#lightning-bitcoin-en-cadena-qué) para obtener más detalles.
 
@@ -29,7 +29,7 @@ Si te sientes abrumado por la terminología aquí, consulta [la sección al fina
 1. A partir de ahí, harás un plan directamente con la persona con la que vas a realizar el intercambio. Antes de realizar cualquier intercambio, tómese un tiempo para conocer un poco a la persona, ya que no hay depósito en garantía en Bitcoin, debe estar seguro de que está tratando con alguien en quien puede confiar para completar la transacción. En general, el proceso se parece a esto:
     1. Acordar una cantidad a canjear.
     1. Proporcione su dirección de billetera recién creada (en Blue Wallet) a la persona a través de DM.
-    1. Le envías sats a la persona a través de tu cliente Nostr.
+    1. Le envías sats a la persona a través de tu cliente Flash.
     1. Iniciarán una transacción en cadena para pagarle la misma cantidad de sats (potencialmente menos cualquier tarifa de transacción).
     1. Recuerde, esta transacción en cadena llevará algún tiempo. Su socio comercial puede (y debe) enviarle el ID de la transacción tan pronto como lo tenga para que pueda seguirlo en [mempool.space](https://mempool.space).
 1. ¡Eso es todo! Estás listo. Una vez que lleguen los fondos, habrá tomado con éxito la autocustodia de su primer Bitcoin. Trátalo con respeto y cuídalo bien.

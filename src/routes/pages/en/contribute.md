@@ -1,23 +1,23 @@
 ---
 title: How you can contribute
-description: It takes a village. We started Nostr.how because we are excited about the Nostr protocol and what it could do to free social media from the grasp of big tech. We need your help to keep it running.
+description: It takes a village. We started Flash.how because we are excited about the Flash protocol and what it could do to free social media from the grasp of big tech. We need your help to keep it running.
 ---
 
 ## [§](#in-general) In general
 
-This is an open source project run by volunteers. [The code](https://github.com/erskingardner/nostr-how) is publicly hosted on GitHub, we encourage anyone and everyone to clone the repo, make changes, and submit pull requests.
+This is an open source project run by volunteers. [The code](https://github.com/erskingardner/flash-how) is publicly hosted on GitHub, we encourage anyone and everyone to clone the repo, make changes, and submit pull requests.
 
 If you're not technical, don't worry. There are other ways that you can contirbute, like translating, writing content, reporting typos, or Zapping us some sats to cover our hosting costs.
 
 ## [§](#send-feedback) Send us feedback
 
-If you find typos or information that is incorrect on Nostr.how, please let us know by creating an [issue on our GitHub repo](https://github.com/nostr-how/nostr-how/issues).
+If you find typos or information that is incorrect on Flash.how, please let us know by creating an [issue on our GitHub repo](https://github.com/flash-how/flash-how/issues).
 
 Additionally, if you have ideas for content that we should write, please create issues with your suggestions. 🙌🏼
 
 ## [§](#write-content) Write content
 
-If you're a writer and want to contribute, please don't hesitate to reach out (again, [via an issue in the GitHub repo](https://github.com/nostr-how/nostr-how/issues)). We can help you get set up in whatever way makes sense based on your technical level.
+If you're a writer and want to contribute, please don't hesitate to reach out (again, [via an issue in the GitHub repo](https://github.com/flash-how/flash-how/issues)). We can help you get set up in whatever way makes sense based on your technical level.
 
 ## [§](#translate-content) Translate content into other languages
 

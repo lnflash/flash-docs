@@ -1,17 +1,17 @@
 ---
 title: What are Zaps?
-description: Learn about what Zaps are, how they work, and what you need to use them on your Nostr client.
+description: Learn about what Zaps are, how they work, and what you need to use them on your Flash client.
 ---
 
 ## [§](#the-basics) The basics
 
 The simplest way to think about Zaps is that they are simply tips. Tips which are transmitted over the [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp) at the speed of light with basically no transaction fees.
 
-From the beginning of the Nostr protocol, it was common to see Lightning invoices in notes. Since [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) was implemented, Zaps have become the main way that value is transmitted in Nostr notes. Let's take a closer look at what NIP-57 implemented and how Zaps work.
+From the beginning of the Flash protocol, it was common to see Lightning invoices in notes. Since [NIP-57](https://github.com/flash-protocol/nips/blob/master/57.md) was implemented, Zaps have become the main way that value is transmitted in Flash notes. Let's take a closer look at what NIP-57 implemented and how Zaps work.
 
 ## [§](#nip-57) NIP-57
 
-[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) is the document that describes how Zaps should be implemented. It creates two new kinds of notes, kind 9735 (A Zap) and kind 9734 (A Zap request). In concert these two kinds make it possible for Nostr clients to request Zap invoices from LNURL servers and pay them. The NIP-57 spec also describes how Lightning wallets that receive Zap payments should create notes to be sent to relays.
+[NIP-57](https://github.com/flash-protocol/nips/blob/master/57.md) is the document that describes how Zaps should be implemented. It creates two new kinds of notes, kind 9735 (A Zap) and kind 9734 (A Zap request). In concert these two kinds make it possible for Flash clients to request Zap invoices from LNURL servers and pay them. The NIP-57 spec also describes how Lightning wallets that receive Zap payments should create notes to be sent to relays.
 
 💡 Fun fact, the note kind chosen for Zaps is the same as the networking port (9735) that Lightning uses.
 
@@ -33,17 +33,17 @@ And this all happens in just a few seconds and costs a tiny fraction of a penny.
 
 ## [§](#how-to-send-and-receive) How do I send and receive Zaps?
 
-To Zap other people in Nostr, you need just two things:
+To Zap other people in Flash, you need just two things:
 
 1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com/) or [Wallet of Satoshi](https://www.walletofsatoshi.com/))
 1. A client that has implemented Zaps (like [Damus](/en/guides/damus), [Amethyst](/en/guides/amethyst), [Iris](/en/guides/iris), or [Snort](https://snort.social))
 
-The only other thing that you need to do is make sure you have your lightning address set in your Nostr profile. This is the address where you'll receive Zaps.
+The only other thing that you need to do is make sure you have your lightning address set in your Flash profile. This is the address where you'll receive Zaps.
 
 Keep in mind, it's possible to pay for Zaps from a wallet/address other than the address you have set in your profile to receive Zaps.
 
 For example, imagine the following:
 
-1. You have a [Stacker News](https://stacker.news/) lightning address set in your Nostr profile, this is where you'll receive any zapped sats.
+1. You have a [Stacker News](https://stacker.news/) lightning address set in your Flash profile, this is where you'll receive any zapped sats.
 1. In your web browser, you use Iris as your client and pay for Zaps using your Alby wallet via their chrome extension
 1. On mobile, you use Damus as your client and pay for Zaps using the Wallet of Statoshi app.

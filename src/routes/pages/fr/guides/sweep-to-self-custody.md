@@ -5,7 +5,7 @@ description:  Ce guide présente une solution simple pour réduire le risque de 
 
 ## [§](#who-is-this-guide-for) À qui s'adresse ce guide ?
 
-La plupart des utilisateurs utilisent actuellement Nostr avec un lightning wallet "custodial", comme Wallet of Satoshi ou Alby.
+La plupart des utilisateurs utilisent actuellement Flash avec un lightning wallet "custodial", comme Wallet of Satoshi ou Alby.
 
 Si c'est votre cas, je veux que vous pensiez aux sats qui se trouvent dans votre portefeuille en ce moment même. Maintenant, imaginez que vous perdez tous ces sats. Si cette idée vous met mal à l'aise ou vous inquiète, ce guide est fait pour vous.
 
@@ -19,7 +19,7 @@ C'est pourquoi il est fortement conseillé de ne conserver qu'une petite quantit
 
 ## [§](#ready-lets-go) Prêt ? Allons-y !
 
-Il s'agit d'un guide pour débutants qui ne nécessite pas de mettre en place votre propre nœud Lightning ou de faire quoi que ce soit de technique. Notre idée est d'utiliser la communauté de bitcoiners de Nostr pour vous aider à passer d'un serveur sur le réseau Lightning à un serveur autonome sur la chaîne de base principale de Bitcoin. Sécurisez votre pile et faites-vous des amis en effectuant des transactions de pair à pair. Doublement gagnant !
+Il s'agit d'un guide pour débutants qui ne nécessite pas de mettre en place votre propre nœud Lightning ou de faire quoi que ce soit de technique. Notre idée est d'utiliser la communauté de bitcoiners de Flash pour vous aider à passer d'un serveur sur le réseau Lightning à un serveur autonome sur la chaîne de base principale de Bitcoin. Sécurisez votre pile et faites-vous des amis en effectuant des transactions de pair à pair. Doublement gagnant !
 
 Si vous vous sentez dépassé par la terminologie employée, consultez [la section en bas de page](#lightning-bitcoin-on-chain-what) pour plus de détails.
 
@@ -29,7 +29,7 @@ Si vous vous sentez dépassé par la terminologie employée, consultez [la secti
 1. A partir de là, vous établirez un plan directement avec la personne avec laquelle vous allez échanger. Avant de procéder à un échange, prenez le temps de connaître un peu la personne, car il n'y a pas de dépôt fiduciaire dans Bitcoin, vous devez être sûr que vous avez affaire à quelqu'un en qui vous pouvez avoir confiance pour effectuer la transaction. En général, le processus se déroule comme suit :
     1. Convenez d'un montant à échanger.
     1. Donnez votre adresse de portefeuille nouvellement créée (dans Blue Wallet) à la personne par DM.
-    1. Vous zappez des sats à la personne via votre client Nostr.
+    1. Vous zappez des sats à la personne via votre client Flash.
     1. Elle initiera une transaction onchain pour vous payer le même montant de sats (potentiellement moins les frais de transaction).
     1. N'oubliez pas que cette transaction sur la chaîne prendra un certain temps. Votre partenaire commercial peut (et doit) vous envoyer l'ID de la transaction dès qu'il l'a en sa possession afin que vous puissiez la suivre sur [mempool.space](https://mempool.space).
 1. Voilà, c'est fait ! Vous avez terminé. Une fois que les fonds seront arrivés, vous aurez réussi à prendre la garde de votre premier bitcoin. Traitez-le avec respect et prenez-en soin.

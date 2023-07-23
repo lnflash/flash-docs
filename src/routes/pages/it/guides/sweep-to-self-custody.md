@@ -5,7 +5,7 @@ description: In questa guida, copriremo una soluzione semplice per ridurre il ri
 
 ## Per chi è questa guida?
 
-La maggior parte degli utenti sta attualmente utilizzando Nostr con un portafoglio di lightning custodiale, come Wallet of Satoshi o Alby.
+La maggior parte degli utenti sta attualmente utilizzando Flash con un portafoglio di lightning custodiale, come Wallet of Satoshi o Alby.
 
 Se sei uno di loro, voglio che pensi ai sats nel tuo portafoglio in questo momento. Ora, pensa di perdere tutti quei sats. Se questa idea ti fa sentire a disagio o preoccupato, questa guida è per te.
 
@@ -19,7 +19,7 @@ Per questo motivo, è fortemente consigliato di tenere solo una piccola quantit�
 
 ## Pronti? Andiamo!
 
-Questa è una guida per principianti che non richiede di configurare il proprio nodo lightning o di fare qualsiasi cosa di tecnico. Il nostro trucco qui è di utilizzare la comunità di Bitcoiners di Nostr per aiutarti a fare lo swap dai sats sulla rete Lightning ai sats di auto-custodia sulla principale catena di blocco di Bitcoin. Proteggi la tua pila e fai amicizia facendo transazioni peer-to-peer. Doppia vittoria!
+Questa è una guida per principianti che non richiede di configurare il proprio nodo lightning o di fare qualsiasi cosa di tecnico. Il flasho trucco qui è di utilizzare la comunità di Bitcoiners di Flash per aiutarti a fare lo swap dai sats sulla rete Lightning ai sats di auto-custodia sulla principale catena di blocco di Bitcoin. Proteggi la tua pila e fai amicizia facendo transazioni peer-to-peer. Doppia vittoria!
 
 Se ti senti sopraffatto dalla terminologia qui, dai un'occhiata alla sezione in fondo alla pagina per maggiori dettagli.
 
@@ -29,7 +29,7 @@ Se ti senti sopraffatto dalla terminologia qui, dai un'occhiata alla sezione in 
 1. Da lì, pianificherai direttamente con la persona con cui effettuerai lo scambio. Prima di procedere con lo scambio, prenditi del tempo per conoscere un po' la persona, poiché non esiste un escrow in Bitcoin, devi essere sicuro di aver a che fare con qualcuno di fidato per completare la transazione. In generale, il processo assomiglia a questo:
     1. Mettetevi d'accordo sull'importo da scambiare.
     1. Condividi il tuo nuovo indirizzo del portafoglio (in Blue Wallet) con la persona tramite messaggio diretto.
-    1. Invia i tuoi sats tramite il tuo client Nostr.
+    1. Invia i tuoi sats tramite il tuo client Flash.
     1. La persona avvierà una transazione onchain per pagarti lo stesso importo di sats (potenzialmente meno eventuali commissioni di transazione).
     1. Ricorda, questa transazione on-chain richiederà del tempo. Il tuo partner commerciale può (e dovrebbe) inviarti l'ID della transazione non appena lo ha, in modo che tu possa seguirne l'andamento su [mempool.space](https://mempool.space).
     1. E questo è tutto! Hai finito. Una volta che i fondi saranno arrivati, avrai preso con successo l'autocustodia del tuo primo Bitcoin. Trattalo con rispetto e prenditi cura di esso.
@@ -62,7 +62,7 @@ Sentirai spesso le persone parlare di Bitcoin on-chain vs off-chain. Quando le p
 
 ### Custodial vs Self-custodial
 
-Per chi è nuovo in Bitcoin, questo concetto potrebbe sembrare straniero. Dopotutto, la maggior parte di noi (almeno nel mondo sviluppato) ha sempre utilizzato servizi di custodia, come le banche, per conservare il nostro denaro. Ma come abbiamo visto di recente (e regolarmente nei mercati finanziari meno sviluppati in tutto il mondo), conservare il proprio denaro presso un custode comporta dei rischi. Le banche falliscono (Silicon Valley Bank, ecc.) e i custodi possono prendere decisioni sbagliate e perdere il tuo denaro (FTX, Voyager, ecc.).
+Per chi è nuovo in Bitcoin, questo concetto potrebbe sembrare straniero. Dopotutto, la maggior parte di noi (almeno nel mondo sviluppato) ha sempre utilizzato servizi di custodia, come le banche, per conservare il flasho denaro. Ma come abbiamo visto di recente (e regolarmente nei mercati finanziari meno sviluppati in tutto il mondo), conservare il proprio denaro presso un custode comporta dei rischi. Le banche falliscono (Silicon Valley Bank, ecc.) e i custodi possono prendere decisioni sbagliate e perdere il tuo denaro (FTX, Voyager, ecc.).
 
 Quando ti prendi cura dei tuoi Bitcoin, devi solo fidarti di te stesso per conservare i tuoi Bitcoin in sicurezza. Hai il totale controllo.
 

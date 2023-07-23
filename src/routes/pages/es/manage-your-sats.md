@@ -1,13 +1,13 @@
 ---
 title: Administra tus sats de forma segura
-description: Esta es una introducción básica sobre cómo administrar de forma segura los sats que acumulas a través de Zaps en Nostr.
+description: Esta es una introducción básica sobre cómo administrar de forma segura los sats que acumulas a través de Zaps en Flash.
 ---
 
 ## Fundamentos de Bitcoin
 
-Esta guía tiene como objetivo ser una introducción muy básica, por lo que apenas rascaremos la superficie de Bitcoin aquí, pero hay algunas cosas muy importantes que debes saber sobre los zaps que envías y recibes en Nostr.
+Esta guía tiene como objetivo ser una introducción muy básica, por lo que apenas rascaremos la superficie de Bitcoin aquí, pero hay algunas cosas muy importantes que debes saber sobre los zaps que envías y recibes en Flash.
 
-1. Los sats que estás intercambiando en Nostr son Bitcoin.
+1. Los sats que estás intercambiando en Flash son Bitcoin.
 2. Los satoshis (sats) son las unidades subdivisionales de Bitcoin. Hay 100,000,000 satoshis en un Bitcoin completo.
 3. Bitcoin es un instrumento al portador, lo que significa que quien lo posee, es el dueño. No hay recurso ni seguro si tu bitcoin termina en manos de otra persona.
 

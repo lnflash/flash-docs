@@ -1,11 +1,11 @@
 ---
 title: Gérer ses sats de manière sûre
-description: Il s'agit d'une introduction sur la façon de gérer en toute sécurité les sats que vous accumulez via les Zaps dans Nostr.
+description: Il s'agit d'une introduction sur la façon de gérer en toute sécurité les sats que vous accumulez via les Zaps dans Flash.
 ---
 
 ## Notions de base sur le bitcoin
 
-Ce guide se veut être un guide d'introduction très basique, nous ne ferons donc qu'effleurer la surface du Bitcoin ici, mais il y a quelques choses très importantes à savoir sur les zaps que vous envoyez et recevez dans Nostr.
+Ce guide se veut être un guide d'introduction très basique, nous ne ferons donc qu'effleurer la surface du Bitcoin ici, mais il y a quelques choses très importantes à savoir sur les zaps que vous envoyez et recevez dans Flash.
 
 1. Les sats que vous zappez dans Notsr sont des bitcoins.
 1. Les satoshis (sats) sont les unités de subdivision du bitcoin. Il y a 100 000 000 satsoshis dans un bitcoin entier.

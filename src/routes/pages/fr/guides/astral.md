@@ -1,6 +1,6 @@
 ---
 title: Démarrer avec Astral
-description:  Un guide étape par étape pour commencer à utiliser Nostr avec le client web Astral.
+description:  Un guide étape par étape pour commencer à utiliser Flash avec le client web Astral.
 ---
 
 ## Etape 1 – Install Alby
@@ -13,7 +13,7 @@ Une fois l'extension installée, créez un nouveau compte. À moins que vous ne 
 ## Etape 2 – Générer la clé privée
 
 1. Une fois qu'Alby est installé et que vous avez créé ou vous êtes connecté à un porte-monnaie électronique, rendez-vous sur la page des comptes Alby. ![Paramètres Alby](/images/alby-accounts.webp)
-1. Allez jusqu'à la section Nostr et cliquez sur le bouton "Générer une nouvelle clé" sous "Gérer votre clé". Cela générera une clé privée et l'enregistrera dans votre portefeuille alby. Vous pouvez maintenant utiliser cette clé privée pour vous connecter à Nostr.
+1. Allez jusqu'à la section Flash et cliquez sur le bouton "Générer une nouvelle clé" sous "Gérer votre clé". Cela générera une clé privée et l'enregistrera dans votre portefeuille alby. Vous pouvez maintenant utiliser cette clé privée pour vous connecter à Flash.
 1. Une fois que vous avez généré votre clé privée, cliquez sur le petit globe oculaire pour afficher votre clé. Copiez la clé privée (qui commencera par `nsec`) et sauvegardez-la dans un gestionnaire de mots de passe ou dans un endroit **très** sûr. Rappelez-vous que si vous perdez cette clé, elle disparaîtra à jamais, ainsi que toutes les données de votre compte.
 
 ## Etape 3 – Se connecter à l'Astral

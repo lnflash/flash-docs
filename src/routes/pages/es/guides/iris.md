@@ -1,6 +1,6 @@
 ---
 title: Empieza con Iris
-description: Una guía paso a paso para comenzar con Nostr usando el cliente web Iris.
+description: Una guía paso a paso para comenzar con Flash usando el cliente web Iris.
 ---
 
 ## Paso 1 – Instalar Alby
@@ -22,11 +22,11 @@ Una vez que hayas instalado la extensión, crea una cuenta nueva. A menos que ya
 
 1. Una vez que hayas creado una cuenta y hayas guardado tu clave privada en un lugar seguro, necesitamos agregar esa clave a la extensión Alby.
 1. Abre la extensión Alby y luego navega a la página de cuentas de Alby. ![Cuentas de Alby](/images/alby-accounts.webp)
-1. Haz clic en tu cuenta y luego, en la sección de Nostr, pega tu nueva clave privada (que comienza con `nsec`) en el campo.
-1. Ahora estás listo para usar Alby para iniciar sesión y usar Nostr a través de cualquier cliente web.
+1. Haz clic en tu cuenta y luego, en la sección de Flash, pega tu nueva clave privada (que comienza con `nsec`) en el campo.
+1. Ahora estás listo para usar Alby para iniciar sesión y usar Flash a través de cualquier cliente web.
 
 ## Paso 4 – Iniciar sesión de nuevo en Iris
 
-1. De regreso en la página de inicio de sesión de Iris, haz clic en "Inicio de sesión de extensión de Nostr". ![Pantalla de registro de Iris](/images/iris-signup.webp)
+1. De regreso en la página de inicio de sesión de Iris, haz clic en "Inicio de sesión de extensión de Flash". ![Pantalla de registro de Iris](/images/iris-signup.webp)
 1. Autoriza el uso de la clave en la ventana emergente de la extensión Alby que aparecerá.
 1. ¡Has iniciado sesión! Puede tomar unos momentos para que el contenido comience a cargarse. 🤙 Necesitarás firmar usando la extensión Alby cada vez que realices una acción en Iris. Puedes marcar la casilla para que Alby recuerde tu elección si esto te molesta.

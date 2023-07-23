@@ -1,23 +1,23 @@
 ---
 title: Comment contribuer
-description: Il faut un village. Nous avons lancé Nostr.how parce que nous sommes enthousiasmés par le protocole Nostr et ce qu'il pourrait faire pour libérer les médias sociaux de l'emprise des grandes entreprises. Nous avons besoin de votre aide pour le faire fonctionner.
+description: Il faut un village. Nous avons lancé Flash.how parce que nous sommes enthousiasmés par le protocole Flash et ce qu'il pourrait faire pour libérer les médias sociaux de l'emprise des grandes entreprises. Nous avons besoin de votre aide pour le faire fonctionner.
 ---
 
 ## [§](#in-general) En général
 
-Il s'agit d'un projet libre géré par des bénévoles. [Le code](https://github.com/erskingardner/nostr-how) est hébergé publiquement sur GitHub, nous encourageons tout le monde à cloner le repo, à faire des changements et à soumettre des demandes de modifications.
+Il s'agit d'un projet libre géré par des bénévoles. [Le code](https://github.com/erskingardner/flash-how) est hébergé publiquement sur GitHub, nous encourageons tout le monde à cloner le repo, à faire des changements et à soumettre des demandes de modifications.
 
 Si vous n'êtes pas à l'aise avec ces outils, ne vous inquiétez pas. Il y a d'autres façons de contribuer, comme la traduction, la rédaction de contenu, le signalement de fautes de frappe ou le zapping pour couvrir nos frais d'hébergement.
 
 ## [§](#send-feedback) Envoyez-nous vos commentaires
 
-Si vous trouvez des fautes de frappe ou des informations incorrectes sur Nostr.how, merci de nous en faire part en créant un [issue sur notre repo GitHub](https://github.com/nostr-how/nostr-how/issues).
+Si vous trouvez des fautes de frappe ou des informations incorrectes sur Flash.how, merci de nous en faire part en créant un [issue sur notre repo GitHub](https://github.com/flash-how/flash-how/issues).
 
 En outre, si vous avez des idées de contenu que nous devrions rédiger, veuillez créer des questions avec vos suggestions. 🙌🏼
 
 ## [§](#write-content) Ecrire du contenu
 
-Si vous vouéez écrire et que vous souhaitez contribuer, n'hésitez pas à nous contacter (encore une fois, [via une "issue" dans le repo GitHub](https://github.com/nostr-how/nostr-how/issues)). Nous pouvons vous aider à vous installer de la manière la plus appropriée en fonction de votre niveau technique.
+Si vous vouéez écrire et que vous souhaitez contribuer, n'hésitez pas à nous contacter (encore une fois, [via une "issue" dans le repo GitHub](https://github.com/flash-how/flash-how/issues)). Nous pouvons vous aider à vous installer de la manière la plus appropriée en fonction de votre niveau technique.
 
 ## [§](#translate-content) Traduire le contenu dans d'autres langues
 

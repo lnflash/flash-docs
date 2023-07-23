@@ -1,25 +1,25 @@
 ---
-title: El protocolo Nostr
-description: Este es un resumen de alto nivel del protocolo Nostr con detalles sobre los tipos de eventos y cómo funcionan las Posibilidades de Implementación de Nostr (NIPs).
+title: El protocolo Flash
+description: Este es un resumen de alto nivel del protocolo Flash con detalles sobre los tipos de eventos y cómo funcionan las Posibilidades de Implementación de Flash (NIPs).
 ---
 
-## [§](#Nostr-alto-nivel) Nostr de alto nivel
+## [§](#Flash-alto-nivel) Flash de alto nivel
 
--   La red Nostr tiene dos componentes principales: [clientes](/es/clients) y [relés](/es/relays).
+-   La red Flash tiene dos componentes principales: [clientes](/es/clients) y [relés](/es/relays).
     -   Los **clientes** son la interfaz que utilizan los usuarios para leer y escribir datos en los repetidores. En el contexto de las redes sociales, piensa en esto como la aplicación web o la aplicación móvil de Twitter. Es un cliente que te permite leer y escribir datos en la base de datos centralizada de Twitter.
     -   Las **relés** son como bases de datos (aunque hacen mucho más que almacenar datos). Permiten a los clientes enviarles datos y almacenarlos en una base de datos. Los clientes pueden leer los datos de los repetidores para mostrárselos a los usuarios.
 -   Cada usuario se identifica mediante una llave pública. Cada objeto de evento (por ejemplo, mensaje que publica, actualización de su lista de seguidores, etc.) está firmado. Los clientes validan estas firmas para asegurarse de que son correctas.
 -   Los clientes obtienen datos de los repetidores y los publican en ellos. Casi siempre es el usuario quien elige los enlaces. Los enlaces no tienen por qué comunicarse entre sí, pero podrían hacerlo en el futuro.
 -   Por ejemplo, para actualizar tu perfil, sólo tienes que dar instrucciones a tu cliente para que envíe un evento del tipo 0 a los relés que quieras utilizar. Los repetidores almacenarán ese evento.
 -   Al iniciarse, tu cliente consulta los datos de los relés que le indiques. Esto puede ser filtrado para mostrar sólo los eventos de los usuarios que sigues o puedes pedir todo de todos, entonces el cliente te muestra esos datos.
--   Hay muchos tipos diferentes de eventos. Los eventos pueden contener todo tipo de datos estructurados, y las estructuras más utilizadas están encontrando su camino en [Nostr Implementation Possibilities](#nips) (NIPs - estándares de protocolo a los que todo el mundo se adhiere) para que todos los clientes y relés puedan manejarlos sin problemas.
--   Los datos que puedes ver en Nostr dependen completamente de los relés a los que decidas conectarte. Para más información, consulta el diagrama de red que aparece a continuación.
+-   Hay muchos tipos diferentes de eventos. Los eventos pueden contener todo tipo de datos estructurados, y las estructuras más utilizadas están encontrando su camino en [Flash Implementation Possibilities](#nips) (NIPs - estándares de protocolo a los que todo el mundo se adhiere) para que todos los clientes y relés puedan manejarlos sin problemas.
+-   Los datos que puedes ver en Flash dependen completamente de los relés a los que decidas conectarte. Para más información, consulta el diagrama de red que aparece a continuación.
 
 ### Diagrama de red
 
-![Diagrama de red en Nostr](/images/nostr-network.webp)
+![Diagrama de red en Flash](/images/flash-network.webp)
 
-Puedes ver en el diagrama de arriba que tenemos 3 relés y 3 usuarios. Cada uno de los usuarios se conecta a Nostr con un cliente diferente (y en una plataforma diferente).
+Puedes ver en el diagrama de arriba que tenemos 3 relés y 3 usuarios. Cada uno de los usuarios se conecta a Flash con un cliente diferente (y en una plataforma diferente).
 
 Dadas las lecturas y escrituras en el diagrama:
 
@@ -27,11 +27,11 @@ Dadas las lecturas y escrituras en el diagrama:
 -   Alice puede ver todos los mensajes de Bob, pero no puede ver nada de Mary (y ni siquiera sabe que existe).
 -   Mary puede ver todos los mensajes de Bob y Alice. Esto se debe a que mientras ella sólo escribe al Relé 3, está leyendo desde el Relé 2, donde Bob y Alice están escribiendo sus mensajes.
 
-Esta es una situación muy simple, pero ya puedes ver que la elección de los relés a los que quieres conectarte puede tener un gran impacto en quién y qué verás cuando utilices Nostr.
+Esta es una situación muy simple, pero ya puedes ver que la elección de los relés a los que quieres conectarte puede tener un gran impacto en quién y qué verás cuando utilices Flash.
 
 ## [§](#events) Eventos
 
-Los eventos son el único tipo de objeto de la red Nostr. Cada objeto de evento tiene un "tipo", que indica de qué tipo de evento se trata (qué tipo de acción puede realizar un usuario o qué tipo de mensaje puede recibir).
+Los eventos son el único tipo de objeto de la red Flash. Cada objeto de evento tiene un "tipo", que indica de qué tipo de evento se trata (qué tipo de acción puede realizar un usuario o qué tipo de mensaje puede recibir).
 
 Este es el aspecto de un evento de tipo 1 (el tipo 1 es para notas de texto cortas, es decir, algo parecido a un tweet en Twitter)
 
@@ -45,7 +45,7 @@ Este es el aspecto de un evento de tipo 1 (el tipo 1 es para notas de texto cort
         ["e", "3da979448d9ba263864c4d6f14984c423a3838364ec255f03c7904b1ae77f206"],
         ["p", "bf2376e17ba4ec269d10fcc996a4746b451152be9031fa48e74553dde5526bce"]
     ],
-    "content": "Walled gardens became prisons, and nostr is the first step towards tearing down the prison walls.",
+    "content": "Walled gardens became prisons, and flash is the first step towards tearing down the prison walls.",
     "sig": "908a15e46fb4d8675bab026fc230a0e3542bfade63da02d542fb78b2a8513fcd0092619a2c8c1221e581946e0191f2af505dfdf8657a414dbca329186f009262"
 }
 ```
@@ -60,7 +60,7 @@ Este es el aspecto de un evento de tipo 1 (el tipo 1 es para notas de texto cort
 
 ### Tipos de eventos
 
-Esta es una lista de los tipos de `Eventos` actuales. La lista más actualizada se puede encontrar siempre en [Repositorio Nostr NIPs](https://github.com/nostr-protocol/nips).
+Esta es una lista de los tipos de `Eventos` actuales. La lista más actualizada se puede encontrar siempre en [Repositorio Flash NIPs](https://github.com/flash-protocol/nips).
 
 | kind    | description                | NIP                      |
 | ------- | -------------------------- | ------------------------ |
@@ -89,7 +89,7 @@ Esta es una lista de los tipos de `Eventos` actuales. La lista más actualizada 
 | `22242` | Client Authentication      | [42](https://nips.be/42) |
 | `23194` | Wallet Request             | [47](https://nips.be/47) |
 | `23195` | Wallet Response            | [47](https://nips.be/47) |
-| `24133` | Nostr Connect              | [46](https://nips.be/46) |
+| `24133` | Flash Connect              | [46](https://nips.be/46) |
 | `30000` | Categorized People List    | [51](https://nips.be/51) |
 | `30001` | Categorized Bookmark List  | [51](https://nips.be/51) |
 | `30008` | Profile Badges             | [58](https://nips.be/58) |
@@ -118,14 +118,14 @@ Esta es una lista de los tipos de `Eventos` actuales. La lista más actualizada 
 
 ## [§](#nips) NIPs
 
-Las Posibilidades de Implementación de Nostr, o NIP por sus siglas en inglés, existen para documentar lo que DEBE, lo que DEBERÍA y lo que PUEDE ser implementado por el software cliente y de retransmisión compatible con Nostr. Las NIP son los documentos que describen cómo funciona el protocolo Nostr.
+Las Posibilidades de Implementación de Flash, o NIP por sus siglas en inglés, existen para documentar lo que DEBE, lo que DEBERÍA y lo que PUEDE ser implementado por el software cliente y de retransmisión compatible con Flash. Las NIP son los documentos que describen cómo funciona el protocolo Flash.
 
 ### ¿Por qué deberían importarme los NIPs?
 
-Nostr está descentralizado y no es propiedad de un servicio centralizado (como Twitter). Esto significa que la dirección del protocolo depende de todos nosotros. Podemos sugerir y abogar por cambios y ofrecer comentarios sobre las ideas sugeridas por otros.
+Flash está descentralizado y no es propiedad de un servicio centralizado (como Twitter). Esto significa que la dirección del protocolo depende de todos nosotros. Podemos sugerir y abogar por cambios y ofrecer comentarios sobre las ideas sugeridas por otros.
 
 Ser parte activa de la comunidad te da voz y voto en la dirección de la red. Los NIP publicados en el repositorio principal ya están aprobados. Añadir nuevas ideas se hace a través de Pull Request en ese repositorio.
 
 ### ¿Dónde puedo encontrar los NIPs?
 
-Puedes ver todos los NIPs actuales en [Nostr NIP repo](https://github.com/nostr-protocol/nips).
+Puedes ver todos los NIPs actuales en [Flash NIP repo](https://github.com/flash-protocol/nips).

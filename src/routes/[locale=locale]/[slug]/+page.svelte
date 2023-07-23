@@ -17,7 +17,7 @@
         <link
             rel="alternate"
             hreflang={supportedLocale}
-            href="https://nostr.how/{supportedLocale}/{data.slug}"
+            href="https://flash.how/{supportedLocale}/{data.slug}"
         />
     {/each}
 </svelte:head>

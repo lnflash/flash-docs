@@ -1,11 +1,11 @@
 ---
 title: Iniziare con Damus
-description: Una guida passo passo per iniziare con Nostr utilizzando il client iOS Damus.
+description: Una guida passo passo per iniziare con Flash utilizzando il client iOS Damus.
 ---
 
 ## Passaggio 1 - Ottenere Damus
 
-Questa è una guida specifica per iniziare ad usare Nostr con [Damus](https://damus.io/), un bellissimo ed facile da usare client iOS costruito da [@jb55](https://snort.social/p/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s).
+Questa è una guida specifica per iniziare ad usare Flash con [Damus](https://damus.io/), un bellissimo ed facile da usare client iOS costruito da [@jb55](https://snort.social/p/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s).
 
 1. Installa [l'app Damus sull'App Store di iOS](https://apps.apple.com/app/damus/id1628663131).
 1. Quando apri l'app avrai l'opzione di creare un nuovo account o di accedere con una chiave privata che hai già generato.
@@ -17,7 +17,7 @@ Questa è una guida specifica per iniziare ad usare Nostr con [Damus](https://da
 1. Clicca su "Crea account".
 1. Leggi e accetta l'EULA.
 1. Scegli un nome utente (che può essere cambiato in seguito) e, opzionalmente, aggiungi alcuni dettagli del profilo. Damus genera automaticamente le chiavi per te in questo passaggio. Il tuo chiave pubblica viene mostrata come valore "ID account". ![Damus login/signup page](/images/damus-signup.webp)
-1. Una volta terminato, fai clic su "Crea" e sei pronto per usare Nostr! 🤙
+1. Una volta terminato, fai clic su "Crea" e sei pronto per usare Flash! 🤙
 1. Solo un ultimo passaggio estremamente importante. Devi salvare la tua chiave privata in un luogo sicuro.
 1. Vai su Impostazioni cliccando sulla tua immagine del profilo in alto a sinistra dello schermo, quindi clicca su "Impostazioni" nel menu. ![Damus Settings](/images/damus-settings.webp)
 1. Vedrai la tua "ID account pubblico" (questa è la tua chiave pubblica) e la tua "Chiave di accesso segreta all'account" (questa è la tua chiave privata).

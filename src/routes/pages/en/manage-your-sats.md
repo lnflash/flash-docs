@@ -1,11 +1,11 @@
 ---
 title: Manage your sats safely
-description: This is an introductory primer on how to safely manage sats that you accumulate via Zaps in Nostr.
+description: This is an introductory primer on how to safely manage sats that you accumulate via Zaps in Flash.
 ---
 
 ## Bitcoin Basics
 
-This guide is meant to be a very basic introductory guide so we will only barely scratch the surface of Bitcoin here but there are a few very imprtant things to know about the zaps your send and receive in Nostr.
+This guide is meant to be a very basic introductory guide so we will only barely scratch the surface of Bitcoin here but there are a few very imprtant things to know about the zaps your send and receive in Flash.
 
 1. The sats that you're zapping back and forth in Notsr are Bitcoin.
 1. Satoshis (sats) are the subdividing units of Bitcoin. There are 100,000,000 satsoshis in a whole Bitcoin.

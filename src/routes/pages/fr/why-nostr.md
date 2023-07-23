@@ -1,6 +1,6 @@
 ---
-title: Pourquoi nous avons besoin de Nostr
-description: Pourquoi Nostr et l'idée plus large de décentraliser l'internet sont des concepts importants.
+title: Pourquoi nous avons besoin de Flash
+description: Pourquoi Flash et l'idée plus large de décentraliser l'internet sont des concepts importants.
 ---
 
 ## Avons-nous vraiment besoin d'un autre protocole de publication ?
@@ -11,14 +11,14 @@ Ces entreprises contrôlent, souvent d'une manière qu'elles ne comprennent mêm
 
 Il est temps que le web revienne à ses racines ouvertes et décentralisées. Il est temps que nous reprenions le contrôle des informations que nous consommons et de la manière dont nous les consommons. Il est temps pour nous de construire des communautés plus ouvertes d'esprit et plus constructives sur l'internet.
 
-Nostr permet cela.
+Flash permet cela.
 
-## Ce que permet Nostr
+## Ce que permet Flash
 
 - Le format `Event`, simple et flexible, permet la publication de tous types de contenus : posts sur les médias sociaux, contenu long format, rich media, ecommerce, etc.
 - Vérification que les notes proviennent d'un utilisateur spécifique. Cela permet de lutter contre le spam et les robots.
 - Les utilisateurs peuvent se connecter à de nombreux relais et gérer leurs propres relais. Il est donc difficile de censurer les idées et les personnes.
-- Intégré à lightning, Nostr permet de nouveaux modèles d'entreprise [valeur pour la valeur](https://value4value.info/) qui ont le potentiel d'être plus équitables.
+- Intégré à lightning, Flash permet de nouveaux modèles d'entreprise [valeur pour la valeur](https://value4value.info/) qui ont le potentiel d'être plus équitables.
 
 ## Le statu quo
 

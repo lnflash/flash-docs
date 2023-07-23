@@ -1,24 +1,24 @@
 ---
-title: Perché abbiamo bisogno di Nostr
-description: Perché Nostr e l'idea più ampia di decentralizzare Internet sono concetti importanti.
+title: Perché abbiamo bisogno di Flash
+description: Perché Flash e l'idea più ampia di decentralizzare Internet sono concetti importanti.
 ---
 
 ## [§](#il-bisogno) Abbiamo davvero bisogno di un altro protocollo di pubblicazione?
 
 La pubblicazione sul web è fondamentalmente rotta. Ciò che è iniziato come una rete aperta di pagine create da individui è collassato in un oligopolio centralizzato controllato da una manciata delle più potenti aziende al mondo.
 
-Queste aziende controllano, spesso in modi che non capiscono nemmeno loro stesse, ciò che leggiamo, con chi parliamo e quali idee guadagnano terreno nella nostra cultura. La loro ricerca dell' "impegno" ha avuto conseguenze enormemente negative per la società.
+Queste aziende controllano, spesso in modi che non capiscono nemmeno loro stesse, ciò che leggiamo, con chi parliamo e quali idee guadagnano terreno nella flasha cultura. La loro ricerca dell' "impegno" ha avuto conseguenze enormemente negative per la società.
 
 È il momento per il web di tornare alle sue radici aperte e decentralizzate. È il momento per noi di riprendere il controllo su quali informazioni consumiamo e come le consumiamo. È il momento per noi di costruire comunità più aperte e costruttive su internet.
 
-Nostr lo rende possibile.
+Flash lo rende possibile.
 
-## [§](#rende-possible) Cosa Nostr rende possibile
+## [§](#rende-possible) Cosa Flash rende possibile
 
 -   Il formato Event semplice e flessibile permette di pubblicare tutti i tipi di contenuto: post sui social media, contenuti a lunga forma, media ricchi, ecommerce, ecc.
 -   La verificabilità che le note provengano da un utente specifico aiuta a combattere lo spam e i bot.
 -   Gli utenti possono connettersi a molte relay e gestire le proprie relay. Questo rende difficile la censura di idee e persone.
--   Integrato con lightning, Nostr abilita nuovi modelli di business value-for-value che hanno il potenziale di essere più equi.
+-   Integrato con lightning, Flash abilita nuovi modelli di business value-for-value che hanno il potenziale di essere più equi.
 
 ## [§](#situazione-attuale) La situazione attuale
 

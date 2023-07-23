@@ -1,17 +1,17 @@
 ---
 title: Que sont les Zaps ?
-description: Découvrez ce que sont les Zaps, comment ils fonctionnent et ce dont vous avez besoin pour les utiliser sur votre client Nostr.
+description: Découvrez ce que sont les Zaps, comment ils fonctionnent et ce dont vous avez besoin pour les utiliser sur votre client Flash.
 ---
 
 ## [§](#the-basics) Les bases
 
 La façon la plus simple d'envisager les Zaps est de considérer qu'il s'agit simplement de pourboires. Des pourboires qui sont transmis sur le [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp) à la vitesse de la lumière, sans frais de transaction.
 
-Depuis le début du protocole Nostr, il était courant de voir des factures Lightning dans les notes. Depuis l'implémentation du [NIP-57] (https://github.com/nostr-protocol/nips/blob/master/57.md), les Zaps sont devenus le principal moyen de transmission de valeur dans les notes Nostr. Regardons de plus près ce que la NIP-57 a implémenté et comment fonctionnent les Zaps.
+Depuis le début du protocole Flash, il était courant de voir des factures Lightning dans les notes. Depuis l'implémentation du [NIP-57] (https://github.com/flash-protocol/nips/blob/master/57.md), les Zaps sont devenus le principal moyen de transmission de valeur dans les notes Flash. Regardons de plus près ce que la NIP-57 a implémenté et comment fonctionnent les Zaps.
 
 ## [§](#nip-57) NIP-57
 
-[NIP-57] (https://github.com/nostr-protocol/nips/blob/master/57.md) est le document qui décrit comment les Zaps devraient être mis en œuvre. Il crée deux nouveaux types de notes, le type 9735 (Un Zap) et le type 9734 (Une demande de Zap). Ces deux types de notes permettent aux clients Nostr de demander des factures Zap aux serveurs LNURL et de les payer. La spécification NIP-57 décrit également comment les portefeuilles Lightning qui reçoivent des paiements Zap doivent créer des notes à envoyer aux relais.
+[NIP-57] (https://github.com/flash-protocol/nips/blob/master/57.md) est le document qui décrit comment les Zaps devraient être mis en œuvre. Il crée deux nouveaux types de notes, le type 9735 (Un Zap) et le type 9734 (Une demande de Zap). Ces deux types de notes permettent aux clients Flash de demander des factures Zap aux serveurs LNURL et de les payer. La spécification NIP-57 décrit également comment les portefeuilles Lightning qui reçoivent des paiements Zap doivent créer des notes à envoyer aux relais.
 
 💡 Fait amusant, le type de note choisi pour Zaps est le même que le port de réseau (9735) utilisé par Lightning.
 
@@ -33,17 +33,17 @@ Tout cela se passe en quelques secondes et ne coûte qu'une infime partie d'un c
 
 ## [§](#how-to-send-and-receive) Comment envoyer et recevoir des Zaps ?
 
-Pour zapper d'autres personnes dans Nostr, il suffit de deux choses :
+Pour zapper d'autres personnes dans Flash, il suffit de deux choses :
 
 1. Un portefeuille Lightning compatible avec Zap (comme [Alby](https://getalby.com/) ou [Wallet of Satoshi](https://www.walletofsatoshi.com/)).
 1. Un client qui a implémenté les Zaps (comme [Damus](/en/guides/damus), [Amethyst](/en/guides/amethyst), [Iris](/en/guides/iris), ou [Snort](https://snort.social)).
 
-La seule autre chose que vous devez faire est de vous assurer que votre adresse lightning est définie dans votre profil Nostr. C'est à cette adresse que vous recevrez les Zaps.
+La seule autre chose que vous devez faire est de vous assurer que votre adresse lightning est définie dans votre profil Flash. C'est à cette adresse que vous recevrez les Zaps.
 
 N'oubliez pas qu'il est possible de payer des Zaps à partir d'un portefeuille ou d'une adresse autre que l'adresse que vous avez définie dans votre profil pour recevoir des Zaps.
 
 Imaginez, par exemple, la situation suivante :
 
-1. Vous avez une adresse [Stacker News](https://stacker.news/) lightning dans votre profil Nostr, c'est là que vous recevrez les sats zappés.
+1. Vous avez une adresse [Stacker News](https://stacker.news/) lightning dans votre profil Flash, c'est là que vous recevrez les sats zappés.
 1. Dans votre navigateur web, vous utilisez Iris comme client et payez les Zaps en utilisant votre portefeuille Alby via leur extension chrome.
 1. Sur mobile, vous utilisez Damus comme client et payez les Zaps en utilisant l'application Wallet of Statoshi.

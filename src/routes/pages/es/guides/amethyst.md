@@ -1,6 +1,6 @@
 ---
 title: Empieza con Amethyst
-description: Guía paso a paso para empezar a utilizar Nostr con el cliente Amethyst para Android.
+description: Guía paso a paso para empezar a utilizar Flash con el cliente Amethyst para Android.
 ---
 
 ## Step 1 - Instala la app
@@ -14,7 +14,7 @@ description: Guía paso a paso para empezar a utilizar Nostr con el cliente Amet
 1. Haga clic en "Crear cuenta".
 1.  2. Lea y acepte el EULA (terminos).
 1. A continuación, elegirás un nombre de usuario (que podrás cambiar más adelante) y, opcionalmente, añadirás otros datos de perfil. Amethyst genera automáticamente llaves para ti en este paso. Tu clave pública se muestra como el valor "ID de cuenta".
-1. Una vez que hayas terminado, haz clic en "Crear" y ¡ya estás listo para usar Nostr! 🤙
+1. Una vez que hayas terminado, haz clic en "Crear" y ¡ya estás listo para usar Flash! 🤙
 1. Sólo un último paso **extremadamente importante**. Necesitas guardar tu clave privada en algún lugar seguro.
 1. Navega a Configuración haciendo clic en la imagen de tu perfil en la parte superior izquierda de la pantalla, luego haz clic en "Configuración" en el menú.
 1. Verás tu "ID de cuenta pública" (esta es tu llave pública) y tu "llave secreta de acceso a la cuenta" (esta es tu llave privada).

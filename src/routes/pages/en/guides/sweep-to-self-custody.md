@@ -5,7 +5,7 @@ description: In this guide, we'll cover a simple solution to reduce your counter
 
 ## [§](#who-is-this-guide-for) Who is this guide for?
 
-Most users right now are using Nostr with a custodial lightning wallet, like Wallet of Satoshi or Alby.
+Most users right now are using Flash with a custodial lightning wallet, like Wallet of Satoshi or Alby.
 
 If that's you, I want you to think about the sats in your wallet right now. Now, think about losing all those sats. If that idea makes you feel uncomfortable or worried, this guide is for you.
 
@@ -19,7 +19,7 @@ Because of this, it's strongly advised that you only keep a small amount of fund
 
 ## [§](#ready-lets-go) Ready? Let's go!
 
-This is a beginners guide that doesn't require setting up your own lightning node or doing anything techcnial. Our hack here is to use the Nostr community of Bitcoiners to help you make the swap from sats on the Lightning network to self-custodied sats on the main Bitcoin base chain. Secure your stack and make friends doing peer-to-peer transactions. Double win!
+This is a beginners guide that doesn't require setting up your own lightning node or doing anything techcnial. Our hack here is to use the Flash community of Bitcoiners to help you make the swap from sats on the Lightning network to self-custodied sats on the main Bitcoin base chain. Secure your stack and make friends doing peer-to-peer transactions. Double win!
 
 If you're feeling overwhelmed by the terminology here, check out [the section at the bottom of the page](#lightning-bitcoin-on-chain-what) for more details.
 
@@ -29,7 +29,7 @@ If you're feeling overwhelmed by the terminology here, check out [the section at
 1. From there, you'll make a plan directly with the person you're going to swap with. Before you go through any swap, take time to get to know the person a bit, because there is no escrow in Bitcoin, you need to be comfortable that you're dealing with someone you can trust to complete the transaction. Generally the process looks something like this:
     1. Agree on an amount to swap.
     1. Give your newly created wallet address (in Blue Wallet) to the person via DM.
-    1. You zap sats to the person via your Nostr client.
+    1. You zap sats to the person via your Flash client.
     1. They will initiate an onchain transaction to pay you that same amount of sats (potentially minus any transaction fee).
     1. Remember, this on-chain transaction will take some time. Your trade partner can (and should) send you the transaction ID as soon as they have it so that you can follow along on [mempool.space](https://mempool.space).
 1. That's it! You're done. Once the funds arrive you'll have successfully taken self-custody of your first Bitcoin. Treat it with respect and take good care of it.

@@ -1,6 +1,6 @@
 ---
 title: Implantations de relais
-description: Ceci est une liste de toutes les implémentations connues de la spécification du relais Nostr. Vous n'avez besoin de cette liste que si vous avez l'intention de faire fonctionner un relais vous-même. Les relais sont (jusqu'à présent) agnostiques en termes d'applications. Vous pouvez le faire fonctionner ou utiliser l'une ou l'autre des instances publiques.
+description: Ceci est une liste de toutes les implémentations connues de la spécification du relais Flash. Vous n'avez besoin de cette liste que si vous avez l'intention de faire fonctionner un relais vous-même. Les relais sont (jusqu'à présent) agnostiques en termes d'applications. Vous pouvez le faire fonctionner ou utiliser l'une ou l'autre des instances publiques.
 ---
 
 ## Go
@@ -13,28 +13,28 @@ description: Ceci est une liste de toutes les implémentations connues de la sp�
 
 ## C#
 
--   [NNostr](https://github.com/Kukks/NNostr): Relai en C#
+-   [NFlash](https://github.com/Kukks/NFlash): Relai en C#
 
 ## Rust
 
-- [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/) : Un relais minimaliste écrit en Rust qui sauvegarde les données sur SQLite
-- [søstr](https://github.com/metasikander/s0str) : Un relai nostr privé écrit en Rust, qui sauvegarde toutes les notes d'une pubkey et les publie à toute personne qui en fait la demande.
+- [flash-rs-relay](https://sr.ht/~gheartsfield/flash-rs-relay/) : Un relais minimaliste écrit en Rust qui sauvegarde les données sur SQLite
+- [søstr](https://github.com/metasikander/s0str) : Un relai flash privé écrit en Rust, qui sauvegarde toutes les notes d'une pubkey et les publie à toute personne qui en fait la demande.
 
 ## Node.js / Typescript
 
-- [nostream](https://github.com/Cameri/nostream) : Un relais nostr écrit en Typescript qui utilise Postgres comme base de données (anciennement nostr-ts-relay)
-- [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) : Un relais pour [Minds](https://www.minds.com), un réseau social open-source
-    - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr) : Code API Minds pertinent pour lire/écrire des posts Minds en utilisant Nostr
+- [flasheam](https://github.com/Cameri/flasheam) : Un relais flash écrit en Typescript qui utilise Postgres comme base de données (anciennement flash-ts-relay)
+- [Minds Flash Relay](https://gitlab.com/minds/infrastructure/flash-relay) : Un relais pour [Minds](https://www.minds.com), un réseau social open-source
+    - [Minds Engine - Flash](https://gitlab.com/minds/engine/-/tree/master/Core/Flash) : Code API Minds pertinent pour lire/écrire des posts Minds en utilisant Flash
 
 ## Clojure
 
-- [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay) : Un relais écrit en Clojure
+- [me.untethr.flash-relay](https://github.com/atdixon/me.untethr.flash-relay) : Un relais écrit en Clojure
 
 ## Python
-- [nostrypy](https://github.com/monty888/nostrpy) : Relais, client, et autres outils en python
-- [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) : Un relais Nostr écrit en python, SQLite pour le stockage des données
+- [flashypy](https://github.com/monty888/flashpy) : Relais, client, et autres outils en python
+- [flash_relay](https://code.pobblelabs.org/fossil/flash_relay/) : Un relais Flash écrit en python, SQLite pour le stockage des données
 
 ## Kotlin
 
-- [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) : Un relais Kotlin supportant à la fois SQLite et Postgresql
-- knostr](https://github.com/lpicanco/knostr) : Un relais nostr implémenté en Kotlin avec le support de Postgres et de metrics(micrics)
+- [FlashPostr Relay](https://github.com/Giszmo/FlashPostr/tree/master/FlashRelay) : Un relais Kotlin supportant à la fois SQLite et Postgresql
+- kflash](https://github.com/lpicanco/kflash) : Un relais flash implémenté en Kotlin avec le support de Postgres et de metrics(micrics)

@@ -15,31 +15,31 @@ description: این لیستی از مشخصات تمام رله های شناخ
 
 ## C#
 
--   [NNostr](https://github.com/Kukks/NNostr): C# یک رله
+-   [NFlash](https://github.com/Kukks/NFlash): C# یک رله
 
 ## Rust
 
--   [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/): یک رله مینیمال که به زبان Rust نوشته شده و داده ها در SQLite ذخیره می کند 
+-   [flash-rs-relay](https://sr.ht/~gheartsfield/flash-rs-relay/): یک رله مینیمال که به زبان Rust نوشته شده و داده ها در SQLite ذخیره می کند 
 -   [søstr](https://github.com/metasikander/s0str): یک رله خصوصی ناستر که به Rust زبان نوشته شده و تمام یادداشت ها یک کلید عمومی را ذخیره کرده و به هرکسی که درخواست کند می فرستد
 
 ## Node.js / Typescript
 
--   [nostream](https://github.com/Cameri/nostream): رله ای که به Typescript نوشته شده و با PostgreSQL پشتیبانی می شود (سابق nostr-ts-relay)
--   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): رله ای برای [Minds](https://www.minds.com)، شبکه اجتماعی منبع باز
--   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): کد Minds API برای خواندن نوشتن پست های Minds با استفاده از ناستر
+-   [flasheam](https://github.com/Cameri/flasheam): رله ای که به Typescript نوشته شده و با PostgreSQL پشتیبانی می شود (سابق flash-ts-relay)
+-   [Minds Flash Relay](https://gitlab.com/minds/infrastructure/flash-relay): رله ای برای [Minds](https://www.minds.com)، شبکه اجتماعی منبع باز
+-   [Minds Engine - Flash](https://gitlab.com/minds/engine/-/tree/master/Core/Flash): کد Minds API برای خواندن نوشتن پست های Minds با استفاده از ناستر
 
 ## Clojure
 
--   [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay):  رله ای که در Clojure نوشته شده
+-   [me.untethr.flash-relay](https://github.com/atdixon/me.untethr.flash-relay):  رله ای که در Clojure نوشته شده
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy): رله، کلاینت، و ابزارهای دیگر در پایتون
--   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): رله ناستر که به پایتون نوشته شده و با SQLite پشتیبانی می شود 
+-   [flashypy](https://github.com/monty888/flashpy): رله، کلاینت، و ابزارهای دیگر در پایتون
+-   [flash_relay](https://code.pobblelabs.org/fossil/flash_relay/): رله ناستر که به پایتون نوشته شده و با SQLite پشتیبانی می شود 
 
 ## Kotlin
    
 
--   [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay): رله کاتلین که از هر دوی SQLite و Postgresql پشتیبانی می کند 
--   [knostr](https://github.com/lpicanco/knostr): metrics(micrometer) یک رله ناستر اجرا شده در کاتلین و با پشتیبانی Postgres و 
+-   [FlashPostr Relay](https://github.com/Giszmo/FlashPostr/tree/master/FlashRelay): رله کاتلین که از هر دوی SQLite و Postgresql پشتیبانی می کند 
+-   [kflash](https://github.com/lpicanco/kflash): metrics(micrometer) یک رله ناستر اجرا شده در کاتلین و با پشتیبانی Postgres و 
 

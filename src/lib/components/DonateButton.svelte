@@ -20,5 +20,5 @@
 </script>
 
 {#if !$isLoading}
-    <a href="lightning:erskingardner@getalby.com" class={classNames}> ⚡ {$_('donateButton')} </a>
+    <a href="lightning:dread@getalby.com" class={classNames}> ⚡ {$_('donateButton')} </a>
 {/if}

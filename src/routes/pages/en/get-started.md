@@ -1,60 +1,76 @@
 ---
-title: Get started with Nostr
-description: This guide will help you understand the basics of Nostr and get you all set up and ready to use Nostr with a new account. We’ll cover how to create a new lightning wallet, create an account, and sign into a client safely.
+title: Get started with Flash
+description: This guide will help you understand the basics of Flash and get you all set up and ready to send money all over the world. 
 ---
 
-## [§](#understanding-keys) Understanding keys
+## [§](#understanding-bitcoin) Understanding Bitcoin
 
-Each Nostr account is based on a public/private key pair. A simple way to think about this is that your public key is your username and your private key is your password, with one major caveat. Unlike a password, your private key cannot be reset if lost.
+Flash is built on top of the Bitcoin protocol. Bitcoin is a global, peer-to-peer, censorship-resistant, open monetary network. It's a mouthful, but let's break it down:
 
-Let me say that again so it's clear: **If you lose your private key your Nostr account is lost. If somene else gains access to your private key, they can take control of your account.**
+-   **Global** - Bitcoin is a global network. Anyone with an internet connection can access it.
 
-Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com/)).
+-   **Peer-to-peer** - Bitcoin is a peer-to-peer network. This means that there is no central authority that controls the network. Instead, the network is made up of many different computers that all talk to each other.
 
-## [§](#protocol-vs-client) Protocol vs Client
+-   **Censorship-resistant** - Bitcoin is censorship-resistant. This means that no one can stop you from sending or receiving money on the network. No one can stop you from creating a wallet, or from sending money to anyone else.
 
-Nostr itself is just a protocol; an agreed upon procedure for passing messages around on the internet.
+-   **Open** - Bitcoin is open. This means that anyone see the code that the Bitcoin protocol uses, and anyone can build on top of the Bitcoin protocol. Anyone can create a wallet, or a business that accepts Bitcoin, or a service that helps people use Bitcoin.
 
-You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recommend using a web-based crypto wallet, which is a piece of software specifically designed to manage private keys.
+-   **Monetary network** - Bitcoin is a monetary network. This means that it is a network that allows people to send and receive money. Bitcoin is a form of money, just like the US dollar or the Jamaican dollar. But Bitcoin is different from other forms of money because it is not controlled by any government or company. Instead, it is controlled by the people who use it.
 
-[Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) is a bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users. We'll cover installing Alby in the client-specific guides where it's needed below.
+## [§](#what-is-flash) What is Flash?
+
+Flash is an easy to use mobile and web payments application. Flash is also a digital point-of-sale service that you can sign up for if you are a business. Flash allows you to accept payments from your customers globally using the Bitcoin open monetary network. Flash business accounts can also do in person exchanges with other Flash users for other currencies like US dollars or Jamaican Dollars.
+
+Flash is designed for simplicity and enables censorship-resistant and globally decentralized value transfer. Let's unpack that a little:
+
+-   **Simple** - The mobile app is designed to be as simple as possible to use. It's a single screen that shows your balance and allows you to send and receive money. All additional features are hidden behind a menu, or in in a separate tab. The business account is also designed to be very simple to use, with a short and effortless cash-out flow and a simple interface for accepting payments.
+
+-   **Resilient** - Because Flash doesn't completely rely on any exchange or bank, it's very resilient. The Bitcoin wallet is non-custodial, meaning that you are in control of your own money. The USD wallet is custodial, but your value can be swapped between the two wallets at any time. This means that if, for any reason, the Flash custodial wallet is not available, you can still access your money on the non-custodial Bitcoin wallet without needing to rely on anyone else. We recommend you treat your non-custodial Bitcoin wallet as your savings account, and only use the custodial USD wallet for short term storage of value and spending, like a checking account.
+
+-   **Verifiable** - Because Flash wallets are based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) and the [Bitcoin protocol](https://en.wikipedia.org/wiki/Bitcoin_protocol), you can verify that your money is safe at any time, from any internet-connected device. 
+
+**Bottom Line** - You are never required to trust Flash or any other company with your money.
+
 
 ## [§](#create-your-account) Create your account
 
-Here are step-by-step guides to a few different clients we recommend:
+Now that you know what Flash is and have a good idea about the technology under the hood, here is a step-by-step guide to a setting up your wallet for the first time:
 
--   [Iris](/en/guides/iris) (Web)
--   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
+## Step 1 - Get Flash
 
-A few other clients that we love but don't have guides for:
+1. Install the Flash app using any of these platforms:
+[![iOS AppStore icon](http://staging.lnflash.co/test/assets/img/ios-badge.png)](https://apps.apple.com/app/lnflash/id6451129095)
+[![Google Play Store](http://staging.lnflash.co/test/assets/img/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.lnflash)
+[![Direct Download APK](http://staging.lnflash.co/test/assets/img/apk_badge.png)](https://apk.flashapp.me)
+[![Progressive Web App](http://staging.lnflash.co/test/assets/img/pwa_badge.png)](https://wallet.flashapp.me)
+1. When you open the app you'll have the option to click "start" and begin using your wallet immediately!
+    -   You also have the option to [create a business account](), or to log in with a private key you've already generated.
+1. If you have already logged in before on this device, you should be able to click "Login". Otherwise, click "Start".
+   ![Flash login/start page](/images/flash-login.webp)
 
--   [Snort](https://snort.social/) (Web) Super clean and fast web client.
--   [Coracle](https://coracle.social/) (Web) A client focused on relay navigation.
--   [Nostrgram](https://nostrgram.co) (Web) Fun instagram inspired client focused on images, video, and audio. Bring on the memes!
+## Step 2 - [Get eCash!](/en/guides/get-cash)
 
-## [§](#find-friends) Find friends to follow
+Visit the [Get eCash](/en/guides/get-cash) guide to learn how to get some Bitcoin in your wallet.
+## Logging in with an existing key
 
--   If you know someone is on Nostr, find their profile by searching for their public key.
--   Many Twitter users are tweeting their Nostr pubkeys with the hashtag #nostr so searching this hashtag can give you a good start.
--   [nostr.directory](https://nostr.directory) is a database mapping twitter users to their Nostr pubkeys.
+1. Click "Login".
+1. Authenticate using the native authenication method on your mobile device.
+1. If you have never logged in with this device before, you will be asked for your private key. Enter your key and you're done. 🤙 **Important**: Your private key is stored locally and isn't collected or stored by Flash servers in any way.
 
-## [§](#whats-signing) What does "Signing" mean?
+## Creating a new business account (includes a short verification process)
 
-In order to interact with the Nostr protocol you must create a cryptographic signature each time you perform an action. Think of this signature as an authentication step where you confirm that you are, indeed, who you say you are.
-
-Most Nostr clients try to make this easy and quick (or allow you to save your private key in the client so that they can sign on your behalf anytime you do anything).
-
-By only providing our public key above, we'll be prompted to sign anytime we want to interact with any posts or perform any updates to our profile. When that happens, Alby will automatically pop up (like it did during the sign up step) and you can confirm that you actually want to sign.
-
-## [§](#can-i-use-other-clients) Can I use other clients?
-
-Yes! Now that you have created your public/private key pair, you can use this pair on any Nostr client to access your account. Remember, the client is just an interface to see messages broadcast on the Nostr protocol.
+1. Click "Setup Business Account".
+1. Read through and accept the EULA.
+1. Enter your phone number and click "Send via SMS". This will send you a verification code via SMS. Alternatively you can click "Send via WhatsApp" to receive the code via WhatsApp.
+1. Enter the code you received via SMS or WhatsApp and click "Verify".
+1. Pick a username (this cannot be changed later) and, optionally, add some other profile details. Flash auto generates a lightning address and a Point of Sale Website for you at this step.
+1. On the next screen you will be notified that your account is being reviewed and you will be contacted to collect additional information. This process can take up to 72 hours. You will receive a notification when your account is approved. On this screen, click "Finish" and you're ready to use Flash! The cash-out functionality will be enabled once your account is approved.
 
 ## [§](#next-steps) Next steps
 
-Great, now you're set up with a lightning wallet, an identity (your keypair), and have tried out a client. Here are a few links that might be handy as you venture further into Nostr:
+Great, now you're set up with a flash wallet! Here are a few links that might be handy as you venture further into Flash:
 
--   [Verify your identity](/en/guides/get-verified)
--   [What are Relays and how do they work?](/en/relays)
--   [Learn more about NIPs and the development of the protocol](/en/the-protocol)
+-   [Get eCash](/en/guides/get-cash)
+-   [Earn eCash](/en/guides/earn)
+-   [How can I turn my money flash into physical dollars?](/en/guides/cash-out)
+-   [Learn more about the Bitcoin protocol and the lightning network](/en/the-protocol)

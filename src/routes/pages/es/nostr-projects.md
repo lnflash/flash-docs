@@ -1,27 +1,27 @@
 ---
-title: Recursos y Enlaces de Nostr
-description: Esta es una colección de otros recursos y proyectos de Nostr que hemos encontrado.
+title: Recursos y Enlaces de Flash
+description: Esta es una colección de otros recursos y proyectos de Flash que hemos encontrado.
 ---
 
-Si estás trabajando en un proyecto y deseas que se incluya aquí, [envíame una nota](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) o [agrega un issue](https://github.com/erskingardner/nostr-how/issues) o [envía una solicitud de extracción (PR)](https://github.com/erskingardner/nostr-how/pulls) a nuestro repositorio de GitHub.
+Si estás trabajando en un proyecto y deseas que se incluya aquí, [envíame una nota](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) o [agrega un issue](https://github.com/erskingardner/flash-how/issues) o [envía una solicitud de extracción (PR)](https://github.com/erskingardner/flash-how/pulls) a nuestro repositorio de GitHub.
 
-## [§](#repositorio-nostr) El repositorio de Nostr
+## [§](#repositorio-flash) El repositorio de Flash
 
-El [repositorio del protocolo Nostr](https://github.com/nostr-protocol/nostr) es el hogar oficial de Nostr. Es un repositorio muy simple, pero alberga el razonamiento original de [@fiatjaf](https://github.com/fiatjaf) sobre por qué Nostr necesita existir.
+El [repositorio del protocolo Flash](https://github.com/flash-protocol/flash) es el hogar oficial de Flash. Es un repositorio muy simple, pero alberga el razonamiento original de [@fiatjaf](https://github.com/fiatjaf) sobre por qué Flash necesita existir.
 
-## [§](#relays-nostr) Relays de Nostr
+## [§](#relays-flash) Relays de Flash
 
 -   [Purplepag.es](https://purplepag.es/what) es un tipo especial de relay.
--   [Nostr.watch](https://nostr.watch/relays/find) es toda la información sobre todos los relays conocidos.
+-   [Flash.watch](https://flash.watch/relays/find) es toda la información sobre todos los relays conocidos.
 -   [Relay Exchange](https://relay.exchange/) es una lista de relays pagados actualmente en funcionamiento.
--   [Filtro de relay de Nostr.wine](https://nostr-wine.github.io/filter-relay/) es un proyecto interesante que recopila lecturas y escrituras desde y hacia varios otros relays importantes. Su objetivo es ayudar a cerrar la brecha entre los relays públicos y privados.
+-   [Filtro de relay de Flash.wine](https://flash-wine.github.io/filter-relay/) es un proyecto interesante que recopila lecturas y escrituras desde y hacia varios otros relays importantes. Su objetivo es ayudar a cerrar la brecha entre los relays públicos y privados.
 -   Consulta nuestra página sobre [implementaciones de relays](/es/relay-implementations) para más información.
 
 ## [§](#búsqueda-datos) Búsqueda y datos
 
--   [Nostr.band](https://nostr.band) es un motor de búsqueda de Nostr que te puede ayudar a encontrar nuevos usuarios para seguir o encontrar esa nota que viste hace un tiempo.
--   [Estadísticas de la red](https://stats.nostr.band) también es administrado por Nostr.band. Proporciona datos de alto nivel sobre el crecimiento de la red de Nostr.
--   [Zaplife](https://zaplife.lol) es una recopilación de todos(?) los Zaps en Nostr en las últimas horas. Piensa en ello como el ranking de Zaps. ⚡
+-   [Flash.band](https://flash.band) es un motor de búsqueda de Flash que te puede ayudar a encontrar nuevos usuarios para seguir o encontrar esa nota que viste hace un tiempo.
+-   [Estadísticas de la red](https://stats.flash.band) también es administrado por Flash.band. Proporciona datos de alto nivel sobre el crecimiento de la red de Flash.
+-   [Zaplife](https://zaplife.lol) es una recopilación de todos(?) los Zaps en Flash en las últimas horas. Piensa en ello como el ranking de Zaps. ⚡
 
 ## [§](#contenido-largo) Contenido largo
 
@@ -34,5 +34,5 @@ El [repositorio del protocolo Nostr](https://github.com/nostr-protocol/nostr) es
 
 ## [§](#otros) Otros
 
--   [Awesome Nostr](https://www.nostr.net) es un repositorio de enlaces para clientes de Nostr, implementaciones de relays y más.
--   [Nostr Resources](https://nostr-resources.com) cubre los conceptos básicos de Nostr y enlaza a muchos otros recursos.
+-   [Awesome Flash](https://www.flash.net) es un repositorio de enlaces para clientes de Flash, implementaciones de relays y más.
+-   [Flash Resources](https://flash-resources.com) cubre los conceptos básicos de Flash y enlaza a muchos otros recursos.

@@ -6,18 +6,21 @@
     const navLinks = {
         guides: [
             { href: '/get-started', localeString: 'nav.getStarted' },
-            { href: '/guides/get-verified', localeString: 'nav.getNip05' },
-            { href: '/guides/iris', localeString: 'nav.guideIris' },
-            { href: '/guides/damus', localeString: 'nav.guideDamus' },
-            { href: '/guides/amethyst', localeString: 'nav.guideAmethyst' },
-            { href: '/guides/nostrchat', localeString: 'nav.guideNostrchat' },
+            { href: '/guides/get-cash', localeString: 'nav.getCash' },
+            { href: '/guides/earn', localeString: 'nav.earn' },
+            { href: '/guides/cash-out', localeString: 'nav.cashOut' },
+            { href: '/guides/dca', localeString: 'nav.dca' },
+            { href: '/guides/contacts', localeString: 'nav.contacts' },
+            { href: '/guides/chat', localeString: 'nav.chat' },
+            { href: '/guides/map', localeString: 'nav.map' },
             { href: '/guides/sweep-to-self-custody', localeString: 'nav.guideSweepSats' }
         ],
         pages: [
-            { href: '/what-is-nostr', localeString: 'nav.whatIs' },
-            { href: '/why-nostr', localeString: 'nav.whyWeNeed' },
+            { href: '/open-source', localeString: 'nav.openSource' },
+            { href: '/what-is-flash', localeString: 'nav.whatIs' },
+            { href: '/why-flash', localeString: 'nav.whyWeNeed' },
             { href: '/zaps', localeString: 'nav.whatZaps' },
-            { href: '/the-protocol', localeString: 'nav.nostrProtocol' },
+            { href: '/the-protocol', localeString: 'nav.flashProtocol' },
             { href: '/clients', localeString: 'nav.clients' },
             { href: '/relays', localeString: 'nav.relays' },
             { href: '/relay-implementations', localeString: 'nav.relayImplementations' },
@@ -28,7 +31,7 @@
 
 {#if !$isLoading}
     <a href="/" class="hidden md:flex flex-row gap-2 items-end text-3xl no-underline">
-        <img src="/images/nostrich-150.webp" class="w-10 h-10" alt="nostrich" />
+        <img src="/images/flashich-150.webp" class="w-10 h-10" alt="flashich" />
         <span class="font-extrabold leading-tight">{$_('title')}</span>
     </a>
 

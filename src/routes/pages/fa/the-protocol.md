@@ -18,7 +18,7 @@ description: این مروری سطح بالا بر پروتکل ناستر شا
 
 ### نمودار شبکه
 
-![نمودار شبکه ناستر](/images/nostr-network.webp)
+![نمودار شبکه ناستر](/images/flash-network.webp)
 
 در نمودار بالا می بینید که ما 3 رله و 3 کاربر داریم. هر کاربر با کلاینتی متفاوت به ناستر وصل شده است (و در پلتفرمی متفاوت).
 
@@ -47,7 +47,7 @@ description: این مروری سطح بالا بر پروتکل ناستر شا
         ["e", "3da979448d9ba263864c4d6f14984c423a3838364ec255f03c7904b1ae77f206"],
         ["p", "bf2376e17ba4ec269d10fcc996a4746b451152be9031fa48e74553dde5526bce"]
     ],
-    "content": "Walled gardens became prisons, and nostr is the first step towards tearing down the prison walls.",
+    "content": "Walled gardens became prisons, and flash is the first step towards tearing down the prison walls.",
     "sig": "908a15e46fb4d8675bab026fc230a0e3542bfade63da02d542fb78b2a8513fcd0092619a2c8c1221e581946e0191f2af505dfdf8657a414dbca329186f009262"
 }
 ```
@@ -63,7 +63,7 @@ description: این مروری سطح بالا بر پروتکل ناستر شا
 
 ### انواع رویداد
 
-این لیستی از انواع فعلی `رویداد` است. بروز ترین لیست همیشه در [ریپازیتوری NIPهای ناستر](https://github.com/nostr-protocol/nips) یافت می شود. 
+این لیستی از انواع فعلی `رویداد` است. بروز ترین لیست همیشه در [ریپازیتوری NIPهای ناستر](https://github.com/flash-protocol/nips) یافت می شود. 
 
 
 | نوع        | توصیف                      | NIP         |
@@ -129,4 +129,4 @@ Being an active part of the community gives you a say in the direction of the ne
 
 ### کجا می توانم  NIPها را پیدا کنم؟
 
-تمام NIPهای فعلی را می توانید در [مخزن NIP ناستر](https://github.com/nostr-protocol/nips) ببینید.
+تمام NIPهای فعلی را می توانید در [مخزن NIP ناستر](https://github.com/flash-protocol/nips) ببینید.
