@@ -1,7 +1,9 @@
 ---
-title: Get Physical Cash
+title: Let's Get Physical!
 description: A step-by-step guide to turn your eCash into physical cash.
 ---
+![FlashBird with Cash](/images/get-cash.jpeg)
+
 
 ## Step 1 – Go to the Maps Tab on your Flash App
 

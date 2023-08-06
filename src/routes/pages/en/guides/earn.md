@@ -23,7 +23,7 @@ Whatever it is you do for work, you can probably accept eCash for it. Here are a
 -   If you're a developer, you can accept eCash for your code.
 -   If you're a consultant, you can accept eCash for your advice.
 
-I think you get the idea. 😉
+...you get the idea. 😉
 
 ## Next steps
 
