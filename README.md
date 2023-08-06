@@ -1,4 +1,4 @@
-# ⚡ docs.flashapp.me
+# ⚡ docs.getflash.io
 
 A comprehensive guide to all things Flash.
 
@@ -10,15 +10,15 @@ A comprehensive guide to all things Flash.
 
 ## 🐣 Getting started with the codebase
 
-docs.flashapp.me is forked with [Nostr.how](https://nostr.how/), which is build on a lightweight javascript framework. If you would like to create documentation like this, please visit the open source [Nostr.how github repo](https://github.com/erskingardner/nostr-how)
+docs.getflash.io is forked with [Nostr.how](https://nostr.how/), which is build on a lightweight javascript framework. If you would like to create documentation like this, please visit the open source [Nostr.how github repo](https://github.com/erskingardner/nostr-how)
 
 ## 🫂 Contributing
 
-We're always looking for writers, coders, and translators to help us make docs.flashapp.me more useful. (TODO: A few more details below on how you can contribute)
+We're always looking for writers, coders, and translators to help us make docs.getflash.io more useful. (TODO: A few more details below on how you can contribute)
 
 ### Translations
 
-Translations in docs.flashapp.me are done in two parts. For UI elements and navigation items we use in i18n library and simple JSON files to store the translated strings. The main content of each page is written in Markdown and each page must be translated separately and put into the correct directory in the codebase.
+Translations in docs.getflash.io are done in two parts. For UI elements and navigation items we use in i18n library and simple JSON files to store the translated strings. The main content of each page is written in Markdown and each page must be translated separately and put into the correct directory in the codebase.
 
 #### i18n JSON files
 
