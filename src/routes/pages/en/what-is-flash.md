@@ -1,32 +1,58 @@
 ---
-title: Global, Peer-to-Peer Censorship-resistant money for the Caribbean
-description: Flash is an easy to use mobile and web application, built on top of an open monetary protocol that enables truly censorship-resistant and global value-for-value transfer on the web.
+title: What is Flash?
+description: Flash is a Bitcoin-based financial application for individuals and businesses in the Caribbean and globally.
 ---
 
 ## What is Flash?
 
-Flash is an app that you can use to send and receive Bitcoin, without needing to sign up or give any personal information to us or any other company.
+Flash is a Bitcoin service provider creating products and services specifically for the Caribbean. Our ecosystem includes the Flash app for everyday users, the Flashpoint point-of-sale device for merchants, the Flash card with rewards and gift card capabilities, and Bitcoin trading services both online and through our app.
 
-Flash is also a service that you sign up for if you are a business. Flash allows you to accept payments from your customers globally using the Bitcoin open monetary network.
+### Personal Accounts
 
-Flash business accounts can also do in person exchanges with other Flash users for other currencies like US dollars or Jamaican Dollars.
+Flash offers personal accounts that include both dollar and Bitcoin denominated wallets. Send and receive money globally without intermediaries. The Bitcoin wallet is non-custodial, giving you complete control of your funds.
 
-Flash is designed for simplicity and enables censorship-resistant and globally decentralized value transfer. Let's unpack that a little:
+### Business Accounts
 
-### Simple
+Businesses can use Flash to accept global payments through the Bitcoin network. Flash business accounts enable seamless international transactions with minimal fees and rapid settlement. Businesses can also facilitate in-person exchanges between Bitcoin and local currencies like US dollars or Jamaican dollars. Additionally, businesses with Flashpoint devices participate in our integrated rewards program, allowing them to offer and redeem points across the entire Flash merchant network, increasing customer engagement and loyalty.
 
-The mobile app is designed to be as simple as possible to use. It's a single screen that shows your balance and allows you to send and receive money. All additional features are hidden behind a menu, or in in a separate tab. 
+### Flash Card
 
-The business account is also designed to be very simple to use, with a short and effortless cash-out flow and a simple interface for accepting payments.
+The Flash Card is a prepaid card that allows you to make purchases at regular merchants. The card maintains its own balance separate from your Flash app accounts. Link your Flash Card to the app to conveniently check your card balance and top up funds as needed. Owning a Flash Card automatically provides membership to the Flashpoint rewards network, allowing you to earn reward points when shopping at participating merchants. This integration provides flexibility while keeping your card and app balances distinct for different use cases.
 
-### Resilient
+### Rewards Points
 
-Because Flash doesn't completely rely on any exchange or bank, it's very resilient. The Bitcoin wallet is non-custodial, meaning that you are in control of your own money. The USD wallet is custodial, but your value can be swapped between the two wallets at any time. This means that if Flash custodial wallet goes down, you can still access your money on the non-custodial Bitcoin wallet.
+Earn rewards when using Flash. Receive points for transactions, referrals, and regular usage that can be redeemed for Bitcoin or special offers from partner businesses. The Flash rewards program enhances your purchasing power with points that can be easily spent at all participating Flashpoint merchant locations. Points can also be used online to purchase gift cards and digital services through partner platforms like bitrefill.com and thebitcoincompany.com, giving you flexibility to spend your rewards on everyday needs or convert them to Bitcoin seamlessly.
 
-We recommend you treat your non-custodial Bitcoin wallet as your savings account, and only use the custodial USD wallet for short term storage of value, like a checking account.
+### Key Features
 
-### Verifiable
+- **Complete Financial Solution**: Integrated ecosystem with personal accounts, business services, prepaid card, and rewards program.
+- **Dual-Currency Support**: Both Bitcoin and dollar denominated wallets to suit various needs.
+- **Non-Custodial Option**: Bitcoin wallet gives you full control of your funds with no intermediaries.
+- **Global Payments**: Send and receive money anywhere in the world with minimal fees and quick settlement.
+- **Flashpoint Network**: Merchants equipped with Flashpoint devices create an integrated rewards ecosystem.
+- **Flash Card Integration**: Prepaid card with its own balance, linkable to your app for monitoring and top-ups.
+- **Extensive Rewards Program**: Earn points through transactions and referrals, redeemable at physical merchants and online partners.
+- **Security and Verification**: Based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) and the [Bitcoin protocol](https://en.wikipedia.org/wiki/Bitcoin_protocol) for maximum security.
 
-Because Flash wallets are based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) and the [Bitcoin protocol](https://en.wikipedia.org/wiki/Bitcoin_protocol), you can verify that your money is safe at any time, from any internet-connected device. 
-
-You are never required to trust Flash or any other company with your money.
+<!-- Navigation links -->
+<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
+  <div class="w-1/3 text-left">
+    <a href="get-started" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      Get Started
+    </a>
+  </div>
+  <div class="w-1/3 text-center">
+    <!-- Optional center content -->
+  </div>
+  <div class="w-1/3 text-right">
+    <a href="why-flash" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      Why Flash?
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
+    </a>
+  </div>
+</div>

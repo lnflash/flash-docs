@@ -24,5 +24,5 @@ Adopting a DCA strategy requires some discipline and a long term outlook. It won
 
 DCA is a highly recommended way to save. But there are other ways to obtain eCash besides converting your dollars into eCash. Here are a few ideas:
 
+-   [Get eCash](/en/guides/get-cash)
 -   [Earn eCash](/en/guides/earn)
--   [Learn more about the Bitcoin protocol and the lightning network](/en/the-protocol)
