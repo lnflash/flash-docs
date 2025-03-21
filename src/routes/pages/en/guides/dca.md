@@ -20,12 +20,6 @@ Adopting a DCA strategy requires some discipline and a long term outlook. It won
 ![DCA Chart by River Financial](https://river.com/learn/images/articles/dollar-cost-averaging-bitcoin.png) <br /> Big Props and Atrribution goes out to Alex Leishman and the team over at River Financial for making great Bitcoin financial products for users in the U.S. Check out their full article on DCA at [river.com](https://river.com/learn/what-is-bitcoin/dollar-cost-averaging-bitcoin).
 
 
-## Next steps
-
-DCA is a highly recommended way to save. But there are other ways to obtain eCash besides converting your dollars into eCash. Here are a few ideas:
-
--   [Get eCash](/en/guides/get-cash)
-
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
   <div class="w-1/3 text-left">
