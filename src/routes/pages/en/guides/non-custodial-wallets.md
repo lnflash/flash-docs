@@ -4,8 +4,8 @@ description: Learn about non-custodial Bitcoin wallets and which ones might be r
 ---
 
 <div class="flex justify-center items-center gap-8 my-8">
-  <img src="/images/hardware-wallets/test-bitcoin.png" alt="Bitkey Hardware Wallet" class="h-48 shadow-lg rounded-lg" />
-  <img src="/images/hardware-wallets/test-bitcoin.png" alt="ColdCard Hardware Wallet" class="h-48 shadow-lg rounded-lg" />
+  <img src="/images/badges/webp/bitkey.webp" alt="Bitkey Hardware Wallet" class="h-48 shadow-lg rounded-lg" />
+  <img src="/images/badges/png/coldcard.png" alt="ColdCard Hardware Wallet" class="h-48 shadow-lg rounded-lg" />
 </div>
 
 ## What Are Non-Custodial Wallets?
@@ -107,7 +107,7 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
    - Set up backup and recovery methods as recommended
 
    <div class="flex justify-center my-6">
-     <img src="/images/hardware-wallets/test-bitcoin.png" alt="Bitkey Security Model" class="max-w-full rounded-lg shadow-md" />
+     <img src="/images/badges/webp/bitkey.webp" alt="Bitkey Security Model" class="max-w-full rounded-lg shadow-md" />
    </div>
 
 4. **Establish Your Inheritance Plan**
@@ -119,8 +119,8 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
      - Documenting your Bitcoin estate plan
 
    <div class="flex justify-center gap-6 my-6">
-     <img src="/images/hardware-wallets/test-bitcoin.png" alt="ColdCard Recovery Options" class="max-w-xs rounded-lg shadow-md" />
-     <img src="/images/hardware-wallets/test-bitcoin.png" alt="Hardware Wallet Inheritance Planning" class="max-w-xs rounded-lg shadow-md" />
+     <img src="/images/badges/png/coldcard.png" alt="ColdCard Recovery Options" class="max-w-xs rounded-lg shadow-md" />
+     <img src="/images/badges/webp/bitkey.webp" alt="Hardware Wallet Inheritance Planning" class="max-w-xs rounded-lg shadow-md" />
    </div>
 
 This tiered approach gives you progressively more security and control as your Bitcoin holdings grow, while starting with the familiar Flash interface.
