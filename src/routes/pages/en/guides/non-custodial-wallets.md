@@ -111,7 +111,7 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
    - Set up backup and recovery methods as recommended
 
    <div class="flex justify-center my-6">
-     <div class="w-48 h-48 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
+     <div class="w-24 h-24 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
        <img src="/images/badges/webp/bitkey.webp" alt="Bitkey Security Model" class="max-h-full max-w-full object-contain" />
      </div>
    </div>
