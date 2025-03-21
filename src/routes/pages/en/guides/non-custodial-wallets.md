@@ -3,9 +3,13 @@ title: Non-Custodial Wallets Explained
 description: Learn about non-custodial Bitcoin wallets and which ones might be right for you
 ---
 
-<div class="flex justify-center items-center gap-8 my-8">
-  <img src="/images/badges/webp/bitkey.webp" alt="Bitkey Hardware Wallet" class="h-32 w-auto object-contain shadow-md rounded-lg" />
-  <img src="/images/badges/png/coldcard.png" alt="ColdCard Hardware Wallet" class="h-32 w-auto object-contain shadow-md rounded-lg" />
+<div class="flex flex-wrap justify-center items-center gap-6 my-8">
+  <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
+    <img src="/images/badges/webp/bitkey.webp" alt="Bitkey Hardware Wallet" class="max-h-full max-w-full object-contain" />
+  </div>
+  <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
+    <img src="/images/badges/png/coldcard.png" alt="ColdCard Hardware Wallet" class="max-h-full max-w-full object-contain" />
+  </div>
 </div>
 
 ## What Are Non-Custodial Wallets?
@@ -107,7 +111,9 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
    - Set up backup and recovery methods as recommended
 
    <div class="flex justify-center my-6">
-     <img src="/images/badges/webp/bitkey.webp" alt="Bitkey Security Model" class="w-72 h-auto object-contain rounded-lg shadow-md" />
+     <div class="w-48 h-48 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
+       <img src="/images/badges/webp/bitkey.webp" alt="Bitkey Security Model" class="max-h-full max-w-full object-contain" />
+     </div>
    </div>
 
 4. **Establish Your Inheritance Plan**
@@ -118,9 +124,13 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
      - Configuring time-locked recovery options
      - Documenting your Bitcoin estate plan
 
-   <div class="flex justify-center gap-6 my-6">
-     <img src="/images/badges/png/coldcard.png" alt="ColdCard Recovery Options" class="h-32 w-auto object-contain rounded-lg shadow-md" />
-     <img src="/images/badges/webp/bitkey.webp" alt="Hardware Wallet Inheritance Planning" class="h-32 w-auto object-contain rounded-lg shadow-md" />
+   <div class="flex flex-wrap justify-center gap-6 my-6">
+     <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
+       <img src="/images/badges/png/coldcard.png" alt="ColdCard Recovery Options" class="max-h-full max-w-full object-contain" />
+     </div>
+     <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
+       <img src="/images/badges/webp/bitkey.webp" alt="Hardware Wallet Inheritance Planning" class="max-h-full max-w-full object-contain" />
+     </div>
    </div>
 
 This tiered approach gives you progressively more security and control as your Bitcoin holdings grow, while starting with the familiar Flash interface.
@@ -148,4 +158,4 @@ For detailed instructions on the first step of moving your Bitcoin from the Flas
       </svg>
     </a>
   </div>
-</div> 
+</div>
