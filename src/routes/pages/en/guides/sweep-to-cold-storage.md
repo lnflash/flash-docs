@@ -4,7 +4,7 @@ description: Complete guide to moving your Bitcoin from mobile wallets to hardwa
 ---
 
 <div class="text-center mb-12">
-  <img src="/images/badges/png/coldcard.png" alt="Hardware wallets for Bitcoin cold storage" class="mx-auto h-40 mb-4" />
+  <img src="/images/badges/webp/sweep-to-cold.webp" alt="Hardware wallets for Bitcoin cold storage" class="mx-auto h-40 mb-4" />
 </div>
 
 # Moving Bitcoin to Hardware Cold Storage
