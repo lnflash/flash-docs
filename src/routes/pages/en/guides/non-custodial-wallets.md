@@ -3,6 +3,11 @@ title: Non-Custodial Wallets Explained
 description: Learn about non-custodial Bitcoin wallets and which ones might be right for you
 ---
 
+<div class="flex justify-center items-center gap-8 my-8">
+  <img src="https://camo.githubusercontent.com/c3ef35a951cf4abdb9972f3e1bccc5c4d24fe159af4e8ae73cfdd15ef1c9ffe8/68747470733a2f2f626974636f696e6d6167617a696e652e636f6d2f2e696d616765732f745f7368617265782f4d54673344544d784e7a45314e4455354e4455334e6a4d344e7a41314e673d3d2f6172746963612d626974636172642d626c6f6261682e706e67" alt="Bitkey Hardware Wallet" class="h-48 shadow-lg rounded-lg" />
+  <img src="https://coldcard.com/images/photos/mk4/mk4-front.png" alt="ColdCard Hardware Wallet" class="h-48 shadow-lg rounded-lg" />
+</div>
+
 ## What Are Non-Custodial Wallets?
 
 Non-custodial wallets are Bitcoin wallets where you, and only you, control the private keys to your funds. This means you have complete ownership and control over your Bitcoin without relying on a third party to hold or manage your assets.
@@ -101,6 +106,10 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
    - Securely write down your seed phrase on the provided recovery cards
    - Set up backup and recovery methods as recommended
 
+   <div class="flex justify-center my-6">
+     <img src="https://assets-global.website-files.com/62a2c1d4520e4d4b70c71fe1/6429cee34c42a6ce04b4758b_Screenshot%202023-04-02%20at%2016.51.12.png" alt="Bitkey Security Model" class="max-w-full rounded-lg shadow-md" />
+   </div>
+
 4. **Establish Your Inheritance Plan**
    - Bitkey offers comprehensive inheritance planning options
    - Visit [bitkey.world](https://bitkey.world) for detailed guides on:
@@ -108,6 +117,11 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
      - Creating recovery procedures for family members
      - Configuring time-locked recovery options
      - Documenting your Bitcoin estate plan
+
+   <div class="flex justify-center gap-6 my-6">
+     <img src="https://coldcard.com/images/photos/mk4/mk4-seed-words.png" alt="ColdCard Recovery Options" class="max-w-xs rounded-lg shadow-md" />
+     <img src="https://bitcoin-takeover.com/wp-content/uploads/2021/03/coldcard-inheritance-protocol.jpg" alt="Hardware Wallet Inheritance Planning" class="max-w-xs rounded-lg shadow-md" />
+   </div>
 
 This tiered approach gives you progressively more security and control as your Bitcoin holdings grow, while starting with the familiar Flash interface.
 
