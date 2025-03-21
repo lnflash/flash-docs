@@ -33,25 +33,24 @@ Transfer Cash directly from your Flash wallet to your Jamaican bank account with
 
 *Note: Bank transfers are subject to standard banking hours and may be delayed during weekends or holidays. Minimum and maximum transfer limits may apply.*
 
-## Go to the Maps Tab on your Flash App
+## Cash Out at a Flashpoint
 
-On the Map tab you will see an interactive map that shows you all the businesses that accept Flash.
+Any business that accepts Flash can be a "Flashpoint" where you can turn your digital Cash into physical cash. Here's how to do it:
+
+### 1. Find a Flashpoint on the Map
+Open your Flash app and go to the Maps tab. You'll see an interactive map showing all nearby businesses that accept Flash.
 ![Maps Tab](https://uploads-ssl.webflow.com/645cce04c77d100fb57295ca/647a99f377bb5a186d2bccc0_slide04.png)
 
-
-## Locate a flashpoint nearest to you
-
-Unlike other remittance and money services, any business can be a flashpoint. This means that you can cash out at any business that accepts Flash. In addition to the Map tab, you can find a list of businesses that accept Flash on our [Flashpoint Map](https://flashpoint.flashapp.me).
-
+### 2. Choose a Flashpoint Near You
+Unlike traditional remittance services, Flash has a wide network of businesses ready to serve you. You can also find a complete list of businesses on our [Flashpoint Map](https://flashpoint.flashapp.me).
 ![Flashpoint Map](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lockedownseo.com%2Fwp-content%2Fuploads%2F2013%2F11%2Fadd-map-marker-google-maps.jpg&f=1&nofb=1&ipt=1e0378994a52e5316b86d378b31f725668d627bdfaffbaaf2d5f41a8d6777126&ipo=images)
 
-## Head over to the flashpoint and cash out
-
-1. The business will ask you to scan their QR code with your Flash app.
-1. Open your Flash app and click the "Scan" button.
-1. Scan the QR code that the business gives you.
-1. Enter the amount you want to cash out and click "Send".
-1. The business will give you your cash and you're done! 🤙
+### 3. Visit the Flashpoint and Cash Out
+1. When you arrive at the business, they will ask you to scan their QR code
+2. Open your Flash app and tap the "Scan" button
+3. Scan the QR code provided by the business
+4. Enter the amount you want to cash out and tap "Send"
+5. The business will give you physical cash and you're done! 🤙
 
 
 ## Next steps
