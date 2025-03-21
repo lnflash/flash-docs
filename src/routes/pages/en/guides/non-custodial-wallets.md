@@ -4,11 +4,11 @@ description: Learn about non-custodial Bitcoin wallets and which ones might be r
 ---
 
 <div class="flex flex-wrap justify-center items-center gap-6 my-8">
-  <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
-    <img src="/images/badges/webp/bitkey2.webp" alt="Bitkey Hardware Wallet" style="width: 120px; height: auto;" />
+  <div class="w-56 h-56 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
+    <img src="/images/badges/webp/bitkey2.webp" alt="Bitkey Hardware Wallet" style="width: 210px; height: auto;" />
   </div>
-  <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
-    <img src="/images/badges/png/coldcard.png" alt="ColdCard Hardware Wallet" style="width: 120px; height: auto;" />
+  <div class="w-56 h-56 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
+    <img src="/images/badges/png/coldcard.png" alt="ColdCard Hardware Wallet" style="width: 210px; height: auto;" />
   </div>
 </div>
 
@@ -111,8 +111,8 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
    - Set up backup and recovery methods as recommended
 
    <div class="flex justify-center my-6">
-     <div class="w-24 h-24 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
-       <img src="/images/badges/webp/bitkey2.webp" alt="Bitkey Security Model" style="width: 105px; height: auto;" />
+     <div class="w-48 h-48 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
+       <img src="/images/badges/webp/bitkey2.webp" alt="Bitkey Security Model" style="width: 180px; height: auto;" />
      </div>
    </div>
 
@@ -125,11 +125,11 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
      - Documenting your Bitcoin estate plan
 
    <div class="flex flex-wrap justify-center gap-6 my-6">
-     <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
-       <img src="/images/badges/png/coldcard.png" alt="ColdCard Recovery Options" style="width: 120px; height: auto;" />
+     <div class="w-56 h-56 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
+       <img src="/images/badges/png/coldcard.png" alt="ColdCard Recovery Options" style="width: 210px; height: auto;" />
      </div>
-     <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
-       <img src="/images/badges/webp/bitkey2.webp" alt="Hardware Wallet Inheritance Planning" style="width: 120px; height: auto;" />
+     <div class="w-56 h-56 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
+       <img src="/images/badges/webp/bitkey2.webp" alt="Hardware Wallet Inheritance Planning" style="width: 210px; height: auto;" />
      </div>
    </div>
 
