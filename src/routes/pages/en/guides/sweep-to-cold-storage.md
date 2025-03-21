@@ -1,165 +1,356 @@
 ---
-title: Sweep sats to a cold storage wallet
-description: Take full control of your Bitcoin by moving funds from Flash to a cold storage wallet
+title: Sweep to Cold Storage
+description: Complete guide to moving your Bitcoin from mobile wallets to hardware security
 ---
 
-## [§](#who-is-this-guide-for) Who is this guide for?
+<div class="text-center mb-12">
+  <img src="/images/badges/png/coldcard.png" alt="Hardware wallets for Bitcoin cold storage" class="mx-auto h-40 mb-4" />
+</div>
 
-If you're using Flash to receive and store Bitcoin, you're currently using a custodial lightning wallet. While convenient for daily transactions, keeping all your Bitcoin in a custodial solution isn't ideal for long-term storage.
+# Moving Bitcoin to Hardware Cold Storage
 
-This guide is for anyone who:
-- Has accumulated Bitcoin in their Flash wallet 
-- Wants to reduce counter-party risk for their savings
-- Plans to hold Bitcoin for the long term
-- Values financial sovereignty and cold storage security
+This guide provides step-by-step instructions for securing your Bitcoin in cold storage using hardware wallets. Follow these detailed steps to ensure your Bitcoin is safely transferred from mobile wallets to long-term secure storage.
 
-We'll walk you through setting up a cold storage wallet and moving some of your funds there for secure, long-term storage.
+## Table of Contents
 
-## [§](#why-is-cold-storage-important) Why is cold storage important?
+- [Understanding Cold Storage](#understanding-cold-storage)
+- [Preparing for the Transfer](#preparing-for-the-transfer)
+- [Setting Up Your Hardware Wallet](#setting-up-your-hardware-wallet)
+  - [Bitkey Setup](#bitkey-setup)
+  - [ColdCard Setup](#coldcard-setup)
+  - [Trezor Setup](#trezor-setup)
+- [Creating a Secure Receive Address](#creating-a-secure-receive-address)
+- [Transferring Bitcoin from Mobile Wallets](#transferring-bitcoin-from-mobile-wallets)
+  - [From Flash Wallet](#from-flash-wallet)
+  - [From Other Mobile Wallets](#from-other-mobile-wallets)
+- [Verifying Your Transfer](#verifying-your-transfer)
+- [Best Practices for Cold Storage](#best-practices-for-cold-storage)
+- [Recovery and Backup Procedures](#recovery-and-backup-procedures)
+- [Advanced Cold Storage Options](#advanced-cold-storage-options)
 
-The fundamental Bitcoin principle is: **not your keys, not your coins**. 
+## Understanding Cold Storage
 
-When your Bitcoin is in Flash or any custodial wallet, you're trusting that service to:
-- Keep their systems secure from hackers
-- Manage their finances responsibly
-- Honor your withdrawal requests
-- Remain operational over time
+Cold storage refers to keeping your Bitcoin private keys offline on a dedicated hardware device, dramatically reducing potential attack vectors compared to mobile or online wallets.
 
-While Flash employs industry-best security practices, any custodial service introduces counter-party risk. Cold storage eliminates this risk by giving you complete control over your Bitcoin.
+### Benefits of Hardware Wallets
 
-Benefits of cold storage include:
-- **Full ownership**: Only you can access and move your funds
-- **Censorship resistance**: No one can freeze or seize your Bitcoin
-- **Reduced third-party risk**: No exposure to service provider problems
-- **Privacy**: Hold Bitcoin without KYC information
-- **Long-term security**: Properly secured Bitcoin can be held for generations
+- **Enhanced Security**: Private keys never leave the device
+- **Protection from Malware**: Immune to computer viruses and keyloggers
+- **Physical Verification**: Transactions require physical confirmation
+- **Disaster Recovery**: Built-in backup and recovery options
+- **Long-term Storage**: Designed for secure, long-term Bitcoin storage
 
-## [§](#ready-lets-go) Ready? Let's go!
+### When to Use Cold Storage
 
-Flash makes it easy to move your Bitcoin to cold storage without requiring advanced technical knowledge. You have two primary methods:
+Cold storage is recommended when:
+- Your Bitcoin holdings exceed $1,000 in value
+- You plan to hold Bitcoin for more than 6 months
+- You want maximum protection against remote attacks
+- You're creating a long-term savings plan or inheritance
 
-### Method 1: Direct On-Chain Withdrawal (Recommended for beginners)
+## Preparing for the Transfer
 
-Flash allows direct withdrawals to on-chain Bitcoin addresses:
+Before beginning the transfer process, prepare the following:
 
-1. **Choose a cold storage wallet**
-   - Mobile options: [Blue Wallet](https://bluewallet.io/), [Blockstream Green](https://blockstream.com/green/), or [Muun](https://muun.com/)
-   - Hardware options: [Ledger](https://www.ledger.com/), [Trezor](https://trezor.io/), or [ColdCard](https://coldcard.com/) (for larger amounts)
+1. **Hardware wallet device** (Bitkey, ColdCard, or Trezor)
+2. **Pen and paper** for recording recovery phrases
+3. **Secure location** free from cameras or onlookers
+4. **Mobile wallet** with Bitcoin to transfer
+5. **Small amount for testing** (always send a test transaction first)
+6. **Time without distractions** (30-60 minutes for setup)
+7. **Stable internet connection** (for the mobile wallet side)
 
-2. **Set up your wallet**
-   - Download and install your chosen wallet
-   - Create a new wallet and follow the setup process
-   - **CRITICAL**: Write down your seed phrase on paper and store it securely. This is your backup!
-   
-3. **Get your Bitcoin address**
-   - In your new wallet, find the "Receive" section
-   - Copy your Bitcoin address (starts with "bc1" or "3" or "1")
-   
-4. **Withdraw from Flash**
-   - Open Flash and go to the Wallet tab
+## Setting Up Your Hardware Wallet
+
+Each hardware wallet has a specific setup process. Follow the instructions for your chosen device:
+
+### Bitkey Setup
+
+<div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
+Bitkey uses a "two-of-three" multi-signature security model with a mobile app component, hardware component, and recovery key component.
+</div>
+
+1. **Initial Hardware Setup**
+   - Unbox your Bitkey hardware device
+   - Power on by pressing the circular button
+   - Follow on-screen instructions to set up your device PIN
+   - Verify the device displays an untampered seal message
+
+2. **Install the Bitkey Mobile App**
+   - Download the Bitkey app from the App Store or Google Play
+   - Open the app and select "Set up a new wallet"
+   - Follow the pairing instructions to connect to your hardware device
+   - Create a secure PIN for the app
+
+3. **Create Your Recovery Key**
+   - When prompted, the app will guide you through creating a recovery key
+   - Write down all 12 or 24 seed words IN ORDER on provided recovery cards
+   - Verify each word carefully - these words ARE your Bitcoin
+   - Store recovery cards in a secure, private location
+
+4. **Verify Your Setup**
+   - Complete the recovery phrase verification test on both devices
+   - Ensure both the hardware and mobile components show the same wallet balance
+   - Test the approval process for a small transaction
+
+### ColdCard Setup
+
+<div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
+ColdCard is a Bitcoin-only hardware wallet that can operate completely air-gapped and offers advanced security features.
+</div>
+
+1. **Initial Hardware Setup**
+   - Unbox your ColdCard
+   - Insert a microSD card (optional but recommended)
+   - Connect the device using the included USB cable
+   - Create a new wallet when prompted
+   - Set up a strong PIN with both a prefix and suffix
+
+2. **Backup Your Seed Words**
+   - Carefully write down all 24 seed words in order
+   - Double-check each word against the ColdCard screen
+   - Consider stamping seed words on metal for fire/water resistance
+   - Secure your backup in a safe location
+
+3. **Advanced Security Setup**
+   - Set up a BrickMe PIN (emergency delete function)
+   - Configure Duress PIN if desired (shows limited funds)
+   - Set up a passphrase for additional security (optional)
+   - Test your PINs to ensure they work correctly
+
+4. **Install Companion Software**
+   - For desktop interaction, install [Sparrow Wallet](https://sparrowwallet.com/)
+   - Connect your ColdCard via USB or use the microSD card for air-gapped operation
+   - Export the wallet public key to Sparrow using the microSD card
+   - Verify the wallet appears correctly in Sparrow
+
+### Trezor Setup
+
+<div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
+Trezor offers an intuitive user experience with a simple interface while maintaining strong security.
+</div>
+
+1. **Initial Hardware Setup**
+   - Unbox your Trezor device
+   - Connect it to your computer via USB cable
+   - Visit [trezor.io/start](https://trezor.io/start)
+   - Follow the on-screen instructions
+   - Create a new wallet when prompted
+
+2. **Create Device PIN**
+   - Create a strong PIN following the on-screen instructions
+   - The PIN entry uses a randomized keypad for protection
+   - Remember this PIN - it protects physical access to your device
+
+3. **Backup Recovery Seed**
+   - Write down all 12 or 24 seed words in exact order
+   - Verify the recovery seed when prompted by the setup wizard
+   - Store in a secure, private location away from potential threats
+   - Consider creating a metal backup for fire/water resistance
+
+4. **Setup Trezor Suite**
+   - Install Trezor Suite on your computer
+   - Connect your device and unlock it with your PIN
+   - Create a Bitcoin wallet in Trezor Suite
+   - Optionally add a passphrase for additional security
+
+## Creating a Secure Receive Address
+
+After setting up your hardware wallet, generate a receive address to accept Bitcoin transfers:
+
+1. **Connect Your Hardware Wallet**
+   - Bitkey: Open the mobile app and ensure it's synced with your hardware device
+   - ColdCard: Connect via USB or use microSD card with Sparrow Wallet
+   - Trezor: Connect via USB and open Trezor Suite
+
+2. **Navigate to Receive Function**
+   - Bitkey: Tap "Receive" in the mobile app
+   - ColdCard: In Sparrow, select "Receive" tab
+   - Trezor: In Trezor Suite, click on "Receive" tab
+
+3. **Verify the Address on Hardware**
+   - Bitkey: Confirm the address matches on both mobile and hardware devices
+   - ColdCard: Verify address on ColdCard screen (crucial security step)
+   - Trezor: Confirm address on Trezor screen when prompted
+
+4. **Choose Address Type** (Advanced)
+   - Native SegWit (bc1... addresses): Lowest fees, most efficient
+   - Nested SegWit (3... addresses): Compatible with older wallets
+   - Legacy (1... addresses): Only use if specifically required
+
+5. **Label the Address** (Optional)
+   - Add a description like "Flash Transfer - March 2025"
+   - Helps track the source of funds later
+
+## Transferring Bitcoin from Mobile Wallets
+
+Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet:
+
+### From Flash Wallet
+
+1. **Open Flash App**
+   - Go to the "Wallet" tab
+   - Ensure you have sufficient balance
+
+2. **Initiate Transfer**
    - Tap "Send" or "Withdraw"
    - Select "On-chain withdrawal"
-   - Paste your Bitcoin address
-   - Enter the amount (consider starting with a small test amount)
-   - Confirm the withdrawal
-   
-5. **Verify receipt**
-   - On-chain transactions typically take 10-60 minutes to confirm
-   - Check your cold storage wallet to confirm receipt
-   - You can track the transaction status using a block explorer like [mempool.space](https://mempool.space)
 
-### Method 2: Using a Flash Exchange Point (For Lightning to on-chain conversion)
+3. **Enter Details**
+   - Paste your hardware wallet's receive address
+   - Double-check the address is correct (first and last few characters)
+   - Start with a small test amount (e.g., 0.0001 BTC or 10,000 sats)
 
-Flash's peer-to-peer network enables in-person exchanges:
+4. **Review and Confirm**
+   - Check the withdrawal fee (higher fees confirm faster)
+   - Prioritize security over saving on fees for cold storage transfers
+   - Tap "Confirm" to initiate the transfer
 
-1. **Set up your cold storage wallet** (follow steps 1-3 above)
+5. **Initial Test Verification**
+   - Wait for the test transaction to confirm (10-60 minutes)
+   - Verify receipt on your hardware wallet
+   - Once confirmed, proceed with transferring larger amounts
 
-2. **Find an Exchange Point**
-   - Open Flash and go to the Map tab
-   - Look for Exchange Points in your area (orange pins)
-   - Alternatively, use the Flash Support chat to find remote exchange partners
+### From Other Mobile Wallets
 
-3. **Arrange the exchange**
-   - Contact the Exchange Point through Flash Chat
-   - Agree on an amount to swap
-   - Share your Bitcoin address with them
+1. **Open Your Mobile Wallet**
+   - Access the wallet containing your Bitcoin
+   - Navigate to Send/Transfer function
 
-4. **Complete the exchange**
-   - Send sats to the Exchange Point via Flash Lightning
-   - They'll initiate an on-chain transaction to your address
-   - Verify the transaction ID and track it on [mempool.space](https://mempool.space)
+2. **Enter Hardware Wallet Address**
+   - Paste your verified hardware wallet address
+   - Double-check the entire address if possible
+   - For large transfers, verify the address through multiple channels
 
-## [§](#flash-cold-storage-workflow) Recommended Cold Storage Workflow
+3. **Set Transaction Fee**
+   - Choose an appropriate fee based on urgency
+   - For cold storage, medium priority is usually sufficient
+   - Check [mempool.space](https://mempool.space) for current fee recommendations
 
-For optimal Bitcoin management with Flash:
+4. **Send Test Transaction**
+   - Start with a minimal amount
+   - Confirm the transaction
+   - Record the transaction ID/hash
 
-1. **Use Flash as your daily spending wallet**
-   - Keep a modest amount for everyday transactions
-   - Benefit from instant, low-fee Lightning payments
+5. **Complete the Transfer**
+   - After confirming receipt of test transaction
+   - Send remaining amount in one or multiple transactions
+   - Consider privacy implications of transaction patterns
 
-2. **Periodically sweep to cold storage**
-   - Set a threshold (e.g., when your Flash balance exceeds $100)
-   - Move excess funds to your cold storage wallet
-   - Consider automating this with recurring calendar reminders
+## Verifying Your Transfer
 
-3. **Layer your security**
-   - Small amounts: Mobile wallet apps
-   - Medium amounts: Hardware wallets like Ledger or Trezor
-   - Large amounts: Air-gapped solutions like ColdCard or multi-signature setups
+After sending, verify the transfer was successful:
 
-## [§](#lightning-bitcoin-on-chain-what) Key Concepts: Lightning, On-Chain, and Cold Storage
+1. **Check Transaction Status**
+   - Use a block explorer like [mempool.space](https://mempool.space)
+   - Enter your transaction ID or wallet address
+   - Monitor confirmations (6+ is considered extremely secure)
 
-### Bitcoin
+2. **Verify on Hardware Wallet**
+   - Bitkey: Check balance in both mobile app and hardware device
+   - ColdCard: Check balance in Sparrow Wallet or via microSD export
+   - Trezor: Check balance in Trezor Suite
 
-Bitcoin is a decentralized digital money system that operates without central control. It enables peer-to-peer transactions globally without requiring trusted intermediaries.
+3. **Document the Transfer**
+   - Record the transaction ID
+   - Note the date, amount, and sending address
+   - Store this information securely for future reference
 
-Key properties:
-- **Limited supply**: Only 21 million Bitcoin will ever exist
-- **Permissionless**: Anyone can use it without approval
-- **Decentralized**: No single entity controls the network
-- **Immutable**: Transactions can't be reversed or modified
-- **Verifiable**: Everyone can audit the entire system
+## Best Practices for Cold Storage
 
-The Bitcoin base layer prioritizes security and finality over speed and cost, making it ideal for final settlement and storage.
+Maximize your security with these best practices:
 
-### Lightning Network
+1. **Multiple Hardware Wallets**
+   - Consider using different brands for diversification
+   - Separate wallets for different purposes (spending vs. long-term)
 
-Lightning is a second layer built on top of Bitcoin that enables:
-- **Instant payments**: Transactions confirm in seconds
-- **Near-zero fees**: Makes micropayments practical
-- **Scalability**: Handles millions of transactions per second
-- **Privacy**: Enhanced transaction privacy compared to on-chain
+2. **Regular Verification**
+   - Check device functionality every 6-12 months
+   - Update firmware when security updates are released
+   - Perform test recoveries annually
 
-Flash primarily uses Lightning for its payments, giving you the speed and low costs needed for everyday transactions.
+3. **Secure Storage Environment**
+   - Keep hardware wallets in cool, dry locations
+   - Protect from electromagnetic interference
+   - Consider a fireproof, waterproof container
 
-### On-Chain vs Off-Chain
+4. **Physical Security**
+   - Don't discuss hardware wallet ownership publicly
+   - Consider a home safe or bank safety deposit box
+   - Have a "decoy" wallet with small funds if concerned about physical threats
 
-- **On-chain transactions**: Recorded directly on the Bitcoin blockchain
-  - Higher security and finality
-  - Higher fees (especially during high demand periods)
-  - Slower confirmation times (minutes to hours)
-  - Best for larger amounts and final settlement
+5. **Avoid Common Mistakes**
+   - Never enter seed phrases on a computer or phone
+   - Don't store seed phrases in cloud services or digital formats
+   - Don't share photos of seed phrases or hardware wallets
+   - Beware of phishing attempts targeting hardware wallet users
 
-- **Off-chain transactions** (Lightning): Occur outside the main blockchain
-  - Instant confirmations
-  - Extremely low fees
-  - Perfect for small, frequent payments
-  - Requires channels to be funded and online
+## Recovery and Backup Procedures
 
-### Custodial vs Cold Storage
+Prepare for emergencies with proper backup procedures:
 
-- **Custodial solutions** (like Flash's default wallet):
-  - A third party holds your private keys
-  - Simple and convenient
-  - No technical knowledge required
-  - Introduces counter-party risk
+1. **Seed Phrase Protection**
+   - Store seed phrases separately from hardware devices
+   - Consider metal backup solutions (Cryptosteel, BlockPlate, etc.)
+   - Split backups across multiple secure locations
 
-- **Cold storage solutions**:
-  - You alone control your private keys
-  - Full sovereignty over your funds
-  - Requires responsible key management
-  - No counter-party risk
+2. **Test Recovery Procedure**
+   - Practice recovery without actual funds
+   - Understand the process before an emergency
+   - Document steps for heirs or trusted individuals
 
-Most Bitcoin users adopt a hybrid approach: custodial solutions for daily spending and cold storage for savings. This combines convenience with security in a practical way.
+3. **Inheritance Planning**
+   - Create clear instructions for heirs
+   - Consider multi-signature setups for inheritance
+   - Establish legal frameworks appropriate to your jurisdiction
 
-Remember: Cold storage is a skill that improves with practice. Start with small amounts, get comfortable with the technology, and gradually increase your cold storage holdings as your confidence grows.
+## Advanced Cold Storage Options
+
+For users seeking maximum security:
+
+1. **Multi-Signature Setups**
+   - Require multiple devices to approve transactions
+   - Distribute risk across different security models
+   - Popular options: [Sparrow Wallet](https://sparrowwallet.com/) multisig, [Caravan](https://unchained.com/caravan/)
+
+2. **Air-Gapped Operations**
+   - Keep signing device completely offline
+   - Transfer transaction data via microSD or QR codes
+   - ColdCard and some Trezor models support this workflow
+
+3. **Geographic Distribution**
+   - Store backup components in different physical locations
+   - Consider jurisdictional diversification for large holdings
+   - Balance security with practical accessibility
+
+---
+
+<div class="bg-purple-100 dark:bg-purple-900 p-4 rounded-lg my-8">
+  <h3 class="font-bold text-purple-800 dark:text-purple-200 mb-2">Need Help?</h3>
+  <p class="text-purple-700 dark:text-purple-300">
+    If you encounter any issues during the transfer process, reach out to Flash support through the app or visit our community forums for assistance.
+  </p>
+</div>
+
+<!-- Navigation links -->
+<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
+  <div class="w-1/3 text-left">
+    <a href="non-custodial-wallets" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      Non-Custodial Wallets
+    </a>
+  </div>
+  <div class="w-1/3 text-center">
+    <!-- Optional center content -->
+  </div>
+  <div class="w-1/3 text-right">
+    <a href="dca" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      Dollar Cost Averaging
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
+    </a>
+  </div>
+</div>
