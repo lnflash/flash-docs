@@ -74,251 +74,352 @@ Each hardware wallet has a specific setup process. Select your device below:
     <div class="slider"><div class="indicator"></div></div>
     <div class="content">
       <section>
-        <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
-          Bitkey uses a "two-of-three" multi-signature security model with a mobile app component, hardware component, and recovery key component.
+        <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-6">
+          <h4 class="font-bold mb-2">About Bitkey</h4>
+          <p>Bitkey uses a "two-of-three" multi-signature security model with a mobile app component, hardware component, and recovery key component.</p>
         </div>
 
-        <h3 class="font-bold text-lg mb-4">Setting Up Your Bitkey</h3>
-        <ol>
-          <li>
-            <strong>Initial Hardware Setup</strong>
-            <ul>
-              <li>Unbox your Bitkey hardware device</li>
-              <li>Power on by pressing the circular button</li>
-              <li>Follow on-screen instructions to set up your device PIN</li>
-              <li>Verify the device displays an untampered seal message</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Install the Bitkey Mobile App</strong>
-            <ul>
-              <li>Download the Bitkey app from the App Store or Google Play</li>
-              <li>Open the app and select "Set up a new wallet"</li>
-              <li>Follow the pairing instructions to connect to your hardware device</li>
-              <li>Create a secure PIN for the app</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Create Your Recovery Key</strong>
-            <ul>
-              <li>When prompted, the app will guide you through creating a recovery key</li>
-              <li>Write down all 12 or 24 seed words IN ORDER on provided recovery cards</li>
-              <li>Verify each word carefully - these words ARE your Bitcoin</li>
-              <li>Store recovery cards in a secure, private location</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Verify Your Setup</strong>
-            <ul>
-              <li>Complete the recovery phrase verification test on both devices</li>
-              <li>Ensure both the hardware and mobile components show the same wallet balance</li>
-              <li>Test the approval process for a small transaction</li>
-            </ul>
-          </li>
-        </ol>
+        <div class="documentation-section">
+          <h3 class="font-bold text-xl mb-6">Setting Up Your Bitkey</h3>
+          
+          <div class="step-container">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h4 class="step-title">Initial Hardware Setup</h4>
+              <div class="step-instructions">
+                <p>Unbox your Bitkey hardware device</p>
+                <p>Power on by pressing the circular button</p>
+                <p>Follow on-screen instructions to set up your device PIN</p>
+                <p>Verify the device displays an untampered seal message</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h4 class="step-title">Install the Bitkey Mobile App</h4>
+              <div class="step-instructions">
+                <p>Download the Bitkey app from the App Store or Google Play</p>
+                <p>Open the app and select "Set up a new wallet"</p>
+                <p>Follow the pairing instructions to connect to your hardware device</p>
+                <p>Create a secure PIN for the app</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h4 class="step-title">Create Your Recovery Key</h4>
+              <div class="step-instructions">
+                <p>When prompted, the app will guide you through creating a recovery key</p>
+                <p>Write down all 12 or 24 seed words IN ORDER on provided recovery cards</p>
+                <p>Verify each word carefully - these words ARE your Bitcoin</p>
+                <p>Store recovery cards in a secure, private location</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h4 class="step-title">Verify Your Setup</h4>
+              <div class="step-instructions">
+                <p>Complete the recovery phrase verification test on both devices</p>
+                <p>Ensure both the hardware and mobile components show the same wallet balance</p>
+                <p>Test the approval process for a small transaction</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <h3 class="font-bold text-lg mt-8 mb-4">Creating a Receive Address with Bitkey</h3>
-        <ol>
-          <li>
-            <strong>Connect Your Wallet</strong>
-            <ul>
-              <li>Open the Bitkey mobile app on your smartphone</li>
-              <li>Ensure it's properly paired with your hardware device</li>
-              <li>Verify both devices are powered on and responsive</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Generate Address</strong>
-            <ul>
-              <li>Tap "Receive" in the mobile app</li>
-              <li>The app will generate a new Bitcoin address</li>
-              <li>Your hardware device will display a verification request</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Verify Address</strong>
-            <ul>
-              <li>Important: Confirm the address matches on both mobile and hardware devices</li>
-              <li>This verification step protects against address replacement attacks</li>
-              <li>Never use an address you haven't verified on the hardware device</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Label the Address (Optional)</strong>
-            <ul>
-              <li>Add a description like "Flash Transfer - March 2025"</li>
-              <li>This helps track the source of funds later</li>
-              <li>Labels are stored locally and not on the blockchain</li>
-            </ul>
-          </li>
-        </ol>
+        <div class="documentation-section mt-12">
+          <h3 class="font-bold text-xl mb-6">Creating a Receive Address with Bitkey</h3>
+          
+          <div class="step-container">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h4 class="step-title">Connect Your Wallet</h4>
+              <div class="step-instructions">
+                <p>Open the Bitkey mobile app on your smartphone</p>
+                <p>Ensure it's properly paired with your hardware device</p>
+                <p>Verify both devices are powered on and responsive</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h4 class="step-title">Generate Address</h4>
+              <div class="step-instructions">
+                <p>Tap "Receive" in the mobile app</p>
+                <p>The app will generate a new Bitcoin address</p>
+                <p>Your hardware device will display a verification request</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h4 class="step-title">Verify Address</h4>
+              <div class="step-instructions">
+                <p>Important: Confirm the address matches on both mobile and hardware devices</p>
+                <p>This verification step protects against address replacement attacks</p>
+                <p>Never use an address you haven't verified on the hardware device</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h4 class="step-title">Label the Address (Optional)</h4>
+              <div class="step-instructions">
+                <p>Add a description like "Flash Transfer - March 2025"</p>
+                <p>This helps track the source of funds later</p>
+                <p>Labels are stored locally and not on the blockchain</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      
       <section>
-        <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
-          ColdCard is a Bitcoin-only hardware wallet that can operate completely air-gapped and offers advanced security features.
+        <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-6">
+          <h4 class="font-bold mb-2">About ColdCard</h4>
+          <p>ColdCard is a Bitcoin-only hardware wallet that can operate completely air-gapped and offers advanced security features.</p>
         </div>
 
-        <h3 class="font-bold text-lg mb-4">Setting Up Your ColdCard</h3>
-        <ol>
-          <li>
-            <strong>Initial Hardware Setup</strong>
-            <ul>
-              <li>Unbox your ColdCard</li>
-              <li>Insert a microSD card (optional but recommended)</li>
-              <li>Connect the device using the included USB cable</li>
-              <li>Create a new wallet when prompted</li>
-              <li>Set up a strong PIN with both a prefix and suffix</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Backup Your Seed Words</strong>
-            <ul>
-              <li>Carefully write down all 24 seed words in order</li>
-              <li>Double-check each word against the ColdCard screen</li>
-              <li>Consider stamping seed words on metal for fire/water resistance</li>
-              <li>Secure your backup in a safe location</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Advanced Security Setup</strong>
-            <ul>
-              <li>Set up a BrickMe PIN (emergency delete function)</li>
-              <li>Configure Duress PIN if desired (shows limited funds)</li>
-              <li>Set up a passphrase for additional security (optional)</li>
-              <li>Test your PINs to ensure they work correctly</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Install Companion Software</strong>
-            <ul>
-              <li>For desktop interaction, install <a href="https://sparrowwallet.com/">Sparrow Wallet</a></li>
-              <li>Connect your ColdCard via USB or use the microSD card for air-gapped operation</li>
-              <li>Export the wallet public key to Sparrow using the microSD card</li>
-              <li>Verify the wallet appears correctly in Sparrow</li>
-            </ul>
-          </li>
-        </ol>
+        <div class="documentation-section">
+          <h3 class="font-bold text-xl mb-6">Setting Up Your ColdCard</h3>
+          
+          <div class="step-container">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h4 class="step-title">Initial Hardware Setup</h4>
+              <div class="step-instructions">
+                <p>Unbox your ColdCard</p>
+                <p>Insert a microSD card (optional but recommended)</p>
+                <p>Connect the device using the included USB cable</p>
+                <p>Create a new wallet when prompted</p>
+                <p>Set up a strong PIN with both a prefix and suffix</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h4 class="step-title">Backup Your Seed Words</h4>
+              <div class="step-instructions">
+                <p>Carefully write down all 24 seed words in order</p>
+                <p>Double-check each word against the ColdCard screen</p>
+                <p>Consider stamping seed words on metal for fire/water resistance</p>
+                <p>Secure your backup in a safe location</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h4 class="step-title">Advanced Security Setup</h4>
+              <div class="step-instructions">
+                <p>Set up a BrickMe PIN (emergency delete function)</p>
+                <p>Configure Duress PIN if desired (shows limited funds)</p>
+                <p>Set up a passphrase for additional security (optional)</p>
+                <p>Test your PINs to ensure they work correctly</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h4 class="step-title">Install Companion Software</h4>
+              <div class="step-instructions">
+                <p>For desktop interaction, install <a href="https://sparrowwallet.com/">Sparrow Wallet</a></p>
+                <p>Connect your ColdCard via USB or use the microSD card for air-gapped operation</p>
+                <p>Export the wallet public key to Sparrow using the microSD card</p>
+                <p>Verify the wallet appears correctly in Sparrow</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <h3 class="font-bold text-lg mt-8 mb-4">Creating a Receive Address with ColdCard</h3>
-        <ol>
-          <li>
-            <strong>Connect Your Wallet</strong>
-            <ul>
-              <li>Option 1 (USB): Connect ColdCard via USB cable to your computer</li>
-              <li>Option 2 (Air-gapped): Use microSD card for complete isolation</li>
-              <li>Open Sparrow Wallet on your computer</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Generate Address</strong>
-            <ul>
-              <li>In Sparrow Wallet, select the "Receive" tab</li>
-              <li>Choose the address type (Native SegWit recommended)</li>
-              <li>Sparrow will display a new Bitcoin address and QR code</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Verify Address</strong>
-            <ul>
-              <li>Crucial security step: Verify the address on ColdCard's screen</li>
-              <li>On ColdCard, navigate to Address Explorer</li>
-              <li>Compare the address shown in Sparrow with the one on ColdCard</li>
-              <li>Only proceed if addresses match exactly</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Label the Address (Optional)</strong>
-            <ul>
-              <li>In Sparrow, add a label such as "Flash Transfer - March 2025"</li>
-              <li>This helps you track which deposits came from where</li>
-              <li>Labels are stored in Sparrow, not on the blockchain</li>
-            </ul>
-          </li>
-        </ol>
+        <div class="documentation-section mt-12">
+          <h3 class="font-bold text-xl mb-6">Creating a Receive Address with ColdCard</h3>
+          
+          <div class="step-container">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h4 class="step-title">Connect Your Wallet</h4>
+              <div class="step-instructions">
+                <p>Option 1 (USB): Connect ColdCard via USB cable to your computer</p>
+                <p>Option 2 (Air-gapped): Use microSD card for complete isolation</p>
+                <p>Open Sparrow Wallet on your computer</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h4 class="step-title">Generate Address</h4>
+              <div class="step-instructions">
+                <p>In Sparrow Wallet, select the "Receive" tab</p>
+                <p>Choose the address type (Native SegWit recommended)</p>
+                <p>Sparrow will display a new Bitcoin address and QR code</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h4 class="step-title">Verify Address</h4>
+              <div class="step-instructions">
+                <p>Crucial security step: Verify the address on ColdCard's screen</p>
+                <p>On ColdCard, navigate to Address Explorer</p>
+                <p>Compare the address shown in Sparrow with the one on ColdCard</p>
+                <p>Only proceed if addresses match exactly</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h4 class="step-title">Label the Address (Optional)</h4>
+              <div class="step-instructions">
+                <p>In Sparrow, add a label such as "Flash Transfer - March 2025"</p>
+                <p>This helps you track which deposits came from where</p>
+                <p>Labels are stored in Sparrow, not on the blockchain</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      
       <section>
-        <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
-          Trezor offers an intuitive user experience with a simple interface while maintaining strong security.
+        <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-6">
+          <h4 class="font-bold mb-2">About Trezor</h4>
+          <p>Trezor offers an intuitive user experience with a simple interface while maintaining strong security.</p>
         </div>
 
-        <h3 class="font-bold text-lg mb-4">Setting Up Your Trezor</h3>
-        <ol>
-          <li>
-            <strong>Initial Hardware Setup</strong>
-            <ul>
-              <li>Unbox your Trezor device</li>
-              <li>Connect it to your computer via USB cable</li>
-              <li>Visit <a href="https://trezor.io/start">trezor.io/start</a></li>
-              <li>Follow the on-screen instructions</li>
-              <li>Create a new wallet when prompted</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Create Device PIN</strong>
-            <ul>
-              <li>Create a strong PIN following the on-screen instructions</li>
-              <li>The PIN entry uses a randomized keypad for protection</li>
-              <li>Remember this PIN - it protects physical access to your device</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Backup Recovery Seed</strong>
-            <ul>
-              <li>Write down all 12 or 24 seed words in exact order</li>
-              <li>Verify the recovery seed when prompted by the setup wizard</li>
-              <li>Store in a secure, private location away from potential threats</li>
-              <li>Consider creating a metal backup for fire/water resistance</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Setup Trezor Suite</strong>
-            <ul>
-              <li>Install Trezor Suite on your computer</li>
-              <li>Connect your device and unlock it with your PIN</li>
-              <li>Create a Bitcoin wallet in Trezor Suite</li>
-              <li>Optionally add a passphrase for additional security</li>
-            </ul>
-          </li>
-        </ol>
+        <div class="documentation-section">
+          <h3 class="font-bold text-xl mb-6">Setting Up Your Trezor</h3>
+          
+          <div class="step-container">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h4 class="step-title">Initial Hardware Setup</h4>
+              <div class="step-instructions">
+                <p>Unbox your Trezor device</p>
+                <p>Connect it to your computer via USB cable</p>
+                <p>Visit <a href="https://trezor.io/start">trezor.io/start</a></p>
+                <p>Follow the on-screen instructions</p>
+                <p>Create a new wallet when prompted</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h4 class="step-title">Create Device PIN</h4>
+              <div class="step-instructions">
+                <p>Create a strong PIN following the on-screen instructions</p>
+                <p>The PIN entry uses a randomized keypad for protection</p>
+                <p>Remember this PIN - it protects physical access to your device</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h4 class="step-title">Backup Recovery Seed</h4>
+              <div class="step-instructions">
+                <p>Write down all 12 or 24 seed words in exact order</p>
+                <p>Verify the recovery seed when prompted by the setup wizard</p>
+                <p>Store in a secure, private location away from potential threats</p>
+                <p>Consider creating a metal backup for fire/water resistance</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h4 class="step-title">Setup Trezor Suite</h4>
+              <div class="step-instructions">
+                <p>Install Trezor Suite on your computer</p>
+                <p>Connect your device and unlock it with your PIN</p>
+                <p>Create a Bitcoin wallet in Trezor Suite</p>
+                <p>Optionally add a passphrase for additional security</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <h3 class="font-bold text-lg mt-8 mb-4">Creating a Receive Address with Trezor</h3>
-        <ol>
-          <li>
-            <strong>Connect Your Wallet</strong>
-            <ul>
-              <li>Connect Trezor to your computer via USB cable</li>
-              <li>Open Trezor Suite on your computer</li>
-              <li>Unlock your device with your PIN</li>
-              <li>Enter passphrase if you've set one up</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Generate Address</strong>
-            <ul>
-              <li>In Trezor Suite, click on the "Receive" tab</li>
-              <li>Select the account you want to receive to (if multiple)</li>
-              <li>Choose address type (Native SegWit recommended for lower fees)</li>
-              <li>Trezor Suite will generate a new Bitcoin address</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Verify Address</strong>
-            <ul>
-              <li>Trezor will prompt you to confirm the address on the device</li>
-              <li>Compare the address on your screen with the one on Trezor</li>
-              <li>Only approve if they match completely</li>
-              <li>This step protects against malware that might try to display fake addresses</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Label the Address (Optional)</strong>
-            <ul>
-              <li>Add a descriptive label like "Flash Transfer - March 2025"</li>
-              <li>Trezor Suite will save this label with the address</li>
-              <li>Makes it easier to identify funds and their source later</li>
-            </ul>
-          </li>
-        </ol>
+        <div class="documentation-section mt-12">
+          <h3 class="font-bold text-xl mb-6">Creating a Receive Address with Trezor</h3>
+          
+          <div class="step-container">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h4 class="step-title">Connect Your Wallet</h4>
+              <div class="step-instructions">
+                <p>Connect Trezor to your computer via USB cable</p>
+                <p>Open Trezor Suite on your computer</p>
+                <p>Unlock your device with your PIN</p>
+                <p>Enter passphrase if you've set one up</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h4 class="step-title">Generate Address</h4>
+              <div class="step-instructions">
+                <p>In Trezor Suite, click on the "Receive" tab</p>
+                <p>Select the account you want to receive to (if multiple)</p>
+                <p>Choose address type (Native SegWit recommended for lower fees)</p>
+                <p>Trezor Suite will generate a new Bitcoin address</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h4 class="step-title">Verify Address</h4>
+              <div class="step-instructions">
+                <p>Trezor will prompt you to confirm the address on the device</p>
+                <p>Compare the address on your screen with the one on Trezor</p>
+                <p>Only approve if they match completely</p>
+                <p>This step protects against malware that might try to display fake addresses</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="step-container">
+            <div class="step-number">4</div>
+            <div class="step-content">
+              <h4 class="step-title">Label the Address (Optional)</h4>
+              <div class="step-instructions">
+                <p>Add a descriptive label like "Flash Transfer - March 2025"</p>
+                <p>Trezor Suite will save this label with the address</p>
+                <p>Makes it easier to identify funds and their source later</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </div>
@@ -371,6 +472,66 @@ Each hardware wallet has a specific setup process. Select your device below:
 .tab-input .content section {
   display: none;
   animation: fadeIn 0.5s ease-in-out;
+}
+
+.documentation-section {
+  margin-bottom: 2rem;
+}
+
+.step-container {
+  display: flex;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  min-width: 3rem;
+  background-color: #8b5cf6;
+  color: white;
+  padding: 0.75rem;
+}
+
+.step-content {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-left: none;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.dark .step-content {
+  border-color: #374151;
+}
+
+.step-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #1f2937;
+}
+
+.dark .step-title {
+  color: #f3f4f6;
+}
+
+.step-instructions p {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.step-instructions p:before {
+  content: "•";
+  position: absolute;
+  left: 0.5rem;
+  color: #8b5cf6;
 }
 
 @keyframes fadeIn {
