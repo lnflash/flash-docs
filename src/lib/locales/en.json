@@ -29,7 +29,8 @@
         "chat": "Chat",
         "contacts": "Contacts",
         "map": "Map",
-        "guideSweepSats": "Sweep to self-custody",
+        "nonCustodialWallets": "Non-Custodial Wallets",
+        "guideSweepSats": "Sweep to Cold Storage",
         "businessDev": "Business & Development",
         "business": "Business Accounts",
         "openSource": "Flash Infrastructure"
