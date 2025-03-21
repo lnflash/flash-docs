@@ -29,9 +29,8 @@ Non-custodial wallets come in various forms, each with different security and co
 Perfect for everyday use with smaller amounts of Bitcoin. These wallets run on your smartphone, making your Bitcoin accessible wherever you go.
 
 **Popular options:**
+- [Flash Non-Custodial Wallet](https://getflash.io/) - Our recommended option with seamless integration with Flash's custodial services
 - [Blue Wallet](https://bluewallet.io/) - Feature-rich with both Lightning and on-chain support
-- [Muun Wallet](https://muun.com/) - User-friendly with simplified backup procedures
-- [Blockstream Green](https://blockstream.com/green/) - Strong security features with two-factor authentication
 - [Phoenix](https://phoenix.acinq.co/) - Lightning-focused with simplified channel management
 
 ### Desktop Wallets
@@ -39,7 +38,7 @@ Perfect for everyday use with smaller amounts of Bitcoin. These wallets run on y
 More robust options that run on your computer, offering better security and features than mobile wallets.
 
 **Popular options:**
-- [Electrum](https://electrum.org/) - Advanced features for experienced users
+- [BlueWallet](https://bluewallet.io/desktop/) - Desktop version of the popular mobile wallet
 - [Sparrow Wallet](https://sparrowwallet.com/) - Privacy-focused with coin control features
 - [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) - The reference implementation that runs a full node
 
@@ -48,7 +47,7 @@ More robust options that run on your computer, offering better security and feat
 Physical devices designed specifically for securely storing cryptocurrency private keys. These are the best option for storing larger amounts of Bitcoin securely.
 
 **Popular options:**
-- [Ledger](https://www.ledger.com/) - Sleek devices with support for multiple cryptocurrencies
+- [Bitkey](https://bitkey.world) - Popular hardware wallet with advanced inheritance and recovery features
 - [Trezor](https://trezor.io/) - Open-source hardware wallets with strong security features
 - [ColdCard](https://coldcard.com/) - Bitcoin-only hardware wallet with advanced security features
 - [BitBox](https://shiftcrypto.ch/) - Minimalist design with strong security
@@ -61,9 +60,9 @@ The most basic form of cold storage, where private keys are printed on paper and
 
 The best wallet depends on your specific needs:
 
-- **For beginners**: Start with user-friendly mobile wallets like Muun or Blue Wallet
+- **For beginners**: Start with Flash's non-custodial wallet for a seamless experience
 - **For everyday spending**: Mobile wallets offer convenience for daily transactions
-- **For larger amounts**: Hardware wallets provide the best security for savings
+- **For larger amounts**: Hardware wallets like Bitkey provide the best security for savings
 - **For privacy concerns**: Wallets like Sparrow offer enhanced privacy features
 
 ## Security Best Practices
@@ -85,16 +84,34 @@ When using non-custodial wallets, follow these security practices:
 
 ## From Flash to Non-Custodial: Making the Transition
 
-While Flash offers the convenience of a custodial wallet, transitioning some of your Bitcoin to non-custodial storage is easy:
+Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
 
-1. **Choose and set up** your non-custodial wallet
-2. **Generate a receiving address** in your new wallet
-3. **Send a small test amount** from Flash to verify everything works
-4. **Send larger amounts** once you're comfortable with the process
+1. **Start with Flash Custodial**
+   - Your initial Flash wallet is custodial for simplicity and ease of use
+   - Perfect for beginners and everyday transactions
 
-Consider maintaining a balance in Flash for everyday spending while storing larger amounts in your non-custodial wallet. This hybrid approach gives you both convenience and security.
+2. **Move to Flash Non-Custodial Wallet**
+   - Within the Flash app, use the swap function to move funds to your non-custodial wallet
+   - This gives you direct control of your private keys while maintaining the Flash experience
+   - You now have self-custody while still enjoying Lightning and on-chain functionality
 
-For detailed instructions on moving your Bitcoin from Flash to cold storage, see our [Sweep to Cold Storage](guides/sweep-to-cold-storage) guide.
+3. **Upgrade to a Hardware Wallet for Large Amounts**
+   - For significant savings, consider moving to a hardware wallet like Bitkey
+   - Set up your Bitkey following the manufacturer's instructions
+   - Securely write down your seed phrase on the provided recovery cards
+   - Set up backup and recovery methods as recommended
+
+4. **Establish Your Inheritance Plan**
+   - Bitkey offers comprehensive inheritance planning options
+   - Visit [bitkey.world](https://bitkey.world) for detailed guides on:
+     - Setting up inheritance access
+     - Creating recovery procedures for family members
+     - Configuring time-locked recovery options
+     - Documenting your Bitcoin estate plan
+
+This tiered approach gives you progressively more security and control as your Bitcoin holdings grow, while starting with the familiar Flash interface.
+
+For detailed instructions on the first step of moving your Bitcoin from the Flash custodial wallet to cold storage, see our [Sweep to Cold Storage](guides/sweep-to-cold-storage) guide.
 
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
