@@ -4,8 +4,8 @@ description: Learn about non-custodial Bitcoin wallets and which ones might be r
 ---
 
 <div class="flex justify-center items-center gap-8 my-8">
-  <img src="/images/badges/webp/bitkey.webp" alt="Bitkey Hardware Wallet" class="w-40 h-auto object-contain shadow-md rounded-lg" />
-  <img src="/images/badges/png/coldcard.png" alt="ColdCard Hardware Wallet" class="w-40 h-auto object-contain shadow-md rounded-lg" />
+  <img src="/images/badges/webp/bitkey.webp" alt="Bitkey Hardware Wallet" class="h-32 w-auto object-contain shadow-md rounded-lg" />
+  <img src="/images/badges/png/coldcard.png" alt="ColdCard Hardware Wallet" class="h-32 w-auto object-contain shadow-md rounded-lg" />
 </div>
 
 ## What Are Non-Custodial Wallets?
@@ -119,8 +119,8 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
      - Documenting your Bitcoin estate plan
 
    <div class="flex justify-center gap-6 my-6">
-     <img src="/images/badges/png/coldcard.png" alt="ColdCard Recovery Options" class="w-40 h-auto object-contain rounded-lg shadow-md" />
-     <img src="/images/badges/webp/bitkey.webp" alt="Hardware Wallet Inheritance Planning" class="w-40 h-auto object-contain rounded-lg shadow-md" />
+     <img src="/images/badges/png/coldcard.png" alt="ColdCard Recovery Options" class="h-32 w-auto object-contain rounded-lg shadow-md" />
+     <img src="/images/badges/webp/bitkey.webp" alt="Hardware Wallet Inheritance Planning" class="h-32 w-auto object-contain rounded-lg shadow-md" />
    </div>
 
 This tiered approach gives you progressively more security and control as your Bitcoin holdings grow, while starting with the familiar Flash interface.
