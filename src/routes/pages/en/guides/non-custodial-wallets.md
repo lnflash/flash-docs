@@ -5,10 +5,10 @@ description: Learn about non-custodial Bitcoin wallets and which ones might be r
 
 <div class="flex flex-wrap justify-center items-center gap-6 my-8">
   <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
-    <img src="/images/badges/webp/bitkey2.webp" alt="Bitkey Hardware Wallet" style="width: 60px; height: auto;" />
+    <img src="/images/badges/webp/bitkey2.webp" alt="Bitkey Hardware Wallet" style="width: 80px; height: auto;" />
   </div>
   <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
-    <img src="/images/badges/png/coldcard.png" alt="ColdCard Hardware Wallet" class="max-h-full max-w-full object-contain" />
+    <img src="/images/badges/png/coldcard.png" alt="ColdCard Hardware Wallet" style="width: 80px; height: auto;" />
   </div>
 </div>
 
@@ -112,7 +112,7 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
 
    <div class="flex justify-center my-6">
      <div class="w-24 h-24 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-3">
-       <img src="/images/badges/webp/bitkey2.webp" alt="Bitkey Security Model" style="width: 50px; height: auto;" />
+       <img src="/images/badges/webp/bitkey2.webp" alt="Bitkey Security Model" style="width: 70px; height: auto;" />
      </div>
    </div>
 
@@ -126,10 +126,10 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
 
    <div class="flex flex-wrap justify-center gap-6 my-6">
      <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
-       <img src="/images/badges/png/coldcard.png" alt="ColdCard Recovery Options" class="max-h-full max-w-full object-contain" />
+       <img src="/images/badges/png/coldcard.png" alt="ColdCard Recovery Options" style="width: 80px; height: auto;" />
      </div>
      <div class="w-28 h-28 flex items-center justify-center rounded-lg shadow-md overflow-hidden bg-white p-2">
-       <img src="/images/badges/webp/bitkey2.webp" alt="Hardware Wallet Inheritance Planning" style="width: 60px; height: auto;" />
+       <img src="/images/badges/webp/bitkey2.webp" alt="Hardware Wallet Inheritance Planning" style="width: 80px; height: auto;" />
      </div>
    </div>
 
