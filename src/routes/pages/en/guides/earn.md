@@ -3,7 +3,8 @@ title: Earn Cash doing what you love
 description: A list of ideas for how you can earn Cash using the Flash app.
 ---
 
-![earn tab](/images/earn-tab-bar.webp)
+<img src="/images/badges/custom/earn-man-ai.webp" alt="Earn Cash" style="box-shadow: 0 0 20px 5px rgba(128, 0, 255, 0.6); border-radius: 8px; max-width: 100%;">
+
 ## Earn on the Earn Tab in your Flash App <img src="https://png.pngtree.com/png-clipart/20221211/ourmid/pngtree-coming-soon-banner-png-image_6519489.png" alt="Coming Soon" style="height: 80px; display: inline-block; vertical-align: middle; margin-left: 10px;">
 
 1. Click "Earn".
