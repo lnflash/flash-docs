@@ -511,14 +511,14 @@ Each hardware wallet has a specific setup process. Select your device below:
 }
 
 .step-title {
-  font-weight: 600;
-  font-size: 1.1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
   margin-bottom: 0.75rem;
-  color: #1f2937;
+  color: #4b5563;
 }
 
 .dark .step-title {
-  color: #f3f4f6;
+  color: #e5e7eb;
 }
 
 .step-instructions p {
