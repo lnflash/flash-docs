@@ -35,18 +35,18 @@ Transfer Cash directly from your Flash wallet to your Jamaican bank account with
 
 ## Cash Out at a Flashpoint
 
-Any business that accepts Flash can be a "Flashpoint" where you can turn your digital Cash into physical cash. Here's how to do it:
+Any business that accepts Flash can be a "Flashpoint" — a member location that participates in our rewards program and provides services like cash out, top up, and point of sale transactions. Here's how to get physical cash:
 
 ### 1. Find a Flashpoint on the Map
-Open your Flash app and go to the Maps tab. You'll see an interactive map showing all nearby businesses that accept Flash.
+Open your Flash app and go to the Maps tab. You'll see an interactive map showing all nearby member locations that offer Flash services.
 ![Maps Tab](/images/badges/png/Screenshot-map.png)
 
 ### 2. Choose a Flashpoint Near You
-Unlike traditional remittance services, Flash has a wide network of businesses ready to serve you. You can also find a complete list of businesses on our [Flashpoint Map](https://flashpoint.flashapp.me).
+Flash has a wide network of member businesses ready to serve you. Each location participates in our rewards program and offers various services including cash out. You can find a complete list of member locations on our [Flashpoint Map](https://flashpoint.flashapp.me).
 ![Flashpoint Map](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lockedownseo.com%2Fwp-content%2Fuploads%2F2013%2F11%2Fadd-map-marker-google-maps.jpg&f=1&nofb=1&ipt=1e0378994a52e5316b86d378b31f725668d627bdfaffbaaf2d5f41a8d6777126&ipo=images)
 
 ### 3. Visit the Flashpoint and Cash Out
-1. When you arrive at the business, they will ask you to scan their QR code
+1. When you arrive at the member location, they will ask you to scan their QR code
 2. Open your Flash app and tap the "Scan" button
 3. Scan the QR code provided by the business
 4. Enter the amount you want to cash out and tap "Send"
