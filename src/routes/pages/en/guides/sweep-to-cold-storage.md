@@ -16,7 +16,6 @@ This guide provides step-by-step instructions for securing your Bitcoin in cold 
 - [Understanding Cold Storage](#understanding-cold-storage)
 - [Preparing for the Transfer](#preparing-for-the-transfer)
 - [Setting Up Your Hardware Wallet](#setting-up-your-hardware-wallet)
-- [Creating a Secure Receive Address](#creating-a-secure-receive-address)
 - [Transferring Bitcoin from Mobile Wallets](#transferring-bitcoin-from-mobile-wallets)
   - [From Flash Wallet](#from-flash-wallet)
   - [From Other Mobile Wallets](#from-other-mobile-wallets)
@@ -79,6 +78,7 @@ Each hardware wallet has a specific setup process. Select your device below:
           Bitkey uses a "two-of-three" multi-signature security model with a mobile app component, hardware component, and recovery key component.
         </div>
 
+        <h3 class="font-bold text-lg mb-4">Setting Up Your Bitkey</h3>
         <ol>
           <li>
             <strong>Initial Hardware Setup</strong>
@@ -116,12 +116,49 @@ Each hardware wallet has a specific setup process. Select your device below:
             </ul>
           </li>
         </ol>
+
+        <h3 class="font-bold text-lg mt-8 mb-4">Creating a Receive Address with Bitkey</h3>
+        <ol>
+          <li>
+            <strong>Connect Your Wallet</strong>
+            <ul>
+              <li>Open the Bitkey mobile app on your smartphone</li>
+              <li>Ensure it's properly paired with your hardware device</li>
+              <li>Verify both devices are powered on and responsive</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Generate Address</strong>
+            <ul>
+              <li>Tap "Receive" in the mobile app</li>
+              <li>The app will generate a new Bitcoin address</li>
+              <li>Your hardware device will display a verification request</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Verify Address</strong>
+            <ul>
+              <li>Important: Confirm the address matches on both mobile and hardware devices</li>
+              <li>This verification step protects against address replacement attacks</li>
+              <li>Never use an address you haven't verified on the hardware device</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Label the Address (Optional)</strong>
+            <ul>
+              <li>Add a description like "Flash Transfer - March 2025"</li>
+              <li>This helps track the source of funds later</li>
+              <li>Labels are stored locally and not on the blockchain</li>
+            </ul>
+          </li>
+        </ol>
       </section>
       <section>
         <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
           ColdCard is a Bitcoin-only hardware wallet that can operate completely air-gapped and offers advanced security features.
         </div>
 
+        <h3 class="font-bold text-lg mb-4">Setting Up Your ColdCard</h3>
         <ol>
           <li>
             <strong>Initial Hardware Setup</strong>
@@ -161,12 +198,50 @@ Each hardware wallet has a specific setup process. Select your device below:
             </ul>
           </li>
         </ol>
+
+        <h3 class="font-bold text-lg mt-8 mb-4">Creating a Receive Address with ColdCard</h3>
+        <ol>
+          <li>
+            <strong>Connect Your Wallet</strong>
+            <ul>
+              <li>Option 1 (USB): Connect ColdCard via USB cable to your computer</li>
+              <li>Option 2 (Air-gapped): Use microSD card for complete isolation</li>
+              <li>Open Sparrow Wallet on your computer</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Generate Address</strong>
+            <ul>
+              <li>In Sparrow Wallet, select the "Receive" tab</li>
+              <li>Choose the address type (Native SegWit recommended)</li>
+              <li>Sparrow will display a new Bitcoin address and QR code</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Verify Address</strong>
+            <ul>
+              <li>Crucial security step: Verify the address on ColdCard's screen</li>
+              <li>On ColdCard, navigate to Address Explorer</li>
+              <li>Compare the address shown in Sparrow with the one on ColdCard</li>
+              <li>Only proceed if addresses match exactly</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Label the Address (Optional)</strong>
+            <ul>
+              <li>In Sparrow, add a label such as "Flash Transfer - March 2025"</li>
+              <li>This helps you track which deposits came from where</li>
+              <li>Labels are stored in Sparrow, not on the blockchain</li>
+            </ul>
+          </li>
+        </ol>
       </section>
       <section>
         <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
           Trezor offers an intuitive user experience with a simple interface while maintaining strong security.
         </div>
 
+        <h3 class="font-bold text-lg mb-4">Setting Up Your Trezor</h3>
         <ol>
           <li>
             <strong>Initial Hardware Setup</strong>
@@ -202,6 +277,45 @@ Each hardware wallet has a specific setup process. Select your device below:
               <li>Connect your device and unlock it with your PIN</li>
               <li>Create a Bitcoin wallet in Trezor Suite</li>
               <li>Optionally add a passphrase for additional security</li>
+            </ul>
+          </li>
+        </ol>
+
+        <h3 class="font-bold text-lg mt-8 mb-4">Creating a Receive Address with Trezor</h3>
+        <ol>
+          <li>
+            <strong>Connect Your Wallet</strong>
+            <ul>
+              <li>Connect Trezor to your computer via USB cable</li>
+              <li>Open Trezor Suite on your computer</li>
+              <li>Unlock your device with your PIN</li>
+              <li>Enter passphrase if you've set one up</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Generate Address</strong>
+            <ul>
+              <li>In Trezor Suite, click on the "Receive" tab</li>
+              <li>Select the account you want to receive to (if multiple)</li>
+              <li>Choose address type (Native SegWit recommended for lower fees)</li>
+              <li>Trezor Suite will generate a new Bitcoin address</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Verify Address</strong>
+            <ul>
+              <li>Trezor will prompt you to confirm the address on the device</li>
+              <li>Compare the address on your screen with the one on Trezor</li>
+              <li>Only approve if they match completely</li>
+              <li>This step protects against malware that might try to display fake addresses</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Label the Address (Optional)</strong>
+            <ul>
+              <li>Add a descriptive label like "Flash Transfer - March 2025"</li>
+              <li>Trezor Suite will save this label with the address</li>
+              <li>Makes it easier to identify funds and their source later</li>
             </ul>
           </li>
         </ol>
@@ -287,34 +401,6 @@ Each hardware wallet has a specific setup process. Select your device below:
   background-color: rgba(139, 92, 246, 0.2);
 }
 </style>
-
-## Creating a Secure Receive Address
-
-After setting up your hardware wallet, generate a receive address to accept Bitcoin transfers:
-
-1. **Connect Your Hardware Wallet**
-   - Bitkey: Open the mobile app and ensure it's synced with your hardware device
-   - ColdCard: Connect via USB or use microSD card with Sparrow Wallet
-   - Trezor: Connect via USB and open Trezor Suite
-
-2. **Navigate to Receive Function**
-   - Bitkey: Tap "Receive" in the mobile app
-   - ColdCard: In Sparrow, select "Receive" tab
-   - Trezor: In Trezor Suite, click on "Receive" tab
-
-3. **Verify the Address on Hardware**
-   - Bitkey: Confirm the address matches on both mobile and hardware devices
-   - ColdCard: Verify address on ColdCard screen (crucial security step)
-   - Trezor: Confirm address on Trezor screen when prompted
-
-4. **Choose Address Type** (Advanced)
-   - Native SegWit (bc1... addresses): Lowest fees, most efficient
-   - Nested SegWit (3... addresses): Compatible with older wallets
-   - Legacy (1... addresses): Only use if specifically required
-
-5. **Label the Address** (Optional)
-   - Add a description like "Flash Transfer - March 2025"
-   - Helps track the source of funds later
 
 ## Transferring Bitcoin from Mobile Wallets
 
