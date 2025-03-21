@@ -567,56 +567,148 @@ Each hardware wallet has a specific setup process. Select your device below:
 
 Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet:
 
-### From Flash Wallet
+<div class="documentation-section mt-6">
+  <h3 class="font-bold text-xl mb-6">From Flash Wallet</h3>
+  
+  <div class="step-container">
+    <div class="step-number">1</div>
+    <div class="step-content">
+      <h4 class="step-title">Open Flash App</h4>
+      <div class="step-instructions">
+        <p>Go to the "Wallet" tab</p>
+        <p>Ensure you have sufficient balance</p>
+        <p>Check that your Lightning channels have enough outbound capacity</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-container">
+    <div class="step-number">2</div>
+    <div class="step-content">
+      <h4 class="step-title">Initiate Transfer</h4>
+      <div class="step-instructions">
+        <p>Tap "Send" or "Withdraw"</p>
+        <p>Select "On-chain withdrawal"</p>
+        <p>Note that on-chain withdrawals have higher fees than Lightning</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-container">
+    <div class="step-number">3</div>
+    <div class="step-content">
+      <h4 class="step-title">Enter Details</h4>
+      <div class="step-instructions">
+        <p>Paste your hardware wallet's receive address</p>
+        <p>Double-check the address is correct (first and last few characters)</p>
+        <p>Start with a small test amount (e.g., 0.0001 BTC or 10,000 sats)</p>
+        <p>Enter an amount that's high enough to cover network fees</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-container">
+    <div class="step-number">4</div>
+    <div class="step-content">
+      <h4 class="step-title">Review and Confirm</h4>
+      <div class="step-instructions">
+        <p>Check the withdrawal fee (higher fees confirm faster)</p>
+        <p>Prioritize security over saving on fees for cold storage transfers</p>
+        <p>Verify all details are correct one final time</p>
+        <p>Tap "Confirm" to initiate the transfer</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-container">
+    <div class="step-number">5</div>
+    <div class="step-content">
+      <h4 class="step-title">Initial Test Verification</h4>
+      <div class="step-instructions">
+        <p>Wait for the test transaction to confirm (10-60 minutes)</p>
+        <p>View the transaction status in the Flash app</p>
+        <p>Verify receipt on your hardware wallet</p>
+        <p>Once confirmed, proceed with transferring larger amounts</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-1. **Open Flash App**
-   - Go to the "Wallet" tab
-   - Ensure you have sufficient balance
+<div class="documentation-section mt-12">
+  <h3 class="font-bold text-xl mb-6">From Other Mobile Wallets</h3>
+  
+  <div class="step-container">
+    <div class="step-number">1</div>
+    <div class="step-content">
+      <h4 class="step-title">Open Your Mobile Wallet</h4>
+      <div class="step-instructions">
+        <p>Access the wallet containing your Bitcoin</p>
+        <p>Navigate to Send/Transfer function</p>
+        <p>Make sure your wallet is updated to the latest version</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-container">
+    <div class="step-number">2</div>
+    <div class="step-content">
+      <h4 class="step-title">Enter Hardware Wallet Address</h4>
+      <div class="step-instructions">
+        <p>Paste your verified hardware wallet address</p>
+        <p>Double-check the entire address if possible</p>
+        <p>For large transfers, verify the address through multiple channels</p>
+        <p>Never manually type addresses - always copy and paste</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-container">
+    <div class="step-number">3</div>
+    <div class="step-content">
+      <h4 class="step-title">Set Transaction Fee</h4>
+      <div class="step-instructions">
+        <p>Choose an appropriate fee based on urgency</p>
+        <p>For cold storage, medium priority is usually sufficient</p>
+        <p>Check <a href="https://mempool.space">mempool.space</a> for current fee recommendations</p>
+        <p>Consider the tradeoff between confirmation time and cost</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-container">
+    <div class="step-number">4</div>
+    <div class="step-content">
+      <h4 class="step-title">Send Test Transaction</h4>
+      <div class="step-instructions">
+        <p>Start with a minimal amount (0.0001 BTC or equivalent)</p>
+        <p>Review all details before confirming</p>
+        <p>Confirm the transaction in your wallet</p>
+        <p>Record the transaction ID/hash for reference</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step-container">
+    <div class="step-number">5</div>
+    <div class="step-content">
+      <h4 class="step-title">Complete the Transfer</h4>
+      <div class="step-instructions">
+        <p>After confirming receipt of test transaction</p>
+        <p>Send remaining amount in one or multiple transactions</p>
+        <p>Consider privacy implications of transaction patterns</p>
+        <p>Keep transaction IDs for future reference</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-2. **Initiate Transfer**
-   - Tap "Send" or "Withdraw"
-   - Select "On-chain withdrawal"
-
-3. **Enter Details**
-   - Paste your hardware wallet's receive address
-   - Double-check the address is correct (first and last few characters)
-   - Start with a small test amount (e.g., 0.0001 BTC or 10,000 sats)
-
-4. **Review and Confirm**
-   - Check the withdrawal fee (higher fees confirm faster)
-   - Prioritize security over saving on fees for cold storage transfers
-   - Tap "Confirm" to initiate the transfer
-
-5. **Initial Test Verification**
-   - Wait for the test transaction to confirm (10-60 minutes)
-   - Verify receipt on your hardware wallet
-   - Once confirmed, proceed with transferring larger amounts
-
-### From Other Mobile Wallets
-
-1. **Open Your Mobile Wallet**
-   - Access the wallet containing your Bitcoin
-   - Navigate to Send/Transfer function
-
-2. **Enter Hardware Wallet Address**
-   - Paste your verified hardware wallet address
-   - Double-check the entire address if possible
-   - For large transfers, verify the address through multiple channels
-
-3. **Set Transaction Fee**
-   - Choose an appropriate fee based on urgency
-   - For cold storage, medium priority is usually sufficient
-   - Check [mempool.space](https://mempool.space) for current fee recommendations
-
-4. **Send Test Transaction**
-   - Start with a minimal amount
-   - Confirm the transaction
-   - Record the transaction ID/hash
-
-5. **Complete the Transfer**
-   - After confirming receipt of test transaction
-   - Send remaining amount in one or multiple transactions
-   - Consider privacy implications of transaction patterns
+<div class="bg-yellow-50 dark:bg-yellow-900 border-l-4 border-yellow-400 p-4 my-8">
+  <h4 class="font-medium text-yellow-800 dark:text-yellow-200">Security Reminder</h4>
+  <p class="text-yellow-700 dark:text-yellow-300 mt-2">
+    Always verify the receiving address on your hardware wallet's secure screen before sending any funds. 
+    A compromised computer could display a different address than the one you intended to use.
+  </p>
+</div>
 
 ## Verifying Your Transfer
 
