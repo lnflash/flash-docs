@@ -16,9 +16,6 @@ This guide provides step-by-step instructions for securing your Bitcoin in cold 
 - [Understanding Cold Storage](#understanding-cold-storage)
 - [Preparing for the Transfer](#preparing-for-the-transfer)
 - [Setting Up Your Hardware Wallet](#setting-up-your-hardware-wallet)
-  - [Bitkey Setup](#bitkey-setup)
-  - [ColdCard Setup](#coldcard-setup)
-  - [Trezor Setup](#trezor-setup)
 - [Creating a Secure Receive Address](#creating-a-secure-receive-address)
 - [Transferring Bitcoin from Mobile Wallets](#transferring-bitcoin-from-mobile-wallets)
   - [From Flash Wallet](#from-flash-wallet)
@@ -62,97 +59,228 @@ Before beginning the transfer process, prepare the following:
 
 ## Setting Up Your Hardware Wallet
 
-Each hardware wallet has a specific setup process. Follow the instructions for your chosen device:
+Each hardware wallet has a specific setup process. Select your device below:
 
-### Bitkey Setup
+<div class="tab-container">
+  <div class="tab-buttons">
+    <button class="tab-button active" onclick="openTab(event, 'bitkey-tab')">Bitkey</button>
+    <button class="tab-button" onclick="openTab(event, 'coldcard-tab')">ColdCard</button>
+    <button class="tab-button" onclick="openTab(event, 'trezor-tab')">Trezor</button>
+  </div>
 
-<div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
-Bitkey uses a "two-of-three" multi-signature security model with a mobile app component, hardware component, and recovery key component.
+  <div id="bitkey-tab" class="tab-content active">
+    <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
+      Bitkey uses a "two-of-three" multi-signature security model with a mobile app component, hardware component, and recovery key component.
+    </div>
+
+    <ol>
+      <li>
+        <strong>Initial Hardware Setup</strong>
+        <ul>
+          <li>Unbox your Bitkey hardware device</li>
+          <li>Power on by pressing the circular button</li>
+          <li>Follow on-screen instructions to set up your device PIN</li>
+          <li>Verify the device displays an untampered seal message</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Install the Bitkey Mobile App</strong>
+        <ul>
+          <li>Download the Bitkey app from the App Store or Google Play</li>
+          <li>Open the app and select "Set up a new wallet"</li>
+          <li>Follow the pairing instructions to connect to your hardware device</li>
+          <li>Create a secure PIN for the app</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Create Your Recovery Key</strong>
+        <ul>
+          <li>When prompted, the app will guide you through creating a recovery key</li>
+          <li>Write down all 12 or 24 seed words IN ORDER on provided recovery cards</li>
+          <li>Verify each word carefully - these words ARE your Bitcoin</li>
+          <li>Store recovery cards in a secure, private location</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Verify Your Setup</strong>
+        <ul>
+          <li>Complete the recovery phrase verification test on both devices</li>
+          <li>Ensure both the hardware and mobile components show the same wallet balance</li>
+          <li>Test the approval process for a small transaction</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div id="coldcard-tab" class="tab-content">
+    <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
+      ColdCard is a Bitcoin-only hardware wallet that can operate completely air-gapped and offers advanced security features.
+    </div>
+
+    <ol>
+      <li>
+        <strong>Initial Hardware Setup</strong>
+        <ul>
+          <li>Unbox your ColdCard</li>
+          <li>Insert a microSD card (optional but recommended)</li>
+          <li>Connect the device using the included USB cable</li>
+          <li>Create a new wallet when prompted</li>
+          <li>Set up a strong PIN with both a prefix and suffix</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Backup Your Seed Words</strong>
+        <ul>
+          <li>Carefully write down all 24 seed words in order</li>
+          <li>Double-check each word against the ColdCard screen</li>
+          <li>Consider stamping seed words on metal for fire/water resistance</li>
+          <li>Secure your backup in a safe location</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Advanced Security Setup</strong>
+        <ul>
+          <li>Set up a BrickMe PIN (emergency delete function)</li>
+          <li>Configure Duress PIN if desired (shows limited funds)</li>
+          <li>Set up a passphrase for additional security (optional)</li>
+          <li>Test your PINs to ensure they work correctly</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Install Companion Software</strong>
+        <ul>
+          <li>For desktop interaction, install <a href="https://sparrowwallet.com/">Sparrow Wallet</a></li>
+          <li>Connect your ColdCard via USB or use the microSD card for air-gapped operation</li>
+          <li>Export the wallet public key to Sparrow using the microSD card</li>
+          <li>Verify the wallet appears correctly in Sparrow</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div id="trezor-tab" class="tab-content">
+    <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
+      Trezor offers an intuitive user experience with a simple interface while maintaining strong security.
+    </div>
+
+    <ol>
+      <li>
+        <strong>Initial Hardware Setup</strong>
+        <ul>
+          <li>Unbox your Trezor device</li>
+          <li>Connect it to your computer via USB cable</li>
+          <li>Visit <a href="https://trezor.io/start">trezor.io/start</a></li>
+          <li>Follow the on-screen instructions</li>
+          <li>Create a new wallet when prompted</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Create Device PIN</strong>
+        <ul>
+          <li>Create a strong PIN following the on-screen instructions</li>
+          <li>The PIN entry uses a randomized keypad for protection</li>
+          <li>Remember this PIN - it protects physical access to your device</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Backup Recovery Seed</strong>
+        <ul>
+          <li>Write down all 12 or 24 seed words in exact order</li>
+          <li>Verify the recovery seed when prompted by the setup wizard</li>
+          <li>Store in a secure, private location away from potential threats</li>
+          <li>Consider creating a metal backup for fire/water resistance</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Setup Trezor Suite</strong>
+        <ul>
+          <li>Install Trezor Suite on your computer</li>
+          <li>Connect your device and unlock it with your PIN</li>
+          <li>Create a Bitcoin wallet in Trezor Suite</li>
+          <li>Optionally add a passphrase for additional security</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
 </div>
 
-1. **Initial Hardware Setup**
-   - Unbox your Bitkey hardware device
-   - Power on by pressing the circular button
-   - Follow on-screen instructions to set up your device PIN
-   - Verify the device displays an untampered seal message
+<style>
+.tab-container {
+  margin-bottom: 2rem;
+}
+.tab-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+.tab-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: transparent;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.tab-button:hover {
+  background-color: #f3f4f6;
+}
+.dark .tab-button:hover {
+  background-color: #374151;
+}
+.tab-button.active {
+  background-color: #8b5cf6;
+  color: white;
+}
+.tab-content {
+  display: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+.dark .tab-content {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+.tab-content.active {
+  display: block;
+}
+</style>
 
-2. **Install the Bitkey Mobile App**
-   - Download the Bitkey app from the App Store or Google Play
-   - Open the app and select "Set up a new wallet"
-   - Follow the pairing instructions to connect to your hardware device
-   - Create a secure PIN for the app
+<script>
+function openTab(evt, tabName) {
+  // Hide all tab content
+  const tabContents = document.getElementsByClassName("tab-content");
+  for (let i = 0; i < tabContents.length; i++) {
+    tabContents[i].classList.remove("active");
+  }
+  
+  // Remove active class from all tab buttons
+  const tabButtons = document.getElementsByClassName("tab-button");
+  for (let i = 0; i < tabButtons.length; i++) {
+    tabButtons[i].classList.remove("active");
+  }
+  
+  // Show the current tab and add active class to the button
+  document.getElementById(tabName).classList.add("active");
+  evt.currentTarget.classList.add("active");
+}
 
-3. **Create Your Recovery Key**
-   - When prompted, the app will guide you through creating a recovery key
-   - Write down all 12 or 24 seed words IN ORDER on provided recovery cards
-   - Verify each word carefully - these words ARE your Bitcoin
-   - Store recovery cards in a secure, private location
-
-4. **Verify Your Setup**
-   - Complete the recovery phrase verification test on both devices
-   - Ensure both the hardware and mobile components show the same wallet balance
-   - Test the approval process for a small transaction
-
-### ColdCard Setup
-
-<div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
-ColdCard is a Bitcoin-only hardware wallet that can operate completely air-gapped and offers advanced security features.
-</div>
-
-1. **Initial Hardware Setup**
-   - Unbox your ColdCard
-   - Insert a microSD card (optional but recommended)
-   - Connect the device using the included USB cable
-   - Create a new wallet when prompted
-   - Set up a strong PIN with both a prefix and suffix
-
-2. **Backup Your Seed Words**
-   - Carefully write down all 24 seed words in order
-   - Double-check each word against the ColdCard screen
-   - Consider stamping seed words on metal for fire/water resistance
-   - Secure your backup in a safe location
-
-3. **Advanced Security Setup**
-   - Set up a BrickMe PIN (emergency delete function)
-   - Configure Duress PIN if desired (shows limited funds)
-   - Set up a passphrase for additional security (optional)
-   - Test your PINs to ensure they work correctly
-
-4. **Install Companion Software**
-   - For desktop interaction, install [Sparrow Wallet](https://sparrowwallet.com/)
-   - Connect your ColdCard via USB or use the microSD card for air-gapped operation
-   - Export the wallet public key to Sparrow using the microSD card
-   - Verify the wallet appears correctly in Sparrow
-
-### Trezor Setup
-
-<div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg mb-4">
-Trezor offers an intuitive user experience with a simple interface while maintaining strong security.
-</div>
-
-1. **Initial Hardware Setup**
-   - Unbox your Trezor device
-   - Connect it to your computer via USB cable
-   - Visit [trezor.io/start](https://trezor.io/start)
-   - Follow the on-screen instructions
-   - Create a new wallet when prompted
-
-2. **Create Device PIN**
-   - Create a strong PIN following the on-screen instructions
-   - The PIN entry uses a randomized keypad for protection
-   - Remember this PIN - it protects physical access to your device
-
-3. **Backup Recovery Seed**
-   - Write down all 12 or 24 seed words in exact order
-   - Verify the recovery seed when prompted by the setup wizard
-   - Store in a secure, private location away from potential threats
-   - Consider creating a metal backup for fire/water resistance
-
-4. **Setup Trezor Suite**
-   - Install Trezor Suite on your computer
-   - Connect your device and unlock it with your PIN
-   - Create a Bitcoin wallet in Trezor Suite
-   - Optionally add a passphrase for additional security
+// Ensure tabs are initialized on page load
+document.addEventListener("DOMContentLoaded", function() {
+  // Set the first tab as active by default
+  const firstTabButton = document.querySelector(".tab-button");
+  const firstTabContent = document.querySelector(".tab-content");
+  
+  if (firstTabButton && firstTabContent) {
+    firstTabButton.classList.add("active");
+    firstTabContent.classList.add("active");
+  }
+});
+</script>
 
 ## Creating a Secure Receive Address
 
