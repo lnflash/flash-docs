@@ -58,7 +58,7 @@ Flash has a wide network of member businesses ready to serve you. Each location 
 Now you see how easy it is to turn your Cash into physical cash, you might be wondering what else you can do with your Cash. 
 Here are a few ideas:
 
--   [Secure Your Cash: How to do Self-Custody](guides/sweep-to-self-custody)
+-   [Secure Your Cash: How to use Cold Storage](guides/sweep-to-cold-storage)
 -   [Dollar Cost Averaging](guides/dca)
 
 <!-- Navigation links -->

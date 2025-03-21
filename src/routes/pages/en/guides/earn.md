@@ -40,5 +40,5 @@ Putting up stickers and signs that say "Bitcoin accepted here" and "Flash accept
 
 Now you know the many ways to earn Cash, it is important to understand how to keep your Cash safe. Here are a few guides that will help you do that:
 
--   [How to Self Custody your Cash](/en/guides/sweep-to-self-custody)
+-   [How to Store Your Cash in Cold Storage](/en/guides/sweep-to-cold-storage)
 -   [Learn more about the Bitcoin protocol and the lightning network](/en/the-protocol)

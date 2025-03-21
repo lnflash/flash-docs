@@ -138,7 +138,7 @@ Now that you have Cash in your Flash wallet, explore what you can do with it:
 
 - [Earn More Cash](guides/earn) - Discover additional ways to earn Cash
 - [Cash Out](guides/cash-out) - Learn how to convert your Cash to physical cash
-- [Sweep to Self-Custody](guides/sweep-to-self-custody) - Secure your Cash by transferring it to a self-custodial wallet
+- [Sweep to Cold Storage](guides/sweep-to-cold-storage) - Secure your Cash by transferring it to a cold storage wallet
 
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">

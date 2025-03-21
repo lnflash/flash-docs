@@ -12,7 +12,7 @@ Welcome to Flash's user guides section. Here you'll find step-by-step instructio
 - [Get Cash](guides/get-cash) - Learn how to receive Cash from anywhere in the world and earn a little Cash by learning about Bitcoin.
 - [Cash Out](guides/cash-out) - Turn your Cash into physical cash when needed.
 - [Earn Cash](guides/earn) - Discover various ways to earn Cash using the Flash app.
-- [Sweep to Self-Custody](guides/sweep-to-self-custody) - Learn how to secure your Cash by transferring it to a self-custodial wallet.
+- [Sweep to Cold Storage](guides/sweep-to-cold-storage) - Learn how to secure your Cash by transferring it to a cold storage wallet.
 
 ### App Features
 
@@ -25,7 +25,7 @@ Welcome to Flash's user guides section. Here you'll find step-by-step instructio
 - [DCA (Dollar Cost Averaging)](guides/dca) - Set up automatic Bitcoin purchases on a regular schedule.
 - [Bitcoin Protocol](bitcoin-protocol) - Understand the underlying technology that powers Flash.
 - [Lightning Network](lightning-network) - Learn about Bitcoin's Layer 2 payment network used by Flash.
-- [Self-Custody](guides/sweep-to-self-custody) - Take full control of your Bitcoin with self-custody solutions.
+- [Cold Storage](guides/sweep-to-cold-storage) - Take full control of your Bitcoin with cold storage solutions.
 
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">

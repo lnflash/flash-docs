@@ -19,11 +19,12 @@
                 { href: '/guides/get-cash', localeString: 'nav.getCash' },
                 { href: '/guides/cash-out', localeString: 'nav.cashOut' },
                 { href: '/guides/earn', localeString: 'nav.earn' },
-                { href: '/guides/dca', localeString: 'nav.dca' },
                 { href: '/guides/chat', localeString: 'nav.chat' },
                 { href: '/guides/contacts', localeString: 'nav.contacts' },
                 { href: '/guides/map', localeString: 'nav.map' },
-                { href: '/guides/sweep-to-self-custody', localeString: 'nav.guideSweepSats' }
+                { href: '/guides/dca', localeString: 'nav.dca' },
+                { href: '/guides/non-custodial-wallets', localeString: 'nav.nonCustodialWallets' },
+                { href: '/guides/sweep-to-cold-storage', localeString: 'nav.guideSweepSats' }
             ]
         },
         {
