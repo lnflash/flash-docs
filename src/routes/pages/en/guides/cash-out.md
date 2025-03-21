@@ -39,7 +39,7 @@ Any business that accepts Flash can be a "Flashpoint" where you can turn your di
 
 ### 1. Find a Flashpoint on the Map
 Open your Flash app and go to the Maps tab. You'll see an interactive map showing all nearby businesses that accept Flash.
-![Maps Tab](https://uploads-ssl.webflow.com/645cce04c77d100fb57295ca/647a99f377bb5a186d2bccc0_slide04.png)
+![Maps Tab](/images/badges/png/Screenshot-map.png)
 
 ### 2. Choose a Flashpoint Near You
 Unlike traditional remittance services, Flash has a wide network of businesses ready to serve you. You can also find a complete list of businesses on our [Flashpoint Map](https://flashpoint.flashapp.me).
