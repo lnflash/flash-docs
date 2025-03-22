@@ -8,9 +8,6 @@
     import CloseIcon from '$lib/elements/icons/Close.svelte';
     import { slide } from 'svelte/transition';
     import { dev } from '$app/environment';
-    import { inject } from '@vercel/analytics';
-
-    inject({ mode: dev ? 'development' : 'production' });
 
     export async function preload() {
         return waitLocale($locale as string);
@@ -27,8 +24,8 @@
 
     <aside
         transition:slide={{ axis: 'x', duration: 200 }}
-        class="w-full md:w-72 z-20 h-full md:h-screen fixed bg-zinc-900 md:bg-transparent hidden md:block md:sticky overflow-y-scroll
-        top-0 px-6 pt-4 rtl:border-l ltr:border-r border-zinc-400/20"
+        class="w-full md:w-80 z-20 h-full md:h-screen fixed bg-zinc-900 md:bg-transparent hidden md:block md:sticky overflow-y-scroll
+        top-0 px-6 pt-6 rtl:border-l ltr:border-r border-zinc-400/20"
     >
         <button
             class="ml-auto block md:hidden"
@@ -41,8 +38,8 @@
     {#if $sidebarVisible}
         <aside
             transition:slide={{ axis: 'x', duration: 200 }}
-            class="w-full md:w-72 z-20 h-full md:h-screen fixed bg-zinc-50 dark:bg-zinc-900 md:bg-transparent md:block md:sticky overflow-y-scroll
-        top-0 px-6 pt-4 rtl:border-l ltr:border-r border-zinc-400/20"
+            class="w-full md:w-80 z-20 h-full md:h-screen fixed bg-zinc-50 dark:bg-zinc-900 md:bg-transparent md:block md:sticky overflow-y-scroll
+        top-0 px-6 pt-6 rtl:border-l ltr:border-r border-zinc-400/20"
         >
             <button
                 class="ml-auto block md:hidden"

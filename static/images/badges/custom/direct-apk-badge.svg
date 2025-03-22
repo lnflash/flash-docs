@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="80" viewBox="0 0 220 80">
+  <!-- Background -->
+  <rect x="0" y="0" width="220" height="80" rx="5" ry="5" fill="#000000" />
+  
+  <!-- Android Logo Area -->
+  <g transform="translate(33, 40)">
+    <!-- Android Robot -->
+    <path d="M15.82-19.21l2.75-4.76a.57.57 0 0 0-.2-.78.57.57 0 0 0-.78.2l-2.78 4.8a17.11 17.11 0 0 0-12.54 0l-2.78-4.8a.57.57 0 0 0-.78-.2.57.57 0 0 0-.2.78l2.75 4.76C-3.76-15.87-7.5-9.5-7.5-2.22h30C22.5-9.5 18.76-15.87 15.82-19.21zm-11.05 9.96a1.68 1.68 0 1 1 0-3.36 1.68 1.68 0 0 1 0 3.36zm11.46 0a1.68 1.68 0 1 1 0-3.36 1.68 1.68 0 0 1 0 3.36zM-7.5 1.11v18.67c0 1.84 1.5 3.33 3.33 3.33h1.67v5.56c0 2.04 1.65 3.7 3.7 3.7a3.7 3.7 0 0 0 3.7-3.7v-5.56h3.2v5.56a3.7 3.7 0 1 0 7.4 0v-5.56h1.67c1.84 0 3.33-1.5 3.33-3.33V1.11h-28z" fill="#3DDC84" transform="scale(0.55)"/>
+  </g>
+  
+  <!-- Text Content -->
+  <g transform="translate(75, 40)">
+    <!-- GET IT FROM text -->
+    <text x="0" y="-15" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#FFFFFF" text-anchor="start">GET IT FROM</text>
+    
+    <!-- DIRECT APK text -->
+    <text x="0" y="12" font-family="Arial, sans-serif" font-size="23" font-weight="bold" fill="#FFFFFF" text-anchor="start">Direct APK</text>
+  </g>
+  
+  <!-- Border -->
+  <rect x="0.5" y="0.5" width="219" height="79" rx="4.5" ry="4.5" stroke="#555555" stroke-width="1" fill="none" />
+</svg> 

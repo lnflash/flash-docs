@@ -1,34 +1,54 @@
 ---
-title: How you can contribute
-description: It takes a village. We started Flash.how because we are excited about the Flash protocol and what it could do to free social media from the grasp of big tech. We need your help to keep it running.
+title: Support Flash
+description: Help us build the future of Bitcoin and Lightning with your contribution to the Flash project.
 ---
 
-## [§](#in-general) In general
+<div class="text-center mb-8">
+  <a href="lightning:dread@islandbitcoin.com">
+    <img src="/images/badges/png/Donate.png" alt="Donate" class="mx-auto h-24 w-24 mb-4 drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]" />
+  </a>
+  <img src="/images/badges/webp/contribute.webp" alt="Support Flash" class="mx-auto h-40 mb-4" />
+</div>
 
-This is an open source project run by volunteers. [The code](https://github.com/erskingardner/flash-how) is publicly hosted on GitHub, we encourage anyone and everyone to clone the repo, make changes, and submit pull requests.
+<div class="text-center mb-12 max-w-2xl mx-auto">
+  <h2 class="text-2xl font-bold mb-6">Support the Flash Project</h2>
+  
+  <p class="mb-6">Flash is an open-source project dedicated to making Bitcoin and Lightning accessible to everyone. Your contributions help us develop new features, improve documentation, and expand our reach.</p>
+  
+  <p class="mb-10">Every sat counts in helping us build a more inclusive financial future.</p>
+  
+  <div class="bg-gradient-to-r from-purple-600 to-indigo-600 p-1 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 max-w-md mx-auto">
+    <a href="lightning:dread@islandbitcoin.com" class="block bg-zinc-900 hover:bg-zinc-800 transition-colors duration-200 rounded-lg py-5 px-6">
+      <div class="flex items-center justify-center">
+        <img src="/images/badges/png/Donate.png" alt="Donate" class="h-12 w-12 drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]" />
+      </div>
+    </a>
+  </div>
+  
+  <p class="mt-8 text-sm text-zinc-500 dark:text-zinc-400">
+    Want to contribute in other ways? Email us at <a href="mailto:support@getflash.io" class="text-purple-600 hover:text-purple-500 dark:text-purple-400 dark:hover:text-purple-300">support@getflash.io</a>
+  </p>
+</div>
 
-If you're not technical, don't worry. There are other ways that you can contirbute, like translating, writing content, reporting typos, or Zapping us some sats to cover our hosting costs.
-
-## [§](#send-feedback) Send us feedback
-
-If you find typos or information that is incorrect on Flash.how, please let us know by creating an [issue on our GitHub repo](https://github.com/flash-how/flash-how/issues).
-
-Additionally, if you have ideas for content that we should write, please create issues with your suggestions. 🙌🏼
-
-## [§](#write-content) Write content
-
-If you're a writer and want to contribute, please don't hesitate to reach out (again, [via an issue in the GitHub repo](https://github.com/flash-how/flash-how/issues)). We can help you get set up in whatever way makes sense based on your technical level.
-
-## [§](#translate-content) Translate content into other languages
-
-We're looking for translators to help us translate this site. [Please reach out via DM](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) if you're interested.
-
-## [§](#hack-with-us) Hack with us
-
-This site is built using Svelte, Tailwind CSS, and Markdown. If you'd like to contribute to the codebase, feel free to submit Pull Requests.
-
-## [§](#donate) Donate
-
-This is a volunteer project. Any sats we receive through donations will be used to spend time creating new content or paying for our hosting.
-
-We accept sats through the Lightning network only. Please donate via the button in the header, footer, or nav bar.
+<!-- Navigation links -->
+<div class="flex justify-between items-center mt-12 pt-4 border-t border-zinc-200 dark:border-zinc-700">
+  <div class="w-1/3 text-left">
+    <a href="development" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
+      </svg>
+      Development
+    </a>
+  </div>
+  <div class="w-1/3 text-center">
+    <!-- Optional center content -->
+  </div>
+  <div class="w-1/3 text-right">
+    <a href="get-started" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      Get Started
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+      </svg>
+    </a>
+  </div>
+</div>

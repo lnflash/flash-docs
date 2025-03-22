@@ -1,94 +1,166 @@
 ---
-title: Get Peer-to-Peer Electronic Cash in your Flash Wallet
-description: How to receive eCash from anywhere in the world using flash, and how to earn a litte eCash by learning about Bitcoin.
+title: Get Cash in your Flash Wallet
+description: How to receive Cash from anywhere in the world using Flash, and how to earn Cash by learning about Bitcoin.
 ---
 
-![FlashBird with eCash](/images/get-ecash.jpeg)
+<div class="text-center mb-12">
+  <img src="/images/badges/webp/receiving.webp" alt="Receiving Cash" class="mx-auto h-40 mb-4" />
+</div>
 
-## What you'll learn in this guide
+## Overview: Ways to Get Cash
 
-Around the world, there are mobile, web and desktop wallets created to send and receive electronic cash. Flash is one of those wallets. In this guide, you'll learn about many of the wallets in different countries, and how to use Flash to receive eCash from those wallets, almost anywhere in the world.
+Flash offers multiple ways to receive and earn Cash. Here's a quick summary of your options:
 
-You'll also get instructions on how to earn a little eCash by learning about Bitcoin!
+1. **Bank Transfer** - Add Cash directly from your bank account <img src="https://png.pngtree.com/png-clipart/20221211/ourmid/pngtree-coming-soon-banner-png-image_6519489.png" alt="Coming Soon" style="height: 60px; display: inline-block; vertical-align: middle; margin-left: 8px;">
+2. **Receive from Another Wallet** - Accept Cash from any Bitcoin or Lightning wallet
+3. **Learn and Earn** - Complete quizzes in the Flash app to earn Cash rewards <img src="https://png.pngtree.com/png-clipart/20221211/ourmid/pngtree-coming-soon-banner-png-image_6519489.png" alt="Coming Soon" style="height: 60px; display: inline-block; vertical-align: middle; margin-left: 8px;">
+4. **Accept Payments** - Receive Cash for goods or services you provide
+5. **From Exchange Points** - Visit local Flash exchange points to convert physical cash
+
+Choose the method that works best for your situation, or use a combination of these approaches to build your Cash balance.
+
+## Detailed Methods
+
+### Bank Transfer <img src="https://png.pngtree.com/png-clipart/20221211/ourmid/pngtree-coming-soon-banner-png-image_6519489.png" alt="Coming Soon" style="height: 80px; display: inline-block; vertical-align: middle; margin-left: 10px;">
+
+Add Cash directly to your Flash wallet from your Jamaican bank account with these steps:
+
+#### Step 1: Log into your online banking account
+1. Access your bank's website or mobile app
+2. Enter your credentials to log in to your online banking account
+3. Navigate to the "Transfer" or "Payments" section
+
+#### Step 2: Set up Flash as a recipient (one-time setup)
+1. Select "Add New Recipient" or "Manage Payees" in your banking portal
+2. Enter Flash's banking details:
+   - Account Name: Flash Jamaica Ltd.
+   - Bank: [Bank Name]
+   - Branch: [Branch Code]
+   - Account Number: [Account Number]
+   - Type: Business Account
+
+#### Step 3: Make your transfer
+1. Choose "Make a Transfer" or "New Payment" in your banking portal
+2. Select Flash from your list of recipients
+3. Enter the amount you wish to transfer
+4. Choose ACH (for smaller amounts) or RTGS (for larger transfers)
+5. In the reference field, enter your Flash ID followed by "LOAD" (e.g., "FL12345LOAD")
+   - This reference code is essential for Flash to credit your account
+
+#### Step 4: Confirm and wait for funds
+1. Review the transfer details and confirm the transaction
+2. You'll receive a confirmation notification from your bank
+3. The funds will appear in your Flash app typically within one hour of Flash receiving them
+4. Transfers are processed same-day if initiated during business hours on weekdays
+5. Weekend transfers will be processed on the next business day
+
+*Note: The reference code is crucial for ensuring your funds are credited correctly. Always include your Flash ID followed by "LOAD" in the reference field.*
+
+### Receive Cash from Another Wallet
+
+You can receive Cash from any Bitcoin or Lightning wallet worldwide:
+
+1. Open your Flash app and tap the "Receive" button
+2. Choose whether to use your Lightning address or Bitcoin address
+3. Tap "Copy" to copy your address to the clipboard
+4. Share your address with the sender via messaging app, email, etc.
+5. Wait for the Bitcoin to arrive in your wallet as Cash (typically within seconds to minutes)
+
+For in-person transfers, have the sender scan your QR code directly from your screen for instant transfers.
+
+### Learn and Earn Cash via Flash App <img src="https://png.pngtree.com/png-clipart/20221211/ourmid/pngtree-coming-soon-banner-png-image_6519489.png" alt="Coming Soon" style="height: 80px; display: inline-block; vertical-align: middle; margin-left: 10px;">
+
+Flash offers educational opportunities that reward you with Cash:
+
+1. Open your Flash app and tap the "Earn" tab
+2. Read through the available Bitcoin educational content
+3. Answer quiz questions correctly to earn Cash directly to your wallet
+4. Check back regularly for new earning opportunities and challenges
+
+### Accept Cash for Goods or Services
+
+As a business owner or freelancer, you can easily accept Cash payments:
+
+1. Set up a Flash account with your business details
+2. Generate a payment request for the specific amount due
+3. Have customers scan your QR code or send to your Lightning address
+4. Receive instant confirmation when payment is complete
+
+For regular payments, consider setting up dedicated QR codes for specific products or services.
+
+### Get Cash from Exchange Points
+
+If you prefer starting with physical cash, you can use exchange points:
+
+1. Locate a Flash exchange point on the "Map" tab in your app
+2. Visit the location with your physical cash
+3. Follow the exchange point's process to convert to digital Cash
+4. Confirm the Cash appears in your Flash wallet
 
 ## Bitcoin and Lightning Wallets by Country
 
+Flash interoperates with a wide range of Bitcoin wallets worldwide. Here's a country-by-country breakdown of compatible wallets.
 
-## Global 🌍
-Here are a few of the wallets available people all over the world:
--   [Blue Wallet](https://bluewallet.io/) - A mobile wallet for iOS and Android.
--   [Phoenix Wallet](https://phoenix.acinq.co/) - A mobile wallet for Android.
--   [Breez Wallet](https://breez.technology/) - A mobile wallet for iOS and Android.
--   [Green Wallet](https://blockstream.com/green/) - A mobile wallet for iOS and Android.
--   [Wallet of Satoshi](https://www.walletofsatoshi.com/) - A mobile wallet for iOS and Android.
+### Global 🌍
+These wallets are available worldwide and can send Bitcoin that arrives as Cash in your Flash wallet:
+
+- [Blue Wallet](https://bluewallet.io/) - A mobile wallet for iOS and Android
+- [Phoenix Wallet](https://phoenix.acinq.co/) - A mobile wallet for Android
+- [Breez Wallet](https://breez.technology/) - A mobile wallet for iOS and Android
+- [Green Wallet](https://blockstream.com/green/) - A mobile wallet for iOS and Android
+- [Wallet of Satoshi](https://www.walletofsatoshi.com/) - A mobile wallet for iOS and Android
+
 ### United States 🇺🇸
-The US is one of the most developed countries in the world when it comes to Bitcoin and Lightning. Here are a few of the wallets specific to the US:
--   [Strike Wallet](https://strike.me/) - A mobile wallet for iOS and Android.
--   [Cash App](https://cash.app/) - A mobile wallet for iOS and Android.
+- [Strike Wallet](https://strike.me/) - A mobile wallet for iOS and Android
+- [Cash App](https://cash.app/) - A mobile wallet for iOS and Android
 
 ### Canada 🇨🇦
-
-Canada is another country with a lot of Bitcoin and Lightning development. Here are a few of the companies specific to Canada:
-
--   [Bull Bitcoin](https://bullbitcoin.com/) - A non-custodial Bitcoin-only exchange and payments service.
+- [Bull Bitcoin](https://bullbitcoin.com/) - A non-custodial Bitcoin-only exchange and payments service
 
 ### Latin America 🇸🇻🇬🇹🇨🇷🇲🇽🇧🇷
-
-Latin America has been a pioneer in Bitcoin and Lightning adoption, beginning with the Bitcoin Law in El Salvador making Bitcoin legal tender across the entire country. Here are a few of the wallets available to people in Latin America:
-
--   [Blink Wallet](https://blink.sv/) - A mobile wallet for iOS and Android, built by the team at [Galoy](https://galoy.io/).
--   [Bitcoin Jungle](https://play.google.com/store/apps/details?id=app.bitcoinjungle.mobile) - A mobile wallet for iOS and Android, available for people in Costa Rica.
--   [Osmo Wallet](https://osmowallet.com/) - A mobile wallet for iOS and Android, availble for people in Guatemala.
+- [Blink Wallet](https://blink.sv/) - A mobile wallet for iOS and Android, built by the team at [Galoy](https://galoy.io/)
+- [Bitcoin Jungle](https://play.google.com/store/apps/details?id=app.bitcoinjungle.mobile) - A mobile wallet for iOS and Android, available for people in Costa Rica
+- [Osmo Wallet](https://osmowallet.com/) - A mobile wallet for iOS and Android, available for people in Guatemala
 
 ### UK & Europe 🇬🇧🇪🇺
-
-Europe is another region with a lot of Bitcoin and Lightning development. Here are a few of the wallets specific to Europe:
-
--   [CoinCorner](https://www.coincorner.com/) - A mobile wallet for iOS and Android, available in the UK and Europe.
--   [Hodl Hodl](https://hodlhodl.com/) - Non-custodial Bitcoin trading solution, available in the UK and Europe.
+- [CoinCorner](https://www.coincorner.com/) - A mobile wallet for iOS and Android, available in the UK and Europe
+- [Hodl Hodl](https://hodlhodl.com/) - Non-custodial Bitcoin trading solution, available in the UK and Europe
 
 ### Africa 🇿🇦🇳🇬🇬🇭🇹🇬🇨🇲🇰🇪🇨🇮🇪🇹🇲🇦🇿🇲🇲🇿🇿🇼🇹🇿
-
-Africa has been the most innovative and highest adopter of Bitcoin and Lightning in the world. Here are a few of the wallets available to people in Africa:
-
--   [Bitnob](https://bitnob.com/) - A mobile wallet for iOS and Android, available in Nigeria, Ghana, Kenya, Rwanda, Benin, Senegal, Cote d’Ivoire, Togo and expanding to several more countries.
--   [Machankura](https://8333.mobi) - A text-based wallet for feature phones, available in Ghana, Kenya, Malawi, Namibia, Nigeria, South Africa, Tanzania, Uganda, Zambia and expanding to several more countries.
+- [Bitnob](https://bitnob.com/) - A mobile wallet for iOS and Android, available in Nigeria, Ghana, Kenya, Rwanda, Benin, Senegal, Cote d'Ivoire, Togo and expanding to several more countries
+- [Machankura](https://8333.mobi) - A text-based wallet for feature phones, available in Ghana, Kenya, Malawi, Namibia, Nigeria, South Africa, Tanzania, Uganda, Zambia and expanding to several more countries
 
 ### Asia 🇵🇭🇻🇳🇹🇭🇯🇵
+- [Pouch Wallet](https://pouch.ph) - A mobile wallet for iOS and Android, available in the Philippines
+- [Neutronpay](https://neutronpay.com/personal) - A mobile wallet for iOS and Android, available in Vietnam
 
-Asia is another region with a lot of Bitcoin and Lightning development. Here are a few of the wallets specific to Asia:
+## Next Steps
 
--   [Pouch Wallet](https://pouch.ph) - A mobile wallet for iOS and Android, available in the Philippines.
--   [Neutronpay](https://neutronpay.com/personal) - A mobile wallet for iOS and Android, available in Vietnam.
+Now that you have Cash in your Flash wallet, explore what you can do with it:
 
+- [Earn More Cash](guides/earn) - Discover additional ways to earn Cash
+- [Cash Out](guides/cash-out) - Learn how to convert your Cash to physical cash
+- [Sweep to Cold Storage](guides/sweep-to-cold-storage) - Secure your Cash by transferring it to a cold storage wallet
 
-<hr />
-
-### Any of these wallets and companies can be used to send Bitcoin to your Flash wallet which is automatically converted to eCash. Here's how to do it:
-
-
-## How to accept eCash from another wallet
-
-There are multiple ways to get eCash in your wallet from another wallet. Here are a few of the most common ways:
-
-1. Open your Flash app and click the "Receive" button.
-1. Click the "Copy" button to copy your lightning address or bitcoin address to your clipboard.
-1. Send your lightning address or bitcoin address to the person who is sending you some Bitcoin.
-1. Wait for the Bitcoin to arrive in your wallet as eCash. This can take anywhere from a few seconds to a few minutes, depending on the wallet you are receiving from.
-
-If the person is nearby, you can also have them scan the QR code on your receive screen with their wallet. This is the fastest way to receive eCash.
-
-## How to earn eCash by learning about Bitcoin
-
-1. Open your Flash app and click the "Earn" Tab.
-1. Read the instructions and answer the questions in the quiz.
-1. Earn eCash directly to your wallet!
-
-It doesnt get much easier than this to get a few sats in your wallet! Keep checking back on the Earn tab for more events and challenges in the future, and huge eCash prizes!
-
-## Next steps
-
-Great, now you have some eCash! Let's see what you can do with it:
-
--   [How can I turn my eCash into physical dollars?](/en/guides/cash-out)
--   [Learn more about the Bitcoin protocol and the lightning network](/en/the-protocol)
+<!-- Navigation links -->
+<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
+  <div class="w-1/3 text-left">
+    <a href="../user-guides" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
+      </svg>
+      User Guides
+    </a>
+  </div>
+  <div class="w-1/3 text-center">
+    <!-- Optional center content -->
+  </div>
+  <div class="w-1/3 text-right">
+    <a href="cash-out" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      Cash Out
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+      </svg>
+    </a>
+  </div>
+</div>

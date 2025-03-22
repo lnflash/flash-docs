@@ -1,69 +1,165 @@
 ---
-title: Sweep sats to a self custody wallet
-description: In this guide, we'll cover a simple solution to reduce your counter-party risk by sweeping funds to a self-custody wallet.
+title: Sweep sats to a self-custody wallet
+description: Take full control of your Bitcoin by moving funds from Flash to a self-custody wallet
 ---
 
 ## [§](#who-is-this-guide-for) Who is this guide for?
 
-Most users right now are using Flash with a custodial lightning wallet, like Wallet of Satoshi or Alby.
+If you're using Flash to receive and store Bitcoin, you're currently using a custodial lightning wallet. While convenient for daily transactions, keeping all your Bitcoin in a custodial solution isn't ideal for long-term storage.
 
-If that's you, I want you to think about the sats in your wallet right now. Now, think about losing all those sats. If that idea makes you feel uncomfortable or worried, this guide is for you.
+This guide is for anyone who:
+- Has accumulated Bitcoin in their Flash wallet 
+- Wants to reduce counter-party risk for their savings
+- Plans to hold Bitcoin for the long term
+- Values financial sovereignty and self-custody
 
-We'll cover setting up a self-custodial wallet which will allow you to periodically sweep funds from your custodial wallet for safekeeping.
+We'll walk you through setting up a self-custodial wallet and moving some of your funds there for secure, long-term storage.
 
 ## [§](#why-is-self-custody-important) Why is self-custody important?
 
-Simply put; not your keys, not your coins. When you leave your sats in a custodial wallet you're accepting some degree of counter-party risk. Imagine if Wallet of Satoshi was somehow hacked. Because they hold all customer funds, a situation like this would mean that your funds would be lost.
+The fundamental Bitcoin principle is: **not your keys, not your coins**. 
 
-Because of this, it's strongly advised that you only keep a small amount of funds in _any_ custodial wallet and self-custody the rest of your bitcoin.
+When your Bitcoin is in Flash or any custodial wallet, you're trusting that service to:
+- Keep their systems secure from hackers
+- Manage their finances responsibly
+- Honor your withdrawal requests
+- Remain operational over time
+
+While Flash employs industry-best security practices, any custodial service introduces counter-party risk. Self-custody eliminates this risk by giving you complete control over your Bitcoin.
+
+Benefits of self-custody include:
+- **Full ownership**: Only you can access and move your funds
+- **Censorship resistance**: No one can freeze or seize your Bitcoin
+- **Reduced third-party risk**: No exposure to service provider problems
+- **Privacy**: Hold Bitcoin without KYC information
+- **Long-term security**: Properly secured Bitcoin can be held for generations
 
 ## [§](#ready-lets-go) Ready? Let's go!
 
-This is a beginners guide that doesn't require setting up your own lightning node or doing anything techcnial. Our hack here is to use the Flash community of Bitcoiners to help you make the swap from sats on the Lightning network to self-custodied sats on the main Bitcoin base chain. Secure your stack and make friends doing peer-to-peer transactions. Double win!
+Flash makes it easy to move your Bitcoin to self-custody without requiring advanced technical knowledge. You have two primary methods:
 
-If you're feeling overwhelmed by the terminology here, check out [the section at the bottom of the page](#lightning-bitcoin-on-chain-what) for more details.
+### Method 1: Direct On-Chain Withdrawal (Recommended for beginners)
 
-1. First follow this guide to set up a new Bitcoin wallet in [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/). You can also use any other self-custodial wallet.
-1. Once you have very carefully saved your seed words (which is what you'll use to restore your wallet if needed), you are ready to find someone to do a swap with.
-1. The easiest way to do this is to post a note mentioning the tags #plebchain and #bitcoin mentioning that you'd like to swap some lightning sats for on-chain sats. Don't be shy about directly messaging folks that talk about bitcoin regularly. You can also [ping me directly](https://primal.net/jeffg) if needed.
-1. From there, you'll make a plan directly with the person you're going to swap with. Before you go through any swap, take time to get to know the person a bit, because there is no escrow in Bitcoin, you need to be comfortable that you're dealing with someone you can trust to complete the transaction. Generally the process looks something like this:
-    1. Agree on an amount to swap.
-    1. Give your newly created wallet address (in Blue Wallet) to the person via DM.
-    1. You zap sats to the person via your Flash client.
-    1. They will initiate an onchain transaction to pay you that same amount of sats (potentially minus any transaction fee).
-    1. Remember, this on-chain transaction will take some time. Your trade partner can (and should) send you the transaction ID as soon as they have it so that you can follow along on [mempool.space](https://mempool.space).
-1. That's it! You're done. Once the funds arrive you'll have successfully taken self-custody of your first Bitcoin. Treat it with respect and take good care of it.
+Flash allows direct withdrawals to on-chain Bitcoin addresses:
 
-## [§](#lightning-bitcoin-on-chain-what) Lightning? Bitcoin? On-chain? What?
+1. **Choose a self-custody wallet**
+   - Mobile options: [Blue Wallet](https://bluewallet.io/), [Blockstream Green](https://blockstream.com/green/), or [Muun](https://muun.com/)
+   - Hardware options: [Ledger](https://www.ledger.com/), [Trezor](https://trezor.io/), or [ColdCard](https://coldcard.com/) (for larger amounts)
 
-If this all sounds like greek to you don't worry. Before we get into the guide, let's quickly cover some terminology.
+2. **Set up your wallet**
+   - Download and install your chosen wallet
+   - Create a new wallet and follow the setup process
+   - **CRITICAL**: Write down your seed phrase on paper and store it securely. This is your backup!
+   
+3. **Get your Bitcoin address**
+   - In your new wallet, find the "Receive" section
+   - Copy your Bitcoin address (starts with "bc1" or "3" or "1")
+   
+4. **Withdraw from Flash**
+   - Open Flash and go to the Wallet tab
+   - Tap "Send" or "Withdraw"
+   - Select "On-chain withdrawal"
+   - Paste your Bitcoin address
+   - Enter the amount (consider starting with a small test amount)
+   - Confirm the withdrawal
+   
+5. **Verify receipt**
+   - On-chain transactions typically take 10-60 minutes to confirm
+   - Check your self-custody wallet to confirm receipt
+   - You can track the transaction status using a block explorer like [mempool.space](https://mempool.space)
+
+### Method 2: Using a Flash Exchange Point (For Lightning to on-chain conversion)
+
+Flash's peer-to-peer network enables in-person exchanges:
+
+1. **Set up your self-custody wallet** (follow steps 1-3 above)
+
+2. **Find an Exchange Point**
+   - Open Flash and go to the Map tab
+   - Look for Exchange Points in your area (orange pins)
+   - Alternatively, use the Flash Support chat to find remote exchange partners
+
+3. **Arrange the exchange**
+   - Contact the Exchange Point through Flash Chat
+   - Agree on an amount to swap
+   - Share your Bitcoin address with them
+
+4. **Complete the exchange**
+   - Send sats to the Exchange Point via Flash Lightning
+   - They'll initiate an on-chain transaction to your address
+   - Verify the transaction ID and track it on [mempool.space](https://mempool.space)
+
+## [§](#flash-self-custody-workflow) Recommended Self-Custody Workflow
+
+For optimal Bitcoin management with Flash:
+
+1. **Use Flash as your daily spending wallet**
+   - Keep a modest amount for everyday transactions
+   - Benefit from instant, low-fee Lightning payments
+
+2. **Periodically sweep to self-custody**
+   - Set a threshold (e.g., when your Flash balance exceeds $100)
+   - Move excess funds to your self-custody wallet
+   - Consider automating this with recurring calendar reminders
+
+3. **Layer your security**
+   - Small amounts: Mobile wallet apps
+   - Medium amounts: Hardware wallets like Ledger or Trezor
+   - Large amounts: Air-gapped solutions like ColdCard or multi-signature setups
+
+## [§](#lightning-bitcoin-on-chain-what) Key Concepts: Lightning, On-Chain, and Self-Custody
 
 ### Bitcoin
 
-This rabbit hole has no known bottom. That said, if you're new to Bitcoin the only thing that you really need to know is that Bitcoin is a completely decentralized form of electronic money. It isn't controlled by any one person or entity and runs based on rules coded into the software, instead of being dependent on politics and governements. Bitcoin is the only truly decentralized and rules-based electronic money.
+Bitcoin is a decentralized digital money system that operates without central control. It enables peer-to-peer transactions globally without requiring trusted intermediaries.
 
-Bitcoin prioritizes certainty over speed. This means that transactions cost a little in fees and take some time to confirm but once they're confirmed, they are completely irreversible and no one can take your coins or censor your transaction.
+Key properties:
+- **Limited supply**: Only 21 million Bitcoin will ever exist
+- **Permissionless**: Anyone can use it without approval
+- **Decentralized**: No single entity controls the network
+- **Immutable**: Transactions can't be reversed or modified
+- **Verifiable**: Everyone can audit the entire system
 
-If you'd like to learn more, here are some great starter resources for going deeper on Bitcoin.
+The Bitcoin base layer prioritizes security and finality over speed and cost, making it ideal for final settlement and storage.
 
-1. [Bitcoin.org guide](https://bitcoin.org/en/how-it-works)
-1. [Bitcoiner beginner guide](https://bitcoiner.guide/beginner/)
+### Lightning Network
 
-### Lightning
+Lightning is a second layer built on top of Bitcoin that enables:
+- **Instant payments**: Transactions confirm in seconds
+- **Near-zero fees**: Makes micropayments practical
+- **Scalability**: Handles millions of transactions per second
+- **Privacy**: Enhanced transaction privacy compared to on-chain
 
-Lightning is a payments layer that runs on top of Bitcoin. Fundamentally, you're still making payments using Bitcoin as the money but Lightning allows for near-instant and extremely low-fee transactions. Because of this, the Lightning network has opened up many new use-cases involving micropayments. The details of how Lightning works is beyond the scope of this intro guide but here are a few resources if you're keen to learn more:
+Flash primarily uses Lightning for its payments, giving you the speed and low costs needed for everyday transactions.
 
-1. [Bitcoiner Lightning Guide](https://bitcoiner.guide/lightning/)
-1. [Lightning Labs Overview](https://docs.lightning.engineering/the-lightning-network/overview)
+### On-Chain vs Off-Chain
 
-### On-chain vs Off-chain
+- **On-chain transactions**: Recorded directly on the Bitcoin blockchain
+  - Higher security and finality
+  - Higher fees (especially during high demand periods)
+  - Slower confirmation times (minutes to hours)
+  - Best for larger amounts and final settlement
 
-You'll often hear people refer to on-chain vs off-chain Bitcoin. When people talk about on-chain transations, they are simply referring to making transactions using the base Bitcoin blockchain (remember; this is slower, but 100% final & certain). When people refer to off-chain transactions, they are most often referring to Lightning.
+- **Off-chain transactions** (Lightning): Occur outside the main blockchain
+  - Instant confirmations
+  - Extremely low fees
+  - Perfect for small, frequent payments
+  - Requires channels to be funded and online
 
-### Custodial vs Self-custodial
+### Custodial vs Self-Custodial
 
-For those new to Bitcoin, this concept might seem foreign. After all, most of us (at least in the developed world) have only ever used custodial services, like banks, to store our money. But as we've seen recently (and regularly in less developed financial markets around the world), keeping your money with a custodian has risks. Banks fail (Silicon Valley Bank, etc.) and custodians can make poor decisions and lose your money (FTX, Voyager, etc.).
+- **Custodial solutions** (like Flash's default wallet):
+  - A third party holds your private keys
+  - Simple and convenient
+  - No technical knowledge required
+  - Introduces counter-party risk
 
-When you take custody of your Bitcoin you only have to put trust in yourself to store you bitcoin safely. You have total control.
+- **Self-custodial solutions**:
+  - You alone control your private keys
+  - Full sovereignty over your funds
+  - Requires responsible key management
+  - No counter-party risk
 
-But with great power comes great responsiblity. While self-custody is the gold-standard for storing larger amounts of money securely, it can limit how you can use your money day-to-day. Most people use a combination of custodial and self-custody solutions; keeping large amounts in a self-custody way and keeping a small amount of funds in a custodial wallet for daily use.
+Most Bitcoin users adopt a hybrid approach: custodial solutions for daily spending and self-custody for savings. This combines convenience with security in a practical way.
+
+Remember: Self-custody is a skill that improves with practice. Start with small amounts, get comfortable with the technology, and gradually increase your self-custody holdings as your confidence grows.
