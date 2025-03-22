@@ -44,7 +44,8 @@
                 { href: '/third-party-vendors', localeString: 'nav.vendors' },
                 { href: '/galoy-project', localeString: 'nav.whatIs' },
                 { href: '/breez-sdk', localeString: 'nav.whyWeNeed' },
-                { href: '/ibex-mercado', localeString: 'nav.whatZaps' }
+                { href: '/ibex-mercado', localeString: 'nav.whatZaps' },
+                { href: '/btcpay-server', localeString: 'nav.btcpayserver' }
             ]
         },
         {

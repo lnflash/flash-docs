@@ -20,10 +20,9 @@ This provides on-chain Bitcoin functionality with self-custody withdrawals, tran
 
 ### 2. Lightning Network Implementation
 
-Flash uses [LNDHub](https://github.com/BlueWallet/LNDHub) and [LND](https://github.com/lightningnetwork/lnd) for Lightning functionality:
+Flash uses [LND](https://github.com/lightningnetwork/lnd) for Lightning functionality:
 
 - **LND nodes** provide core Lightning capabilities
-- **LNDHub** creates an account-based system
 - **Custom middleware** manages channel liquidity
 
 Enabling instant payments, sub-cent micropayments, and cross-border transactions.
@@ -44,6 +43,13 @@ Flash implements a chaumian eCash system offering:
 - **Off-chain scaling**
 - **Offline payment capabilities**
 
+### 5. BTCPayServer Integration
+
+Flash leverages [BTCPayServer](https://btcpayserver.org/) for:
+- **Flash Cards** payment processing
+- **Rewards system** management
+- **Merchant services** infrastructure
+
 ## System Architecture
 
 Flash's architecture is designed for reliability, scalability, and security with these key components:
@@ -51,7 +57,7 @@ Flash's architecture is designed for reliability, scalability, and security with
 ### Server Components
 - API Layer, Authentication Service, Lightning Service
 - Bitcoin Service, NOSTR Relay, eCash Mint
-- Database Cluster, Analytics Engine
+- Database Cluster, Analytics Engine, BTCPayServer
 
 ### Client Components
 - Secure Key Storage, Local Database, NOSTR Client
@@ -69,11 +75,11 @@ Flash employs multiple security layers:
 
 Flash builds upon and contributes to:
 - [LND](https://github.com/lightningnetwork/lnd) - Lightning Network implementation
-- [LNDHub](https://github.com/BlueWallet/LNDHub) - Lightning account system
 - [Galoy](https://github.com/GaloyMoney/galoy) - Bitcoin banking infrastructure
 - [NOSTR](https://github.com/nostr-protocol/nostr) - Decentralized social protocol
 - [Breez SDK](https://github.com/breez/breez-sdk) - Lightning SDK components
 - [Cashu](https://github.com/cashubtc/cashu) - eCash implementation
+- [BTCPayServer](https://github.com/btcpayserver/btcpayserver) - Self-hosted payment processor
 
 ## Developer Resources
 
