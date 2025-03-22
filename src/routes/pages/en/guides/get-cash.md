@@ -3,7 +3,9 @@ title: Get Cash in your Flash Wallet
 description: How to receive Cash from anywhere in the world using Flash, and how to earn Cash by learning about Bitcoin.
 ---
 
-<!-- ![FlashBird with Cash](/images/get-ecash.jpeg) -->
+<div class="text-center mb-12">
+  <img src="/images/badges/webp/receiving.webp" alt="Receiving Cash" class="mx-auto h-40 mb-4" />
+</div>
 
 ## Overview: Ways to Get Cash
 
