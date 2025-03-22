@@ -3,76 +3,45 @@ title: Development
 description: Resources and documentation for developers looking to integrate with Flash
 ---
 
-## Development Resources
+<div class="text-center mb-12">
+  <img src="/images/badges/webp/under-construction.webp" alt="Under Construction" class="mx-auto h-40 mb-4" />
+</div>
 
-Welcome to Flash's developer resources. This section provides technical documentation, tools, and guidelines for developers looking to integrate with Flash's ecosystem or build applications that leverage our infrastructure.
+## Development Resources - Coming Soon
 
-### Getting Started for Developers
+The Flash developer resources are currently under construction. We're working hard to provide comprehensive documentation, tools, and guidelines for developers looking to integrate with Flash's ecosystem.
 
-- [The Protocol](the-protocol) - Comprehensive documentation on Flash's protocol specifications, including messaging and payment protocols.
+### API Access - Coming Soon
 
-- [Bitcoin Protocol](bitcoin-protocol) - Essential information about Bitcoin's underlying technology for developers building on Flash.
+Flash API access will be available soon, allowing developers to:
 
-- [Lightning Network](lightning-network) - Technical details about the Lightning Network implementation used by Flash.
+- Process payments
+- Retrieve transaction history
+- Query account balances
+- Generate invoices
+- Receive webhook notifications for events
 
 ### Integration Options
 
-Flash offers multiple integration pathways depending on your application's needs:
+When our developer resources are ready, Flash will offer:
 
-#### API Access
+- REST APIs for business integrations
+- SDKs for various programming languages
+- Technical documentation
+- Sample code and examples
 
-Flash provides REST APIs for businesses and developers to integrate our payment and communication services into their applications. Our APIs enable:
+### Stay Informed
 
-- Payment processing
-- Transaction history retrieval
-- Account balance queries
-- Invoice generation
-- Webhook notifications for events
+If you're interested in developing with Flash, please check back soon for updates or contact us for more information.
 
-#### SDK Implementations
-
-For deeper integration, Flash offers software development kits (SDKs) in multiple programming languages:
-
-- JavaScript/TypeScript SDK
-- Mobile SDKs for iOS and Android
-- Server-side SDKs for Node.js and Python
-
-### Development Guidelines
-
-When developing with Flash, we recommend following these best practices:
-
-- **Security First**: Implement proper authentication, data encryption, and secure key management
-- **Testnet Development**: Use Bitcoin testnet for initial development and testing
-- **Rate Limiting**: Design your application to respect API rate limits
-- **Error Handling**: Implement robust error handling for payment and network issues
-- **Compliance**: Ensure your integration complies with relevant regulations and Flash's terms of service
-
-### Open Source Contributions
-
-Flash embraces open-source development and welcomes contributions from the community. Our core components are available on GitHub, where developers can:
-
-- Report issues and bugs
-- Submit feature requests
-- Contribute code improvements
-- Participate in technical discussions
-
-### Developer Support
-
-We provide several resources to support developers working with Flash:
-
-- Developer documentation
-- Code examples and sample applications
-- Technical support channels
-- Community forums
-
-For specific development questions, please reach out to our developer relations team.
+For specific development questions, please reach out to our team at [development@getflash.io](mailto:development@getflash.io).
 
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
   <div class="w-1/3 text-left">
     <a href="business" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
       </svg>
       Business
     </a>
@@ -83,8 +52,8 @@ For specific development questions, please reach out to our developer relations 
   <div class="w-1/3 text-right">
     <a href="get-started" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
       Get Started
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
       </svg>
     </a>
   </div>
