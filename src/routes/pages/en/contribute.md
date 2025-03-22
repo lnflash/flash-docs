@@ -17,9 +17,7 @@ description: Help us build the future of Bitcoin and Lightning with your contrib
   <div class="bg-gradient-to-r from-purple-600 to-indigo-600 p-1 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 max-w-md mx-auto">
     <a href="lightning:flash@getflash.io" class="block bg-zinc-900 hover:bg-zinc-800 transition-colors duration-200 rounded-lg py-5 px-6">
       <div class="flex items-center justify-center">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
+        <img src="/images/badges/png/Donate.png" alt="Donate" class="h-8 w-8 mr-3" />
         <span class="text-xl font-bold text-white">Donate with Lightning</span>
       </div>
     </a>
