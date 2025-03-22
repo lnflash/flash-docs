@@ -1,15 +1,15 @@
 ---
-title: BTCPayServer
-description: Learn about BTCPayServer, the open-source payment processor that powers Flash Cards and rewards
+title: BTCPay Server
+description: Learn about BTCPay Server, the open-source payment processor that powers Flash Cards and rewards
 ---
 
-## What is BTCPayServer?
+## What is BTCPay Server?
 
-BTCPayServer is a self-hosted, open-source cryptocurrency payment processor that enables Flash to accept Bitcoin payments and manage our rewards system. Created to give merchants sovereignty over their payments, BTCPayServer provides a secure, private, censorship-resistant platform without the fees and restrictions of traditional payment processors.
+BTCPay Server is a self-hosted, open-source cryptocurrency payment processor that enables Flash to accept Bitcoin payments and manage our rewards system. Created to give merchants sovereignty over their payments, BTCPay Server provides a secure, private, censorship-resistant platform without the fees and restrictions of traditional payment processors.
 
-## BTCPayServer's Mission
+## BTCPay Server's Mission
 
-BTCPayServer's mission is to empower merchants and users with full control over their Bitcoin transactions. By providing a free, open-source solution, BTCPayServer enables businesses of all sizes to accept Bitcoin payments without relying on third-party processors or intermediaries.
+BTCPay Server's mission is to empower merchants and users with full control over their Bitcoin transactions. By providing a free, open-source solution, BTCPay Server enables businesses of all sizes to accept Bitcoin payments without relying on third-party processors or intermediaries.
 
 The project aims to:
 
@@ -18,9 +18,9 @@ The project aims to:
 - Create a private and secure payment infrastructure
 - Support a vibrant ecosystem of Bitcoin commerce
 
-## How Flash Uses BTCPayServer
+## How Flash Uses BTCPay Server
 
-Flash leverages BTCPayServer's infrastructure for several key functions within our ecosystem:
+Flash leverages BTCPay Server's infrastructure for several key functions within our ecosystem:
 
 ### Flash Cards System
 
@@ -43,9 +43,9 @@ Flash leverages BTCPayServer's infrastructure for several key functions within o
 - **Lightning Network Processing**: Handling instant Lightning payments
 - **Accounting Tools**: Generating reports for merchant transactions
 
-## BTCPayServer's Key Features
+## BTCPay Server's Key Features
 
-BTCPayServer provides Flash with powerful capabilities that enhance our service offerings:
+BTCPay Server provides Flash with powerful capabilities that enhance our service offerings:
 
 ### Payment Processing
 
@@ -70,7 +70,7 @@ BTCPayServer provides Flash with powerful capabilities that enhance our service 
 
 ## Technical Architecture
 
-BTCPayServer's architecture is robust and adaptable, making it ideal for Flash's implementation:
+BTCPay Server's architecture is robust and adaptable, making it ideal for Flash's implementation:
 
 ### Core Components
 
@@ -83,14 +83,14 @@ BTCPayServer's architecture is robust and adaptable, making it ideal for Flash's
 
 ### Integration Methods
 
-- **REST API**: For programmatic access to BTCPayServer functions
+- **REST API**: For programmatic access to BTCPay Server functions
 - **Webhooks**: Event-based notifications for payment activities
 - **Server-to-Server**: Direct communication between systems
 - **Plugins**: Extendable functionality for specific use cases
 
 ## Open Source Development
 
-BTCPayServer is fully open source, with all code available on GitHub under the MIT license, ensuring:
+BTCPay Server is fully open source, with all code available on GitHub under the MIT license, ensuring:
 
 - **Transparency**: All code can be reviewed for security and functionality
 - **Community Support**: A global network of developers contributing improvements
@@ -99,7 +99,7 @@ BTCPayServer is fully open source, with all code available on GitHub under the M
 
 ## Benefits for Flash Users
 
-Flash's integration with BTCPayServer provides several advantages for our users:
+Flash's integration with BTCPay Server provides several advantages for our users:
 
 - **Enhanced Privacy**: Processing payments without collecting unnecessary user data
 - **Reduced Costs**: Eliminating traditional payment processing fees
@@ -109,7 +109,7 @@ Flash's integration with BTCPayServer provides several advantages for our users:
 
 ## Future Development
 
-The BTCPayServer project continues to evolve with features that will benefit Flash users:
+The BTCPay Server project continues to evolve with features that will benefit Flash users:
 
 - **Enhanced Lightning Support**: Improved routing and liquidity management
 - **Advanced Reporting**: Better insights for merchants and administrators
@@ -119,9 +119,9 @@ The BTCPayServer project continues to evolve with features that will benefit Fla
 
 ## Resources
 
-- [BTCPayServer Website](https://btcpayserver.org)
+- [BTCPay Server Website](https://btcpayserver.org)
 - [GitHub Repository](https://github.com/btcpayserver/btcpayserver)
 - [Documentation](https://docs.btcpayserver.org)
 - [Community Chat](https://chat.btcpayserver.org)
 
-As Flash continues to expand, our integration with BTCPayServer ensures we can provide secure, sovereign payment processing for our Flash Cards and rewards system while maintaining the privacy and security standards our users expect. 
+As Flash continues to expand, our integration with BTCPay Server ensures we can provide secure, sovereign payment processing for our Flash Cards and rewards system while maintaining the privacy and security standards our users expect. 

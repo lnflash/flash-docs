@@ -43,9 +43,9 @@ Flash implements a chaumian eCash system offering:
 - **Off-chain scaling**
 - **Offline payment capabilities**
 
-### 5. BTCPayServer Integration
+### 5. BTCPay Server Integration
 
-Flash leverages [BTCPayServer](https://btcpayserver.org/) for:
+Flash leverages [BTCPay Server](https://btcpayserver.org/) for:
 - **Flash Cards** payment processing
 - **Rewards system** management
 - **Merchant services** infrastructure
@@ -57,7 +57,7 @@ Flash's architecture is designed for reliability, scalability, and security with
 ### Server Components
 - API Layer, Authentication Service, Lightning Service
 - Bitcoin Service, NOSTR Relay, eCash Mint
-- Database Cluster, Analytics Engine, BTCPayServer
+- Database Cluster, Analytics Engine, BTCPay Server
 
 ### Client Components
 - Secure Key Storage, Local Database, NOSTR Client
@@ -79,7 +79,7 @@ Flash builds upon and contributes to:
 - [NOSTR](https://github.com/nostr-protocol/nostr) - Decentralized social protocol
 - [Breez SDK](https://github.com/breez/breez-sdk) - Lightning SDK components
 - [Cashu](https://github.com/cashubtc/cashu) - eCash implementation
-- [BTCPayServer](https://github.com/btcpayserver/btcpayserver) - Self-hosted payment processor
+- [BTCPay Server](https://github.com/btcpayserver/btcpayserver) - Self-hosted payment processor
 
 ## Developer Resources
 

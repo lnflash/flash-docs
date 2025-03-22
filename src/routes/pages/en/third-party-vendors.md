@@ -23,7 +23,7 @@ Flash leverages the expertise of leading Bitcoin and Lightning Network infrastru
 
 Flash partners with payment processors and point-of-sale solution providers to enable businesses to accept Flash payments:
 
-- [BTCPayServer](btcpay-server) - Self-hosted, open-source payment processor that powers Flash Cards and the rewards system.
+- [BTCPay Server](btcpay-server) - Self-hosted, open-source payment processor that powers Flash Cards and the rewards system.
 
 - **Flashpoint Network** - A specialized merchant network with integrated hardware devices for accepting Flash payments in physical stores.
 
