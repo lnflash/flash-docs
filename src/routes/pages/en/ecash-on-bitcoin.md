@@ -1,5 +1,5 @@
 ---
-title: Cash on Bitcoin
+title: eCash on Bitcoin
 description: How Flash implements digital cash using Bitcoin for truly private, bearer transactions
 ---
 

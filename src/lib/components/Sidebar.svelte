@@ -34,7 +34,7 @@
                 { href: '/flash-infrastructure', localeString: 'nav.openSource' },
                 { href: '/bitcoin-protocol', localeString: 'nav.flashProtocol' },
                 { href: '/lightning-network', localeString: 'nav.clients' },
-                { href: '/cash-on-bitcoin', localeString: 'nav.relays' },
+                { href: '/ecash-on-bitcoin', localeString: 'nav.relays' },
                 { href: '/nostr-protocol', localeString: 'nav.relayImplementations' }
             ]
         },
