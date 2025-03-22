@@ -17,6 +17,8 @@ Flash is built on a robust technical foundation that combines the best of Bitcoi
 
 - [eCash on Bitcoin](ecash-on-bitcoin) - Learn how Flash implements electronic cash functionality on the Bitcoin network to create a seamless user experience.
 
+- [Nostr Protocol](nostr-protocol) - The decentralized social networking protocol that enables secure messaging and social features in Flash.
+
 ### Integration Partners
 
 Flash collaborates with industry-leading partners to enhance its infrastructure capabilities:
@@ -26,12 +28,6 @@ Flash collaborates with industry-leading partners to enhance its infrastructure 
 - [Breez SDK](breez-sdk) - The software development kit that powers Flash's non-custodial Lightning capabilities.
 
 - [IBEX Mercado](ibex-mercado) - Bitcoin and Lightning infrastructure provider that helps Flash scale its operations.
-
-### Technical Specifications
-
-- [The Protocol](the-protocol) - Detailed technical specifications of the messaging and payment protocols used by Flash.
-
-- [Nostr Protocol](nostr-protocol) - The decentralized social networking protocol that enables secure messaging and social features in Flash.
 
 ### Infrastructure Benefits
 
@@ -47,8 +43,8 @@ Flash's infrastructure delivers several key advantages:
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
   <div class="w-1/3 text-left">
     <a href="user-guides" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
       </svg>
       User Guides
     </a>
@@ -59,8 +55,8 @@ Flash's infrastructure delivers several key advantages:
   <div class="w-1/3 text-right">
     <a href="third-party-vendors" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
       Third-Party Vendors
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
       </svg>
     </a>
   </div>
