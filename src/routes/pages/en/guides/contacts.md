@@ -4,7 +4,7 @@ description: Learn how to access, add, and interact with contacts in the Flash a
 ---
 
 <div class="text-center mb-12">
-  <img src="/images/contacts-tab-bar.webp" alt="Contacts Tab" class="mx-auto h-40 mb-4" />
+  <img src="/images/badges/webp/contacts.webp" alt="Contacts" class="mx-auto h-40 mb-4" />
 </div>
 
 # Managing Your Contacts in Flash
