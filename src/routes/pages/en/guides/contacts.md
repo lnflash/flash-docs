@@ -22,15 +22,11 @@ This guide provides a complete overview of Flash's Contacts feature, explaining 
 
 ## Accessing Your Contacts
 
-You can access your contacts through two main entry points in Flash:
+You can access your contacts through the Chat screen in Flash:
 
-1. **From the Chat Screen**
-   - Open the Flash app and tap the Chat icon in the bottom navigation
-   - At the top of the Chat screen, you'll see a "Contacts" tab for quick access to your contact list
-
-2. **Through the Dedicated Contacts Tab**
-   - Tap the Contacts icon in the bottom navigation bar
-   - This provides access to the full Contacts screen with all available features and options
+**From the Chat Screen**
+- Open the Flash app and tap the Chat icon in the bottom navigation
+- At the top of the Chat screen, you'll see a "Contacts" tab that provides access to your contact list
 
 ## Finding Contacts
 
@@ -41,7 +37,7 @@ The Contacts interface makes it easy to locate the people you want to connect wi
    - Scroll through your list to find people you regularly transact with
 
 2. **Use the Search Bar**
-   - At the top of the Contacts screen, you'll find a search bar
+   - At the top of the Contacts view, you'll find a search bar
    - Tap it and enter a name to quickly find specific contacts
    - This is especially useful when you have many contacts in your list
 
@@ -50,7 +46,7 @@ The Contacts interface makes it easy to locate the people you want to connect wi
 Flash offers multiple ways to add new contacts to your network:
 
 1. **Add Manually**
-   - Tap the "+" button in the top-right corner of the Contacts screen
+   - Tap the "+" button in the top-right corner of the Contacts view
    - Enter their Flash username or Lightning address
    - Confirm to add them to your contacts
 
