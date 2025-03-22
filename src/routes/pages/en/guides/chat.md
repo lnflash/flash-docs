@@ -4,7 +4,7 @@ description: A guide to using the Flash Chat Tab for messaging and payments usin
 ---
 
 <div class="text-center mb-12">
-  <img src="/images/chat-tab-bar.webp" alt="Flash Chat Tab" class="mx-auto h-40 mb-4" />
+  <img src="/images/badges/png/Nostr_and_Flash_Birds.png" alt="Nostr and Flash Birds" class="mx-auto h-40 mb-4" />
 </div>
 
 # Messaging & Payments with Flash Chat
