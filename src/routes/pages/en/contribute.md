@@ -4,6 +4,7 @@ description: Help us build the future of Bitcoin and Lightning with your contrib
 ---
 
 <div class="text-center mb-8">
+  <img src="/images/badges/png/Donate.png" alt="Donate" class="mx-auto h-24 w-24 mb-4 drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]" />
   <img src="/images/badges/webp/contribute.webp" alt="Support Flash" class="mx-auto h-40 mb-4" />
 </div>
 
