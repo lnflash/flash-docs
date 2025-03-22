@@ -7,7 +7,7 @@ description: Learn how to access, add, and interact with contacts in the Flash a
   <img src="/images/contacts-tab-bar.webp" alt="Contacts Tab" class="mx-auto h-40 mb-4" />
 </div>
 
-# Your Contacts in Flash
+# Managing Your Contacts in Flash
 
 This guide provides a complete overview of Flash's Contacts feature, explaining how to find, add, and interact with your contacts for messaging and Bitcoin payments.
 
@@ -24,133 +24,100 @@ This guide provides a complete overview of Flash's Contacts feature, explaining 
 
 You can access your contacts through two main entry points in Flash:
 
-<div class="step-container mb-6">
-  <div class="step-number">1</div>
-  <div class="step-content">
-    <h3 class="step-title">From the Chat Screen</h3>
-    <p>Open the Flash app and tap the Chat icon in the bottom navigation. At the top of the Chat screen, you'll see a "Contacts" tab that provides quick access to your contact list.</p>
-  </div>
-</div>
+1. **From the Chat Screen**
+   - Open the Flash app and tap the Chat icon in the bottom navigation
+   - At the top of the Chat screen, you'll see a "Contacts" tab for quick access to your contact list
 
-<div class="step-container mb-6">
-  <div class="step-number">2</div>
-  <div class="step-content">
-    <h3 class="step-title">Through the Dedicated Contacts Tab</h3>
-    <p>Tap the Contacts icon in the bottom navigation bar to access the full Contacts screen with all available features and options.</p>
-  </div>
-</div>
+2. **Through the Dedicated Contacts Tab**
+   - Tap the Contacts icon in the bottom navigation bar
+   - This provides access to the full Contacts screen with all available features and options
 
 ## Finding Contacts
 
 The Contacts interface makes it easy to locate the people you want to connect with:
 
-<div class="step-container mb-6">
-  <div class="step-number">1</div>
-  <div class="step-content">
-    <h3 class="step-title">Browse Your Contact List</h3>
-    <p>Your contacts are automatically sorted with most frequent interactions at the top for quick access.</p>
-  </div>
-</div>
+1. **Browse Your Contact List**
+   - Your contacts are automatically sorted with most frequent interactions at the top
+   - Scroll through your list to find people you regularly transact with
 
-<div class="step-container mb-6">
-  <div class="step-number">2</div>
-  <div class="step-content">
-    <h3 class="step-title">Use the Search Bar</h3>
-    <p>At the top of the Contacts screen, you'll find a search bar. Tap it and enter a name to quickly find specific contacts, even in a large contact list.</p>
-  </div>
-</div>
+2. **Use the Search Bar**
+   - At the top of the Contacts screen, you'll find a search bar
+   - Tap it and enter a name to quickly find specific contacts
+   - This is especially useful when you have many contacts in your list
 
 ## Adding New Contacts
 
 Flash offers multiple ways to add new contacts to your network:
 
-<div class="step-container mb-6">
-  <div class="step-number">1</div>
-  <div class="step-content">
-    <h3 class="step-title">Add Manually</h3>
-    <p>Tap the "+" button in the top-right corner of the Contacts screen. You can then enter their Flash username or Lightning address.</p>
-  </div>
-</div>
+1. **Add Manually**
+   - Tap the "+" button in the top-right corner of the Contacts screen
+   - Enter their Flash username or Lightning address
+   - Confirm to add them to your contacts
 
-<div class="step-container mb-6">
-  <div class="step-number">2</div>
-  <div class="step-content">
-    <h3 class="step-title">Scan a QR Code</h3>
-    <p>From the "+" menu, select the scan option to use your camera to scan someone's Flash QR code, instantly adding them to your contacts.</p>
-  </div>
-</div>
+2. **Scan a QR Code**
+   - From the "+" menu, select the scan option
+   - Use your camera to scan someone's Flash QR code
+   - This instantly adds them to your contacts
 
-<div class="step-container mb-6">
-  <div class="step-number">3</div>
-  <div class="step-content">
-    <h3 class="step-title">Automatic Addition</h3>
-    <p>Flash automatically adds people to your contacts when you send or receive a payment from them, creating a self-maintaining system focused on actual financial relationships.</p>
-  </div>
-</div>
+3. **Automatic Addition**
+   - Flash automatically adds people to your contacts when you send or receive a payment
+   - This creates a self-maintaining system focused on actual financial relationships
+   - No manual contact management required
 
 ## Interacting with Contacts
 
 Once you've added contacts, you can interact with them in several ways:
 
-<div class="step-container mb-6">
-  <div class="step-number">1</div>
-  <div class="step-content">
-    <h3 class="step-title">View Contact Details</h3>
-    <p>Tap on any contact to open their profile. Here you'll see their profile information, transaction history, and available actions.</p>
-  </div>
-</div>
+### Viewing Contact Details
 
-<div class="step-container mb-6">
-  <div class="step-number">2</div>
-  <div class="step-content">
-    <h3 class="step-title">Start a Chat</h3>
-    <p>From a contact's profile, tap the "Message" button to open or create a chat thread with them. You can also send messages directly from the chat tab by selecting the contact.</p>
-  </div>
-</div>
+- Tap on any contact to open their profile
+- Here you'll see their profile information, transaction history, and available actions
+- Contact details include their username, profile picture, and payment address
 
-<div class="step-container mb-6">
-  <div class="step-number">3</div>
-  <div class="step-content">
-    <h3 class="step-title">View Transaction History</h3>
-    <p>Each contact's profile displays your complete payment history with them, helping you track your financial interactions over time.</p>
-  </div>
-</div>
+### Starting a Chat
+
+- From a contact's profile, tap the "Message" button to open or create a chat thread
+- You can also send messages directly from the chat tab by selecting the contact
+- Messages are end-to-end encrypted when both users are on the NOSTR protocol
+
+### Viewing Transaction History
+
+- Each contact's profile displays your complete payment history
+- This helps you track your financial interactions over time
+- The history includes payment amounts, dates, and any attached notes
 
 ## Sending Bitcoin to Contacts
 
 Flash makes it simple to send Bitcoin to your contacts:
 
-<div class="step-container mb-6">
-  <div class="step-number">1</div>
-  <div class="step-content">
-    <h3 class="step-title">Send from Contact Profile</h3>
-    <p>Open a contact's profile and tap the "Send" button. Enter the amount, add an optional note, and confirm the payment.</p>
-  </div>
-</div>
+### Send from Contact Profile
 
-<div class="step-container mb-6">
-  <div class="step-number">2</div>
-  <div class="step-content">
-    <h3 class="step-title">Send from Chat</h3>
-    <p>During a chat conversation, tap the Lightning icon to initiate a payment. This allows you to seamlessly mix communication and payments in a single thread.</p>
-  </div>
-</div>
+- Open a contact's profile and tap the "Send" button
+- Enter the amount, add an optional note, and confirm the payment
+- The transaction is processed instantly via the Lightning Network
 
-<div class="step-container mb-6">
-  <div class="step-number">3</div>
-  <div class="step-content">
-    <h3 class="step-title">Quick Payments with Saved Amounts</h3>
-    <p>For frequent contacts, Flash may display quick payment buttons with common amounts based on your payment history, making repeat transactions faster.</p>
-  </div>
-</div>
+### Send from Chat
+
+- During a chat conversation, tap the Lightning icon to initiate a payment
+- This allows you to seamlessly mix communication and payments in a single thread
+- The recipient receives a notification of your payment in the chat
+
+### Quick Payments with Saved Amounts
+
+- For frequent contacts, Flash may display quick payment buttons
+- These common amounts are based on your payment history
+- Tap a quick payment button to send that amount with just one action
 
 ## Contact Privacy and Security
 
 Your Flash contacts are designed with privacy and security as priorities:
 
 - **Local Storage**: Your contact list is stored only on your device, not on centralized servers
+
 - **Private Relationships**: Your transaction history remains private between you and each contact
+
 - **NOSTR Integration**: Contacts who also use NOSTR provide end-to-end encrypted messaging
+
 - **Manual Control**: You can remove any contact at any time by swiping left on their entry and tapping "Delete"
 
 The Contacts feature in Flash creates a seamless bridge between your social connections and financial transactions, making Bitcoin payments as simple as sending a message.
