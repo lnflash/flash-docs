@@ -7,8 +7,6 @@ description: Comprehensive guides to help you make the most of Flash's features 
   <img src="/images/badges/webp/guides.webp" alt="Flash User Guides" class="mx-auto h-40 mb-4" />
 </div>
 
-# Flash User Guides
-
 Welcome to Flash's user guides section. Here you'll find step-by-step instructions on how to use Flash's various features, from basic wallet functions to advanced capabilities. These guides are designed to help both new and experienced users get the most out of Flash.
 
 ## Getting Started Guides
