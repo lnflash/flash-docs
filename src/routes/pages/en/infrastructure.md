@@ -5,29 +5,39 @@ description: The technical foundation that powers Flash's global payment system
 
 ## Flash Infrastructure
 
-Flash is built on Bitcoin, Lightning Network, and open-source technologies to provide secure, efficient financial services globally.
+Flash is built on a robust technical foundation that combines the best of Bitcoin, Lightning Network, and open-source technologies. This infrastructure enables Flash to provide secure, efficient, and accessible financial services globally, with a particular focus on the Caribbean region.
 
-### Core Components
+### Core Infrastructure Components
 
-- [Flash Infrastructure Overview](flash-infrastructure) - Technical architecture of the Flash ecosystem
-- [Bitcoin Protocol](bitcoin-protocol) - The foundational blockchain technology underpinning Flash
-- [Lightning Network](lightning-network) - Bitcoin's Layer 2 scaling solution for instant payments
-- [eCash on Bitcoin](ecash-on-bitcoin) - Electronic cash functionality for a seamless user experience
-- [Nostr Protocol](nostr-protocol) - Decentralized protocol for secure messaging and social features
+- [Flash Infrastructure Overview](flash-infrastructure) - A comprehensive look at the technical architecture that powers the Flash ecosystem.
 
-### Partners
+- [Bitcoin Protocol](bitcoin-protocol) - The foundational blockchain technology that underpins Flash, providing security, transparency, and decentralization.
 
-- [Galoy Project](galoy-project) - Open-source banking platform for core infrastructure
-- [Breez SDK](breez-sdk) - Powers Flash's non-custodial Lightning capabilities
-- [IBEX Mercado](ibex-mercado) - Bitcoin and Lightning infrastructure provider
+- [Lightning Network](lightning-network) - Bitcoin's Layer 2 scaling solution that enables Flash to process instant, low-cost transactions globally.
 
-### Key Benefits
+- [eCash on Bitcoin](ecash-on-bitcoin) - Learn how Flash implements electronic cash functionality on the Bitcoin network to create a seamless user experience.
 
-- **Security**: Bitcoin's proven security model with additional protection layers
-- **Scalability**: Handles millions of transactions with minimal fees
-- **Reliability**: Distributed architecture ensures consistent availability
-- **Interoperability**: Compatible with global Bitcoin and Lightning standards
-- **Transparency**: Open-source components for community verification
+- [Nostr Protocol](nostr-protocol) - The decentralized social networking protocol that enables secure messaging and social features in Flash.
+
+### Integration Partners
+
+Flash collaborates with industry-leading partners to enhance its infrastructure capabilities:
+
+- [Galoy Project](galoy-project) - The open-source banking platform that provides core banking infrastructure for Flash.
+
+- [Breez SDK](breez-sdk) - The software development kit that powers Flash's non-custodial Lightning capabilities.
+
+- [IBEX Mercado](ibex-mercado) - Bitcoin and Lightning infrastructure provider that helps Flash scale its operations.
+
+### Infrastructure Benefits
+
+Flash's infrastructure delivers several key advantages:
+
+- **Security**: Built on Bitcoin's proven security model with additional layers of protection
+- **Scalability**: Leverages Lightning Network to handle millions of transactions with minimal fees
+- **Reliability**: Distributed architecture ensures consistent service availability
+- **Interoperability**: Works with global Bitcoin and Lightning standards for wide compatibility
+- **Transparency**: Open-source components allow for community verification and trust
 
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
