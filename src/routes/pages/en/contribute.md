@@ -17,8 +17,7 @@ description: Help us build the future of Bitcoin and Lightning with your contrib
   <div class="bg-gradient-to-r from-purple-600 to-indigo-600 p-1 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 max-w-md mx-auto">
     <a href="lightning:flash@getflash.io" class="block bg-zinc-900 hover:bg-zinc-800 transition-colors duration-200 rounded-lg py-5 px-6">
       <div class="flex items-center justify-center">
-        <img src="/images/badges/png/Donate.png" alt="Donate" class="h-8 w-8 mr-3" />
-        <span class="text-xl font-bold text-white">Donate with Lightning</span>
+        <img src="/images/badges/png/Donate.png" alt="Donate" class="h-12 w-12 drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]" />
       </div>
     </a>
   </div>
@@ -42,8 +41,8 @@ description: Help us build the future of Bitcoin and Lightning with your contrib
     <!-- Optional center content -->
   </div>
   <div class="w-1/3 text-right">
-    <a href="user-guides" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      User Guides
+    <a href="get-started" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      Get Started
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
       </svg>
