@@ -3,29 +3,33 @@ title: User Guides
 description: Comprehensive guides to help you make the most of Flash's features and capabilities.
 ---
 
-## Flash User Guides
+<div class="text-center mb-12">
+  <img src="/images/badges/webp/guides.webp" alt="Flash User Guides" class="mx-auto h-40 mb-4" />
+</div>
+
+# Flash User Guides
 
 Welcome to Flash's user guides section. Here you'll find step-by-step instructions on how to use Flash's various features, from basic wallet functions to advanced capabilities. These guides are designed to help both new and experienced users get the most out of Flash.
 
-### Getting Started Guides
+## Getting Started Guides
 
-- [Get Cash](guides/get-cash) - Learn how to receive Cash from anywhere in the world and earn a little Cash by learning about Bitcoin.
-- [Cash Out](guides/cash-out) - Turn your Cash into physical cash when needed.
-- [Earn Cash](guides/earn) - Discover various ways to earn Cash using the Flash app.
-- [Sweep to Cold Storage](guides/sweep-to-cold-storage) - Learn how to secure your Cash by transferring it to a cold storage wallet.
+- [Get Cash](guides/get-cash) - Learn how to receive Cash from anywhere in the world through bank transfers, other wallets, or exchange points.
+- [Cash Out](guides/cash-out) - Turn your Cash into physical cash through bank transfers or at local Flash exchange points.
+- [Earn Cash](guides/earn) - Discover various ways to earn Cash by accepting payments for goods and services or participating in Flash rewards.
+- [Sweep to Cold Storage](guides/sweep-to-cold-storage) - Comprehensive guide to securing your Bitcoin by transferring it to hardware wallets like Bitkey, ColdCard, or Trezor.
 
-### App Features
+## App Features
 
-- [Contacts](guides/contacts) - How to manage and interact with your contacts in the Flash app.
-- [Chat](guides/chat) - Learn how to use Flash's encrypted messaging features.
-- [Map](guides/map) - Find Flash merchants and ATMs near you using the built-in map feature.
+- [Contacts](guides/contacts) - How to access, add, and interact with your contacts for messaging and Bitcoin payments directly through the Chat tab.
+- [Chat](guides/chat) - Learn how to use Flash's encrypted NOSTR-based messaging features with integrated Bitcoin payments.
+- [Map](guides/map) - Find Flash merchants, exchange points, and Bitcoin ATMs near you using the built-in map feature.
 
-### Beyond the Basics
+## Beyond the Basics
 
-- [DCA (Dollar Cost Averaging)](guides/dca) - Set up automatic Bitcoin purchases on a regular schedule.
-- [Bitcoin Protocol](bitcoin-protocol) - Understand the underlying technology that powers Flash.
-- [Lightning Network](lightning-network) - Learn about Bitcoin's Layer 2 payment network used by Flash.
-- [Cold Storage](guides/sweep-to-cold-storage) - Take full control of your Bitcoin with cold storage solutions.
+- [DCA (Dollar Cost Averaging)](guides/dca) - Set up automatic Bitcoin purchases on a regular schedule to build your savings steadily.
+- [Non-Custodial Wallets](guides/non-custodial-wallets) - Understand different types of self-custody Bitcoin wallets and which one might be right for you.
+- [Bitcoin Protocol](bitcoin-protocol) - Understand the underlying technology that powers Flash and the broader Bitcoin network.
+- [Lightning Network](lightning-network) - Learn about Bitcoin's Layer 2 payment network that enables instant, low-fee transactions in Flash.
 
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
