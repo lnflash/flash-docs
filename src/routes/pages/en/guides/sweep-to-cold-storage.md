@@ -9,7 +9,9 @@ description: Complete guide to moving your Bitcoin from mobile wallets to hardwa
 
 # Moving Bitcoin to Hardware Cold Storage
 
-This guide provides step-by-step instructions for securing your Bitcoin in cold storage using hardware wallets. Follow these detailed steps to ensure your Bitcoin is safely transferred from mobile wallets to long-term secure storage.
+This guide provides step-by-step instructions for securing your Bitcoin in cold
+storage using hardware wallets. Follow these detailed steps to ensure your
+Bitcoin is safely transferred from mobile wallets to long-term secure storage.
 
 ## Table of Contents
 
@@ -26,7 +28,9 @@ This guide provides step-by-step instructions for securing your Bitcoin in cold 
 
 ## Understanding Cold Storage
 
-Cold storage refers to keeping your Bitcoin private keys offline on a dedicated hardware device, dramatically reducing potential attack vectors compared to mobile or online wallets.
+Cold storage refers to keeping your Bitcoin private keys offline on a dedicated
+hardware device, dramatically reducing potential attack vectors compared to
+mobile or online wallets.
 
 ### Benefits of Hardware Wallets
 
@@ -39,6 +43,7 @@ Cold storage refers to keeping your Bitcoin private keys offline on a dedicated 
 ### When to Use Cold Storage
 
 Cold storage is recommended when:
+
 - Your Bitcoin holdings exceed $1,000 in value
 - You plan to hold Bitcoin for more than 6 months
 - You want maximum protection against remote attacks
@@ -70,7 +75,7 @@ Each hardware wallet has a specific setup process. Select your device below:
       <li><label for="tab2">ColdCard</label></li>
       <li><label for="tab3">Trezor</label></li>
     </ul>
-    
+
     <div class="slider"><div class="indicator"></div></div>
     <div class="content">
       <section>
@@ -422,7 +427,8 @@ Each hardware wallet has a specific setup process. Select your device below:
         </div>
       </section>
     </div>
-  </div>
+
+</div>
 </div>
 
 <style>
@@ -565,12 +571,13 @@ Each hardware wallet has a specific setup process. Select your device below:
 
 ## Transferring Bitcoin from Mobile Wallets
 
-Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet:
+Now you're ready to send Bitcoin from your mobile wallet to your hardware
+wallet:
 
 <div class="documentation-section mt-6">
   <h3 class="font-bold text-xl mb-6">From Flash Wallet</h3>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">1</div>
     <div class="step-content">
       <h4 class="step-title">Open Flash App</h4>
@@ -581,8 +588,8 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
       </div>
     </div>
   </div>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">2</div>
     <div class="step-content">
       <h4 class="step-title">Initiate Transfer</h4>
@@ -593,8 +600,8 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
       </div>
     </div>
   </div>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">3</div>
     <div class="step-content">
       <h4 class="step-title">Enter Details</h4>
@@ -606,8 +613,8 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
       </div>
     </div>
   </div>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">4</div>
     <div class="step-content">
       <h4 class="step-title">Review and Confirm</h4>
@@ -619,8 +626,8 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
       </div>
     </div>
   </div>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">5</div>
     <div class="step-content">
       <h4 class="step-title">Initial Test Verification</h4>
@@ -636,8 +643,8 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
 
 <div class="documentation-section mt-12">
   <h3 class="font-bold text-xl mb-6">From Other Mobile Wallets</h3>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">1</div>
     <div class="step-content">
       <h4 class="step-title">Open Your Mobile Wallet</h4>
@@ -648,8 +655,8 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
       </div>
     </div>
   </div>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">2</div>
     <div class="step-content">
       <h4 class="step-title">Enter Hardware Wallet Address</h4>
@@ -661,8 +668,8 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
       </div>
     </div>
   </div>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">3</div>
     <div class="step-content">
       <h4 class="step-title">Set Transaction Fee</h4>
@@ -674,8 +681,8 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
       </div>
     </div>
   </div>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">4</div>
     <div class="step-content">
       <h4 class="step-title">Send Test Transaction</h4>
@@ -687,8 +694,8 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
       </div>
     </div>
   </div>
-  
-  <div class="step-container">
+
+<div class="step-container">
     <div class="step-number">5</div>
     <div class="step-content">
       <h4 class="step-title">Complete the Transfer</h4>
@@ -705,7 +712,7 @@ Now you're ready to send Bitcoin from your mobile wallet to your hardware wallet
 <div class="bg-yellow-50 dark:bg-yellow-900 border-l-4 border-yellow-400 p-4 my-8">
   <h4 class="font-medium text-yellow-800 dark:text-yellow-200">Security Reminder</h4>
   <p class="text-yellow-700 dark:text-yellow-300 mt-2">
-    Always verify the receiving address on your hardware wallet's secure screen before sending any funds. 
+    Always verify the receiving address on your hardware wallet's secure screen before sending any funds.
     A compromised computer could display a different address than the one you intended to use.
   </p>
 </div>
@@ -784,7 +791,8 @@ For users seeking maximum security:
 1. **Multi-Signature Setups**
    - Require multiple devices to approve transactions
    - Distribute risk across different security models
-   - Popular options: [Sparrow Wallet](https://sparrowwallet.com/) multisig, [Caravan](https://unchained.com/caravan/)
+   - Popular options: [Sparrow Wallet](https://sparrowwallet.com/) multisig,
+     [Caravan](https://unchained.com/caravan/)
 
 2. **Air-Gapped Operations**
    - Keep signing device completely offline
