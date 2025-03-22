@@ -15,9 +15,7 @@ This guide provides a complete overview of Flash's Chat feature, explaining how 
 
 - [What is the Chat Tab?](#what-is-the-chat-tab)
 - [Getting Started with Chat](#getting-started-with-chat)
-- [Messaging Features](#messaging-features)
 - [Privacy and Security](#privacy-and-security)
-- [Flash Support Channel](#flash-support-channel)
 - [Troubleshooting](#troubleshooting)
 
 ## What is the Chat Tab?
@@ -51,16 +49,6 @@ Follow these steps to begin using Flash Chat:
    - Tap on a contact to open a conversation
    - Messages are delivered even if the recipient is offline
 
-## Messaging Features
-
-Flash Chat includes a variety of features to enhance your messaging experience:
-
-- **Message Types**: Send text messages with emoji support, share images and media, voice messages, and location data.
-
-- **Group Conversations**: Create groups by tapping "New Group", add participants, set a group name and image. All group messages are encrypted end-to-end.
-
-- **Message Controls**: React to messages, reply to specific messages, forward messages to others, and delete messages from your device.
-
 ## Privacy and Security
 
 Flash Chat is designed with privacy and security in mind:
@@ -70,16 +58,6 @@ Flash Chat is designed with privacy and security in mind:
 - **Key Management**: Back up your private key in a secure location and never share it with anyone.
 
 - **Data Ownership**: Your data belongs to you, not Flash. You can export your conversations and contacts at any time.
-
-## Flash Support Channel
-
-The Flash team maintains an official support channel where you can get help directly from the team and community:
-
-1. **Joining the Support Channel**
-   - Open the Chat Tab, look for "Flash Support" in your channel list or tap "+" to browse available channels.
-
-2. **Getting Help**
-   - Post your question in the channel with specific details about your issue. The channel is monitored during business hours.
 
 ## Troubleshooting
 
@@ -92,6 +70,10 @@ If you encounter issues with Flash Chat:
 - **Payment Issues**: Ensure you have sufficient balance and verify the recipient has a valid Lightning address.
 
 For further development information on NOSTR, visit the [official NOSTR protocol repository](https://github.com/nostr-protocol/nostr) on GitHub.
+
+## Learn More About NOSTR
+
+If you're interested in understanding more about how the NOSTR protocol works, its technical details, and the broader ecosystem, check out our [NOSTR Protocol](/en/nostr-protocol) page for an in-depth explanation of this innovative technology powering Flash Chat.
 
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
