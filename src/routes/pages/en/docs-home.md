@@ -1,6 +1,6 @@
 ---
 title: Flash Docs
-description: Your comprehensive guide to Flash's suite of Bitcoin solutions - mobile app, point of sale, Flashcard rewards, and online trading services
+description: Your comprehensive guide to Flash's suite of Bitcoin solutions - mobile app, point of sale, Flashcard rewards, and online flash top-ups and cash settlements
 ---
 
 <div class="welcome-container flex flex-col items-center justify-center text-center mb-12">

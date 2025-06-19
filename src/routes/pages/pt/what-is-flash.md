@@ -5,7 +5,7 @@ description: Flash é uma aplicação financeira baseada em Bitcoin para indiví
 
 ## O que é Flash?
 
-Flash é um provedor de serviços Bitcoin criando produtos e serviços especificamente para o Caribe. Nosso ecossistema inclui o aplicativo Flash para usuários do dia a dia, o dispositivo de ponto de venda Flashpoint para comerciantes, o cartão Flash com recompensas e capacidades de cartão-presente, e serviços de negociação Bitcoin tanto online quanto através do nosso aplicativo.
+Flash é um provedor de serviços Bitcoin criando produtos e serviços especificamente para o Caribe. Nosso ecossistema inclui o aplicativo Flash para usuários do dia a dia, o dispositivo de ponto de venda Flashpoint para comerciantes, o cartão Flash com recompensas e capacidades de cartão-presente, e recargas flash e liquidações em dinheiro Bitcoin tanto online quanto através do nosso aplicativo.
 
 ### Contas Pessoais
 

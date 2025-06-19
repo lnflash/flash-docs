@@ -110,7 +110,7 @@ const searchData: Record<string, SearchItem[]> = {
         // Integrations
         { title: "Galoy Project", description: "Open source Bitcoin banking", content: "Core banking infrastructure for Bitcoin and Lightning applications", url: "/en/galoy-project", locale: "en", section: "Integrations" },
         { title: "Breez SDK", description: "Lightning development kit", content: "SDK for building Lightning-powered applications with built-in node management", url: "/en/breez-sdk", locale: "en", section: "Integrations" },
-        { title: "IBEX Mercado", description: "Bitcoin exchange integration", content: "Wholesale Bitcoin exchange providing liquidity and trading services", url: "/en/ibex-mercado", locale: "en", section: "Integrations" },
+        { title: "IBEX Mercado", description: "Bitcoin exchange integration", content: "Wholesale Bitcoin exchange providing liquidity and flash top-ups and cash settlements", url: "/en/ibex-mercado", locale: "en", section: "Integrations" },
         { title: "BTCPay Server", description: "Self-hosted payment processor", content: "Open source Bitcoin payment processor for merchants", url: "/en/btcpay-server", locale: "en", section: "Integrations" },
         
         // Business & Development
