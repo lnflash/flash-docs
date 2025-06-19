@@ -216,3 +216,26 @@ Flash supports standard NOSTR addressing:
 - [Get Started with NOSTR](https://nostr.how)
 
 By integrating NOSTR, Flash provides users with communication capabilities that are as censorship-resistant and decentralized as Bitcoin itself. This alignment of technologies creates a platform where both money and messages flow freely, outside the control of any central authority.
+
+<!-- Navigation links -->
+<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
+  <div class="w-1/3 text-left">
+    <a href="lightning-network" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
+      </svg>
+      Lightning Network
+    </a>
+  </div>
+  <div class="w-1/3 text-center">
+    <!-- Optional center content -->
+  </div>
+  <div class="w-1/3 text-right">
+    <a href="guides/chat" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      Using Flash Chat
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+      </svg>
+    </a>
+  </div>
+</div>

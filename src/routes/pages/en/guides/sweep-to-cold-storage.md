@@ -3,12 +3,6 @@ title: Sweep to Cold Storage
 description: Complete guide to moving your Bitcoin from mobile wallets to hardware security
 ---
 
-<div class="text-center mb-12">
-  <img src="/images/badges/webp/sweep-to-cold.webp" alt="Hardware wallets for Bitcoin cold storage" class="mx-auto h-40 mb-4" />
-</div>
-
-# Moving Bitcoin to Hardware Cold Storage
-
 This guide provides step-by-step instructions for securing your Bitcoin in cold
 storage using hardware wallets. Follow these detailed steps to ensure your
 Bitcoin is safely transferred from mobile wallets to long-term secure storage.
@@ -811,27 +805,4 @@ For users seeking maximum security:
   <p class="text-purple-700 dark:text-purple-300">
     If you encounter any issues during the transfer process, reach out to Flash support through the app or visit our community forums for assistance.
   </p>
-</div>
-
-<!-- Navigation links -->
-<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
-  <div class="w-1/3 text-left">
-    <a href="non-custodial-wallets" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
-      </svg>
-      Non-Custodial Wallets
-    </a>
-  </div>
-  <div class="w-1/3 text-center">
-    <!-- Optional center content -->
-  </div>
-  <div class="w-1/3 text-right">
-    <a href="infrastructure" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      Infrastructure
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
-      </svg>
-    </a>
-  </div>
 </div>

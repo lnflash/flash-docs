@@ -36,3 +36,26 @@ The [Flash protocol repository](https://github.com/flash-protocol/flash) is the 
 
 -   [Awesome Flash](https://www.flash.net) is a repository of links for Flash clients, relay implementations, and more.
 -   [Flash Resources](https://flash-resources.com) covers Flash basics and links to many other resources.
+
+<!-- Navigation links -->
+<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
+  <div class="w-1/3 text-left">
+    <a href="contribute" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
+      </svg>
+      Support Flash
+    </a>
+  </div>
+  <div class="w-1/3 text-center">
+    <!-- Optional center content -->
+  </div>
+  <div class="w-1/3 text-right">
+    <a href="flash-infrastructure" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      Flash Infrastructure
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+      </svg>
+    </a>
+  </div>
+</div>

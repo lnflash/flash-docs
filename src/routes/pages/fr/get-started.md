@@ -1,60 +1,92 @@
 ---
-title: Démarrer avec Flash
-description : Ce guide vous aidera à comprendre les bases de Flash et vous permettra d'être prêt à utiliser Flash avec un nouveau compte. Nous verrons comment créer un nouveau portefeuille lightning, créer un compte et se connecter à un client en toute sécurité.
+title: Commencer avec Flash
+description: Commencez à utiliser Flash en 3 étapes simples - télécharger, créer un portefeuille, ajouter des fonds
 ---
 
-## [§](#understanding-keys) Comprendre le fonctionnement
-
-Chaque compte Flash est basé sur une paire de clés publique/privée. Pour simplifier, votre clé publique est votre nom d'utilisateur et votre clé privée est votre mot de passe, avec une mise en garde importante. Contrairement à un mot de passe, votre clé privée ne peut pas être réinitialisée en cas de perte.
-
-Permettez-moi de le répéter pour que ce soit clair : **Si vous perdez votre clé privée, votre compte Flash est perdu. Si quelqu'un d'autre a accès à votre clé privée, il peut prendre le contrôle de votre compte**.
-
-Veillez à conserver votre clé privée dans un endroit sûr, comme un gestionnaire de mots de passe.
-
-## [§](#protocol-vs-client) Protocole vs Client
-
-Flash lui-même n'est qu'un protocole, une procédure convenue pour faire circuler des messages sur Internet.
-
-Vous accéderez à Flash (le protocole) via un client. Les clients peuvent être des applications web, de bureau ou mobiles. Certains clients Flash vous permettent de vous connecter en collant votre clé privée. Sur le web, cette méthode n'est généralement pas recommandée, car elle est fastidieuse et peu sûre. Nous vous recommandons plutôt d'utiliser un portefeuille cryptographique basé sur le web, qui est un logiciel spécialement conçu pour gérer les clés privées.
-
-[Alby - Chrome](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe), [Alby - Firefox](https://addons.mozilla.org/en-US/firefox/addon/alby/) est un portefeuille bitcoin lightning qui intègre le support de Flash. C'est une excellente option pour les nouveaux utilisateur-trice-s. Nous couvrirons l'installation d'Alby dans les guides spécifiques aux clients qui en ont besoin ci-dessous.
-
-## [§](#create-your-account) Créer votre compte
-
-Voici des guides étape par étape pour différents clients que nous recommandons :
-
--   [Iris](/en/guides/iris) (Web)
--   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
-
-Quelques autres clients que nous apprécions mais pour lesquels nous n'avons pas de guides :
-
-- [Snort](https://snort.social/) (Web) Client Web super propre et rapide.
-- [Coracle](https://coracle.social/) (Web) Un client axé sur la navigation relais.
-- [Flashgram](https://flashgram.co) (Web) Client amusant inspiré d'Instagram et axé sur les images, la vidéo et l'audio. Ramenez vos mèmes !
-
-## [§](#find-friends) Trouvez vos ami-e-s pour les suivre
-
-- Si vous savez que quelqu'un est sur Flash, trouvez son profil en recherchant sa clé publique.
-- De nombreux utilisateurs de Twitter tweetent leurs clés publiques Flash avec le hashtag #flash, la recherche de ce hashtag peut donc vous donner un bon point de départ.
-- [flash.directory](https://flash.directory) est une base de données qui associe les utilisateur-trice-s de Twitter à leurs clés publiques Flash.
-
-## [§](#whats-signing) Que veut dire "Signer"
-
-Pour interagir avec le protocole Flash, vous devez créer une signature cryptographique à chaque fois que vous effectuez une action. Considérez cette signature comme une étape d'authentification au cours de laquelle vous confirmez que vous êtes bien la personne que vous prétendez être.
-
-La plupart des clients Flash essaient de rendre cela facile et rapide (ou vous permettent d'enregistrer votre clé privée dans le client afin qu'il puisse signer en votre nom à chaque fois que vous faites quoi que ce soit).
-
-En ne fournissant que notre clé publique ci-dessus, nous serons invités à signer chaque fois que nous voudrons interagir avec des messages ou effectuer des mises à jour de notre profil. À ce moment-là, Alby apparaîtra automatiquement (comme lors de l'étape d'inscription) et vous pourrez confirmer que vous souhaitez effectivement signer.
-
-## [§](#can-i-use-other-clients) Est-ce que je peux utiliser d'autres clients?
-
-Oui ! Maintenant que vous avez créé votre paire de clés publiques/privées, vous pouvez utiliser cette paire sur n'importe quel client Flash pour accéder à votre compte. Rappelons que le client n'est qu'une interface permettant de voir les messages diffusés sur le protocole Flash.
-
-## [§](#next-steps) Prochaines étapes
-
-Vous avez maintenant un portefeuille lightning, une identité (votre paire de clés) et vous avez essayé un client. Voici quelques liens qui pourraient vous être utiles lorsque vous vous aventurerez plus loin dans Flash :
-
--   [Vérifier son identité](/fr/guides/get-cash)
--   [Que sont les relais et comment ils fonctionnent?](/fr/relays)
--   [En savoir plus sur les NIPs et l'élaboration du protocole](/fr/the-protocol)
+<div class="get-started-container max-w-4xl mx-auto px-6 py-8">
+  <!-- Hero section -->
+  <div class="text-center mb-12">
+    <h1 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">Commencer avec Flash</h1>
+    <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Paiements Bitcoin ultra-rapides en seulement 3 étapes simples</p>
+  </div>
+  
+  <!-- 3 Steps -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+    
+    <!-- Step 1: Download -->
+    <div class="step-card bg-white dark:bg-gray-800 rounded-xl shadow-lg border-t-4 border-purple-500 p-6 text-center">
+      <div class="w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mx-auto mb-4">
+        <span class="text-2xl font-bold text-purple-600 dark:text-purple-400">1</span>
+      </div>
+      <h3 class="text-xl font-semibold mb-3">Télécharger Flash</h3>
+      <p class="text-gray-600 dark:text-gray-300 mb-4">Obtenez l'application Flash sur votre appareil mobile</p>
+      <a href="https://getflash.io/app" target="_blank" class="inline-block bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+        Télécharger l'App
+      </a>
+    </div>
+    
+    <!-- Step 2: Create Wallet -->
+    <div class="step-card bg-white dark:bg-gray-800 rounded-xl shadow-lg border-t-4 border-blue-500 p-6 text-center">
+      <div class="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
+        <span class="text-2xl font-bold text-blue-600 dark:text-blue-400">2</span>
+      </div>
+      <h3 class="text-xl font-semibold mb-3">Créer Votre Portefeuille</h3>
+      <p class="text-gray-600 dark:text-gray-300 mb-4">Ouvrez l'app et appuyez sur "Commencer" - aucune inscription requise !</p>
+      <div class="text-sm text-gray-500 dark:text-gray-400">
+        ✓ Configuration instantanée<br>
+        ✓ Aucune information personnelle nécessaire<br>
+        ✓ Vos clés, votre Bitcoin
+      </div>
+    </div>
+    
+    <!-- Step 3: Add Funds -->
+    <div class="step-card bg-white dark:bg-gray-800 rounded-xl shadow-lg border-t-4 border-green-500 p-6 text-center">
+      <div class="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
+        <span class="text-2xl font-bold text-green-600 dark:text-green-400">3</span>
+      </div>
+      <h3 class="text-xl font-semibold mb-3">Ajouter des Fonds</h3>
+      <p class="text-gray-600 dark:text-gray-300 mb-4">Obtenez du Cash dans votre portefeuille et commencez à envoyer des paiements</p>
+      <a href="guides/get-cash" class="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+        Comment Obtenir du Cash
+      </a>
+    </div>
+    
+  </div>
+  
+  <!-- Features -->
+  <div class="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 mb-8">
+    <h2 class="text-xl font-semibold mb-4 text-center">Ce que vous pouvez faire avec Flash :</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="text-center">
+        <div class="text-2xl mb-2">💸</div>
+        <p class="text-sm">Envoyer de l'argent globalement</p>
+      </div>
+      <div class="text-center">
+        <div class="text-2xl mb-2">⚡</div>
+        <p class="text-sm">Paiements ultra-rapides</p>
+      </div>
+      <div class="text-center">
+        <div class="text-2xl mb-2">🔒</div>
+        <p class="text-sm">Stockage Bitcoin sécurisé</p>
+      </div>
+      <div class="text-center">
+        <div class="text-2xl mb-2">🏪</div>
+        <p class="text-sm">Accepter les paiements</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Next Steps -->
+  <div class="text-center">
+    <h3 class="text-lg font-semibold mb-4">Prêt à en apprendre plus ?</h3>
+    <div class="space-x-4">
+      <a href="what-is-flash" class="inline-block bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
+        Qu'est-ce que Flash ?
+      </a>
+      <a href="user-guides" class="inline-block border border-purple-600 text-purple-600 hover:bg-purple-50 dark:hover:bg-purple-900 px-6 py-2 rounded-lg font-medium transition-colors">
+        Voir Tous les Guides
+      </a>
+    </div>
+  </div>
+  
+</div>

@@ -170,3 +170,26 @@ Breez SDK continues to evolve with new features that will enhance Flash:
 - [Twitter](https://twitter.com/Breez_Tech)
 
 As Flash continues to grow, Breez SDK provides the solid foundation needed for reliable, user-friendly Lightning Network functionality. This partnership between Flash and Breez Technology represents the collaborative nature of the open-source Bitcoin ecosystem, where specialized components work together to create exceptional user experiences.
+
+<!-- Navigation links -->
+<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
+  <div class="w-1/3 text-left">
+    <a href="third-party-vendors" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
+      </svg>
+      All Integrations
+    </a>
+  </div>
+  <div class="w-1/3 text-center">
+    <!-- Optional center content -->
+  </div>
+  <div class="w-1/3 text-right">
+    <a href="galoy-project" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      Galoy Project
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+      </svg>
+    </a>
+  </div>
+</div>

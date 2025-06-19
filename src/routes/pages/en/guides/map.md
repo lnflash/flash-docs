@@ -3,8 +3,6 @@ title: Discover Local Merchants using the Map Tab
 description: A comprehensive guide to using the Flash Map Tab to find businesses that accept Bitcoin and exchange cash
 ---
 
-![map tab](/images/map-tab-bar.webp)
-
 ## What is the Map Tab?
 
 The Map Tab is a powerful feature in Flash that helps you discover local businesses and individuals accepting Bitcoin payments through Flash. This interactive map shows "FlashPoints" in your area, creating a global network of Bitcoin-friendly locations where you can:
@@ -109,27 +107,3 @@ When using the Map Tab and interacting with FlashPoints:
 - Use the Chat feature to verify details before visiting
 
 The Flash Map is continuously growing with new FlashPoints being added globally every day. Help build the network by encouraging local businesses to join Flash!
-
-<!-- Navigation links -->
-<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
-  <div class="w-1/3 text-left">
-    <a href="contacts" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
-      </svg>
-      Contacts
-    </a>
-  </div>
-  <div class="w-1/3 text-center">
-    <!-- Optional center content -->
-  </div>
-  <div class="w-1/3 text-right">
-    <a href="dca" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      DCA
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
-      </svg>
-    </a>
-  </div>
-</div>
-

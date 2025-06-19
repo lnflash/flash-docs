@@ -4,7 +4,6 @@ description: Your comprehensive guide to Flash's suite of Bitcoin solutions - mo
 ---
 
 <div class="welcome-container flex flex-col items-center justify-center text-center mb-12">
-  <img src="/images/flash-docs-logo.png" alt="Flash Docs" class="w-32 sm:w-40 mx-auto mb-3" />
   <h1 class="text-2xl sm:text-3xl font-bold">Your Guide to Flash</h1>
 </div>
 
@@ -24,12 +23,8 @@ description: Your comprehensive guide to Flash's suite of Bitcoin solutions - mo
 </div>
 
 <style>
-  .choice-container a:hover {
+  .choice-container :global(a:hover) {
     transform: translateY(-5px);
     box-shadow: 0 15px 20px -3px rgba(0, 0, 0, 0.2), 0 8px 8px -4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .choice-button:hover {
-    transform: translateY(-5px);
   }
 </style>

@@ -3,8 +3,6 @@ title: Flash Business Accounts
 description: Accept Bitcoin payments, manage your business finances, and join the global network of Flash-enabled merchants
 ---
 
-![Business Account](/images/business.webp)
-
 ## Flash Business Accounts
 
 Flash Business Accounts enable merchants and business owners to accept Bitcoin payments, manage finances, and connect with Bitcoin users worldwide.

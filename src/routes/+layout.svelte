@@ -6,7 +6,7 @@
     import Header from '$lib/components/Header.svelte';
     import { sidebarVisible } from '$lib/store';
     import CloseIcon from '$lib/elements/icons/Close.svelte';
-    import { slide } from 'svelte/transition';
+    import { slide, fade } from 'svelte/transition';
     import { dev } from '$app/environment';
 
     export async function preload() {
@@ -14,50 +14,57 @@
     }
 </script>
 
-<div class="relative flex" dir={$locale === 'fa' ? 'rtl' : 'ltr'}>
-    <div
-        class="
-            absolute h-96 z-0 inset-0 bg-gradient-to-r from-[#5e08c1] to-[#e250f9]
-            opacity-20 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]
-            dark:from-[#5e08c1]/50 dark:to-[#e250f9]/50"
-    />
+<div class="min-h-screen flex flex-col bg-flash-white dark:bg-flash-black" dir={$locale === 'fa' ? 'rtl' : 'ltr'}>
+    <Header />
+    
+    <div class="flex flex-1 relative">
 
-    <aside
-        transition:slide={{ axis: 'x', duration: 200 }}
-        class="w-full md:w-80 z-20 h-full md:h-screen fixed bg-zinc-900 md:bg-transparent hidden md:block md:sticky overflow-y-scroll
-        top-0 px-6 pt-6 rtl:border-l ltr:border-r border-zinc-400/20"
-    >
-        <button
-            class="ml-auto block md:hidden"
-            on:click={() => sidebarVisible.set(!$sidebarVisible)}
-        >
-            <CloseIcon />
-        </button>
-        <Sidebar />
-    </aside>
-    {#if $sidebarVisible}
+        <!-- Desktop Sidebar -->
         <aside
-            transition:slide={{ axis: 'x', duration: 200 }}
-            class="w-full md:w-80 z-20 h-full md:h-screen fixed bg-zinc-50 dark:bg-zinc-900 md:bg-transparent md:block md:sticky overflow-y-scroll
-        top-0 px-6 pt-6 rtl:border-l ltr:border-r border-zinc-400/20"
+            class="hidden md:block w-80 flex-shrink-0 sticky top-16 h-[calc(100vh-4rem)] overflow-y-auto
+            bg-flash-gray-50 dark:bg-flash-gray-950 border-r border-flash-gray-200 dark:border-flash-gray-800"
         >
-            <button
-                class="ml-auto block md:hidden"
-                on:click={() => sidebarVisible.set(!$sidebarVisible)}
-            >
-                <CloseIcon />
-            </button>
-            <Sidebar on:navLinkClicked={() => sidebarVisible.set(!$sidebarVisible)} />
+            <div class="p-6">
+                <Sidebar />
+            </div>
         </aside>
-    {/if}
+        <!-- Mobile Sidebar Overlay -->
+        {#if $sidebarVisible}
+            <button
+                class="fixed inset-0 z-40 md:hidden bg-transparent border-0 p-0"
+                on:click={() => sidebarVisible.set(false)}
+                aria-label="Close menu"
+                transition:fade={{ duration: 200 }}
+            >
+                <div class="absolute inset-0 bg-flash-black/50" />
+            </button>
+            
+            <aside
+                transition:slide={{ axis: 'x', duration: 300 }}
+                class="fixed left-0 top-0 bottom-0 w-80 z-50 md:hidden
+                bg-flash-white dark:bg-flash-gray-950 shadow-flash-xl"
+            >
+                <div class="flex items-center justify-between p-4 border-b border-flash-gray-200 dark:border-flash-gray-800">
+                    <span class="text-lg font-semibold">Menu</span>
+                    <button
+                        class="p-2 rounded-flash hover:bg-flash-gray-100 dark:hover:bg-flash-gray-900 transition-colors"
+                        on:click={() => sidebarVisible.set(false)}
+                    >
+                        <CloseIcon />
+                    </button>
+                </div>
+                <div class="p-6 overflow-y-auto h-[calc(100%-4rem)]">
+                    <Sidebar on:navLinkClicked={() => sidebarVisible.set(false)} />
+                </div>
+            </aside>
+        {/if}
 
-    <div class="z-10 grow">
-        <Header />
-        <div class="mainContent p-8 grow mb-20">
-            <div class="prose dark:prose-invert mx-auto">
+        <!-- Main Content -->
+        <main class="flex-1 overflow-x-hidden">
+            <div class="min-h-[calc(100vh-4rem)]">
                 <slot />
             </div>
-        </div>
-        <Footer />
+            <Footer />
+        </main>
     </div>
 </div>

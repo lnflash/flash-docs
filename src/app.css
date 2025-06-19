@@ -2,8 +2,126 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-    @apply hover:text-zinc-600 dark:hover:text-zinc-400;
+@layer base {
+    :root {
+        --flash-black: #000000;
+        --flash-white: #FFFFFF;
+        --flash-accent: #7C3AED;
+    }
+
+    html {
+        @apply scroll-smooth;
+    }
+
+    body {
+        @apply bg-flash-white text-flash-black dark:bg-flash-black dark:text-flash-white transition-colors duration-200;
+        @apply antialiased;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-display tracking-tight;
+    }
+
+    h1 {
+        @apply text-4xl md:text-5xl lg:text-6xl font-bold;
+    }
+
+    h2 {
+        @apply text-3xl md:text-4xl font-semibold;
+    }
+
+    h3 {
+        @apply text-2xl md:text-3xl font-semibold;
+    }
+
+    h4 {
+        @apply text-xl md:text-2xl font-medium;
+    }
+
+    h5 {
+        @apply text-lg md:text-xl font-medium;
+    }
+
+    h6 {
+        @apply text-base md:text-lg font-medium;
+    }
+
+    p {
+        @apply text-flash-gray-700 dark:text-flash-gray-300 leading-relaxed;
+    }
+
+    a {
+        @apply text-flash-black dark:text-flash-white underline-offset-2 transition-all duration-200;
+        @apply hover:text-flash-accent dark:hover:text-flash-accent;
+    }
+
+    code {
+        @apply font-mono text-sm;
+    }
+}
+
+@layer components {
+    /* Button styles */
+    .btn {
+        @apply inline-flex items-center justify-center px-6 py-3 font-medium text-sm rounded-flash;
+        @apply transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+        @apply disabled:opacity-50 disabled:cursor-not-allowed;
+    }
+
+    .btn-primary {
+        @apply btn bg-flash-black text-flash-white hover:bg-flash-gray-900;
+        @apply dark:bg-flash-white dark:text-flash-black dark:hover:bg-flash-gray-100;
+        @apply focus:ring-flash-black dark:focus:ring-flash-white;
+    }
+
+    .btn-secondary {
+        @apply btn bg-transparent text-flash-black border-2 border-flash-black;
+        @apply hover:bg-flash-black hover:text-flash-white;
+        @apply dark:text-flash-white dark:border-flash-white;
+        @apply dark:hover:bg-flash-white dark:hover:text-flash-black;
+        @apply focus:ring-flash-black dark:focus:ring-flash-white;
+    }
+
+    .btn-accent {
+        @apply btn bg-flash-accent text-flash-white hover:bg-opacity-90;
+        @apply focus:ring-flash-accent;
+    }
+
+    /* Card styles */
+    .card {
+        @apply bg-flash-white dark:bg-flash-gray-950 rounded-flash;
+        @apply border border-flash-gray-200 dark:border-flash-gray-800;
+        @apply shadow-flash hover:shadow-flash-md transition-shadow duration-200;
+    }
+
+    /* Input styles */
+    .input {
+        @apply w-full px-4 py-2 rounded-flash border;
+        @apply bg-flash-white dark:bg-flash-gray-950;
+        @apply border-flash-gray-300 dark:border-flash-gray-700;
+        @apply text-flash-black dark:text-flash-white;
+        @apply placeholder-flash-gray-500 dark:placeholder-flash-gray-400;
+        @apply focus:outline-none focus:ring-2 focus:ring-flash-accent focus:border-transparent;
+        @apply transition-all duration-200;
+    }
+
+    /* Badge styles */
+    .badge {
+        @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+    }
+
+    .badge-default {
+        @apply bg-flash-gray-100 text-flash-gray-800 dark:bg-flash-gray-800 dark:text-flash-gray-100;
+    }
+
+    .badge-accent {
+        @apply bg-flash-accent/10 text-flash-accent;
+    }
+}
+
+/* Markdown content styles */
+.markdownContent {
+    @apply prose dark:prose-invert max-w-none;
 }
 
 .markdownContent > h2 > a {
@@ -11,17 +129,63 @@ a {
 }
 
 .markdownContent img {
-    @apply object-scale-down;
+    @apply object-scale-down rounded-flash;
 }
 
 .markdownContent pre {
-    @apply max-w-[324px] md:max-w-fit;
+    @apply max-w-[324px] md:max-w-fit bg-flash-gray-100 dark:bg-flash-gray-900 rounded-flash;
+    @apply border border-flash-gray-200 dark:border-flash-gray-800;
 }
 
+.markdownContent code:not(pre code) {
+    @apply bg-flash-gray-100 dark:bg-flash-gray-900 px-1.5 py-0.5 rounded text-sm;
+    @apply text-flash-black dark:text-flash-white;
+}
+
+/* Navigation styles */
 .nav > li > a {
-    @apply block mb-1 hover:bg-zinc-200 dark:hover:bg-zinc-800 px-2 py-1 rounded-md no-underline text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 hover:dark:text-zinc-100 transition-all;
+    @apply block mb-1 px-3 py-2 rounded-flash no-underline;
+    @apply text-flash-gray-700 hover:text-flash-black dark:text-flash-gray-300 dark:hover:text-flash-white;
+    @apply hover:bg-flash-gray-100 dark:hover:bg-flash-gray-900;
+    @apply transition-all duration-200;
 }
 
 .nav > li > a.active {
-    @apply bg-zinc-200 dark:bg-zinc-800;
+    @apply bg-flash-black text-flash-white dark:bg-flash-white dark:text-flash-black;
+    @apply font-medium;
+}
+
+/* Sidebar styles */
+.sidebar-section {
+    @apply mb-8;
+}
+
+.sidebar-section-title {
+    @apply text-xs font-semibold uppercase tracking-wider;
+    @apply text-flash-gray-500 dark:text-flash-gray-400;
+    @apply mb-3;
+}
+
+/* Content styles */
+.content-container {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.page-header {
+    @apply mb-8 pb-8 border-b border-flash-gray-200 dark:border-flash-gray-800;
+}
+
+/* Utility classes */
+.text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-flash-black to-flash-gray-600;
+    @apply dark:from-flash-white dark:to-flash-gray-400;
+}
+
+.hover-lift {
+    @apply transform transition-transform duration-200 hover:-translate-y-1;
+}
+
+.focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-flash-accent focus:ring-offset-2;
+    @apply focus:ring-offset-flash-white dark:focus:ring-offset-flash-black;
 }

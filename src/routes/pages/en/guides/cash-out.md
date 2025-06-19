@@ -2,7 +2,6 @@
 title: Let's Get Physical!
 description: A step-by-step guide to turn your Cash into physical cash.
 ---
-![FlashBird with Cash](/images/get-cash.jpeg)
 
 ## Cash Out to Your Bank Account <img src="https://png.pngtree.com/png-clipart/20221211/ourmid/pngtree-coming-soon-banner-png-image_6519489.png" alt="Coming Soon" style="height: 80px; display: inline-block; vertical-align: middle; margin-left: 10px;">
 
@@ -60,26 +59,3 @@ Here are a few ideas:
 
 -   [Secure Your Cash: How to use Cold Storage](guides/sweep-to-cold-storage)
 -   [Dollar Cost Averaging](guides/dca)
-
-<!-- Navigation links -->
-<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
-  <div class="w-1/3 text-left">
-    <a href="get-cash" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
-      </svg>
-      Get Cash
-    </a>
-  </div>
-  <div class="w-1/3 text-center">
-    <!-- Optional center content -->
-  </div>
-  <div class="w-1/3 text-right">
-    <a href="earn" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      Earn Cash
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
-      </svg>
-    </a>
-  </div>
-</div>

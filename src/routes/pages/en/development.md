@@ -3,9 +3,6 @@ title: Development
 description: Resources and documentation for developers looking to integrate with Flash
 ---
 
-<div class="text-center mb-12">
-  <img src="/images/badges/webp/under-construction.webp" alt="Under Construction" class="mx-auto h-40 mb-4" />
-</div>
 
 ## Development Resources - Coming Soon
 

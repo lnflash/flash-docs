@@ -3,9 +3,6 @@ title: User Guides
 description: Comprehensive guides to help you make the most of Flash's features and capabilities.
 ---
 
-<div class="text-center mb-12">
-  <img src="/images/badges/webp/guides.webp" alt="Flash User Guides" class="mx-auto h-40 mb-4" />
-</div>
 
 Welcome to Flash's user guides section. Here you'll find step-by-step instructions on how to use Flash's various features, from basic wallet functions to advanced capabilities. These guides are designed to help both new and experienced users get the most out of Flash.
 
@@ -41,8 +38,8 @@ Welcome to Flash's user guides section. Here you'll find step-by-step instructio
     <!-- Optional center content -->
   </div>
   <div class="w-1/3 text-right">
-    <a href="infrastructure" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      Infrastructure
+    <a href="flash-infrastructure" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
+      Flash Infrastructure
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
       </svg>

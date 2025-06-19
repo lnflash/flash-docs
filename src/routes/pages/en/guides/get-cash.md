@@ -3,9 +3,6 @@ title: Get Cash in your Flash Wallet
 description: How to receive Cash from anywhere in the world using Flash, and how to earn Cash by learning about Bitcoin.
 ---
 
-<div class="text-center mb-12">
-  <img src="/images/badges/webp/receiving.webp" alt="Receiving Cash" class="mx-auto h-40 mb-4" />
-</div>
 
 ## Overview: Ways to Get Cash
 
@@ -141,26 +138,3 @@ Now that you have Cash in your Flash wallet, explore what you can do with it:
 - [Earn More Cash](guides/earn) - Discover additional ways to earn Cash
 - [Cash Out](guides/cash-out) - Learn how to convert your Cash to physical cash
 - [Sweep to Cold Storage](guides/sweep-to-cold-storage) - Secure your Cash by transferring it to a cold storage wallet
-
-<!-- Navigation links -->
-<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
-  <div class="w-1/3 text-left">
-    <a href="../user-guides" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
-      </svg>
-      User Guides
-    </a>
-  </div>
-  <div class="w-1/3 text-center">
-    <!-- Optional center content -->
-  </div>
-  <div class="w-1/3 text-right">
-    <a href="cash-out" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      Cash Out
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
-      </svg>
-    </a>
-  </div>
-</div>

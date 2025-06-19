@@ -13,13 +13,17 @@
     }
 </script>
 
-<Menu class="relative flex flex-row items-center">
-    <MenuButton class="text-purple-950 dark:text-purple-400 dark:hover:text-purple-300"
-        ><Language />
+<Menu class="relative">
+    <MenuButton 
+        class="p-2 rounded-flash text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white hover:bg-flash-gray-100 dark:hover:bg-flash-gray-900 transition-colors"
+        aria-label="Change language"
+    >
+        <Language />
     </MenuButton>
     <MenuItems
-        class="absolute top-10 rtl:left-0 ltr:right-0 transition-all rounded-md shadow-md
-    bg-zinc-100 dark:bg-zinc-800 py-1"
+        class="absolute top-full mt-2 rtl:left-0 ltr:right-0 w-48 rounded-flash shadow-flash-lg
+        bg-flash-white dark:bg-flash-gray-950 border border-flash-gray-200 dark:border-flash-gray-800
+        py-2 animate-fade-in-down"
     >
         {#each locales as localeItem}
             <MenuItem>
@@ -28,9 +32,13 @@
                     href="/"
                     data-localecode={localeItem.alpha2Code}
                     on:click={changeLocale}
-                    class="rounded-md py-1 pl-4 pr-8 block dark:text-purple-400 dark:hover:text-purple-300 text-purple-950 hover:text-purple-800 hover:bg-purple-300 dark:hover:bg-zinc-700/30"
-                    >{localeItem.name}</a
+                    class="block px-4 py-2 text-sm text-flash-gray-700 dark:text-flash-gray-300 
+                    hover:text-flash-black dark:hover:text-flash-white 
+                    hover:bg-flash-gray-100 dark:hover:bg-flash-gray-900 
+                    transition-colors no-underline"
                 >
+                    {localeItem.name}
+                </a>
             </MenuItem>
         {/each}
     </MenuItems>

@@ -3,9 +3,6 @@ title: Managing Your Contacts in Flash
 description: Learn how to access, add, and interact with contacts in the Flash app
 ---
 
-<div class="text-center mb-12">
-  <img src="/images/badges/webp/contacts.webp" alt="Contacts" class="mx-auto h-40 mb-4" />
-</div>
 
 # Managing Your Contacts in Flash
 
@@ -117,27 +114,3 @@ Your Flash contacts are designed with privacy and security as priorities:
 - **Manual Control**: You can remove any contact at any time by swiping left on their entry and tapping "Delete"
 
 The Contacts feature in Flash creates a seamless bridge between your social connections and financial transactions, making Bitcoin payments as simple as sending a message.
-
-<!-- Navigation links -->
-<div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
-  <div class="w-1/3 text-left">
-    <a href="chat" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
-      </svg>
-      Chat
-    </a>
-  </div>
-  <div class="w-1/3 text-center">
-    <!-- Optional center content -->
-  </div>
-  <div class="w-1/3 text-right">
-    <a href="map" class="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white rounded-md transition-colors px-4 py-2 text-sm font-medium shadow-sm hover:shadow-md">
-      Map
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
-      </svg>
-    </a>
-  </div>
-</div>
-
