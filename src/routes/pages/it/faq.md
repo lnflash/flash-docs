@@ -18,7 +18,7 @@ Flash è un fornitore di servizi bitcoin che crea prodotti e servizi specificame
 <details class="faq-item">
 <summary><strong>In quali paesi è disponibile Flash?</strong></summary>
 
-Flash è attualmente disponibile in Giamaica e si sta espandendo in tutta la regione dei Caraibi. Consulta la nostra [mappa](/it/guides/map) per trovare le posizioni Flash vicino a te.
+Flash è attualmente disponibile in Giamaica e si sta espandendo in tutta la regione dei Caraibi. Consulta la nostra [mappa](https://map.flashapp.me) per trovare le posizioni Flash vicino a te.
 </details>
 
 <details class="faq-item">
@@ -36,8 +36,8 @@ Flash è attualmente disponibile in Giamaica e si sta espandendo in tutta la reg
 
 <ol>
 <li>Scarica l'app Flash dal tuo app store</li>
-<li>Crea un account con il tuo numero di telefono</li>
-<li>Verifica la tua identità (se richiesto)</li>
+<li>Crea un account premendo "Inizia" o accedi con un account esistente usando il tuo numero di telefono o email</li>
+<li>Aggiorna il tuo account (se effettui un bonifico bancario)</li>
 <li>Finanzia il tuo portafoglio tramite bonifico bancario, deposito in contanti o trasferimento bitcoin</li>
 <li>Inizia a inviare e ricevere pagamenti!</li>
 </ol>
@@ -78,20 +78,24 @@ Sì! Flash utilizza più livelli di sicurezza:
 <summary><strong>Cosa succede se perdo il mio telefono?</strong></summary>
 
 <ol>
-<li>Contatta immediatamente il supporto per congelare il tuo account</li>
-<li>I tuoi fondi rimangono al sicuro - non sono memorizzati sul tuo telefono</li>
+<li>Contatta immediatamente il supporto per congelare il tuo account se è stato rubato!</li>
+<li>I tuoi fondi del portafoglio Cash rimangono al sicuro - non sono memorizzati sul tuo telefono</li>
+<li>Se abilitato, il tuo portafoglio bitcoin è non-custodial, quindi controlli le chiavi - ASSICURATI DI ANNOTARE LA TUA FRASE DI RECUPERO!</li>
 <li>Installa Flash sul tuo nuovo dispositivo</li>
-<li>Accedi con le tue credenziali</li>
-<li>Verifica la tua identità per ripristinare l'accesso</li>
+<li>Accedi con il tuo numero di telefono o email</li>
+<li>Se il tuo portafoglio bitcoin era abilitato, ripristina il tuo portafoglio bitcoin usando la frase di recupero</li>
+<li>Imposta un nuovo PIN e riabilita l'autenticazione biometrica</li>
+<li>Contatta il supporto e verifica la tua identità per sbloccare il tuo account se è stato rubato</li>
 </ol>
 
-Suggerimento pro: Abilita l'autenticazione biometrica e annota la tua frase di recupero per i portafogli bitcoin.
+Suggerimento pro: Abilita l'autenticazione biometrica e annota la tua frase di recupero per i portafogli bitcoin. Se il tuo telefono viene perso o rubato, puoi rapidamente recuperare l'accesso ai tuoi fondi e dovresti spostarli immediatamente in un nuovo portafoglio bitcoin. Un attore malintenzionato potrebbe cercare di accedere al tuo account se ha il tuo telefono e PIN, quindi è meglio agire rapidamente.
 </details>
 
 <details class="faq-item">
 <summary><strong>Posso avere più account Flash?</strong></summary>
 
-Ogni numero di telefono può essere associato solo a un account Flash. I proprietari di aziende possono passare a un account Commerciante per gestire le transazioni aziendali separatamente.
+Ogni numero di telefono può essere associato solo a un account Flash. Puoi avere più account se usi numeri di telefono o email diversi, ma consigliamo di mantenere le cose semplici con un account per persona.
+Se hai bisogno di gestire più account, considera l'utilizzo di un account Pro per funzionalità avanzate o un account Commerciante per esigenze aziendali.
 </details>
 
 ### Pagamenti e Trasferimenti
@@ -102,9 +106,10 @@ Ogni numero di telefono può essere associato solo a un account Flash. I proprie
 <ul>
 <li><strong>Trasferimenti in-app</strong>: Gratuiti tra utenti Flash</li>
 <li><strong>Commissioni di rete bitcoin</strong>: Variabili in base alla congestione della rete</li>
-<li><strong>Bonifici bancari</strong>: Controlla le tariffe attuali nell'app</li>
-<li><strong>Liquidazioni in contanti</strong>: Piccola percentuale di commissione (varia in base alla posizione)</li>
-<li><strong>Elaborazione commerciante</strong>: Tariffe competitive per le aziende</li>
+<li><strong>Commissioni di rete Lightning</strong>: Gratuito</li>
+<li><strong>Bonifici bancari</strong>: Commissione Flash 2% (più eventuali commissioni bancarie addebitate dalla tua banca ricevente)</li>
+<li><strong>Liquidazioni in contanti</strong>: Commissione del 2% (varia in base alla posizione, soggetto a modifiche)</li>
+<li><strong>Elaborazione commerciante</strong>: Gratuito (varia in base alla posizione, soggetto a modifiche)</li>
 </ul>
 
 Controlla sempre le commissioni prima di confermare le transazioni.
@@ -115,35 +120,39 @@ Controlla sempre le commissioni prima di confermare le transazioni.
 
 <ul>
 <li><strong>Flash a Flash</strong>: Istantaneo</li>
-<li><strong>Trasferimenti bitcoin</strong>: Tipicamente 10-60 minuti</li>
+<li><strong>Trasferimenti Lightning</strong>: Istantaneo</li>
+<li><strong>Trasferimenti Bitcoin On-Chain</strong>: Tipicamente 10-60 minuti</li>
 <li><strong>Depositi bancari</strong>: 0-1 giorni lavorativi (Giamaica)</li>
 <li><strong>Liquidazioni in contanti</strong>: Lo stesso giorno presso le sedi partner</li>
-<li><strong>Trasferimenti internazionali</strong>: Istantanei tramite la rete bitcoin</li>
 </ul>
 </details>
 
 <details class="faq-item">
 <summary><strong>Quali sono i limiti di transazione?</strong></summary>
 
-I limiti variano in base al tipo di account e al livello di verifica:
+I limiti Flash sono limiti giornalieri e variano in base al tipo di account e al livello di verifica:
+
 <ul>
-<li><strong>Account personali</strong>: Limiti giornalieri/mensili più bassi</li>
-<li><strong>Account verificati</strong>: Limiti aumentati</li>
-<li><strong>Account Pro/Commerciante</strong>: Limiti più alti per esigenze aziendali</li>
+<li><strong>Account di prova</strong>: $125 USD al giorno</li>
+<li><strong>Account personali</strong>: $1.000 USD al giorno</li>
+<li><strong>Account Pro</strong>: $5.000 USD al giorno</li>
+<li><strong>Account commerciante</strong>: $50.000 USD al giorno</li>
 </ul>
 
-Controlla i tuoi limiti attuali nell'app in Impostazioni > Limiti account.
+Controlla i tuoi limiti attuali nell'app in Impostazioni > Limiti di transazione.
 </details>
 
 <details class="faq-item">
 <summary><strong>Posso annullare una transazione?</strong></summary>
 
 <ul>
-<li><strong>Transazioni in sospeso</strong>: Potrebbero essere annullabili - controlla i dettagli della transazione</li>
+<li><strong>Transazioni On-Chain in sospeso</strong>: Le transazioni on-chain in sospeso sul portafoglio bitcoin potrebbero essere rimborsabili su un altro portafoglio bitcoin on-chain di tua scelta - controlla la schermata dei dettagli della transazione per un pulsante "Rimborsabili"</li>
 <li><strong>Trasferimenti bitcoin completati</strong>: Non possono essere annullati (immutabilità della blockchain)</li>
-<li><strong>Trasferimenti Flash-a-Flash</strong>: Contatta immediatamente il supporto</li>
-<li><strong>Transazioni fallite</strong>: I fondi vengono automaticamente restituiti</li>
+<li><strong>Trasferimenti Flash-a-Flash</strong>: Non possono essere annullati. Contatta immediatamente il supporto se hai un problema</li>
+<li><strong>Transazioni fallite</strong>: I fondi non lasciano mai il tuo portafoglio fino a quando una transazione non ha successo. Questo si chiama transazione "Atomica"</li>
 </ul>
+
+_Nota: Le transazioni Bitcoin sono irreversibili per design. Controlla sempre due volte i dettagli del destinatario prima di inviare._
 </details>
 
 ### Flashcard
@@ -155,8 +164,8 @@ Controlla i tuoi limiti attuali nell'app in Impostazioni > Limiti account.
 <li>Visita qualsiasi commerciante Flash partecipante</li>
 <li>Richiedi una Flashcard</li>
 <li>Carica il saldo iniziale (potrebbe essere richiesto un importo minimo)</li>
-<li>Collega la carta alla tua app Flash</li>
-<li>Inizia a guadagnare ricompense sugli acquisti!</li>
+<li>Collega la carta alla tua app Flash (opzionale)</li>
+<li>Inizia a guadagnare ricompense sugli acquisti presso le sedi partecipanti!</li>
 </ol>
 
 Consulta la nostra [guida Flashcard](/it/guides/flashcard) per i dettagli.
@@ -169,11 +178,11 @@ Consulta la nostra [guida Flashcard](/it/guides/flashcard) per i dettagli.
 <li>Apri immediatamente l'app Flash</li>
 <li>Vai alla sezione Carte</li>
 <li>Seleziona la tua carta persa</li>
-<li>Tocca "Congela Carta"</li>
-<li>Contatta il supporto per una sostituzione</li>
+<li>Tocca "Svuota Carta"</li>
+<li>Se non vedi l'opzione "Svuota Carta", contatta il supporto per "svuotare" i fondi dalla carta persa al tuo portafoglio Flash</li>
 </ol>
 
-Le carte congelate non possono essere utilizzate per alcuna transazione.
+_Nota: Svuotare una carta trasferisce il saldo rimanente al tuo portafoglio Flash. La carta sarà disattivata e non può più essere utilizzata. Se non hai collegato la tua carta all'app Flash, potremmo non essere in grado di svuotare la carta, quindi collega la tua carta all'app Flash non appena la ricevi._
 </details>
 
 <details class="faq-item">
@@ -181,8 +190,10 @@ Le carte congelate non possono essere utilizzate per alcuna transazione.
 
 <ul>
 <li>Guadagna punti su ogni acquisto presso i commercianti Flashpoint</li>
+<li>I punti vengono automaticamente aggiunti al tuo account Flash</li>
+<li>1 punto ~= $0,15 JMD (o equivalente nella tua valuta locale, soggetto a modifiche)</li>
 <li>I tassi di punti variano in base al commerciante e alle promozioni</li>
-<li>Riscatta punti per bitcoin o offerte dei commercianti</li>
+<li>Riscatta punti per carte regalo online o offerte dei commercianti</li>
 <li>I punti non scadono mai finché la tua carta è attiva</li>
 <li>Controlla il saldo punti nell'app Flash</li>
 </ul>
@@ -221,11 +232,12 @@ Hai ancora problemi? Contatta [support@getflash.io](mailto:support@getflash.io).
 <summary><strong>Le transazioni falliscono o rimangono bloccate</strong></summary>
 
 Soluzioni comuni:
+
 <ul>
 <li>Controlla che il tuo saldo sia sufficiente (incluse le commissioni)</li>
 <li>Verifica che i dettagli del destinatario siano corretti</li>
 <li>Assicura una connessione internet stabile</li>
-<li>Per bitcoin: La rete potrebbe essere congestionata, attendi e riprova</li>
+<li>Per le transazioni Bitcoin On-Chain: La rete potrebbe essere congestionata, attendi e riprova. (Guarda <a href=https://mempool.space>la blockchain bitcoin</a> per vedere se la rete è congestionata)</li>
 <li>Controlla le notifiche dell'app per messaggi di errore specifici</li>
 </ul>
 </details>
@@ -236,10 +248,10 @@ Soluzioni comuni:
 <summary><strong>Come accetto pagamenti Flash nella mia azienda?</strong></summary>
 
 <ol>
-<li>Richiedi un account Commerciante nell'app</li>
-<li>Completa la verifica aziendale</li>
-<li>Ricevi il tuo dispositivo Flashpoint POS</li>
-<li>Completa la configurazione con il nostro team</li>
+<li>Richiedi un account Commerciante nell'app o utilizzando <a href="https://flash-merchant-signup-ov4yh.ondigitalocean.app/form">questo link</a></li>
+<li>Completa la verifica aziendale (richiesti ID e informazioni bancarie)</li>
+<li>Richiedi il tuo dispositivo Flashpoint POS (Opzionale)</li>
+<li>Completa la configurazione nell'app confermando una transazione di prova sul tuo conto bancario</li>
 <li>Inizia ad accettare pagamenti e offrire ricompense!</li>
 </ol>
 
@@ -264,6 +276,7 @@ Scopri di più nella nostra [sezione Aziende](/it/business).
 <summary><strong>Come funziona il processo di liquidazione per i commercianti?</strong></summary>
 
 Scegli il tuo metodo di liquidazione preferito:
+
 <ul>
 <li><strong>Bitcoin istantaneo</strong>: Ricevi bitcoin immediatamente</li>
 <li><strong>Portafoglio USD</strong>: Mantieni i fondi in USD all'interno di Flash</li>
@@ -271,7 +284,7 @@ Scegli il tuo metodo di liquidazione preferito:
 <li><strong>Ritiro in contanti</strong>: Disponibile presso le sedi partner</li>
 </ul>
 
-Configura le preferenze nel tuo pannello commerciante.
+La frequenza di liquidazione può essere giornaliera, settimanale o mensile in base alle tue preferenze. Scopri di più nella nostra [sezione Aziende](/it/business).
 </details>
 
 ### Bitcoin e Lightning

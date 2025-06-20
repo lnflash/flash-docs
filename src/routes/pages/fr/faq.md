@@ -115,10 +115,10 @@ Vérifiez toujours les frais avant de confirmer les transactions.
 
 <ul>
 <li><strong>Flash vers Flash</strong> : Instantané</li>
-<li><strong>Transferts bitcoin</strong> : Typiquement 10-60 minutes</li>
+<li><strong>Transferts Lightning</strong> : Instantané</li>
+<li><strong>Transferts Bitcoin On-Chain</strong> : Typiquement 10-60 minutes</li>
 <li><strong>Dépôts bancaires</strong> : 0-1 jour ouvrable (Jamaïque)</li>
 <li><strong>Règlements en espèces</strong> : Le jour même aux emplacements partenaires</li>
-<li><strong>Transferts internationaux</strong> : Instantanés via le réseau bitcoin</li>
 </ul>
 </details>
 

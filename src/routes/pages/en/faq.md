@@ -138,7 +138,7 @@ Always review fees before confirming transactions.
 <details class="faq-item">
 <summary><strong>What are the transaction limits?</strong></summary>
 
-Flash limits are Daily limits, and vary by account type and verification level:
+Flash limits are daily limits, and vary by account type and verification level:
 
 <ul>
 <li><strong>Trial accounts</strong>: $125 USD per day</li>
@@ -147,7 +147,7 @@ Flash limits are Daily limits, and vary by account type and verification level:
 <li><strong>Merchant accounts</strong>: $50,000 USD per day</li>
 </ul>
 
-Check your current limits in the app under Settings > Account Limits.
+Check your current limits in the app under Settings > Transaction Limits.
 
 </details>
 
@@ -155,11 +155,14 @@ Check your current limits in the app under Settings > Account Limits.
 <summary><strong>Can I cancel a transaction?</strong></summary>
 
 <ul>
-<li><strong>Pending transactions</strong>: May be cancelable - check transaction details</li>
+<li><strong>Pending On-Chain transactions</strong>: Pending on-chain transactions on the bitcoin wallet may be refundable to another on-chain bitcoin wallet of your choice - check the transaction details screen for a "Refundables" button</li>
 <li><strong>Completed bitcoin transfers</strong>: Cannot be reversed (blockchain immutability)</li>
-<li><strong>Flash-to-Flash transfers</strong>: Contact support immediately</li>
-<li><strong>Failed transactions</strong>: Funds automatically returned</li>
+<li><strong>Flash-to-Flash transfers</strong>: Cannot be reversed. Contact support immediately if you have an issue</li>
+<li><strong>Failed transactions</strong>: Funds never leave your wallet until a transaction is sucessful. This is called an "Atomic" transaction</li>
 </ul>
+
+_Note: Bitcoin transactions are irreversible by design. Always double-check recipient details before sending._
+
 </details>
 
 ### Flashcard
@@ -171,8 +174,8 @@ Check your current limits in the app under Settings > Account Limits.
 <li>Visit any participating Flash merchant</li>
 <li>Request a Flashcard</li>
 <li>Load initial balance (minimum amount may apply)</li>
-<li>Link the card to your Flash app</li>
-<li>Start earning rewards on purchases!</li>
+<li>Link the card to your Flash app (optional)</li>
+<li>Start earning rewards on purchases at participating locations!</li>
 </ol>
 
 See our [Flashcard guide](/en/guides/flashcard) for details.
@@ -186,11 +189,11 @@ See our [Flashcard guide](/en/guides/flashcard) for details.
 <li>Open the Flash app immediately</li>
 <li>Go to Cards section</li>
 <li>Select your lost card</li>
-<li>Tap "Freeze Card"</li>
-<li>Contact support for a replacement</li>
+<li>Tap "Sweep Card"</li>
+<li>If you do not see the "Sweep Card" Option, contact support to "sweep" funds from the lost card to your Flash wallet</li>
 </ol>
 
-Frozen cards cannot be used for any transactions.
+_Note: Sweeping a card transfers the remaining balance to your Flash wallet. The card will be deactivated and cannot be used again. If you have not linked your card to the Flash app, we may not be able to sweep the card, so please link your card to the Flash app as soon as you receive it._
 
 </details>
 
@@ -199,8 +202,10 @@ Frozen cards cannot be used for any transactions.
 
 <ul>
 <li>Earn points on every purchase at Flashpoint merchants</li>
+<li>Points are automatically added to your Flash account</li>
+<li>1 point ~= $0.15 JMD (or equivalent in your local currency, subject to change)</li>
 <li>Points rates vary by merchant and promotions</li>
-<li>Redeem points for bitcoin or merchant offers</li>
+<li>Redeem points for online giftcards or merchant offers</li>
 <li>Points never expire while your card is active</li>
 <li>Check point balance in the Flash app</li>
 </ul>
@@ -246,7 +251,7 @@ Common solutions:
 <li>Check your balance is sufficient (including fees)</li>
 <li>Verify recipient details are correct</li>
 <li>Ensure stable internet connection</li>
-<li>For bitcoin: Network may be congested, wait and retry</li>
+<li>For On-Chain bitcoin transactions: Network may be congested, wait and retry. (Look at <a href=https://mempool.space>the bitcoin blockchain</a> to see if the network is congested)</li>
 <li>Check app notifications for specific error messages</li>
 </ul>
 </details>
@@ -257,10 +262,10 @@ Common solutions:
 <summary><strong>How do I accept Flash payments at my business?</strong></summary>
 
 <ol>
-<li>Apply for a Merchant account in the app</li>
-<li>Complete business verification</li>
-<li>Receive your Flashpoint POS device</li>
-<li>Complete setup with our team</li>
+<li>Apply for a Merchant account in the app or using <a href="https://flash-merchant-signup-ov4yh.ondigitalocean.app/form">this link</a></li>
+<li>Complete business verification (ID and bank information required)</li>
+<li>Request your Flashpoint POS device (Optional)</li>
+<li>Complete setup in the app by confirming a test transaction to your bank account</li>
 <li>Start accepting payments and offering rewards!</li>
 </ol>
 
@@ -294,7 +299,7 @@ Choose your preferred settlement method:
 <li><strong>Cash pickup</strong>: Available at partner locations</li>
 </ul>
 
-Configure preferences in your merchant dashboard.
+Settlement frequency can be daily, weekly, or monthly based on your preferences. Learn more in our [Business section](/en/business).
 
 </details>
 
