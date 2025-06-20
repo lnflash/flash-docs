@@ -7,22 +7,210 @@ description: Libreria completa di formazione video per commercianti e operatori 
 
 Benvenuto al centro di formazione completo Flashpoint POS. Accedi alla nostra libreria completa di tutorial video per padroneggiare il tuo sistema di punto vendita.
 
-### 🎥 Video in Evidenza
+### 🎥 Serie Video in Evidenza: Guida Completa Flash POS
 
 <div class="bg-flash-accent/10 border border-flash-accent/20 rounded-lg p-6 mb-8">
     <div class="aspect-video bg-black rounded-lg mb-4">
-        <div class="w-full h-full flex items-center justify-center text-white">
-            <span class="text-6xl">▶️</span>
+        <video controls class="w-full h-full rounded-lg">
+            <source src="https://v.nostr.build/LGchgA2EmpnHF9Oc.mp4" type="video/mp4">
+            Il tuo browser non supporta il tag video.
+        </video>
+    </div>
+    <h3 class="text-xl font-semibold mb-2">Parte 1: Installazione del Tuo POS</h3>
+    <p class="text-gray-600 dark:text-gray-400 mb-4">Scopri come configurare e installare il tuo terminale Flashpoint dall'apertura della confezione al primo avvio</p>
+    <div class="flex flex-wrap items-center gap-4 text-sm">
+        <span class="text-gray-500">⏱️ Parte 1 di 5</span>
+        <span class="text-gray-500">📅 Serie Completa</span>
+        <button class="like-button flex items-center gap-1 px-3 py-1 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-1">
+            <span class="like-icon">👍</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+</div>
+
+
+### 🎬 Serie Completa Guida Flash POS
+
+<div class="space-y-4">
+    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
+        <div class="flex gap-4">
+            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <video class="w-full h-full object-cover">
+                    <source src="https://v.nostr.build/DohkyTOVVuBHawxO.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex-1">
+                <h4 class="font-semibold mb-1">Parte 2: Effettuare la Tua Prima Transazione</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Elabora il tuo primo pagamento e comprendi il flusso delle transazioni</p>
+                <div class="flex items-center gap-4 text-xs text-gray-500">
+                    <span>⏱️ Parte 2 di 5</span>
+                    <button class="like-button flex items-center gap-1 px-2 py-1 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-xs" data-video="pos-video-2">
+                        <span class="like-icon">👍</span>
+                        <span class="like-count">0</span>
+                    </button>
+                </div>
+                <a href="#video-2" class="inline-flex items-center mt-2 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
+                    Guarda il Video →
+                </a>
+            </div>
         </div>
     </div>
-    <h3 class="text-xl font-semibold mb-2">Guida Completa di Configurazione Flashpoint POS</h3>
-    <p class="text-gray-600 dark:text-gray-400 mb-4">Tutto ciò che ti serve per far funzionare il tuo dispositivo Flashpoint</p>
-    <div class="flex flex-wrap items-center gap-4 text-sm">
-        <span class="text-gray-500">👁️ 45.678 visualizzazioni</span>
-        <span class="text-gray-500">⏱️ 23:45</span>
-        <span class="text-gray-500">📅 Pubblicato 3 giorni fa</span>
-        <span class="text-gray-500">👍 2,3K</span>
-        <span class="text-gray-500">💬 156 commenti</span>
+    
+    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
+        <div class="flex gap-4">
+            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <video class="w-full h-full object-cover">
+                    <source src="https://v.nostr.build/p8JapyDc8O6sLedt.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex-1">
+                <h4 class="font-semibold mb-1">Parte 3: La Schermata Impostazioni</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Padroneggia tutte le opzioni di configurazione e personalizza la tua esperienza POS</p>
+                <div class="flex items-center gap-4 text-xs text-gray-500">
+                    <span>⏱️ Parte 3 di 5</span>
+                    <button class="like-button flex items-center gap-1 px-2 py-1 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-xs" data-video="pos-video-3">
+                        <span class="like-icon">👍</span>
+                        <span class="like-count">0</span>
+                    </button>
+                </div>
+                <a href="#video-3" class="inline-flex items-center mt-2 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
+                    Guarda il Video →
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
+        <div class="flex gap-4">
+            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <video class="w-full h-full object-cover">
+                    <source src="https://v.nostr.build/pSDfF9CQpnYeMPyi.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex-1">
+                <h4 class="font-semibold mb-1">Parte 4: Impostazioni Premi</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Configura il tuo programma premi per massimizzare la fedeltà dei clienti</p>
+                <div class="flex items-center gap-4 text-xs text-gray-500">
+                    <span>⏱️ Parte 4 di 5</span>
+                    <button class="like-button flex items-center gap-1 px-2 py-1 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-xs" data-video="pos-video-4">
+                        <span class="like-icon">👍</span>
+                        <span class="like-count">0</span>
+                    </button>
+                </div>
+                <a href="#video-4" class="inline-flex items-center mt-2 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
+                    Guarda il Video →
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
+        <div class="flex gap-4">
+            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <video class="w-full h-full object-cover">
+                    <source src="https://v.nostr.build/DLAZraXrjP2ABDVp.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex-1">
+                <h4 class="font-semibold mb-1">Parte 5: Gestione Eventi</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Crea e gestisci eventi speciali e promozioni</p>
+                <div class="flex items-center gap-4 text-xs text-gray-500">
+                    <span>⏱️ Parte 5 di 5</span>
+                    <button class="like-button flex items-center gap-1 px-2 py-1 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-xs" data-video="pos-video-5">
+                        <span class="like-icon">👍</span>
+                        <span class="like-count">0</span>
+                    </button>
+                </div>
+                <a href="#video-5" class="inline-flex items-center mt-2 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
+                    Guarda il Video →
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+### 🎥 Guarda la Serie Completa di Video
+
+<div class="space-y-8 mt-8">
+    <div id="video-1" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">Parte 1: Installazione del Tuo POS</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/LGchgA2EmpnHF9Oc.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">Impara il processo completo di installazione per il tuo terminale Flashpoint, dall'apertura della confezione alla configurazione iniziale.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-1">
+            <span class="like-icon">👍</span>
+            <span>Mi piace</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+
+    <div id="video-2" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">Parte 2: Effettuare la Tua Prima Transazione</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/DohkyTOVVuBHawxO.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">Elabora il tuo primo pagamento e comprendi il flusso completo delle transazioni dall'inizio alla fine.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-2">
+            <span class="like-icon">👍</span>
+            <span>Mi piace</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+
+    <div id="video-3" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">Parte 3: La Schermata Impostazioni</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/p8JapyDc8O6sLedt.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">Padroneggia tutte le opzioni di configurazione e personalizza la tua esperienza POS per soddisfare le esigenze della tua attività.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-3">
+            <span class="like-icon">👍</span>
+            <span>Mi piace</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+
+    <div id="video-4" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">Parte 4: Impostazioni Premi</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/pSDfF9CQpnYeMPyi.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">Configura e ottimizza il tuo programma premi per massimizzare la fedeltà e il coinvolgimento dei clienti.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-4">
+            <span class="like-icon">👍</span>
+            <span>Mi piace</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+
+    <div id="video-5" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">Parte 5: Gestione Eventi</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/DLAZraXrjP2ABDVp.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">Crea e gestisci eventi speciali, promozioni e campagne stagionali per incrementare le vendite.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-5">
+            <span class="like-icon">👍</span>
+            <span>Mi piace</span>
+            <span class="like-count">0</span>
+        </button>
     </div>
 </div>
 
@@ -70,165 +258,6 @@ Benvenuto al centro di formazione completo Flashpoint POS. Accedi alla nostra li
     </div>
 </div>
 
-### 🎬 Video Più Popolari
-
-<div class="space-y-4">
-    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
-        <div class="flex gap-4">
-            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                <span class="text-3xl">▶️</span>
-            </div>
-            <div class="flex-1">
-                <h4 class="font-semibold mb-1">Configurazione del Tuo Primo Dispositivo Flashpoint</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Guida passo-passo dall'apertura alla prima vendita</p>
-                <div class="flex items-center gap-4 text-xs text-gray-500">
-                    <span>👁️ 34.567 visualizzazioni</span>
-                    <span>⏱️ 18:23</span>
-                    <span>📅 2 settimane fa</span>
-                    <span>👍 1,8K</span>
-                    <span>💬 234 commenti</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
-        <div class="flex gap-4">
-            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                <span class="text-3xl">▶️</span>
-            </div>
-            <div class="flex-1">
-                <h4 class="font-semibold mb-1">Elaborazione di Diversi Tipi di Pagamento</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Accetta Flashcard, bitcoin e regolamenti in contanti</p>
-                <div class="flex items-center gap-4 text-xs text-gray-500">
-                    <span>👁️ 28.901 visualizzazioni</span>
-                    <span>⏱️ 12:45</span>
-                    <span>📅 1 settimana fa</span>
-                    <span>👍 1,2K</span>
-                    <span>💬 89 commenti</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
-        <div class="flex gap-4">
-            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                <span class="text-3xl">▶️</span>
-            </div>
-            <div class="flex-1">
-                <h4 class="font-semibold mb-1">Gestione del Tuo Programma Premi</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Configura punti, crea promozioni, guida la fedeltà</p>
-                <div class="flex items-center gap-4 text-xs text-gray-500">
-                    <span>👁️ 19.234 visualizzazioni</span>
-                    <span>⏱️ 15:30</span>
-                    <span>📅 3 giorni fa</span>
-                    <span>👍 967</span>
-                    <span>💬 123 commenti</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
-        <div class="flex gap-4">
-            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                <span class="text-3xl">▶️</span>
-            </div>
-            <div class="flex-1">
-                <h4 class="font-semibold mb-1">Processo di Riconciliazione Giornaliera</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Chiudi la tua giornata e bilancia i tuoi conti</p>
-                <div class="flex items-center gap-4 text-xs text-gray-500">
-                    <span>👁️ 15.678 visualizzazioni</span>
-                    <span>⏱️ 9:15</span>
-                    <span>📅 5 giorni fa</span>
-                    <span>👍 756</span>
-                    <span>💬 67 commenti</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-### 📖 Playlist di Formazione
-
-<div class="grid md:grid-cols-3 gap-4 mt-8">
-    <div class="bg-gradient-to-br from-purple-500 to-purple-700 text-white rounded-lg p-6">
-        <h4 class="font-semibold mb-2">Onboarding Nuovi Commercianti</h4>
-        <p class="text-sm mb-4 opacity-90">Serie completa di 12 video</p>
-        <button class="bg-white text-purple-700 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100 transition-colors">
-            Inizia ad Imparare
-        </button>
-    </div>
-    
-    <div class="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-lg p-6">
-        <h4 class="font-semibold mb-2">Funzionalità Avanzate</h4>
-        <p class="text-sm mb-4 opacity-90">Padroneggia le tecniche pro</p>
-        <button class="bg-white text-blue-700 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100 transition-colors">
-            Passa al Livello Successivo
-        </button>
-    </div>
-    
-    <div class="bg-gradient-to-br from-green-500 to-green-700 text-white rounded-lg p-6">
-        <h4 class="font-semibold mb-2">Guida Risoluzione Problemi</h4>
-        <p class="text-sm mb-4 opacity-90">Risolvi i problemi velocemente</p>
-        <button class="bg-white text-green-700 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100 transition-colors">
-            Ottieni Aiuto
-        </button>
-    </div>
-</div>
-
-### 💬 Discussione della Comunità
-
-<div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 mt-8">
-    <h4 class="font-semibold mb-4">Commenti Recenti</h4>
-    <div class="space-y-4">
-        <div class="flex gap-3">
-            <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white font-semibold">
-                JM
-            </div>
-            <div class="flex-1">
-                <p class="text-sm font-medium">Commerciante Giamaica</p>
-                <p class="text-sm text-gray-600 dark:text-gray-400">Il video di configurazione premi mi ha fatto risparmiare ore! Ora i miei clienti adorano il sistema di punti.</p>
-                <p class="text-xs text-gray-500 mt-1">2 ore fa</p>
-            </div>
-        </div>
-        
-        <div class="flex gap-3">
-            <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold">
-                TC
-            </div>
-            <div class="flex-1">
-                <p class="text-sm font-medium">Bar Trinidad</p>
-                <p class="text-sm text-gray-600 dark:text-gray-400">Domanda veloce sull'elaborazione dei rimborsi - quale video copre i rimborsi parziali?</p>
-                <p class="text-xs text-gray-500 mt-1">5 ore fa</p>
-            </div>
-        </div>
-    </div>
-    
-    <button class="mt-4 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
-        Visualizza tutti i 156 commenti →
-    </button>
-</div>
-
-### 🎓 Programma di Certificazione
-
-Completa la serie di formazione Flash POS e ottieni la tua certificazione:
-
-1. **Operazioni di Base** (4 video) - Configurazione dispositivo e uso quotidiano
-2. **Elaborazione Pagamenti** (6 video) - Tutti i tipi di transazione
-3. **Gestione Premi** (3 video) - Fedeltà dei clienti
-4. **Report e Analisi** (3 video) - Insight aziendali
-5. **Valutazione Finale** - Testa le tue conoscenze
-
-<div class="bg-flash-accent/10 border border-flash-accent/20 rounded-lg p-6 mt-6">
-    <h4 class="font-semibold mb-2">Pronto per Ottenere la Certificazione?</h4>
-    <p class="text-sm mb-4">Unisciti a 2.456 operatori certificati Flash POS</p>
-    <button class="bg-flash-accent hover:bg-flash-accent/90 text-white px-6 py-2 rounded-md font-medium transition-colors">
-        Inizia il Percorso di Certificazione
-    </button>
-</div>
-
 <!-- Link di navigazione -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
   <div class="w-1/3 text-left">
@@ -246,3 +275,49 @@ Completa la serie di formazione Flash POS e ottieni la tua certificazione:
     <!-- Ultima pagina nella sezione formazione -->
   </div>
 </div>
+
+<script>
+// Like button functionality
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize likes from localStorage
+    const likeButtons = document.querySelectorAll('.like-button');
+    
+    likeButtons.forEach(button => {
+        const videoId = button.getAttribute('data-video');
+        const likeCount = localStorage.getItem(`flash-pos-likes-${videoId}`) || 0;
+        const isLiked = localStorage.getItem(`flash-pos-liked-${videoId}`) === 'true';
+        
+        button.querySelector('.like-count').textContent = likeCount;
+        if (isLiked) {
+            button.classList.add('liked');
+            button.style.backgroundColor = '#9333ea';
+            button.style.color = 'white';
+        }
+        
+        button.addEventListener('click', function() {
+            const currentCount = parseInt(button.querySelector('.like-count').textContent);
+            const wasLiked = button.classList.contains('liked');
+            
+            if (wasLiked) {
+                // Unlike
+                const newCount = Math.max(0, currentCount - 1);
+                button.querySelector('.like-count').textContent = newCount;
+                button.classList.remove('liked');
+                button.style.backgroundColor = '';
+                button.style.color = '';
+                localStorage.setItem(`flash-pos-likes-${videoId}`, newCount);
+                localStorage.setItem(`flash-pos-liked-${videoId}`, 'false');
+            } else {
+                // Like
+                const newCount = currentCount + 1;
+                button.querySelector('.like-count').textContent = newCount;
+                button.classList.add('liked');
+                button.style.backgroundColor = '#9333ea';
+                button.style.color = 'white';
+                localStorage.setItem(`flash-pos-likes-${videoId}`, newCount);
+                localStorage.setItem(`flash-pos-liked-${videoId}`, 'true');
+            }
+        });
+    });
+});
+</script>

@@ -7,22 +7,210 @@ description: کتابخانه کامل آموزش ویدیویی برای باز
 
 به مرکز آموزش جامع Flashpoint POS خوش آمدید. به کتابخانه کامل آموزش‌های ویدیویی ما دسترسی پیدا کنید تا بر سیستم نقطه فروش خود مسلط شوید.
 
-### 🎥 ویدیوی ویژه
+### 🎥 سری ویدیوی ویژه: راهنمای کامل Flash POS
 
 <div class="bg-flash-accent/10 border border-flash-accent/20 rounded-lg p-6 mb-8" dir="rtl">
     <div class="aspect-video bg-black rounded-lg mb-4">
-        <div class="w-full h-full flex items-center justify-center text-white">
-            <span class="text-6xl">▶️</span>
+        <video controls class="w-full h-full rounded-lg">
+            <source src="https://v.nostr.build/LGchgA2EmpnHF9Oc.mp4" type="video/mp4">
+            مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
+        </video>
+    </div>
+    <h3 class="text-xl font-semibold mb-2">قسمت ۱: نصب POS شما</h3>
+    <p class="text-gray-600 dark:text-gray-400 mb-4">یاد بگیرید چگونه ترمینال Flashpoint خود را از باز کردن بسته تا اولین راه‌اندازی تنظیم و نصب کنید</p>
+    <div class="flex flex-wrap items-center gap-4 text-sm">
+        <span class="text-gray-500">⏱️ قسمت ۱ از ۵</span>
+        <span class="text-gray-500">📅 سری کامل</span>
+        <button class="like-button flex items-center gap-1 px-3 py-1 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-1">
+            <span class="like-icon">👍</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+</div>
+
+
+### 🎬 سری کامل راهنمای Flash POS
+
+<div class="space-y-4" dir="rtl">
+    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
+        <div class="flex gap-4">
+            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <video class="w-full h-full object-cover">
+                    <source src="https://v.nostr.build/DohkyTOVVuBHawxO.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex-1">
+                <h4 class="font-semibold mb-1">قسمت ۲: انجام اولین تراکنش شما</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">اولین پرداخت خود را پردازش کنید و جریان تراکنش را درک کنید</p>
+                <div class="flex items-center gap-4 text-xs text-gray-500">
+                    <span>⏱️ قسمت ۲ از ۵</span>
+                    <button class="like-button flex items-center gap-1 px-2 py-1 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-xs" data-video="pos-video-2">
+                        <span class="like-icon">👍</span>
+                        <span class="like-count">0</span>
+                    </button>
+                </div>
+                <a href="#video-2" class="inline-flex items-center mt-2 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
+                    تماشای ویدیو ←
+                </a>
+            </div>
         </div>
     </div>
-    <h3 class="text-xl font-semibold mb-2">راهنمای کامل راه‌اندازی Flashpoint POS</h3>
-    <p class="text-gray-600 dark:text-gray-400 mb-4">همه چیزهایی که برای راه‌اندازی دستگاه Flashpoint خود نیاز دارید</p>
-    <div class="flex flex-wrap items-center gap-4 text-sm">
-        <span class="text-gray-500">👁️ ۴۵،۶۷۸ بازدید</span>
-        <span class="text-gray-500">⏱️ ۲۳:۴۵</span>
-        <span class="text-gray-500">📅 منتشر شده ۳ روز پیش</span>
-        <span class="text-gray-500">👍 ۲.۳ هزار</span>
-        <span class="text-gray-500">💬 ۱۵۶ نظر</span>
+    
+    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
+        <div class="flex gap-4">
+            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <video class="w-full h-full object-cover">
+                    <source src="https://v.nostr.build/p8JapyDc8O6sLedt.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex-1">
+                <h4 class="font-semibold mb-1">قسمت ۳: صفحه تنظیمات</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">بر تمام گزینه‌های پیکربندی مسلط شوید و تجربه POS خود را سفارشی کنید</p>
+                <div class="flex items-center gap-4 text-xs text-gray-500">
+                    <span>⏱️ قسمت ۳ از ۵</span>
+                    <button class="like-button flex items-center gap-1 px-2 py-1 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-xs" data-video="pos-video-3">
+                        <span class="like-icon">👍</span>
+                        <span class="like-count">0</span>
+                    </button>
+                </div>
+                <a href="#video-3" class="inline-flex items-center mt-2 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
+                    تماشای ویدیو ←
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
+        <div class="flex gap-4">
+            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <video class="w-full h-full object-cover">
+                    <source src="https://v.nostr.build/pSDfF9CQpnYeMPyi.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex-1">
+                <h4 class="font-semibold mb-1">قسمت ۴: تنظیمات پاداش</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">برنامه پاداش خود را برای حداکثر کردن وفاداری مشتری پیکربندی کنید</p>
+                <div class="flex items-center gap-4 text-xs text-gray-500">
+                    <span>⏱️ قسمت ۴ از ۵</span>
+                    <button class="like-button flex items-center gap-1 px-2 py-1 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-xs" data-video="pos-video-4">
+                        <span class="like-icon">👍</span>
+                        <span class="like-count">0</span>
+                    </button>
+                </div>
+                <a href="#video-4" class="inline-flex items-center mt-2 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
+                    تماشای ویدیو ←
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
+        <div class="flex gap-4">
+            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <video class="w-full h-full object-cover">
+                    <source src="https://v.nostr.build/DLAZraXrjP2ABDVp.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="flex-1">
+                <h4 class="font-semibold mb-1">قسمت ۵: مدیریت رویدادها</h4>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">رویدادهای ویژه و تبلیغات را ایجاد و مدیریت کنید</p>
+                <div class="flex items-center gap-4 text-xs text-gray-500">
+                    <span>⏱️ قسمت ۵ از ۵</span>
+                    <button class="like-button flex items-center gap-1 px-2 py-1 rounded-md bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-xs" data-video="pos-video-5">
+                        <span class="like-icon">👍</span>
+                        <span class="like-count">0</span>
+                    </button>
+                </div>
+                <a href="#video-5" class="inline-flex items-center mt-2 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
+                    تماشای ویدیو ←
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+### 🎥 تماشای سری کامل ویدیوها
+
+<div class="space-y-8 mt-8" dir="rtl">
+    <div id="video-1" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">قسمت ۱: نصب POS شما</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/LGchgA2EmpnHF9Oc.mp4" type="video/mp4">
+                مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">فرآیند کامل نصب ترمینال Flashpoint خود را از باز کردن بسته تا پیکربندی اولیه یاد بگیرید.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-1">
+            <span class="like-icon">👍</span>
+            <span>پسندیدن</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+
+    <div id="video-2" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">قسمت ۲: انجام اولین تراکنش شما</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/DohkyTOVVuBHawxO.mp4" type="video/mp4">
+                مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">اولین پرداخت خود را پردازش کنید و جریان کامل تراکنش را از ابتدا تا انتها درک کنید.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-2">
+            <span class="like-icon">👍</span>
+            <span>پسندیدن</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+
+    <div id="video-3" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">قسمت ۳: صفحه تنظیمات</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/p8JapyDc8O6sLedt.mp4" type="video/mp4">
+                مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">بر تمام گزینه‌های پیکربندی مسلط شوید و تجربه POS خود را برای پاسخگویی به نیازهای کسب و کار خود سفارشی کنید.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-3">
+            <span class="like-icon">👍</span>
+            <span>پسندیدن</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+
+    <div id="video-4" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">قسمت ۴: تنظیمات پاداش</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/pSDfF9CQpnYeMPyi.mp4" type="video/mp4">
+                مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">برنامه پاداش خود را برای حداکثر کردن وفاداری و مشارکت مشتری پیکربندی و بهینه‌سازی کنید.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-4">
+            <span class="like-icon">👍</span>
+            <span>پسندیدن</span>
+            <span class="like-count">0</span>
+        </button>
+    </div>
+
+    <div id="video-5" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+        <h4 class="text-xl font-semibold mb-4">قسمت ۵: مدیریت رویدادها</h4>
+        <div class="aspect-video bg-black rounded-lg mb-4">
+            <video controls class="w-full h-full rounded-lg">
+                <source src="https://v.nostr.build/DLAZraXrjP2ABDVp.mp4" type="video/mp4">
+                مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
+            </video>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 mb-4">رویدادهای ویژه، تبلیغات و کمپین‌های فصلی را برای افزایش فروش ایجاد و مدیریت کنید.</p>
+        <button class="like-button flex items-center gap-2 px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" data-video="pos-video-5">
+            <span class="like-icon">👍</span>
+            <span>پسندیدن</span>
+            <span class="like-count">0</span>
+        </button>
     </div>
 </div>
 
@@ -70,169 +258,6 @@ description: کتابخانه کامل آموزش ویدیویی برای باز
     </div>
 </div>
 
-### 🎬 محبوب‌ترین ویدیوها
-
-<div class="space-y-4" dir="rtl">
-    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
-        <div class="flex gap-4">
-            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                <span class="text-3xl">▶️</span>
-            </div>
-            <div class="flex-1">
-                <h4 class="font-semibold mb-1">راه‌اندازی اولین دستگاه Flashpoint شما</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">راهنمای گام به گام از باز کردن بسته تا اولین فروش</p>
-                <div class="flex items-center gap-4 text-xs text-gray-500">
-                    <span>👁️ ۳۴،۵۶۷ بازدید</span>
-                    <span>⏱️ ۱۸:۲۳</span>
-                    <span>📅 ۲ هفته پیش</span>
-                    <span>👍 ۱.۸ هزار</span>
-                    <span>💬 ۲۳۴ نظر</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
-        <div class="flex gap-4">
-            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                <span class="text-3xl">▶️</span>
-            </div>
-            <div class="flex-1">
-                <h4 class="font-semibold mb-1">پردازش انواع مختلف پرداخت</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">پذیرش Flashcard، بیت‌کوین و تسویه‌های نقدی</p>
-                <div class="flex items-center gap-4 text-xs text-gray-500">
-                    <span>👁️ ۲۸،۹۰۱ بازدید</span>
-                    <span>⏱️ ۱۲:۴۵</span>
-                    <span>📅 ۱ هفته پیش</span>
-                    <span>👍 ۱.۲ هزار</span>
-                    <span>💬 ۸۹ نظر</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
-        <div class="flex gap-4">
-            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                <span class="text-3xl">▶️</span>
-            </div>
-            <div class="flex-1">
-                <h4 class="font-semibold mb-1">مدیریت برنامه پاداش شما</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">پیکربندی امتیازات، ایجاد تبلیغات، افزایش وفاداری</p>
-                <div class="flex items-center gap-4 text-xs text-gray-500">
-                    <span>👁️ ۱۹،۲۳۴ بازدید</span>
-                    <span>⏱️ ۱۵:۳۰</span>
-                    <span>📅 ۳ روز پیش</span>
-                    <span>👍 ۹۶۷</span>
-                    <span>💬 ۱۲۳ نظر</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-4 hover:shadow-lg transition-shadow">
-        <div class="flex gap-4">
-            <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                <span class="text-3xl">▶️</span>
-            </div>
-            <div class="flex-1">
-                <h4 class="font-semibold mb-1">فرآیند تطبیق روزانه</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">بستن روز و تراز کردن دفاتر</p>
-                <div class="flex items-center gap-4 text-xs text-gray-500">
-                    <span>👁️ ۱۵،۶۷۸ بازدید</span>
-                    <span>⏱️ ۹:۱۵</span>
-                    <span>📅 ۵ روز پیش</span>
-                    <span>👍 ۷۵۶</span>
-                    <span>💬 ۶۷ نظر</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-### 📖 لیست‌های پخش آموزشی
-
-<div class="grid md:grid-cols-3 gap-4 mt-8" dir="rtl">
-    <div class="bg-gradient-to-br from-purple-500 to-purple-700 text-white rounded-lg p-6">
-        <h4 class="font-semibold mb-2">آشنایی بازرگانان جدید</h4>
-        <p class="text-sm mb-4 opacity-90">سری کامل ۱۲ ویدیویی</p>
-        <button class="bg-white text-purple-700 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100 transition-colors">
-            شروع یادگیری
-        </button>
-    </div>
-    
-    <div class="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-lg p-6">
-        <h4 class="font-semibold mb-2">ویژگی‌های پیشرفته</h4>
-        <p class="text-sm mb-4 opacity-90">تکنیک‌های حرفه‌ای را بیاموزید</p>
-        <button class="bg-white text-blue-700 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100 transition-colors">
-            ارتقای سطح
-        </button>
-    </div>
-    
-    <div class="bg-gradient-to-br from-green-500 to-green-700 text-white rounded-lg p-6">
-        <h4 class="font-semibold mb-2">راهنمای عیب‌یابی</h4>
-        <p class="text-sm mb-4 opacity-90">مشکلات را سریع حل کنید</p>
-        <button class="bg-white text-green-700 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100 transition-colors">
-            دریافت کمک
-        </button>
-    </div>
-</div>
-
-### 💬 بحث جامعه
-
-<div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 mt-8" dir="rtl">
-    <h4 class="font-semibold mb-4">نظرات اخیر</h4>
-    <div class="space-y-4">
-        <div class="flex gap-3">
-            <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white font-semibold">
-                JM
-            </div>
-            <div class="flex-1">
-                <p class="text-sm font-medium">بازرگان جامائیکا</p>
-                <p class="text-sm text-gray-600 dark:text-gray-400">ویدیوی راه‌اندازی پاداش ساعت‌ها وقت مرا صرفه‌جویی کرد! حالا مشتریانم سیستم امتیازات را دوست دارند.</p>
-                <p class="text-xs text-gray-500 mt-1">۲ ساعت پیش</p>
-            </div>
-        </div>
-        
-        <div class="flex gap-3">
-            <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold">
-                TC
-            </div>
-            <div class="flex-1">
-                <p class="text-sm font-medium">کافی‌شاپ ترینیداد</p>
-                <p class="text-sm text-gray-600 dark:text-gray-400">سؤال سریع درباره پردازش بازپرداخت‌ها - کدام ویدیو بازپرداخت‌های جزئی را پوشش می‌دهد؟</p>
-                <p class="text-xs text-gray-500 mt-1">۵ ساعت پیش</p>
-            </div>
-        </div>
-    </div>
-    
-    <button class="mt-4 text-flash-accent hover:text-flash-accent/80 text-sm font-medium">
-        مشاهده همه ۱۵۶ نظر ←
-    </button>
-</div>
-
-### 🎓 برنامه گواهینامه
-
-سری آموزش Flash POS را تکمیل کنید و گواهینامه خود را دریافت کنید:
-
-<div dir="rtl">
-
-1. **عملیات پایه** (۴ ویدیو) - راه‌اندازی دستگاه و استفاده روزانه
-2. **پردازش پرداخت** (۶ ویدیو) - همه انواع تراکنش
-3. **مدیریت پاداش‌ها** (۳ ویدیو) - وفاداری مشتری
-4. **گزارش‌ها و تحلیل‌ها** (۳ ویدیو) - بینش‌های تجاری
-5. **ارزیابی نهایی** - دانش خود را آزمایش کنید
-
-</div>
-
-<div class="bg-flash-accent/10 border border-flash-accent/20 rounded-lg p-6 mt-6" dir="rtl">
-    <h4 class="font-semibold mb-2">آماده دریافت گواهینامه هستید؟</h4>
-    <p class="text-sm mb-4">به ۲،۴۵۶ اپراتور گواهینامه‌دار Flash POS بپیوندید</p>
-    <button class="bg-flash-accent hover:bg-flash-accent/90 text-white px-6 py-2 rounded-md font-medium transition-colors">
-        شروع مسیر گواهینامه
-    </button>
-</div>
-
 <!-- لینک‌های ناوبری -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
   <div class="w-1/3 text-right">
@@ -250,3 +275,49 @@ description: کتابخانه کامل آموزش ویدیویی برای باز
     </a>
   </div>
 </div>
+
+<script>
+// Like button functionality
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize likes from localStorage
+    const likeButtons = document.querySelectorAll('.like-button');
+    
+    likeButtons.forEach(button => {
+        const videoId = button.getAttribute('data-video');
+        const likeCount = localStorage.getItem(`flash-pos-likes-${videoId}`) || 0;
+        const isLiked = localStorage.getItem(`flash-pos-liked-${videoId}`) === 'true';
+        
+        button.querySelector('.like-count').textContent = likeCount;
+        if (isLiked) {
+            button.classList.add('liked');
+            button.style.backgroundColor = '#9333ea';
+            button.style.color = 'white';
+        }
+        
+        button.addEventListener('click', function() {
+            const currentCount = parseInt(button.querySelector('.like-count').textContent);
+            const wasLiked = button.classList.contains('liked');
+            
+            if (wasLiked) {
+                // Unlike
+                const newCount = Math.max(0, currentCount - 1);
+                button.querySelector('.like-count').textContent = newCount;
+                button.classList.remove('liked');
+                button.style.backgroundColor = '';
+                button.style.color = '';
+                localStorage.setItem(`flash-pos-likes-${videoId}`, newCount);
+                localStorage.setItem(`flash-pos-liked-${videoId}`, 'false');
+            } else {
+                // Like
+                const newCount = currentCount + 1;
+                button.querySelector('.like-count').textContent = newCount;
+                button.classList.add('liked');
+                button.style.backgroundColor = '#9333ea';
+                button.style.color = 'white';
+                localStorage.setItem(`flash-pos-likes-${videoId}`, newCount);
+                localStorage.setItem(`flash-pos-liked-${videoId}`, 'true');
+            }
+        });
+    });
+});
+</script>
