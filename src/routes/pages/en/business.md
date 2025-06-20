@@ -1,50 +1,52 @@
 ---
 title: Flash Business Accounts
-description: Accept Bitcoin payments, manage your business finances, and join the global network of Flash-enabled merchants
+description: Accept Flashpoint payments, manage your business finances, and join the global network of Flash-enabled merchants
 ---
 
 ## Flash Business Accounts
 
-Flash Business Accounts enable merchants and business owners to accept Bitcoin payments, manage finances, and connect with Bitcoin users worldwide.
+Flash Business Accounts enable merchants and business owners to accept Flashpoint payments, manage finances, and connect with Flashpoint users worldwide.
 
 ## Key Benefits
 
 ### Global, Borderless Payments
-- Accept payments from anywhere instantly
-- Avoid high credit card processing fees
-- Eliminate chargebacks and payment disputes
-- Receive funds directly without intermediaries
+
+-   Accept payments from anywhere instantly
+-   Avoid high credit card processing fees
+-   Eliminate chargebacks and payment disputes
+-   Receive funds directly without intermediaries
 
 ### Enhanced Local Commerce
-- Get listed on the Flash Map for local discovery
-- Enable cash exchange services to attract foot traffic
-- Join a community of Bitcoin-friendly businesses
+
+-   Get listed on the Flash Map for local discovery
+-   Enable cash exchange services to attract foot traffic
+-   Join a community of Flashpoint-friendly businesses
 
 ### Financial Flexibility
-- Hold funds in Bitcoin to protect against inflation
-- Instantly convert to local currency when needed
-- Set custom exchange rates and fees
-- Reduce banking dependencies
+
+-   Hold funds in Flashpoint to protect against inflation
+-   Instantly convert to local currency when needed
+-   Set custom exchange rates and fees
+-   Reduce banking dependencies
 
 ## Business Account Verification
 
 To set up a Flash Business Account:
 
 1. **Download Flash**: Get the app from your device's app store
-2. **Register**: Select "Business Account" during signup
-3. **Complete KYC**: Provide business information including:
-   - Business name and type
-   - Registration documents
-   - Owner identification
-   - Business address verification
-4. **Configure Settings**: Set up payment options and rates
-5. **Map Listing**: Your verified business will be added to the Flash Map
+2. **Register**: Select "Upgrade Account" after pressing start
+3. **Complete KYC**: Select merchant account, and provide business information including:
+    - Business name
+    - Business address verification
+    - Banking Information
+    - Owner identification
+4. **Map Listing**: Your verified business will be added to the Flash Map
 
-The verification process typically takes 1-3 business days after all required documents are submitted.
+The verification process typically takes 0-2 business days after all required information is approved.
 
 ## Want to Learn More?
 
-Ready to transform your business with Bitcoin? Contact us at [support@getflash.io](mailto:support@getflash.io) and we'll help you get started!
+Ready to transform your business as a Flashpoint? [Signup online using this link](https://flash-merchant-signup-ov4yh.ondigitalocean.app/form) or contact us at [support@getflash.io](mailto:support@getflash.io) and we'll help you get started!
 
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">

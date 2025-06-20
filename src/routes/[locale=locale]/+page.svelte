@@ -99,7 +99,7 @@
                     class="text-xl md:text-2xl text-flash-gray-600 dark:text-flash-gray-400 mb-12 max-w-2xl mx-auto"
                     in:fade={{ duration: 600, delay: 200 }}
                 >
-                    {description || 'Everything you need to know about using Flash for Bitcoin payments, trading, and financial services'}
+                    {description || 'Everything you need to know about using Flash for Bitcoin payments, rewards, and merchant services'}
                 </p>
 
                 <!-- Quick Links -->

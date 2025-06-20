@@ -15,7 +15,7 @@
                         <span class="text-xl font-bold">{$_('title')}</span>
                     </div>
                     <p class="text-flash-gray-600 dark:text-flash-gray-400 mb-4 max-w-md">
-                        Official documentation for Flash - Bitcoin financial services for the Caribbean and beyond.
+                        Official documentation for Flash - A bitcoin services provider for the Caribbean.
                     </p>
                     <DonateButton variant="primary" classes="btn-accent" />
                 </div>
