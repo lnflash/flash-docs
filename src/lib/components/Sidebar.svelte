@@ -22,6 +22,7 @@
                 { href: '/guides/chat', localeString: 'nav.chat' },
                 { href: '/guides/contacts', localeString: 'nav.contacts' },
                 { href: '/guides/map', localeString: 'nav.map' },
+                { href: '/guides/flashcard', localeString: 'nav.flashcard' },
                 { href: '/guides/dca', localeString: 'nav.dca' },
                 { href: '/guides/non-custodial-wallets', localeString: 'nav.nonCustodialWallets' },
                 { href: '/guides/sweep-to-cold-storage', localeString: 'nav.sweepToColdStorage' }
