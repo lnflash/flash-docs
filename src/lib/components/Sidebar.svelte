@@ -9,7 +9,8 @@
             links: [
                 { href: '/get-started', localeString: 'nav.getStarted' },
                 { href: '/what-is-flash', localeString: 'nav.whatIsFlash' },
-                { href: '/why-flash', localeString: 'nav.whyFlash' }
+                { href: '/why-flash', localeString: 'nav.whyFlash' },
+                { href: '/faq', localeString: 'nav.faq' }
             ]
         },
         {
