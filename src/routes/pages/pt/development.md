@@ -3,35 +3,56 @@ title: Desenvolvimento
 description: Recursos e documentação para desenvolvedores que desejam integrar com o Flash
 ---
 
+## Documentação API
 
-## Recursos para Desenvolvedores - Em Breve
+Nossa documentação API completa está disponível em:
 
-Os recursos para desenvolvedores do Flash estão atualmente em construção. Estamos trabalhando duro para fornecer documentação abrangente, ferramentas e diretrizes para desenvolvedores que desejam integrar com o ecossistema Flash.
+<div class="bg-flash-accent/10 border border-flash-accent/20 rounded-lg p-6 mb-8">
+    <h3 class="text-lg font-semibold mb-2">🚀 Documentação API Flash</h3>
+    <p class="mb-4">Acesse nossa referência API completa, guias de integração e exemplos de código.</p>
+    <a href="https://docs.flashapp.me" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-flash-accent hover:bg-flash-accent/90 text-white font-medium py-2 px-6 rounded-md transition-colors">
+        Visitar Documentação API
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+    </a>
+</div>
 
-### Acesso à API - Em Breve
+### O Que Você Encontrará
 
-O acesso à API do Flash estará disponível em breve, permitindo aos desenvolvedores:
+Em nosso portal de documentação API, você descobrirá:
 
-- Processar pagamentos
-- Recuperar histórico de transações
-- Consultar saldos de contas
-- Gerar faturas
-- Receber notificações webhook para eventos
+- **Referência API RESTful**: Documentação completa de endpoints com exemplos de requisição/resposta
+- **Guia de Autenticação**: Gerenciamento seguro de chaves API e implementação OAuth
+- **SDKs e Bibliotecas**: Bibliotecas cliente oficiais para linguagens de programação populares
+- **Tutoriais de Integração**: Guias passo a passo para casos de uso comuns
+- **Eventos Webhook**: Notificações em tempo real para pagamentos e eventos de transação
+- **Ambiente de Teste**: Acesso sandbox para desenvolvimento e testes
 
-### Opções de Integração
+### Início Rápido
 
-Quando nossos recursos para desenvolvedores estiverem prontos, o Flash oferecerá:
+Comece com a API Flash em minutos:
 
-- APIs REST para integrações empresariais
-- SDKs para várias linguagens de programação
-- Documentação técnica
-- Código de exemplo e exemplos
+1. **Cadastre-se** para uma conta de desenvolvedor em [docs.flashapp.me](https://docs.flashapp.me)
+2. **Gere** suas credenciais API
+3. **Explore** nosso explorador API interativo
+4. **Construa** sua integração usando nossos SDKs
 
-### Mantenha-se Informado
+### Cenários de Integração Populares
 
-Se você está interessado em desenvolver com o Flash, volte em breve para atualizações ou entre em contato conosco para mais informações.
+- **E-commerce**: Aceite pagamentos em bitcoin em sua loja online
+- **Ponto de Venda**: Processe pagamentos presenciais com dispositivos Flashpoint
+- **Folha de Pagamento**: Automatize pagamentos de salários em bitcoin
+- **Exchanges**: Integre o Flash para liquidez e liquidação
+- **Aplicativos**: Adicione funcionalidade bitcoin ao seu aplicativo móvel ou web
 
-Para perguntas específicas sobre desenvolvimento, entre em contato com nossa equipe em [development@getflash.io](mailto:development@getflash.io).
+### Suporte para Desenvolvedores
+
+Para suporte técnico e perguntas:
+
+- **Documentação**: [docs.flashapp.me](https://docs.flashapp.me)
+- **Email**: [development@getflash.io](mailto:development@getflash.io)
+- **Comunidade**: Junte-se à nossa comunidade de desenvolvedores para discussões e atualizações
 
 <!-- Navigation links -->
 <div class="flex justify-between items-center mt-8 pt-4 border-t border-zinc-200 dark:border-zinc-700">
