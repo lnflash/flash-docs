@@ -60,6 +60,14 @@
                 { href: '/development', localeString: 'nav.forDevelopers' },
                 { href: '/contribute', localeString: 'nav.contribute' }
             ]
+        },
+        {
+            title: 'nav.training',
+            links: [
+                { href: '/training/mobile-app', localeString: 'nav.trainingMobileApp' },
+                { href: '/training/flashcard', localeString: 'nav.trainingFlashcard' },
+                { href: '/training/flash-pos', localeString: 'nav.trainingFlashPOS' }
+            ]
         }
     ];
 </script>
