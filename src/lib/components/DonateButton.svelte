@@ -17,5 +17,5 @@
 </script>
 
 {#if !$isLoading}
-    <a href="lightning:dread@islandbitcoin.com" class={classNames}> ⚡ {$_('donateButton')} </a>
+    <a href="https://btcpay.flashapp.me/apps/3akaqK475W7thJEbzyJU2eJXa3RY/crowdfund" target="_blank" rel="noopener noreferrer" class={classNames}> ⚡ {$_('donateButton')} </a>
 {/if}

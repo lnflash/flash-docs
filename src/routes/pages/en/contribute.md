@@ -12,7 +12,7 @@ description: Help us build the future of Bitcoin and Lightning with your contrib
   <p class="mb-10">Every sat counts in helping us build a more inclusive financial future.</p>
   
   <div class="bg-gradient-to-r from-purple-600 to-indigo-600 p-1 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 max-w-md mx-auto">
-    <a href="lightning:dread@islandbitcoin.com" class="block bg-zinc-900 hover:bg-zinc-800 transition-colors duration-200 rounded-lg py-5 px-6">
+    <a href="https://btcpay.flashapp.me/apps/3akaqK475W7thJEbzyJU2eJXa3RY/crowdfund" target="_blank" rel="noopener noreferrer" class="block bg-zinc-900 hover:bg-zinc-800 transition-colors duration-200 rounded-lg py-5 px-6">
       <div class="flex items-center justify-center">
         <img src="/images/badges/png/Donate.png" alt="Donate" class="h-12 w-12 drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]" />
       </div>
