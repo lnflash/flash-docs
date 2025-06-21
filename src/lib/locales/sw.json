@@ -1,0 +1,129 @@
+{
+    "title": "Flash Docs",
+    "nav": {
+        "docsHome": "Nyaraka",
+        "gettingStarted": "Kuanza",
+        "getStarted": "Anza Sasa",
+        "whatIsFlash": "Flash ni Nini?",
+        "whyFlash": "Kwa Nini Flash?",
+        "userGuides": "Miongozo ya Watumiaji",
+        "guidesOverview": "Miongozo Yote",
+        "getCash": "Ongeza Pesa",
+        "cashOut": "Ondoa Pesa",
+        "flashcard": "Flashcard",
+        "earn": "Pata Bitcoin",
+        "chat": "Mazungumzo Salama",
+        "contacts": "Anwani",
+        "map": "Tafuta Mahali",
+        "dca": "Dollar Cost Averaging",
+        "nonCustodialWallets": "Pochi za Non-custodial",
+        "sweepToColdStorage": "Hamisha kwenye Cold Storage",
+        "howFlashWorks": "Jinsi Flash Inavyofanya Kazi",
+        "technicalArchitecture": "Muundo wa Kiteknolojia",
+        "integrationPartners": "Washirika wa Muunganisho",
+        "learnBitcoin": "Jifunze Kuhusu Bitcoin",
+        "bitcoinBasics": "Misingi ya Bitcoin",
+        "lightningNetwork": "Lightning Network",
+        "ecashExplained": "eCash Imeelezwa",
+        "nostrMessaging": "Itifaki ya NOSTR",
+        "integrations": "Miunganisho",
+        "galoyProject": "Mradi wa Galoy",
+        "breezSDK": "Breez SDK",
+        "ibexMercado": "IBEX Mercado",
+        "btcpayServer": "BTCPay Server",
+        "businessDev": "Biashara & Maendeleo",
+        "forBusiness": "Kwa Biashara",
+        "forDevelopers": "Kwa Wasanidi",
+        "contribute": "Changia",
+        "faq": "Maswali Yanayoulizwa Mara Kwa Mara",
+        "training": "Mafunzo",
+        "trainingMobileApp": "Programu ya Simu",
+        "trainingFlashcard": "Flashcard",
+        "trainingFlashPOS": "Flash POS",
+        "infrastructure": "Miundombinu",
+        "flashProjects": "Miradi Mingine",
+        "vendors": "Watoa Huduma wa Nje",
+        "resources": "Rasilimali za Wasanidi",
+        "business": "Akaunti za Biashara",
+        "openSource": "Miundombinu ya Flash",
+        "flashProtocol": "Itifaki ya Bitcoin",
+        "clients": "Lightning Network",
+        "relays": "eCash kwenye Bitcoin",
+        "relayImplementations": "Itifaki ya NOSTR",
+        "technology": "Teknolojia",
+        "guides": "Miongozo ya Watumiaji",
+        "guideIris": "Iris (Mteja wa Wavuti)",
+        "guideSweepSats": "Hamisha kwenye Cold Storage",
+        "whatIs": "Mradi wa Galoy",
+        "whyWeNeed": "Breez SDK",
+        "whatZaps": "IBEX Mercado"
+    },
+    "donateButton": "Toa Michango kwa Flash",
+    "colophon": "Imetengenezwa kwa 💜 & ⚡ na",
+    "foss": "Kwa fahari Programu ya Bure na ya Chanzo Huria chini ya ",
+    "mitLicense": "Leseni ya MIT",
+    "contactMe": "Wasiliana nasi",
+    "errors": {
+        "noTranslationTitle": "Tafsiri haijapatikana",
+        "noTranslationMessage": "Samahani, hakuna tafsiri ya ukurasa huu. Ikiwa una shauku ya kusaidia kuunda ukurasa huu, tafadhali wasiliana nasi."
+    },
+    "home": {
+        "hero": {
+            "title": "Nyaraka za Flash",
+            "description": "Kila kitu unachohitaji kujua kuhusu kutumia Flash kwa malipo ya Bitcoin, zawadi na huduma za wafanyabiashara"
+        },
+        "quickLinks": {
+            "getStarted": "Anza Sasa",
+            "userGuides": "Miongozo ya Watumiaji",
+            "forBusiness": "Kwa Biashara",
+            "developers": "Wasanidi"
+        },
+        "features": {
+            "sectionTitle": "Kwa Nini Flash?",
+            "sectionDescription": "Flash inaleta miundombinu ya Bitcoin ya kiwango cha juu kwa kila mtu, ikifanya malipo ya kidijitali yapatikane na ya thawabu",
+            "multiCurrency": {
+                "title": "Pochi za Sarafu Nyingi",
+                "description": "Simamia Bitcoin na sarafu za fiat katika programu moja salama"
+            },
+            "lightning": {
+                "title": "Haraka kama Umeme",
+                "description": "Malipo ya papo hapo yanayoendeshwa na Bitcoin Lightning Network"
+            },
+            "business": {
+                "title": "Tayari kwa Biashara",
+                "description": "Suluhisho kamili za mahali pa mauzo na vifaa vya Flashpoint"
+            },
+            "chat": {
+                "title": "Mazungumzo Salama",
+                "description": "Ujumbe usiopinga udhibiti na itifaki ya NOSTR"
+            },
+            "rewards": {
+                "title": "Mpango wa Zawadi",
+                "description": "Pata zawadi za Bitcoin kila unapofanya muamala"
+            },
+            "selfCustody": {
+                "title": "Uongozi wa Kibinafsi",
+                "description": "Udhibiti kamili wa fedha zako na chaguo za non-custodial"
+            }
+        },
+        "cta": {
+            "title": "Tayari kuzama ndani?",
+            "description": "Anza safari yako na Flash leo na ugundua mustakabali wa huduma za kifedha",
+            "getStartedButton": "Anza Sasa →",
+            "browseGuidesButton": "Angalia Miongozo"
+        }
+    },
+    "footer": {
+        "description": "Nyaraka rasmi za Flash - Mtoa huduma za bitcoin kwa eneo la Caribbean.",
+        "quickLinks": "Viungo vya Haraka",
+        "resources": "Rasilimali",
+        "flashWebsite": "Tovuti ya Flash",
+        "github": "GitHub",
+        "copyright": "© {year} Nyaraka za Flash. Haki zote zimehifadhiwa."
+    },
+    "breadcrumbs": {
+        "home": "Nyumbani",
+        "training": "Mafunzo"
+    },
+    "backToHome": "← Rudi nyumbani"
+}
