@@ -1,6 +1,6 @@
 <script lang="ts">
     import DonateButton from '$lib/components/DonateButton.svelte';
-    import { _, isLoading } from 'svelte-i18n';
+    import { _, isLoading, locale } from 'svelte-i18n';
     import GithubIcon from '$lib/elements/icons/Github.svelte';
 </script>
 
@@ -15,29 +15,29 @@
                         <span class="text-xl font-bold">{$_('title')}</span>
                     </div>
                     <p class="text-flash-gray-600 dark:text-flash-gray-400 mb-4 max-w-md">
-                        Official documentation for Flash - A bitcoin services provider for the Caribbean.
+                        {$_('footer.description')}
                     </p>
                     <DonateButton variant="primary" classes="btn-accent" />
                 </div>
                 
                 <!-- Quick Links -->
                 <div>
-                    <h3 class="font-semibold mb-4">Quick Links</h3>
+                    <h3 class="font-semibold mb-4">{$_('footer.quickLinks')}</h3>
                     <ul class="space-y-2">
-                        <li><a href="/en/get-started" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">Get Started</a></li>
-                        <li><a href="/en/user-guides" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">User Guides</a></li>
-                        <li><a href="/en/business" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">For Business</a></li>
-                        <li><a href="/en/development" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">Developers</a></li>
+                        <li><a href="/{$locale}/get-started" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('nav.getStarted')}</a></li>
+                        <li><a href="/{$locale}/user-guides" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('nav.userGuides')}</a></li>
+                        <li><a href="/{$locale}/business" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('nav.forBusiness')}</a></li>
+                        <li><a href="/{$locale}/development" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('nav.forDevelopers')}</a></li>
                     </ul>
                 </div>
                 
                 <!-- Resources -->
                 <div>
-                    <h3 class="font-semibold mb-4">Resources</h3>
+                    <h3 class="font-semibold mb-4">{$_('footer.resources')}</h3>
                     <ul class="space-y-2">
-                        <li><a href="https://getflash.io" target="_blank" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">Flash Website</a></li>
-                        <li><a href="https://github.com/lnflash/flash-how" target="_blank" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">GitHub</a></li>
-                        <li><a href="/en/contribute" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">Contribute</a></li>
+                        <li><a href="https://getflash.io" target="_blank" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('footer.flashWebsite')}</a></li>
+                        <li><a href="https://github.com/lnflash/flash-how" target="_blank" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('footer.github')}</a></li>
+                        <li><a href="/{$locale}/contribute" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('nav.contribute')}</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                         </span>
                     </div>
                     <p class="text-sm text-flash-gray-600 dark:text-flash-gray-400">
-                        © {new Date().getFullYear()} Flash Documentation. All rights reserved.
+                        {$_('footer.copyright', { values: { year: new Date().getFullYear() } })}
                     </p>
                 </div>
             </div>

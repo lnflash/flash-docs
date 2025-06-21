@@ -35,50 +35,50 @@
     }
 
     // Feature cards data
-    const features = [
+    $: features = [
         {
             icon: '💰',
-            title: 'Multi-Currency Wallets',
-            description: 'Manage both Bitcoin and fiat currencies in one secure app'
+            title: $_('home.features.multiCurrency.title'),
+            description: $_('home.features.multiCurrency.description')
         },
         {
             icon: '⚡',
-            title: 'Lightning Fast',
-            description: 'Instant payments powered by the Bitcoin Lightning Network'
+            title: $_('home.features.lightning.title'),
+            description: $_('home.features.lightning.description')
         },
         {
             icon: '🏪',
-            title: 'Business Ready',
-            description: 'Complete point-of-sale solutions with Flashpoint devices'
+            title: $_('home.features.business.title'),
+            description: $_('home.features.business.description')
         },
         {
             icon: '💬',
-            title: 'Secure Chat',
-            description: 'Censorship-resistant messaging with NOSTR protocol'
+            title: $_('home.features.chat.title'),
+            description: $_('home.features.chat.description')
         },
         {
             icon: '🎁',
-            title: 'Rewards Program',
-            description: 'Earn Bitcoin rewards with every transaction'
+            title: $_('home.features.rewards.title'),
+            description: $_('home.features.rewards.description')
         },
         {
             icon: '🔒',
-            title: 'Self-Custody',
-            description: 'Full control over your funds with non-custodial options'
+            title: $_('home.features.selfCustody.title'),
+            description: $_('home.features.selfCustody.description')
         }
     ];
 
-    const quickLinks = [
-        { href: 'get-started', label: 'Get Started', icon: '🚀' },
-        { href: 'user-guides', label: 'User Guides', icon: '📚' },
-        { href: 'business', label: 'For Business', icon: '🏢' },
-        { href: 'development', label: 'Developers', icon: '👩‍💻' }
+    $: quickLinks = [
+        { href: 'get-started', label: $_('home.quickLinks.getStarted'), icon: '🚀' },
+        { href: 'user-guides', label: $_('home.quickLinks.userGuides'), icon: '📚' },
+        { href: 'business', label: $_('home.quickLinks.forBusiness'), icon: '🏢' },
+        { href: 'development', label: $_('home.quickLinks.developers'), icon: '👩‍💻' }
     ];
 </script>
 
 <svelte:head>
-    <title>{title || 'Flash Documentation'}</title>
-    <meta name="description" content={description || 'Official documentation for Flash - Bitcoin financial services for the Caribbean'} />
+    <title>{title || $_('home.hero.title')}</title>
+    <meta name="description" content={description || $_('home.hero.description')} />
 </svelte:head>
 
 {#if !$isLoading && mounted}
@@ -92,14 +92,14 @@
                     class="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up"
                     in:fade={{ duration: 600, delay: 100 }}
                 >
-                    <span class="text-gradient">Flash Documentation</span>
+                    <span class="text-gradient">{$_('home.hero.title')}</span>
                 </h1>
                 
                 <p 
                     class="text-xl md:text-2xl text-flash-gray-600 dark:text-flash-gray-400 mb-12 max-w-2xl mx-auto"
                     in:fade={{ duration: 600, delay: 200 }}
                 >
-                    {description || 'Everything you need to know about using Flash for Bitcoin payments, rewards, and merchant services'}
+                    {description || $_('home.hero.description')}
                 </p>
 
                 <!-- Quick Links -->
@@ -125,10 +125,10 @@
     <section class="py-20 bg-flash-white dark:bg-flash-black">
         <div class="content-container">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">
-                Why Flash?
+                {$_('home.features.sectionTitle')}
             </h2>
             <p class="text-center text-flash-gray-600 dark:text-flash-gray-400 mb-12 max-w-2xl mx-auto">
-                Flash brings enterprise-grade Bitcoin infrastructure to everyone, making digital payments accessible and rewarding
+                {$_('home.features.sectionDescription')}
             </p>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -152,17 +152,17 @@
     <section class="py-20 bg-flash-gray-50 dark:bg-flash-gray-950">
         <div class="content-container text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                Ready to dive in?
+                {$_('home.cta.title')}
             </h2>
             <p class="text-flash-gray-600 dark:text-flash-gray-400 mb-8 max-w-xl mx-auto">
-                Start your journey with Flash today and discover the future of financial services
+                {$_('home.cta.description')}
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="/{$locale}/get-started" class="btn-primary">
-                    Get Started →
+                    {$_('home.cta.getStartedButton')}
                 </a>
                 <a href="/{$locale}/user-guides" class="btn-secondary">
-                    Browse Guides
+                    {$_('home.cta.browseGuidesButton')}
                 </a>
             </div>
         </div>

@@ -1,6 +1,6 @@
 <script lang="ts">
     import { supportedLocales } from '$lib/config/l10n';
-    import { locale } from 'svelte-i18n';
+    import { locale, _ } from 'svelte-i18n';
     import { onMount } from 'svelte';
     import { fade } from 'svelte/transition';
 
@@ -18,8 +18,8 @@
 
     // Breadcrumb navigation
     $: breadcrumbs = [
-        { label: 'Home', href: `/${$locale}` },
-        { label: 'Training', href: `/${$locale}/training/mobile-app` },
+        { label: $_('breadcrumbs.home'), href: `/${$locale}` },
+        { label: $_('nav.training'), href: `/${$locale}/training/mobile-app` },
         { label: data.title, href: null }
     ];
 </script>
@@ -85,7 +85,7 @@
         <nav class="mt-12 pt-8 border-t border-flash-gray-200 dark:border-flash-gray-800">
             <div class="flex justify-between items-center">
                 <a href={`/${$locale}`} class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">
-                    ← Back to home
+                    {$_('backToHome')}
                 </a>
             </div>
         </nav>

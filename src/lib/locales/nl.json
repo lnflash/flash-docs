@@ -1,0 +1,129 @@
+{
+    "title": "Flash Docs",
+    "nav": {
+        "docsHome": "Documentatie",
+        "gettingStarted": "Aan de slag",
+        "getStarted": "Begin nu",
+        "whatIsFlash": "Wat is Flash?",
+        "whyFlash": "Waarom Flash?",
+        "userGuides": "Gebruikershandleidingen",
+        "guidesOverview": "Alle handleidingen",
+        "getCash": "Opwaarderen",
+        "cashOut": "Geld opnemen",
+        "flashcard": "Flashcard",
+        "earn": "Verdien Bitcoin",
+        "chat": "Beveiligde chat",
+        "contacts": "Contacten",
+        "map": "Locaties vinden",
+        "dca": "Dollar Cost Averaging",
+        "nonCustodialWallets": "Non-custodial wallets",
+        "sweepToColdStorage": "Overzetten naar cold storage",
+        "howFlashWorks": "Hoe Flash werkt",
+        "technicalArchitecture": "Technische architectuur",
+        "integrationPartners": "Integratiepartners",
+        "learnBitcoin": "Leer over Bitcoin",
+        "bitcoinBasics": "Bitcoin basis",
+        "lightningNetwork": "Lightning Network",
+        "ecashExplained": "eCash uitgelegd",
+        "nostrMessaging": "NOSTR Protocol",
+        "integrations": "Integraties",
+        "galoyProject": "Galoy Project",
+        "breezSDK": "Breez SDK",
+        "ibexMercado": "IBEX Mercado",
+        "btcpayServer": "BTCPay Server",
+        "businessDev": "Zakelijk & Ontwikkeling",
+        "forBusiness": "Voor bedrijven",
+        "forDevelopers": "Voor ontwikkelaars",
+        "contribute": "Bijdragen",
+        "faq": "Veelgestelde vragen",
+        "training": "Training",
+        "trainingMobileApp": "Mobiele app",
+        "trainingFlashcard": "Flashcard",
+        "trainingFlashPOS": "Flash POS",
+        "infrastructure": "Infrastructuur",
+        "flashProjects": "Andere projecten",
+        "vendors": "Externe leveranciers",
+        "resources": "Ontwikkelaarsbronnen",
+        "business": "Zakelijke accounts",
+        "openSource": "Flash infrastructuur",
+        "flashProtocol": "Het Bitcoin Protocol",
+        "clients": "Het Lightning Network",
+        "relays": "eCash op Bitcoin",
+        "relayImplementations": "Het NOSTR Protocol",
+        "technology": "Technologie",
+        "guides": "Gebruikershandleidingen",
+        "guideIris": "Iris (Web Client)",
+        "guideSweepSats": "Overzetten naar cold storage",
+        "whatIs": "Galoy Project",
+        "whyWeNeed": "Breez SDK",
+        "whatZaps": "IBEX Mercado"
+    },
+    "donateButton": "Doneer aan Flash",
+    "colophon": "Gemaakt met 💜 & ⚡ door",
+    "foss": "Met trots vrije en open source software onder ",
+    "mitLicense": "MIT licentie",
+    "contactMe": "Neem contact op",
+    "errors": {
+        "noTranslationTitle": "Vertaling niet gevonden",
+        "noTranslationMessage": "Sorry, er bestaat geen vertaling voor deze pagina. Als je geïnteresseerd bent om deze pagina te helpen maken, neem dan contact op."
+    },
+    "home": {
+        "hero": {
+            "title": "Flash Documentatie",
+            "description": "Alles wat je moet weten over het gebruik van Flash voor Bitcoin-betalingen, beloningen en handelsdiensten"
+        },
+        "quickLinks": {
+            "getStarted": "Begin nu",
+            "userGuides": "Gebruikershandleidingen",
+            "forBusiness": "Voor bedrijven",
+            "developers": "Ontwikkelaars"
+        },
+        "features": {
+            "sectionTitle": "Waarom Flash?",
+            "sectionDescription": "Flash brengt enterprise-grade Bitcoin-infrastructuur naar iedereen en maakt digitale betalingen toegankelijk en lonend",
+            "multiCurrency": {
+                "title": "Multi-valuta wallets",
+                "description": "Beheer zowel Bitcoin als fiat-valuta's in één veilige app"
+            },
+            "lightning": {
+                "title": "Bliksemsnel",
+                "description": "Directe betalingen mogelijk gemaakt door het Bitcoin Lightning Network"
+            },
+            "business": {
+                "title": "Zakelijk klaar",
+                "description": "Complete verkooppuntoplossingen met Flashpoint-apparaten"
+            },
+            "chat": {
+                "title": "Beveiligde chat",
+                "description": "Censuurbestendige berichten met NOSTR-protocol"
+            },
+            "rewards": {
+                "title": "Beloningsprogramma",
+                "description": "Verdien Bitcoin-beloningen bij elke transactie"
+            },
+            "selfCustody": {
+                "title": "Zelfbeheer",
+                "description": "Volledige controle over je fondsen met non-custodial opties"
+            }
+        },
+        "cta": {
+            "title": "Klaar om erin te duiken?",
+            "description": "Begin vandaag je reis met Flash en ontdek de toekomst van financiële diensten",
+            "getStartedButton": "Begin nu →",
+            "browseGuidesButton": "Bekijk handleidingen"
+        }
+    },
+    "footer": {
+        "description": "Officiële documentatie voor Flash - Een bitcoin serviceprovider voor het Caribisch gebied.",
+        "quickLinks": "Snelle links",
+        "resources": "Bronnen",
+        "flashWebsite": "Flash Website",
+        "github": "GitHub",
+        "copyright": "© {year} Flash Documentatie. Alle rechten voorbehouden."
+    },
+    "breadcrumbs": {
+        "home": "Home",
+        "training": "Training"
+    },
+    "backToHome": "← Terug naar home"
+}

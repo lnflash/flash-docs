@@ -10,7 +10,8 @@ export const locales: localesType[] = [
     { alpha2Code: 'fr', name: 'Français' },
     { alpha2Code: 'it', name: 'Italiano' },
     { alpha2Code: 'fa', name: 'فارسی' },
-    { alpha2Code: 'pt', name: 'Português' }
+    { alpha2Code: 'pt', name: 'Português' },
+    { alpha2Code: 'nl', name: 'Nederlands' }
 ];
 
 // Returns an array of the supported alpha2 codes
