@@ -1,0 +1,129 @@
+{
+    "title": "Flash Docs",
+    "nav": {
+        "docsHome": "الوثائق",
+        "gettingStarted": "البدء",
+        "getStarted": "ابدأ الآن",
+        "whatIsFlash": "ما هو Flash؟",
+        "whyFlash": "لماذا Flash؟",
+        "userGuides": "أدلة المستخدمين",
+        "guidesOverview": "جميع الأدلة",
+        "getCash": "إضافة أموال",
+        "cashOut": "سحب الأموال",
+        "flashcard": "Flashcard",
+        "earn": "اكسب Bitcoin",
+        "chat": "محادثة آمنة",
+        "contacts": "جهات الاتصال",
+        "map": "العثور على المواقع",
+        "dca": "متوسط التكلفة بالدولار",
+        "nonCustodialWallets": "محافظ غير وصائية",
+        "sweepToColdStorage": "النقل إلى التخزين البارد",
+        "howFlashWorks": "كيف يعمل Flash",
+        "technicalArchitecture": "البنية التقنية",
+        "integrationPartners": "شركاء التكامل",
+        "learnBitcoin": "تعلم عن Bitcoin",
+        "bitcoinBasics": "أساسيات Bitcoin",
+        "lightningNetwork": "شبكة Lightning",
+        "ecashExplained": "شرح eCash",
+        "nostrMessaging": "بروتوكول NOSTR",
+        "integrations": "التكاملات",
+        "galoyProject": "مشروع Galoy",
+        "breezSDK": "Breez SDK",
+        "ibexMercado": "IBEX Mercado",
+        "btcpayServer": "BTCPay Server",
+        "businessDev": "الأعمال والتطوير",
+        "forBusiness": "للأعمال",
+        "forDevelopers": "للمطورين",
+        "contribute": "المساهمة",
+        "faq": "الأسئلة الشائعة",
+        "training": "التدريب",
+        "trainingMobileApp": "تطبيق الهاتف المحمول",
+        "trainingFlashcard": "Flashcard",
+        "trainingFlashPOS": "Flash POS",
+        "infrastructure": "البنية التحتية",
+        "flashProjects": "مشاريع أخرى",
+        "vendors": "موردين خارجيين",
+        "resources": "موارد المطورين",
+        "business": "حسابات الأعمال",
+        "openSource": "بنية Flash التحتية",
+        "flashProtocol": "بروتوكول Bitcoin",
+        "clients": "شبكة Lightning",
+        "relays": "eCash على Bitcoin",
+        "relayImplementations": "بروتوكول NOSTR",
+        "technology": "التكنولوجيا",
+        "guides": "أدلة المستخدمين",
+        "guideIris": "Iris (عميل الويب)",
+        "guideSweepSats": "النقل إلى التخزين البارد",
+        "whatIs": "مشروع Galoy",
+        "whyWeNeed": "Breez SDK",
+        "whatZaps": "IBEX Mercado"
+    },
+    "donateButton": "تبرع لـ Flash",
+    "colophon": "صُنع بـ 💜 & ⚡ بواسطة",
+    "foss": "بفخر برمجيات حرة ومفتوحة المصدر تحت ",
+    "mitLicense": "رخصة MIT",
+    "contactMe": "تواصل معنا",
+    "errors": {
+        "noTranslationTitle": "الترجمة غير موجودة",
+        "noTranslationMessage": "عذراً، لا توجد ترجمة لهذه الصفحة. إذا كنت مهتماً بالمساعدة في إنشاء هذه الصفحة، يرجى التواصل معنا."
+    },
+    "home": {
+        "hero": {
+            "title": "وثائق Flash",
+            "description": "كل ما تحتاج لمعرفته حول استخدام Flash لمدفوعات Bitcoin والمكافآت وخدمات التجار"
+        },
+        "quickLinks": {
+            "getStarted": "ابدأ الآن",
+            "userGuides": "أدلة المستخدمين",
+            "forBusiness": "للأعمال",
+            "developers": "المطورون"
+        },
+        "features": {
+            "sectionTitle": "لماذا Flash؟",
+            "sectionDescription": "يجلب Flash بنية Bitcoin التحتية على مستوى المؤسسات للجميع، مما يجعل المدفوعات الرقمية متاحة ومجزية",
+            "multiCurrency": {
+                "title": "محافظ متعددة العملات",
+                "description": "إدارة Bitcoin والعملات الورقية في تطبيق آمن واحد"
+            },
+            "lightning": {
+                "title": "سريع كالبرق",
+                "description": "مدفوعات فورية مدعومة بشبكة Bitcoin Lightning"
+            },
+            "business": {
+                "title": "جاهز للأعمال",
+                "description": "حلول نقاط البيع الكاملة مع أجهزة Flashpoint"
+            },
+            "chat": {
+                "title": "محادثة آمنة",
+                "description": "رسائل مقاومة للرقابة مع بروتوكول NOSTR"
+            },
+            "rewards": {
+                "title": "برنامج المكافآت",
+                "description": "احصل على مكافآت Bitcoin مع كل معاملة"
+            },
+            "selfCustody": {
+                "title": "الحفظ الذاتي",
+                "description": "السيطرة الكاملة على أموالك مع خيارات غير وصائية"
+            }
+        },
+        "cta": {
+            "title": "مستعد للانطلاق؟",
+            "description": "ابدأ رحلتك مع Flash اليوم واكتشف مستقبل الخدمات المالية",
+            "getStartedButton": "ابدأ الآن ←",
+            "browseGuidesButton": "تصفح الأدلة"
+        }
+    },
+    "footer": {
+        "description": "الوثائق الرسمية لـ Flash - مزود خدمات bitcoin لمنطقة الكاريبي.",
+        "quickLinks": "روابط سريعة",
+        "resources": "الموارد",
+        "flashWebsite": "موقع Flash",
+        "github": "GitHub",
+        "copyright": "© {year} وثائق Flash. جميع الحقوق محفوظة."
+    },
+    "breadcrumbs": {
+        "home": "الرئيسية",
+        "training": "التدريب"
+    },
+    "backToHome": "← العودة للرئيسية"
+}
