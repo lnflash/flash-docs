@@ -335,7 +335,7 @@ const feeOptimization = {
   
   amount: {
     sweet_spot: "$100-500",
-    percentage: "&lt;1% 목표",
+    percentage: "1% 미만 목표",
     comparison: "방법 비교"
   }
 };

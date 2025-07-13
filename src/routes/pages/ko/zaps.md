@@ -25,7 +25,7 @@ traditionalTip = {
 // Zaps
 zap = {
   platform: "탈중앙화",
-  fees: "&lt;1%",
+  fees: "1% 미만",
   settlement: "즉시",
   minimums: "1 사토시",
   restrictions: "없음"
@@ -276,7 +276,7 @@ topZapped.forEach(post => {
 
 Zap 모델:
   - 플랫폼 수수료: 0%
-  - 결제 처리: &lt;1%
+  - 결제 처리: 1% 미만
   - 최소 지급액: 1 sat
   - 지급 지연: 즉시
 ```
