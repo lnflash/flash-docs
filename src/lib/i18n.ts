@@ -13,6 +13,7 @@ register('ar', () => import('$lib/locales/ar.json'));
 register('zh', () => import('$lib/locales/zh.json'));
 register('ja', () => import('$lib/locales/ja.json'));
 register('ko', () => import('$lib/locales/ko.json'));
+register('hi', () => import('$lib/locales/hi.json'));
 
 interface i18nOpts {
     locale: string;

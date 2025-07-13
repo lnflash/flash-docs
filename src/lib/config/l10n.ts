@@ -16,7 +16,8 @@ export const locales: localesType[] = [
     { alpha2Code: 'ar', name: 'العربية' },
     { alpha2Code: 'zh', name: '中文' },
     { alpha2Code: 'ja', name: '日本語' },
-    { alpha2Code: 'ko', name: '한국어' }
+    { alpha2Code: 'ko', name: '한국어' },
+    { alpha2Code: 'hi', name: 'हिन्दी' }
 ];
 
 // Returns an array of the supported alpha2 codes
