@@ -16,7 +16,7 @@ Flash의 자체 고성능 릴레이 구현:
 interface FlashRelayFeatures {
   performance: {
     throughput: "10,000+ events/sec",
-    latency: "<10ms p99",
+    latency: "&lt;10ms p99",
     connections: "100,000+ concurrent"
   },
   

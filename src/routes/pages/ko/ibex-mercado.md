@@ -129,7 +129,7 @@ const marketData = await flash.ibex.getMarketData();
 ### 유동성 풀
 IBEX는 즉각적인 거래를 위한 깊은 유동성을 유지합니다:
 - **일일 거래량**: $1M+ USD
-- **평균 스프레드**: <1%
+- **평균 스프레드**: &lt;1%
 - **최대 거래 크기**: 10 BTC
 - **최소 거래 크기**: $10 USD
 
@@ -194,7 +194,7 @@ const settlement = await flash.ibex.processSettlement({
 Flash + IBEX 솔루션:
 - 라이트닝을 통한 즉시 BTC 결제
 - IBEX를 통해 GTQ로 자동 전환
-- 총 수수료 <2%
+- 총 수수료 &lt;2%
 - 당일 은행 계좌 입금
 
 결과:
