@@ -13,6 +13,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
     <div class="aspect-video bg-black rounded-lg mb-4">
         <video controls class="w-full h-full rounded-lg">
             <source src="https://v.nostr.build/LGchgA2EmpnHF9Oc.mp4" type="video/mp4">
+            <track kind="captions" srclang="de" label="Deutsch">
             Ihr Browser unterstützt das Video-Tag nicht.
         </video>
     </div>
@@ -37,6 +38,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
             <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
                 <video class="w-full h-full object-cover">
                     <source src="https://v.nostr.build/DohkyTOVVuBHawxO.mp4" type="video/mp4">
+                    <track kind="captions" srclang="de" label="Deutsch">
                 </video>
             </div>
             <div class="flex-1">
@@ -61,6 +63,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
             <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
                 <video class="w-full h-full object-cover">
                     <source src="https://v.nostr.build/p8JapyDc8O6sLedt.mp4" type="video/mp4">
+                    <track kind="captions" srclang="de" label="Deutsch">
                 </video>
             </div>
             <div class="flex-1">
@@ -85,6 +88,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
             <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
                 <video class="w-full h-full object-cover">
                     <source src="https://v.nostr.build/pSDfF9CQpnYeMPyi.mp4" type="video/mp4">
+                    <track kind="captions" srclang="de" label="Deutsch">
                 </video>
             </div>
             <div class="flex-1">
@@ -109,6 +113,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
             <div class="w-48 h-28 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
                 <video class="w-full h-full object-cover">
                     <source src="https://v.nostr.build/DLAZraXrjP2ABDVp.mp4" type="video/mp4">
+                    <track kind="captions" srclang="de" label="Deutsch">
                 </video>
             </div>
             <div class="flex-1">
@@ -138,6 +143,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
         <div class="aspect-video bg-black rounded-lg mb-4">
             <video controls class="w-full h-full rounded-lg">
                 <source src="https://v.nostr.build/LGchgA2EmpnHF9Oc.mp4" type="video/mp4">
+                <track kind="captions" srclang="de" label="Deutsch">
                 Ihr Browser unterstützt das Video-Tag nicht.
             </video>
         </div>
@@ -154,6 +160,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
         <div class="aspect-video bg-black rounded-lg mb-4">
             <video controls class="w-full h-full rounded-lg">
                 <source src="https://v.nostr.build/DohkyTOVVuBHawxO.mp4" type="video/mp4">
+                <track kind="captions" srclang="de" label="Deutsch">
                 Ihr Browser unterstützt das Video-Tag nicht.
             </video>
         </div>
@@ -170,6 +177,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
         <div class="aspect-video bg-black rounded-lg mb-4">
             <video controls class="w-full h-full rounded-lg">
                 <source src="https://v.nostr.build/p8JapyDc8O6sLedt.mp4" type="video/mp4">
+                <track kind="captions" srclang="de" label="Deutsch">
                 Ihr Browser unterstützt das Video-Tag nicht.
             </video>
         </div>
@@ -186,6 +194,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
         <div class="aspect-video bg-black rounded-lg mb-4">
             <video controls class="w-full h-full rounded-lg">
                 <source src="https://v.nostr.build/pSDfF9CQpnYeMPyi.mp4" type="video/mp4">
+                <track kind="captions" srclang="de" label="Deutsch">
                 Ihr Browser unterstützt das Video-Tag nicht.
             </video>
         </div>
@@ -202,6 +211,7 @@ Willkommen im umfassenden Flashpoint POS Trainingscenter. Greifen Sie auf unsere
         <div class="aspect-video bg-black rounded-lg mb-4">
             <video controls class="w-full h-full rounded-lg">
                 <source src="https://v.nostr.build/DLAZraXrjP2ABDVp.mp4" type="video/mp4">
+                <track kind="captions" srclang="de" label="Deutsch">
                 Ihr Browser unterstützt das Video-Tag nicht.
             </video>
         </div>
