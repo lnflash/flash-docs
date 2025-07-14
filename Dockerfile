@@ -10,8 +10,8 @@ COPY . .
 # Install dependencies
 RUN npm install
 
-# Build the project
-RUN npm run build
+# Build the project with increased memory limit
+RUN NODE_OPTIONS="--max-old-space-size=4096" npm run build
 
 # Expose port 3000
 EXPOSE 3000
