@@ -9,6 +9,7 @@ export const locales: localesType[] = [
     { alpha2Code: 'es', name: 'Español' },
     { alpha2Code: 'fr', name: 'Français' },
     { alpha2Code: 'it', name: 'Italiano' },
+    { alpha2Code: 'de', name: 'Deutsch' },
     { alpha2Code: 'fa', name: 'فارسی' },
     { alpha2Code: 'pt', name: 'Português' },
     { alpha2Code: 'nl', name: 'Nederlands' },
