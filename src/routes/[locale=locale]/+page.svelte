@@ -1,117 +1,75 @@
 <script lang="ts">
-    import { _, isLoading } from 'svelte-i18n';
-    import { locale } from 'svelte-i18n';
     import { onMount } from 'svelte';
     import { fade, fly } from 'svelte/transition';
 
-    let content: any;
-    let title: string = '';
-    let description: string = '';
     let mounted = false;
-
     onMount(() => {
         mounted = true;
     });
 
-    async function loadMarkdown() {
-        try {
-            const homepage = await import(`../pages/${$locale}/index.md`);
-            title = homepage.metadata.title;
-            description = homepage.metadata.description;
-            content = homepage.default;
-        } catch (error) {
-            // Fallback to English if locale not found
-            const homepage = await import(`../pages/en/index.md`);
-            title = homepage.metadata.title;
-            description = homepage.metadata.description;
-            content = homepage.default;
-        }
-    }
+    const quickLinks = [
+        { href: 'get-started', label: 'Get Started', icon: '🚀' },
+        { href: 'user-guides', label: 'User Guides', icon: '📚' },
+        { href: 'guides/cash-wallet', label: 'Cash Wallet', icon: '💵' },
+        { href: 'guides/bitcoin-wallet', label: 'Bitcoin Wallet', icon: '₿' }
+    ];
 
-    $: {
-        if (!$isLoading && $locale) {
-            loadMarkdown();
-        }
-    }
-
-    // Feature cards data
-    $: features = [
+    const features = [
         {
-            icon: '💰',
-            title: $_('home.features.multiCurrency.title'),
-            description: $_('home.features.multiCurrency.description')
+            icon: '💵',
+            title: 'Cash Wallet',
+            description: 'Hold USD, show it in your local currency, and move money with bank transfers or Flashpoints.'
         },
         {
-            icon: '⚡',
-            title: $_('home.features.lightning.title'),
-            description: $_('home.features.lightning.description')
+            icon: '₿',
+            title: 'Bitcoin Wallet',
+            description: 'Send and receive Bitcoin instantly with Lightning or on-chain.'
+        },
+        {
+            icon: '🔁',
+            title: 'Swap',
+            description: 'Move value between your Cash Wallet and Bitcoin Wallet in a few taps.'
         },
         {
             icon: '🏪',
-            title: $_('home.features.business.title'),
-            description: $_('home.features.business.description')
+            title: 'Merchant Tools',
+            description: 'Accept payments, top up, cash out, and run Flash POS at your business.'
         },
         {
             icon: '💬',
-            title: $_('home.features.chat.title'),
-            description: $_('home.features.chat.description')
+            title: 'Secure Chat',
+            description: 'Message other Flash users and get help from support in the app.'
         },
         {
             icon: '🎁',
-            title: $_('home.features.rewards.title'),
-            description: $_('home.features.rewards.description')
-        },
-        {
-            icon: '🔒',
-            title: $_('home.features.selfCustody.title'),
-            description: $_('home.features.selfCustody.description')
+            title: 'Flashcard',
+            description: 'Use your Flashcard at supported merchants and tie it to your account.'
         }
-    ];
-
-    $: quickLinks = [
-        { href: 'get-started', label: $_('home.quickLinks.getStarted'), icon: '🚀' },
-        { href: 'user-guides', label: $_('home.quickLinks.userGuides'), icon: '📚' },
-        { href: 'business', label: $_('home.quickLinks.forBusiness'), icon: '🏢' },
-        { href: 'development', label: $_('home.quickLinks.developers'), icon: '👩‍💻' }
     ];
 </script>
 
 <svelte:head>
-    <title>{title || $_('home.hero.title')}</title>
-    <meta name="description" content={description || $_('home.hero.description')} />
+    <title>Flash Docs</title>
+    <meta name="description" content="Flash Docs helps Caribbean users get started with Cash Wallet, Bitcoin Wallet, Swap, top ups, cash outs, and merchant tools." />
 </svelte:head>
 
-{#if !$isLoading && mounted}
-    <!-- Hero Section -->
+{#if mounted}
     <section class="relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-flash-gray-50 to-flash-gray-100 dark:from-flash-gray-950 dark:to-flash-black -z-10"></div>
-        
+
         <div class="content-container py-20 md:py-32">
             <div class="max-w-4xl mx-auto text-center">
-                <h1 
-                    class="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up"
-                    in:fade={{ duration: 600, delay: 100 }}
-                >
-                    <span class="text-gradient">{$_('home.hero.title')}</span>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6" in:fade={{ duration: 500 }}>
+                    <span class="text-gradient">Flash Docs</span>
                 </h1>
-                
-                <p 
-                    class="text-xl md:text-2xl text-flash-gray-600 dark:text-flash-gray-400 mb-12 max-w-2xl mx-auto"
-                    in:fade={{ duration: 600, delay: 200 }}
-                >
-                    {description || $_('home.hero.description')}
+
+                <p class="text-xl md:text-2xl text-flash-gray-600 dark:text-flash-gray-400 mb-10 max-w-3xl mx-auto" in:fade={{ duration: 500, delay: 100 }}>
+                    Everything a Flash user needs to get started, use their wallets, swap between them, and move money in and out.
                 </p>
 
-                <!-- Quick Links -->
-                <div 
-                    class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16"
-                    in:fly={{ y: 20, duration: 600, delay: 300 }}
-                >
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16" in:fly={{ y: 20, duration: 500, delay: 150 }}>
                     {#each quickLinks as link}
-                        <a 
-                            href="/{$locale}/{link.href}" 
-                            class="card p-6 text-center hover-lift group"
-                        >
+                        <a href={link.href} class="card p-6 text-center hover-lift group">
                             <span class="text-3xl mb-2 block group-hover:scale-110 transition-transform">{link.icon}</span>
                             <span class="text-sm font-medium text-flash-gray-700 dark:text-flash-gray-300">{link.label}</span>
                         </a>
@@ -121,75 +79,35 @@
         </div>
     </section>
 
-    <!-- Features Grid -->
     <section class="py-20 bg-flash-white dark:bg-flash-black">
         <div class="content-container">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">
-                {$_('home.features.sectionTitle')}
-            </h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">What you can do in Flash</h2>
             <p class="text-center text-flash-gray-600 dark:text-flash-gray-400 mb-12 max-w-2xl mx-auto">
-                {$_('home.features.sectionDescription')}
+                A simple overview of the main things users do in the app every day.
             </p>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {#each features as feature, i}
-                    <div 
-                        class="card p-8 hover-lift"
-                        in:fly={{ y: 30, duration: 500, delay: 400 + (i * 100) }}
-                    >
+                    <div class="card p-8 hover-lift" in:fly={{ y: 30, duration: 400, delay: 200 + (i * 60) }}>
                         <div class="text-4xl mb-4">{feature.icon}</div>
                         <h3 class="text-xl font-semibold mb-2">{feature.title}</h3>
-                        <p class="text-flash-gray-600 dark:text-flash-gray-400">
-                            {feature.description}
-                        </p>
+                        <p class="text-flash-gray-600 dark:text-flash-gray-400">{feature.description}</p>
                     </div>
                 {/each}
             </div>
         </div>
     </section>
 
-    <!-- Getting Started CTA -->
     <section class="py-20 bg-flash-gray-50 dark:bg-flash-gray-950">
         <div class="content-container text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                {$_('home.cta.title')}
-            </h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Need a place to start?</h2>
             <p class="text-flash-gray-600 dark:text-flash-gray-400 mb-8 max-w-xl mx-auto">
-                {$_('home.cta.description')}
+                Start with the account guide, then learn your wallets, then use swap, top up, and cash out.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/{$locale}/get-started" class="btn-primary">
-                    {$_('home.cta.getStartedButton')}
-                </a>
-                <a href="/{$locale}/user-guides" class="btn-secondary">
-                    {$_('home.cta.browseGuidesButton')}
-                </a>
+                <a href="get-started" class="btn-primary">Get Started</a>
+                <a href="user-guides" class="btn-secondary">Browse Guides</a>
             </div>
         </div>
     </section>
-
-    <!-- Content from Markdown (if any additional content exists) -->
-    {#if content}
-        <section class="py-12">
-            <div class="content-container">
-                <div class="markdownContent prose-lg dark:prose-invert max-w-none">
-                    <svelte:component this={content} on:locale-changed={loadMarkdown()} />
-                </div>
-            </div>
-        </section>
-    {/if}
 {/if}
-
-<style>
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-</style>
