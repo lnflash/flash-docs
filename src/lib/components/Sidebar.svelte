@@ -36,8 +36,6 @@
             links: [
                 { href: '/bitcoin-protocol', localeString: 'nav.bitcoinBasics' },
                 { href: '/lightning-network', localeString: 'nav.lightningNetwork' },
-                { href: '/ecash-on-bitcoin', localeString: 'nav.ecashExplained' },
-                { href: '/nostr-protocol', localeString: 'nav.nostrMessaging' }
             ]
         },
         {

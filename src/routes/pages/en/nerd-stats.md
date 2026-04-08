@@ -7,26 +7,30 @@ description: A hidden developer hub for the technical building blocks behind Fla
 
 This page is a hidden developer hub. It is not part of the normal user journey.
 
-## Contents
+## Quick links
 
 - [BreezSDK Spark](#breez-sdk-spark)
 - [BTCPay Server (Legacy)](#btcpay-server-legacy)
-- [eCash Explained](#ecash-explained)
+- [Cashu / eCash](#ecash-explained)
 - [Nostr Protocol](#nostr-protocol)
 
 ---
 
 ## BreezSDK Spark
 
-Flash's Bitcoin Wallet is powered by BreezSDK Spark under the hood.
+Flash's Bitcoin Wallet uses BreezSDK Spark under the hood for fast, managed Lightning flows.
 
-**What it means for users:**
+### What it gives Flash users
+
 - fast Bitcoin send and receive
 - deposit tracking
 - unclaimed deposit handling
 - a simpler wallet experience without manual channel management
 
-Read more: [Lightning Wallet Technology](guides/bitcoin-wallet)
+### Learn more
+
+- [Spark / Breez integration docs](https://docs.spark.money/integrations/breez)
+- [Bitcoin Wallet guide](guides/bitcoin-wallet)
 
 ---
 
@@ -34,30 +38,32 @@ Read more: [Lightning Wallet Technology](guides/bitcoin-wallet)
 
 BTCPay used to be part of Flash's older payment stack.
 
-**Current status:** legacy only.
+### Current status
 
-If you're looking for today's user flows, use:
-- [Cash Wallet](guides/cash-wallet)
-- [Bitcoin Wallet](guides/bitcoin-wallet)
-- [Swap Between Wallets](guides/swap)
-- [Top Up](guides/top-up)
-- [Cash Out](guides/cash-out)
+Legacy only. It is kept here as a reference point, not the main user experience.
 
-Read the legacy note: [BTCPay Server (Legacy)](btcpay-server)
+### Learn more
+
+- [BTCPay Server documentation](https://docs.btcpayserver.org)
+- [Legacy BTCPay page](btcpay-server)
 
 ---
 
-## eCash Explained
+## Cashu / eCash
 
 Flash's Cash Wallet uses a stabilized USD model backed by Bitcoin rails.
 
-**What it means for users:**
+### What it means for users
+
 - USD balance that stays stable
 - displayed in local currency
 - fast settlement underneath
-- a technical disclosure is available in the Cash Wallet guide
+- technical details are in the Cash Wallet guide
 
-Read more: [Cash Wallet](guides/cash-wallet)
+### Learn more
+
+- [Cashu](https://cashu.space)
+- [Cash Wallet guide](guides/cash-wallet)
 
 ---
 
@@ -65,12 +71,16 @@ Read more: [Cash Wallet](guides/cash-wallet)
 
 Flash Chat uses Nostr-based technology for messaging.
 
-**What it means for users:**
+### What it means for users
+
 - private chat inside Flash
 - support group access
 - contact messaging
 
-Read more: [Secure Chat](guides/chat)
+### Learn more
+
+- [Nostr](https://nostr.org)
+- [Secure Chat guide](guides/chat)
 
 ---
 
