@@ -18,7 +18,10 @@
             links: [
                 { href: '/user-guides', localeString: 'nav.guidesOverview' },
                 { href: '/guides/get-cash', localeString: 'nav.getCash' },
+                { href: '/guides/top-up', localeString: 'nav.topUp' },
                 { href: '/guides/cash-out', localeString: 'nav.cashOut' },
+                { href: '/guides/upgrade-account', localeString: 'nav.upgradeAccount' },
+                { href: '/guides/bitcoin-wallet', localeString: 'nav.bitcoinWallet' },
                 { href: '/guides/earn', localeString: 'nav.earn' },
                 { href: '/guides/chat', localeString: 'nav.chat' },
                 { href: '/guides/contacts', localeString: 'nav.contacts' },

@@ -49,6 +49,9 @@
     "getNip05" : "Obtenir un NIP-05",
     "guideFlashchat" : "FlashChat (Client de messagerie instantanée)",
     "guideSweepSats" : "Détenir ses sats"
+        "topUp": "Recharger (Virement Bancaire)",
+        "upgradeAccount": "Mettre à Niveau Votre Compte",
+        "bitcoinWallet": "Portefeuille Bitcoin"
   },
   "donateButton" : "Don à Flash",
   "colophon" : "Fait avec 💜 et ⚡ par",

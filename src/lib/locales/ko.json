@@ -54,6 +54,9 @@
         "guides": "사용자 가이드",
         "guideIris": "Iris (웹 클라이언트)",
         "guideSweepSats": "콜드 스토리지로 이동",
+        "topUp": "충전 (계좌 이체)",
+        "upgradeAccount": "계정 업그레이드",
+        "bitcoinWallet": "비트코인 지갑"
         "whatIs": "Galoy 프로젝트",
         "whyWeNeed": "Breez SDK",
         "whatZaps": "IBEX Mercado"
