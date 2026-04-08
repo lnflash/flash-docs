@@ -51,6 +51,7 @@
     "guideSweepSats" : "Détenir ses sats",
         "topUp": "Recharger (Virement Bancaire)",
         "upgradeAccount": "Mettre à Niveau Votre Compte",
+        "cashWallet": "Portefeuille Cash",
         "bitcoinWallet": "Portefeuille Bitcoin"
   },
   "donateButton" : "Don à Flash",

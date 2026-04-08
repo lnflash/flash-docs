@@ -30,6 +30,7 @@
     "guideSweepSats": "Spazzare per auto-custodia",
         "topUp": "Ricarica (Bonifico Bancario)",
         "upgradeAccount": "Aggiorna Il Tuo Account",
+        "cashWallet": "Portafoglio Cash",
         "bitcoinWallet": "Portafoglio Bitcoin"
   },
   "donateButton": "Dona a Flash.how",

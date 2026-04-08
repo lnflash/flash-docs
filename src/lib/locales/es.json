@@ -58,6 +58,7 @@
         "guideSweepSats": "Barrer a la auto-custodia",
         "topUp": "Recargar (Transferencia Bancaria)",
         "upgradeAccount": "Actualizar Tu Cuenta",
+        "cashWallet": "Billetera de Efectivo",
         "bitcoinWallet": "Billetera Bitcoin"
     },
     "donateButton": "Donar a Flash",

@@ -56,6 +56,7 @@
         "guideSweepSats": "コールドストレージへ移動",
         "topUp": "チャージ（銀行振込）",
         "upgradeAccount": "アカウントのアップグレード",
+        "cashWallet": "キャッシュウォレット",
         "bitcoinWallet": "ビットコインウォレット", 
         "whatIs": "Galoyプロジェクト",
         "whyWeNeed": "Breez SDK",
