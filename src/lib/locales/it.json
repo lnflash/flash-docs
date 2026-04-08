@@ -28,6 +28,9 @@
     "getNip05": "Ottenere la verifica NIP-05",
     "guideFlashchat": "FlashChat (Cliente Chat)",
     "guideSweepSats": "Spazzare per auto-custodia"
+        "topUp": "Ricarica (Bonifico Bancario)",
+        "upgradeAccount": "Aggiorna Il Tuo Account",
+        "bitcoinWallet": "Portafoglio Bitcoin"
   },
   "donateButton": "Dona a Flash.how",
   "colophon": "Fatto con 💜 & ⚡ da",

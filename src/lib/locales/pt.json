@@ -54,6 +54,9 @@
         "guides": "Guias do Usuário",
         "guideIris": "Iris (Cliente Web)",
         "guideSweepSats": "Transferir para Armazenamento Frio",
+        "topUp": "Recarregar (Transferência Bancária)",
+        "upgradeAccount": "Atualizar Sua Conta",
+        "bitcoinWallet": "Carteira Bitcoin"
         "whatIs": "Projeto Galoy",
         "whyWeNeed": "Breez SDK",
         "whatZaps": "IBEX Mercado"

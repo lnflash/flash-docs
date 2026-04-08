@@ -54,6 +54,9 @@
         "guides": "Benutzerhandbücher",
         "guideIris": "Iris (Web-Client)",
         "guideSweepSats": "In Cold Storage übertragen",
+        "topUp": "Aufladen (Banküberweisung)",
+        "upgradeAccount": "Konto Upgraden",
+        "bitcoinWallet": "Bitcoin-Wallet"
         "whatIs": "Galoy-Projekt",
         "whyWeNeed": "Breez SDK",
         "whatZaps": "IBEX Mercado"
