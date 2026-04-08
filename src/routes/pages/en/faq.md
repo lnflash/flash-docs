@@ -27,9 +27,9 @@ Flash is currently available in Jamaica and expanding throughout the Caribbean r
 <summary><strong>What's the difference between Personal, Pro, and Merchant accounts?</strong></summary>
 
 <ul>
-<li><strong>Personal Accounts</strong>: Basic bitcoin and USD wallets for individuals</li>
-<li><strong>Pro Accounts</strong>: Enhanced features including bank transfers (Jamaica only)</li>
-<li><strong>Merchant Accounts</strong>: Business features with Flashpoint POS integration and rewards program</li>
+<li><strong>Personal (L1)</strong>: Phone-verified account with higher limits</li>
+<li><strong>Pro (L2)</strong>: Top up from bank account, cash out to bank account (Jamaica)</li>
+<li><strong>Merchant (L3)</strong>: All Pro features plus merchant tools, lower cashout fee, Flashpoint POS</li>
 </ul>
 </details>
 

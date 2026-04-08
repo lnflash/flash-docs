@@ -22,7 +22,7 @@ The Flash Chat is a full-featured messaging platform built directly into Flash t
 
 -   **Decentralized Messaging**: Messages are distributed across multiple independent relay servers, with no single point of failure or censorship. Your conversations remain accessible even if individual servers go offline.
 
--   **Integrated bitcoin Payments**: Send bitcoin payments (Zaps) directly within conversations with minimal fees using Lightning Network and eCash on the Cashu Protocol.
+-   **Integrated bitcoin Payments**: Send Bitcoin payments directly within conversations with minimal fees using Lightning Network and eCash on the Cashu Protocol.
 
 -   **Cross-Platform & Group Chat**: Connect with users on other NOSTR-compatible apps and create private one-on-one chats and group conversations with multiple participants.
 
@@ -49,7 +49,7 @@ Follow these steps to begin using Flash Chat:
 
 Flash Chat is designed with privacy and security in mind:
 
--   **End-to-End Encryption**: Private messages are encrypted using NIP-17 standards, and only the intended recipient can decrypt your messages.
+-   **End-to-End Encryption**: Private messages are end-to-end encrypted, and only the intended recipient can decrypt your messages.
 
 -   **Key Management**: Back up your private key in a secure location and never share it with anyone.
 
