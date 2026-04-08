@@ -1,11 +1,13 @@
 ---
 title: Your Cash Wallet
-description: The Flash Cash Wallet holds JMD and USD. Use it for bank transfers, top-ups, and everyday spending.
+description: The Flash Cash Wallet holds USD. Use it for bank transfers, top-ups, and everyday spending.
 ---
 
 ## What is the Cash Wallet?
 
-The **Cash Wallet** is your primary Flash wallet for everyday use. It holds your balance in **Jamaican Dollars (JMD)** or **US Dollars (USD)** — not Bitcoin.
+The **Cash Wallet** is your primary Flash wallet for everyday use. It holds your balance in **US Dollars (USD)**.
+
+Flash displays your balance in your local currency (e.g. Jamaican Dollars) using real-time exchange rates, but the underlying asset is always USD.
 
 This is the wallet you use for:
 - Topping up from your bank account
@@ -19,7 +21,7 @@ This is the wallet you use for:
 
 ## Checking Your Balance
 
-Your Cash Wallet balance is displayed on the home screen of the Flash app. Tap on it to see your transaction history.
+Your Cash Wallet balance is displayed on the home screen of the Flash app. Tap on it to see your transaction history. The balance shown reflects real-time USD conversion to your local currency.
 
 ---
 
@@ -53,7 +55,7 @@ See the full guide: [How to Top Up](top-up)
 
 ## Cashing Out to Your Bank
 
-You can send your Cash Wallet balance to your Jamaican bank account. Requires a **Pro (L2)** or **Merchant (L3)** account.
+You can send your Cash Wallet balance to your bank account. Requires a **Pro (L2)** or **Merchant (L3)** account.
 
 See the full guide: [How to Cash Out](cash-out)
 
@@ -63,7 +65,7 @@ See the full guide: [How to Cash Out](cash-out)
 
 | | Cash Wallet | Bitcoin Wallet |
 |--|-------------|---------------|
-| Currency | JMD / USD | Bitcoin (sats) |
+| Currency | USD (displayed in local currency) | Bitcoin (sats) |
 | Top Up | Bank transfer, Flashpoint | Lightning or on-chain BTC |
 | Cash Out | Bank transfer (Pro/Merchant) | Send to any BTC/Lightning wallet |
 | Best for | Everyday spending, bank transfers | Holding Bitcoin, paying Bitcoin |
