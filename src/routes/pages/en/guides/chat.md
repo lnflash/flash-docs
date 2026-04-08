@@ -1,70 +1,56 @@
 ---
-title: Connect with Friends using the Chat Tab
-description: A guide to using the Flash Chat Tab for messaging and payments
+title: Secure Chat
+description: Message Flash contacts and get help in the built-in support group.
 ---
 
-# Messaging & Payments with Flash Chat
+## Secure Chat
 
-This guide provides a complete overview of Flash's Chat feature, explaining how to use secure, censorship-resistant messaging and integrated bitcoin payments through the NOSTR protocol.
+Flash Chat lets you send private messages to other Flash users and talk to support when you need help.
 
-## Table of Contents
+It is built into the app, so you do not need a separate messenger.
 
--   [What is the Chat Tab?](#what-is-the-chat-tab)
--   [Getting Started with Chat](#getting-started-with-chat)
--   [Privacy and Security](#privacy-and-security)
--   [Troubleshooting](#troubleshooting)
+---
 
-## What is Flash Chat?
+## What you can do
 
-The Flash Chat is a full-featured messaging platform built directly into Flash that leverages the NOSTR protocol to provide secure, censorship-resistant communication. Unlike traditional messaging apps that rely on centralized servers, Flash Chat uses a decentralized network that ensures your messages remain accessible and cannot be lost or censored.
+- Message your Flash contacts
+- Reply to messages in a thread
+- React to messages
+- Join the Flash support group
+- Get help without leaving the app
 
-### Key Features
+---
 
--   **Decentralized Messaging**: Messages are distributed across multiple independent relay servers, with no single point of failure or censorship. Your conversations remain accessible even if individual servers go offline.
+## How to start a chat
 
--   **Integrated bitcoin Payments**: Send Bitcoin payments directly within conversations with minimal fees using Lightning Network and eCash on the Cashu Protocol.
+1. Open the **Chat** tab
+2. Tap a contact or start from the **Contacts** tab
+3. Type your message and send it
+4. Keep chatting inside Flash
 
--   **Cross-Platform & Group Chat**: Connect with users on other NOSTR-compatible apps and create private one-on-one chats and group conversations with multiple participants.
+If you do not see someone yet, make sure they are added as a contact first.
 
-## Getting Started with Chat
+---
 
-Follow these steps to begin using Flash Chat:
+## Support group
 
-1. **Access the Chat Tab**
+Flash has a built-in support group where you can ask questions and get help from the team.
 
-    - Open the Flash app go to settings
-    - Under Experimental, press the "Enable Chat" toggle
-    - The Chat tab will appear in the app's main menu
+Use the support group when:
+- You need help with your account
+- A payment is stuck
+- You need guidance on top ups or cash outs
 
-2. **Find Friends and Contacts**
+---
 
-    - Flash automatically syncs with your existing Flash contacts
-    - Search for friends by username or scan a QR code
+## Good to know
 
-3. **Start Messaging**
-    - Tap on a contact to open a conversation
-    - Messages are delivered even if the recipient is offline
+- Messages are private inside Flash
+- Chat is for communication, not for bank transfers
+- If you need to send or receive money, use your Cash Wallet or Bitcoin Wallet instead
 
-## Privacy and Security
+---
 
-Flash Chat is designed with privacy and security in mind:
+## Need help?
 
--   **End-to-End Encryption**: Private messages are end-to-end encrypted, and only the intended recipient can decrypt your messages.
-
--   **Key Management**: Back up your private key in a secure location and never share it with anyone.
-
--   **Data Ownership**: Your data belongs to you, not Flash. You can export your conversations and contacts at any time. Flash never has access to your private keys or messages.
-
-## Troubleshooting
-
-If you encounter issues with Flash Chat:
-
--   **Connection Issues**: Ensure you have a stable internet connection, try closing and reopening the app
-
--   **Payment Issues**: Ensure you have sufficient balance and verify the recipient has a valid username.
-
-For further development information on NOSTR, visit the [official NOSTR protocol repository](https://github.com/nostr-protocol/nostr) on GitHub.
-
-## Learn More About NOSTR
-
-If you're interested in understanding more about how the NOSTR protocol works, its technical details, and the broader ecosystem, check out our [NOSTR Protocol](/en/nostr-protocol) page for an in-depth explanation of this innovative technology powering Flash Chat.
+Contact Flash support via the app.
