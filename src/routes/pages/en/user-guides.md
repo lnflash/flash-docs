@@ -11,9 +11,23 @@ Welcome to the Flash user guides. Everything you need to get started and make th
 - [Top Up](guides/top-up) — Add funds to your Flash wallet via bank transfer or at a Flashpoint
 - [Cash Out](guides/cash-out) — Send your Flash balance to your bank account
 
-## Using Your Bitcoin Wallet
+## Wallets
 
-- [Bitcoin Wallet](guides/bitcoin-wallet) — Send and receive Bitcoin via Lightning or on-chain
+- [Cash Wallet](guides/cash-wallet) — Your USD wallet for top ups, cash outs, and everyday spending
+- [Bitcoin Wallet](guides/bitcoin-wallet) — Your BTC wallet for sending and receiving Bitcoin
+
+### Cash Wallet vs Bitcoin Wallet
+
+| | Cash Wallet | Bitcoin Wallet |
+|---|---|---|
+| Currency | USD (shown in your local currency) | BTC / sats |
+| Price volatility | Stable in USD terms | Follows the Bitcoin market price |
+| Top up | Bank transfer, Flashpoint | Contact support for Bitcoin-wallet-specific instructions |
+| Cash out | Bank transfer | Contact support for Bitcoin-wallet-specific instructions |
+| Best for | Everyday spending and bank transfers | Holding and sending Bitcoin |
+
+## More Guides
+
 - [Non-Custodial Wallets](guides/non-custodial-wallets) — Move funds to self-custody for larger amounts
 - [Dollar Cost Averaging](guides/dca) — Automatically buy Bitcoin on a schedule
 
