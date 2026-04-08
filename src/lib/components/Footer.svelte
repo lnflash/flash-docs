@@ -15,14 +15,14 @@
                         <span class="text-xl font-bold">{$_('title')}</span>
                     </div>
                     <p class="text-flash-gray-600 dark:text-flash-gray-400 mb-4 max-w-md">
-                        {$_('footer.description')}
+                        Flash helps Caribbean people send, save, and spend money with Bitcoin and the Cash Wallet.
                     </p>
                     <DonateButton variant="primary" classes="btn-accent" />
                 </div>
-                
+
                 <!-- Quick Links -->
                 <div>
-                    <h3 class="font-semibold mb-4">{$_('footer.quickLinks')}</h3>
+                    <h3 class="font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
                         <li><a href="/{$locale}/get-started" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('nav.getStarted')}</a></li>
                         <li><a href="/{$locale}/user-guides" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('nav.userGuides')}</a></li>
@@ -30,38 +30,38 @@
                         <li><a href="/{$locale}/development" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('nav.forDevelopers')}</a></li>
                     </ul>
                 </div>
-                
+
                 <!-- Resources -->
                 <div>
-                    <h3 class="font-semibold mb-4">{$_('footer.resources')}</h3>
+                    <h3 class="font-semibold mb-4">Resources</h3>
                     <ul class="space-y-2">
-                        <li><a href="https://getflash.io" target="_blank" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('footer.flashWebsite')}</a></li>
-                        <li><a href="https://github.com/lnflash/flash-how" target="_blank" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('footer.github')}</a></li>
+                        <li><a href="https://getflash.io" target="_blank" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">Flash Website</a></li>
+                        <li><a href="https://github.com/lnflash/flash-docs" target="_blank" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">GitHub</a></li>
                         <li><a href="/{$locale}/contribute" class="text-flash-gray-600 dark:text-flash-gray-400 hover:text-flash-black dark:hover:text-flash-white transition-colors">{$_('nav.contribute')}</a></li>
                     </ul>
                 </div>
             </div>
-            
+
             <!-- Bottom Bar -->
             <div class="pt-8 border-t border-flash-gray-200 dark:border-flash-gray-800">
                 <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                     <div class="flex items-center gap-4 text-sm text-flash-gray-600 dark:text-flash-gray-400">
-                        <a href="https://github.com/lnflash/flash-how" target="_blank" class="hover:text-flash-black dark:hover:text-flash-white transition-colors">
+                        <a href="https://github.com/lnflash/flash-docs" target="_blank" class="hover:text-flash-black dark:hover:text-flash-white transition-colors">
                             <GithubIcon klass="w-5 h-5" />
                         </a>
                         <span>
-                            {$_('foss')}
+                            Proudly free and open source under the
                             <a
                                 href="https://en.wikipedia.org/wiki/MIT_License"
                                 class="underline hover:text-flash-black dark:hover:text-flash-white transition-colors"
                                 target="_blank"
                             >
-                                {$_('mitLicense')}
+                                MIT License
                             </a>
                         </span>
                     </div>
                     <p class="text-sm text-flash-gray-600 dark:text-flash-gray-400">
-                        {$_('footer.copyright', { values: { year: new Date().getFullYear() } })}
+                        © {new Date().getFullYear()} Flash
                     </p>
                 </div>
             </div>
