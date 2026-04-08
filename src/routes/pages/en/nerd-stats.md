@@ -1,89 +1,55 @@
 ---
 title: Nerd Stats
-description: A hidden developer hub for the technical building blocks behind Flash.
+description: A hidden technical hub for builders who want the details behind Flash.
 ---
 
 ## Nerd Stats
 
-This page is a hidden developer hub. It is not part of the normal user journey.
+This is a hidden builder page. It is not part of the normal user journey.
 
-## Quick links
+## What’s in Flash’s stack?
 
-- [BreezSDK Spark](#breez-sdk-spark)
-- [BTCPay Server (Legacy)](#btcpay-server-legacy)
-- [Cashu / eCash](#ecash-explained)
-- [Nostr Protocol](#nostr-protocol)
+### BreezSDK Spark
+Flash’s Bitcoin Wallet uses BreezSDK Spark for managed Lightning flows and unclaimed deposit handling.
 
----
+- Fast Bitcoin send and receive
+- Deposit tracking
+- Wallet recovery flow support
 
-## BreezSDK Spark
+Learn more: [Spark / Breez integration](https://docs.spark.money/integrations/breez)
 
-Flash's Bitcoin Wallet uses BreezSDK Spark under the hood for fast, managed Lightning flows.
+### BTCPay Server (Legacy)
+BTCPay is part of Flash history, not the modern user flow.
 
-### What it gives Flash users
+- Legacy payments / card-era integrations
+- Kept here for reference only
 
-- fast Bitcoin send and receive
-- deposit tracking
-- unclaimed deposit handling
-- a simpler wallet experience without manual channel management
+Learn more: [BTCPay Server docs](https://docs.btcpayserver.org)
 
-### Learn more
+### Cashu / eCash
+Flash’s Cash Wallet is a USD-denominated wallet that is displayed in local currency and uses a stabilized Bitcoin-backed model underneath.
 
-- [Spark / Breez integration docs](https://docs.spark.money/integrations/breez)
-- [Bitcoin Wallet guide](guides/bitcoin-wallet)
+- USD balance shown in your local currency
+- Real-time conversion
+- Technical disclosure in the Cash Wallet guide
 
----
+Learn more: [Cashu](https://cashu.space)
 
-## BTCPay Server (Legacy)
+### Nostr Protocol
+Flash Chat uses Nostr-based messaging technology for chat and support.
 
-BTCPay used to be part of Flash's older payment stack.
+- Private chat inside Flash
+- Support group access
+- Contact messaging
 
-### Current status
+Learn more: [Nostr](https://nostr.org)
 
-Legacy only. It is kept here as a reference point, not the main user experience.
+## Helpful Flash pages
 
-### Learn more
+- [Cash Wallet](guides/cash-wallet)
+- [Bitcoin Wallet](guides/bitcoin-wallet)
+- [Swap Between Wallets](guides/swap)
+- [Top Up](guides/top-up)
+- [Cash Out](guides/cash-out)
+- [Secure Chat](guides/chat)
 
-- [BTCPay Server documentation](https://docs.btcpayserver.org)
-- [Legacy BTCPay page](btcpay-server)
-
----
-
-## Cashu / eCash
-
-Flash's Cash Wallet uses a stabilized USD model backed by Bitcoin rails.
-
-### What it means for users
-
-- USD balance that stays stable
-- displayed in local currency
-- fast settlement underneath
-- technical details are in the Cash Wallet guide
-
-### Learn more
-
-- [Cashu](https://cashu.space)
-- [Cash Wallet guide](guides/cash-wallet)
-
----
-
-## Nostr Protocol
-
-Flash Chat uses Nostr-based technology for messaging.
-
-### What it means for users
-
-- private chat inside Flash
-- support group access
-- contact messaging
-
-### Learn more
-
-- [Nostr](https://nostr.org)
-- [Secure Chat guide](guides/chat)
-
----
-
-## Why this page exists
-
-Some of Flash's older technical pages are kept as reference material for builders and curious users. This page points to the most relevant current information without cluttering the main menu.
