@@ -1,6 +1,6 @@
 ---
 title: Nerd Stats
-description: A hidden technical hub for builders who want the details behind Flash.
+description: A hidden technical hub for the building blocks and future ideas behind Flash.
 ---
 
 ## Nerd Stats
@@ -27,13 +27,21 @@ BTCPay is part of Flash history, not the modern user flow.
 Learn more: [BTCPay Server docs](https://docs.btcpayserver.org)
 
 ### Cashu / eCash
-Flash’s Cash Wallet is a USD-denominated wallet that is displayed in local currency and uses a stabilized Bitcoin-backed model underneath.
+Cashu represents a future direction for Flash: privacy-preserving, offline-capable money movement with NFC card support.
 
-- USD balance shown in your local currency
-- Real-time conversion
-- Technical disclosure in the Cash Wallet guide
+This is **not** the Cash Wallet. The Cash Wallet is an IBEX USD wallet. Cashu is a separate protocol and product direction.
 
-Learn more: [Cashu](https://cashu.space)
+### Why it matters
+
+- offline payments and tap-to-pay experiences
+- better privacy properties than always-online wallet flows
+- a path toward NFC cards that can work even when connectivity is poor
+- a more flexible future for small-value payments and merchant acceptance
+
+### Learn more
+
+- [Cashu](https://cashu.space)
+- [Cashu NFC cards in progress](/en/cash-wallet)
 
 ### Nostr Protocol
 Flash Chat uses Nostr-based messaging technology for chat and support.
@@ -53,3 +61,6 @@ Learn more: [Nostr](https://nostr.org)
 - [Cash Out](guides/cash-out)
 - [Secure Chat](guides/chat)
 
+## Note
+
+Cashu is a future-looking protocol page. It does not describe the current Cash Wallet, which is an IBEX USD wallet.
