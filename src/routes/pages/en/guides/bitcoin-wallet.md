@@ -16,6 +16,8 @@ Use the Bitcoin Wallet when you want to:
 
 If you want to top up or cash out using your Bitcoin Wallet, contact Flash support for specific instructions.
 
+If you want to move value between your Cash Wallet and Bitcoin Wallet, use [Swap Between Wallets](swap).
+
 ---
 
 ## Receiving Bitcoin

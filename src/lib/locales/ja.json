@@ -58,6 +58,7 @@
         "upgradeAccount": "アカウントのアップグレード",
         "cashWallet": "キャッシュウォレット",
         "bitcoinWallet": "ビットコインウォレット", 
+        "swap": "ウォレット間で交換",
         "whatIs": "Galoyプロジェクト",
         "whyWeNeed": "Breez SDK",
         "whatZaps": "IBEX Mercado"

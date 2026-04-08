@@ -15,6 +15,7 @@ Welcome to the Flash user guides. Everything you need to get started and make th
 
 - [Cash Wallet](guides/cash-wallet) — Your USD wallet for top ups, cash outs, and everyday spending
 - [Bitcoin Wallet](guides/bitcoin-wallet) — Your BTC wallet for sending and receiving Bitcoin
+- [Swap Between Wallets](guides/swap) — Move value between your Cash Wallet and Bitcoin Wallet
 
 ### Cash Wallet vs Bitcoin Wallet
 

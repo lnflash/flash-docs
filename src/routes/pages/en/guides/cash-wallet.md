@@ -14,6 +14,7 @@ This is the wallet you use for:
 - Cashing out to your bank account
 - Paying merchants at Flashpoint locations
 - Sending and receiving money with other Flash users
+- Swapping into Bitcoin when you want to buy or hold BTC
 
 > The Cash Wallet is separate from the **Bitcoin Wallet**. See [Bitcoin Wallet](bitcoin-wallet) if you want to hold or send Bitcoin directly.
 
@@ -74,6 +75,12 @@ Payments between Flash users are instant.
 You can add funds to your Cash Wallet via bank transfer or in person at a Flashpoint.
 
 See the full guide: [How to Top Up](top-up)
+
+---
+
+## Swapping to Bitcoin
+
+If you want to move value from your Cash Wallet into your Bitcoin Wallet, use [Swap Between Wallets](swap).
 
 ---
 

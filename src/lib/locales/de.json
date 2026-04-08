@@ -58,6 +58,7 @@
         "upgradeAccount": "Konto Upgraden",
         "cashWallet": "Cash-Wallet",
         "bitcoinWallet": "Bitcoin-Wallet", 
+        "swap": "Zwischen Wallets Tauschen",
         "whatIs": "Galoy-Projekt",
         "whyWeNeed": "Breez SDK",
         "whatZaps": "IBEX Mercado"

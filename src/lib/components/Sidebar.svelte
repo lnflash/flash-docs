@@ -22,6 +22,7 @@
                 { href: '/guides/cash-out', localeString: 'nav.cashOut' },
                 { href: '/guides/cash-wallet', localeString: 'nav.cashWallet' },
                 { href: '/guides/bitcoin-wallet', localeString: 'nav.bitcoinWallet' },
+                { href: '/guides/swap', localeString: 'nav.swap' },
                 { href: '/guides/earn', localeString: 'nav.earn' },
                 { href: '/guides/chat', localeString: 'nav.chat' },
                 { href: '/guides/map', localeString: 'nav.map' },

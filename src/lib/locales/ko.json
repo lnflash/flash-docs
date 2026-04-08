@@ -58,6 +58,7 @@
         "upgradeAccount": "계정 업그레이드",
         "cashWallet": "현금 지갑",
         "bitcoinWallet": "비트코인 지갑", 
+        "swap": "지갑 간 스왑",
         "whatIs": "Galoy 프로젝트",
         "whyWeNeed": "Breez SDK",
         "whatZaps": "IBEX Mercado"

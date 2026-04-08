@@ -58,6 +58,7 @@
         "upgradeAccount": "升级您的账户",
         "cashWallet": "现金钱包",
         "bitcoinWallet": "比特币钱包", 
+        "swap": "在钱包之间兑换",
         "whatIs": "Galoy 项目",
         "whyWeNeed": "Breez SDK",
         "whatZaps": "IBEX Mercado"
