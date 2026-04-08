@@ -63,7 +63,7 @@
                     </div>
                     <div class="flex items-center gap-3">
                         <a
-                            href="/en/btcpay-server"
+                            href="/en/nerd-stats"
                             class="hidden md:inline-flex items-center gap-1 text-xs text-flash-gray-500 dark:text-flash-gray-500 hover:text-flash-black dark:hover:text-flash-white transition-colors"
                             title="Developer notes"
                             aria-label="Developer notes"
