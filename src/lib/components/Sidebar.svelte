@@ -17,26 +17,16 @@
             title: 'nav.userGuides',
             links: [
                 { href: '/user-guides', localeString: 'nav.guidesOverview' },
-                { href: '/guides/get-cash', localeString: 'nav.getCash' },
+                { href: '/guides/upgrade-account', localeString: 'nav.upgradeAccount' },
                 { href: '/guides/top-up', localeString: 'nav.topUp' },
                 { href: '/guides/cash-out', localeString: 'nav.cashOut' },
-                { href: '/guides/upgrade-account', localeString: 'nav.upgradeAccount' },
                 { href: '/guides/bitcoin-wallet', localeString: 'nav.bitcoinWallet' },
                 { href: '/guides/earn', localeString: 'nav.earn' },
                 { href: '/guides/chat', localeString: 'nav.chat' },
-                { href: '/guides/contacts', localeString: 'nav.contacts' },
                 { href: '/guides/map', localeString: 'nav.map' },
                 { href: '/guides/flashcard', localeString: 'nav.flashcard' },
                 { href: '/guides/dca', localeString: 'nav.dca' },
-                { href: '/guides/non-custodial-wallets', localeString: 'nav.nonCustodialWallets' },
-                { href: '/guides/sweep-to-cold-storage', localeString: 'nav.sweepToColdStorage' }
-            ]
-        },
-        {
-            title: 'nav.howFlashWorks',
-            links: [
-                { href: '/flash-infrastructure', localeString: 'nav.technicalArchitecture' },
-                { href: '/third-party-vendors', localeString: 'nav.integrationPartners' }
+                { href: '/guides/non-custodial-wallets', localeString: 'nav.nonCustodialWallets' }
             ]
         },
         {
@@ -46,15 +36,6 @@
                 { href: '/lightning-network', localeString: 'nav.lightningNetwork' },
                 { href: '/ecash-on-bitcoin', localeString: 'nav.ecashExplained' },
                 { href: '/nostr-protocol', localeString: 'nav.nostrMessaging' }
-            ]
-        },
-        {
-            title: 'nav.integrations',
-            links: [
-                { href: '/galoy-project', localeString: 'nav.galoyProject' },
-                { href: '/breez-sdk', localeString: 'nav.breezSDK' },
-                { href: '/ibex-mercado', localeString: 'nav.ibexMercado' },
-                { href: '/btcpay-server', localeString: 'nav.btcpayServer' }
             ]
         },
         {
@@ -112,16 +93,6 @@
                     class="font-medium hover:text-flash-accent transition-colors"
                 >
                     Flash
-                </a>
-            </p>
-            <p class="text-xs">
-                FOSS Attribution:
-                <a
-                    href="https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc"
-                    target="_blank"
-                    class="hover:text-flash-accent transition-colors"
-                >
-                    JeffG
                 </a>
             </p>
         </div>
