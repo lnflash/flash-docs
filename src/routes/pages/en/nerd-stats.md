@@ -41,7 +41,7 @@ This is **not** the Cash Wallet. The Cash Wallet is an IBEX USD wallet. Cashu is
 ### Learn more
 
 - [Cashu](https://cashu.space)
-- [Cashu NFC cards in progress](/en/cash-wallet)
+- [Cashu NFC cards progress](cashu-progress)
 
 ### Nostr Protocol
 Flash Chat uses Nostr-based messaging technology for chat and support.
