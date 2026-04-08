@@ -19,6 +19,30 @@ This is the wallet you use for:
 
 ---
 
+## How the Cash Wallet Works
+
+When you hold USD in your Cash Wallet, Flash keeps your balance stable in dollar terms. You don't need to worry about Bitcoin price swings — your $50 stays $50 regardless of what Bitcoin does.
+
+Behind the scenes, Flash uses a **stabilized Bitcoin system** to make this possible. Your dollars are backed by a USD stablecoin (USDT), which allows Flash to move your money instantly over the Bitcoin network without the volatility you'd normally associate with Bitcoin.
+
+For most users, you don't need to think about any of this — it just works like a dollar wallet.
+
+<details>
+<summary><strong>Technical details (for those who want to know more)</strong></summary>
+
+The Flash Cash Wallet uses a product described by IBEX Mercado as "Stabilized USD Bitcoin." Under the hood:
+
+- You are technically holding **satoshis** (the smallest unit of Bitcoin), not US dollars
+- The **number of satoshis** in your wallet adjusts continuously based on the live USD/BTC market price, so your dollar balance stays constant
+- The system is **backed by USDT** (a US Dollar stablecoin), which provides the dollar peg
+- This allows Flash to settle instantly over the Lightning Network while keeping your balance denominated in USD
+
+This means your Cash Wallet balance is stable in USD terms, but it is not a traditional bank deposit. It is a Bitcoin-native, USD-pegged instrument.
+
+</details>
+
+---
+
 ## Checking Your Balance
 
 Your Cash Wallet balance is displayed on the home screen of the Flash app. Tap on it to see your transaction history. The balance shown reflects real-time USD conversion to your local currency.
@@ -66,6 +90,7 @@ See the full guide: [How to Cash Out](cash-out)
 | | Cash Wallet | Bitcoin Wallet |
 |--|-------------|---------------|
 | Currency | USD (displayed in local currency) | Bitcoin (sats) |
+| Price volatility | None — stable in USD terms | Follows Bitcoin market price |
 | Top Up | Bank transfer, Flashpoint | Lightning or on-chain BTC |
 | Cash Out | Bank transfer (Pro/Merchant) | Send to any BTC/Lightning wallet |
 | Best for | Everyday spending, bank transfers | Holding Bitcoin, paying Bitcoin |
