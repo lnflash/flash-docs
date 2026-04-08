@@ -17,5 +17,5 @@
 </script>
 
 {#if !$isLoading}
-    <a href="https://btcpay.flashapp.me/apps/3akaqK475W7thJEbzyJU2eJXa3RY/crowdfund" target="_blank" rel="noopener noreferrer" class={classNames}> ⚡ {$_('donateButton')} </a>
+    <a href="https://www.fygaro.com/en/pb/93b0f6b8-652f-4965-8387-2285e3c92df0/" target="_blank" rel="noopener noreferrer" class={classNames}> ⚡ {$_('donateButton')} </a>
 {/if}

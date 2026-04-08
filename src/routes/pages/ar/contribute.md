@@ -12,7 +12,7 @@ description: ساعدنا في بناء مستقبل البيتكوين وLightn
   <p class="mb-10">كل ساتوشي مهم في مساعدتنا على بناء مستقبل مالي أكثر شمولاً.</p>
   
   <div class="bg-gradient-to-r from-purple-600 to-indigo-600 p-1 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 max-w-md mx-auto">
-    <a href="https://btcpay.flashapp.me/apps/3akaqK475W7thJEbzyJU2eJXa3RY/crowdfund" target="_blank" rel="noopener noreferrer" class="block bg-zinc-900 hover:bg-zinc-800 transition-colors duration-200 rounded-lg py-5 px-6">
+    <a href="https://www.fygaro.com/en/pb/93b0f6b8-652f-4965-8387-2285e3c92df0/" target="_blank" rel="noopener noreferrer" class="block bg-zinc-900 hover:bg-zinc-800 transition-colors duration-200 rounded-lg py-5 px-6">
       <div class="flex items-center justify-center">
         <img src="/images/badges/png/Donate.png" alt="تبرع" class="h-12 w-12 drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]" />
       </div>

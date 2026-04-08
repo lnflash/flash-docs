@@ -18,6 +18,7 @@
                         Flash helps Caribbean people send, save, and spend money with Bitcoin and the Cash Wallet.
                     </p>
                     <DonateButton variant="primary" classes="btn-accent" />
+                    <p class="mt-3 text-sm text-flash-gray-600 dark:text-flash-gray-400">Or send via Lightning Address: <a href="lightning:flash@flashapp.me" class="underline hover:text-flash-black dark:hover:text-flash-white">flash@flashapp.me</a></p>
                 </div>
 
                 <!-- Quick Links -->
