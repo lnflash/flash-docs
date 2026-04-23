@@ -4,7 +4,7 @@ description: Aprende cómo acceder, agregar e interactuar con contactos en la ap
 ---
 
 
-# Administrando Tus Contactos en Flash
+## Administrando Tus Contactos en Flash
 
 Esta guía proporciona una visión completa de la función de Contactos de Flash, explicando cómo encontrar, agregar e interactuar con tus contactos para mensajería y pagos Bitcoin.
 

@@ -57,7 +57,7 @@
         "topUp": "チャージ（銀行振込）",
         "upgradeAccount": "アカウントのアップグレード",
         "cashWallet": "キャッシュウォレット",
-        "bitcoinWallet": "ビットコインウォレット", 
+        "bitcoinWallet": "ビットコインウォレット",
         "swap": "ウォレット間で交換",
         "whatIs": "Galoyプロジェクト",
         "whyWeNeed": "Breez SDK",
@@ -71,5 +71,13 @@
     "errors": {
         "noTranslationTitle": "翻訳が見つかりません",
         "noTranslationMessage": "申し訳ございません。このページの翻訳はまだありません。このページの作成にご協力いただける場合は、お問い合わせください。"
+    },
+    "search": {
+        "placeholder": "ドキュメントを検索..."
+    },
+    "breadcrumbs": {
+        "home": "ホーム",
+        "userGuides": "ユーザーガイド",
+        "training": "トレーニング"
     }
 }

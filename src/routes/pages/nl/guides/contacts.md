@@ -3,7 +3,7 @@ title: Uw Contacten Beheren in Flash
 description: Leer hoe u toegang krijgt tot, toevoegt en interacteert met contacten in de Flash app
 ---
 
-# Uw Contacten Beheren in Flash
+## Uw Contacten Beheren in Flash
 
 Deze handleiding biedt een volledig overzicht van Flash's Contacten functie, met uitleg over het vinden, toevoegen en interacteren met uw contacten voor berichten en bitcoin betalingen.
 

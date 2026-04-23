@@ -4,7 +4,7 @@ description: دليلك الشامل لمجموعة حلول Bitcoin من Flash 
 ---
 
 <div class="welcome-container flex flex-col items-center justify-center text-center mb-12">
-  <h1 class="text-2xl sm:text-3xl font-bold">دليلك إلى Flash</h1>
+  <h2 class="text-2xl sm:text-3xl font-bold">دليلك إلى Flash</h2>
 </div>
 
 <!-- أزرار ثلاثية الأبعاد أنيقة مع هامش صريح للمسافات -->

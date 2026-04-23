@@ -3,7 +3,7 @@ title: NOSTR 프로토콜
 description: Flash의 보안 메시징과 소셜 기능을 구동하는 NOSTR 프로토콜 이해하기
 ---
 
-# NOSTR 프로토콜
+## NOSTR 프로토콜
 
 NOSTR (Notes and Other Stuff Transmitted by Relays)는 Flash가 보안 메시징, 소셜 기능 및 탈중앙화 통신에 사용하는 간단하고 개방적인 프로토콜입니다.
 

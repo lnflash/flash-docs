@@ -57,7 +57,7 @@
         "topUp": "Recarregar (Transferência Bancária)",
         "upgradeAccount": "Atualizar Sua Conta",
         "cashWallet": "Carteira de Dinheiro",
-        "bitcoinWallet": "Carteira Bitcoin", 
+        "bitcoinWallet": "Carteira Bitcoin",
         "swap": "Trocar Entre Carteiras",
         "whatIs": "Projeto Galoy",
         "whyWeNeed": "Breez SDK",
@@ -71,5 +71,13 @@
     "errors": {
         "noTranslationTitle": "Tradução não encontrada",
         "noTranslationMessage": "Desculpe, não existe tradução para esta página. Se você estiver interessado em ajudar a criar esta página, por favor entre em contato."
+    },
+    "search": {
+        "placeholder": "Pesquisar documentação..."
+    },
+    "breadcrumbs": {
+        "home": "Início",
+        "userGuides": "Guias do Usuário",
+        "training": "Treinamento"
     }
 }

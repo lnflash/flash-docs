@@ -3,7 +3,7 @@ title: Flash POS 교육
 description: 비즈니스를 위한 Flash Point of Sale 시스템 설정 및 사용에 대한 종합 교육
 ---
 
-# Flash POS 시스템 교육
+## Flash POS 시스템 교육
 
 Flash POS(Point of Sale) 시스템으로 비즈니스에서 비트코인 결제를 받기 시작하세요. 이 종합 교육은 설정부터 고급 기능까지 모든 것을 다룹니다.
 

@@ -71,5 +71,13 @@
     "errors": {
         "noTranslationTitle": "Translation not found",
         "noTranslationMessage": "Sorry, no translation for this page exists. If you're interested in helping create this page, please reach out."
+    },
+    "search": {
+        "placeholder": "Search documentation..."
+    },
+    "breadcrumbs": {
+        "home": "Home",
+        "userGuides": "User Guides",
+        "training": "Training"
     }
 }

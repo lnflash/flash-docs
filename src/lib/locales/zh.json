@@ -57,7 +57,7 @@
         "topUp": "充值（银行转账）",
         "upgradeAccount": "升级您的账户",
         "cashWallet": "现金钱包",
-        "bitcoinWallet": "比特币钱包", 
+        "bitcoinWallet": "比特币钱包",
         "swap": "在钱包之间兑换",
         "whatIs": "Galoy 项目",
         "whyWeNeed": "Breez SDK",
@@ -71,5 +71,13 @@
     "errors": {
         "noTranslationTitle": "未找到翻译",
         "noTranslationMessage": "抱歉，此页面尚无翻译。如果您有兴趣帮助创建此页面，请与我们联系。"
+    },
+    "search": {
+        "placeholder": "搜索文档..."
+    },
+    "breadcrumbs": {
+        "home": "首页",
+        "userGuides": "用户指南",
+        "training": "培训"
     }
 }

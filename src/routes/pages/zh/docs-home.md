@@ -4,7 +4,7 @@ description: 您的 Flash 比特币解决方案套件综合指南 - 移动应用
 ---
 
 <div class="welcome-container flex flex-col items-center justify-center text-center mb-12">
-  <h1 class="text-2xl sm:text-3xl font-bold">您的 Flash 指南</h1>
+  <h2 class="text-2xl sm:text-3xl font-bold">您的 Flash 指南</h2>
 </div>
 
 <!-- Stylish 3D buttons with explicit margin for spacing -->

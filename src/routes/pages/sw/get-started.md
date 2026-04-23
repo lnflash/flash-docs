@@ -6,7 +6,7 @@ description: Anza kutumia Flash kwa hatua 3 rahisi - pakua, unda mkoba, ongeza f
 <div class="get-started-container max-w-4xl mx-auto px-6 py-8">
   <!-- Hero section -->
   <div class="text-center mb-12">
-    <h1 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">Anza na Flash</h1>
+    <h2 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">Anza na Flash</h2>
     <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Malipo ya Bitcoin yenye kasi ya umeme kwa hatua 3 rahisi tu</p>
   </div>
   

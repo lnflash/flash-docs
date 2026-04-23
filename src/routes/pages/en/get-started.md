@@ -6,7 +6,7 @@ description: Start using Flash in 3 simple steps - download, create wallet, add 
 <div class="get-started-container max-w-4xl mx-auto px-6 py-8">
   <!-- Hero section -->
   <div class="text-center mb-12">
-    <h1 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">Get Started with Flash</h1>
+    <h2 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">Get Started with Flash</h2>
     <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Lightning-fast Bitcoin payments in just 3 simple steps</p>
   </div>
   

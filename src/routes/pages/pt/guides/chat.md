@@ -4,7 +4,7 @@ description: Um guia para usar a Aba Chat do Flash para mensagens e pagamentos u
 ---
 
 
-# Mensagens e Pagamentos com o Flash Chat
+## Mensagens e Pagamentos com o Flash Chat
 
 Este guia fornece uma visão completa do recurso de Chat do Flash, explicando como usar mensagens seguras e resistentes à censura e pagamentos Bitcoin integrados através do protocolo NOSTR.
 

@@ -3,7 +3,7 @@ title: Flashcard 교육
 description: Flash 리워드 카드 프로그램을 최대한 활용하는 방법에 대한 완전한 가이드
 ---
 
-# Flashcard 리워드 프로그램 교육
+## Flashcard 리워드 프로그램 교육
 
 Flashcard로 일상적인 지출을 비트코인 리워드로 전환하세요. 이 종합 교육은 프로그램을 최대한 활용하는 방법을 안내합니다.
 

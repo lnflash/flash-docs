@@ -57,7 +57,7 @@
         "topUp": "충전 (계좌 이체)",
         "upgradeAccount": "계정 업그레이드",
         "cashWallet": "현금 지갑",
-        "bitcoinWallet": "비트코인 지갑", 
+        "bitcoinWallet": "비트코인 지갑",
         "swap": "지갑 간 스왑",
         "whatIs": "Galoy 프로젝트",
         "whyWeNeed": "Breez SDK",
@@ -71,5 +71,13 @@
     "errors": {
         "noTranslationTitle": "번역을 찾을 수 없습니다",
         "noTranslationMessage": "죄송합니다. 이 페이지의 번역이 아직 없습니다. 이 페이지 작성에 도움을 주시려면 연락해 주세요."
+    },
+    "search": {
+        "placeholder": "문서 검색..."
+    },
+    "breadcrumbs": {
+        "home": "홈",
+        "userGuides": "사용자 가이드",
+        "training": "교육"
     }
 }

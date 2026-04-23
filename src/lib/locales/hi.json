@@ -57,7 +57,7 @@
         "topUp": "टॉप अप (बैंक ट्रांसफर)",
         "upgradeAccount": "अपना खाता अपग्रेड करें",
         "cashWallet": "कैश वॉलेट",
-        "bitcoinWallet": "बिटकॉइन वॉलेट", 
+        "bitcoinWallet": "बिटकॉइन वॉलेट",
         "swap": "वॉलेट्स के बीच स्वैप करें",
         "whatIs": "Galoy प्रोजेक्ट",
         "whyWeNeed": "Breez SDK",
@@ -71,5 +71,13 @@
     "errors": {
         "noTranslationTitle": "अनुवाद नहीं मिला",
         "noTranslationMessage": "क्षमा करें, इस पृष्ठ के लिए कोई अनुवाद मौजूद नहीं है। यदि आप इस पृष्ठ को बनाने में मदद करना चाहते हैं, तो कृपया संपर्क करें।"
+    },
+    "search": {
+        "placeholder": "दस्तावेज़ खोजें..."
+    },
+    "breadcrumbs": {
+        "home": "होम",
+        "userGuides": "उपयोगकर्ता गाइड",
+        "training": "प्रशिक्षण"
     }
 }

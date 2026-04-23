@@ -3,7 +3,7 @@ title: Kusimamia Anwani Zako katika Flash
 description: Jifunze jinsi ya kufikia, kuongeza, na kuingiliana na anwani katika programu ya Flash
 ---
 
-# Kusimamia Anwani Zako katika Flash
+## Kusimamia Anwani Zako katika Flash
 
 Mwongozo huu hutoa muhtasari kamili wa kipengele cha Anwani cha Flash, ukieleza jinsi ya kutafuta, kuongeza, na kuingiliana na anwani zako kwa kutuma ujumbe na malipo ya bitcoin.
 

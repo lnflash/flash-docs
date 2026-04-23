@@ -57,7 +57,7 @@
         "topUp": "Aufladen (Banküberweisung)",
         "upgradeAccount": "Konto Upgraden",
         "cashWallet": "Cash-Wallet",
-        "bitcoinWallet": "Bitcoin-Wallet", 
+        "bitcoinWallet": "Bitcoin-Wallet",
         "swap": "Zwischen Wallets Tauschen",
         "whatIs": "Galoy-Projekt",
         "whyWeNeed": "Breez SDK",
@@ -71,5 +71,13 @@
     "errors": {
         "noTranslationTitle": "Übersetzung nicht gefunden",
         "noTranslationMessage": "Entschuldigung, es existiert keine Übersetzung für diese Seite. Wenn Sie daran interessiert sind, beim Erstellen dieser Seite mitzuhelfen, wenden Sie sich bitte an uns."
+    },
+    "search": {
+        "placeholder": "Dokumentation durchsuchen..."
+    },
+    "breadcrumbs": {
+        "home": "Startseite",
+        "userGuides": "Benutzerhandbücher",
+        "training": "Schulung"
     }
 }

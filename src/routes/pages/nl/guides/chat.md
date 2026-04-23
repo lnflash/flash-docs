@@ -3,7 +3,7 @@ title: Verbind met Vrienden via het Chat Tabblad
 description: Een handleiding voor het gebruik van het Flash Chat Tabblad voor berichten en betalingen
 ---
 
-# Berichten & Betalingen met Flash Chat
+## Berichten & Betalingen met Flash Chat
 
 Deze handleiding biedt een volledig overzicht van Flash's Chat functie, met uitleg over het gebruik van veilige, censuurbestendige berichten en geïntegreerde bitcoin betalingen via het NOSTR protocol.
 

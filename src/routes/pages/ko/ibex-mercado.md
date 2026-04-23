@@ -3,7 +3,7 @@ title: IBEX Mercado
 description: 중앙 아메리카의 선도적인 비트코인 거래소인 IBEX와의 통합으로 원활한 법정화폐 전환 가능
 ---
 
-# IBEX Mercado
+## IBEX Mercado
 
 IBEX는 중앙 아메리카의 주요 비트코인 거래소로, 사용자가 비트코인과 현지 통화를 쉽게 교환할 수 있도록 합니다. Flash는 IBEX와 통합하여 원활한 법정화폐 온/오프램프를 제공합니다.
 

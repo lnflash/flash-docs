@@ -6,7 +6,7 @@ description: Commencez à utiliser Flash en 3 étapes simples - télécharger, c
 <div class="get-started-container max-w-4xl mx-auto px-6 py-8">
   <!-- Hero section -->
   <div class="text-center mb-12">
-    <h1 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">Commencer avec Flash</h1>
+    <h2 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">Commencer avec Flash</h2>
     <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Paiements Bitcoin ultra-rapides en seulement 3 étapes simples</p>
   </div>
   

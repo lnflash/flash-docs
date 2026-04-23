@@ -6,7 +6,7 @@ description: ابدأ استخدام Flash في 3 خطوات بسيطة - الت
 <div class="get-started-container max-w-4xl mx-auto px-6 py-8">
   <!-- قسم البداية -->
   <div class="text-center mb-12">
-    <h1 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">ابدأ مع Flash</h1>
+    <h2 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">ابدأ مع Flash</h2>
     <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">مدفوعات Bitcoin فائقة السرعة في 3 خطوات بسيطة فقط</p>
   </div>
   

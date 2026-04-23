@@ -3,7 +3,7 @@ title: Breez SDK
 description: 개발자가 라이트닝 기반 앱을 쉽게 구축할 수 있도록 하는 Breez SDK와의 통합
 ---
 
-# Breez SDK
+## Breez SDK
 
 Breez SDK는 개발자가 라이트닝 네트워크 기능을 애플리케이션에 쉽게 통합할 수 있도록 하는 오픈 소스 라이브러리입니다. Flash는 Breez SDK를 활용하여 원활하고 신뢰할 수 있는 라이트닝 경험을 제공합니다.
 

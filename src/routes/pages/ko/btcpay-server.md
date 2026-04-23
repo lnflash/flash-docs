@@ -3,7 +3,7 @@ title: BTCPay Server
 description: 자체 호스팅 비트코인 결제 처리를 위한 오픈 소스 솔루션인 BTCPay Server와의 통합
 ---
 
-# BTCPay Server
+## BTCPay Server
 
 BTCPay Server는 누구나 비트코인과 라이트닝 결제를 수락할 수 있게 해주는 자체 호스팅, 오픈 소스 암호화폐 결제 프로세서입니다. Flash는 BTCPay Server와 통합하여 비즈니스에 강력한 결제 인프라를 제공합니다.
 

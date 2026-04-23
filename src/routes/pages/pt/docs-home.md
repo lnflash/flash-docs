@@ -4,7 +4,7 @@ description: Seu guia abrangente para o conjunto de soluções Bitcoin do Flash 
 ---
 
 <div class="welcome-container flex flex-col items-center justify-center text-center mb-12">
-  <h1 class="text-2xl sm:text-3xl font-bold">Seu Guia para o Flash</h1>
+  <h2 class="text-2xl sm:text-3xl font-bold">Seu Guia para o Flash</h2>
 </div>
 
 <!-- Botões estilizados 3D com margem explícita para espaçamento -->

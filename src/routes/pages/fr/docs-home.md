@@ -4,7 +4,7 @@ description: Votre guide complet de la suite de solutions Bitcoin de Flash - app
 ---
 
 <div class="welcome-container flex flex-col items-center justify-center text-center mb-12">
-  <h1 class="text-2xl sm:text-3xl font-bold">Votre Guide de Flash</h1>
+  <h2 class="text-2xl sm:text-3xl font-bold">Votre Guide de Flash</h2>
 </div>
 
 <!-- Stylish 3D buttons with explicit margin for spacing -->

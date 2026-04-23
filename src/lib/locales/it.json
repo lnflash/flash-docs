@@ -46,5 +46,13 @@
   "errors": {
     "noTranslationTitle": "Traduzione mancante",
     "noTranslationMessage": "Mi dispiace, non c'e una traduzione per questa pagina. Se sei interessato ad aiutare a creare questa pagina, contattaci per favore."
+  },
+  "search": {
+    "placeholder": "Cerca nella documentazione..."
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "userGuides": "Guide utente",
+    "training": "Formazione"
   }
 }

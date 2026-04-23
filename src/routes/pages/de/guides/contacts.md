@@ -3,7 +3,7 @@ title: Ihre Kontakte in Flash verwalten
 description: Erfahren Sie, wie Sie auf Kontakte in der Flash-App zugreifen, sie hinzufügen und mit ihnen interagieren
 ---
 
-# Ihre Kontakte in Flash verwalten
+## Ihre Kontakte in Flash verwalten
 
 Dieser Leitfaden bietet einen vollständigen Überblick über die Kontaktfunktion von Flash und erklärt, wie Sie Ihre Kontakte finden, hinzufügen und mit ihnen für Nachrichten und Bitcoin-Zahlungen interagieren können.
 

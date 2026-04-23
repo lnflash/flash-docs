@@ -4,7 +4,7 @@ description: Uw uitgebreide gids voor Flash's suite van Bitcoin oplossingen - mo
 ---
 
 <div class="welcome-container flex flex-col items-center justify-center text-center mb-12">
-  <h1 class="text-2xl sm:text-3xl font-bold">Uw Gids voor Flash</h1>
+  <h2 class="text-2xl sm:text-3xl font-bold">Uw Gids voor Flash</h2>
 </div>
 
 <!-- Stylish 3D buttons with explicit margin for spacing -->
