@@ -39,6 +39,15 @@
             ]
         },
         {
+            title: 'nav.integrations',
+            links: [
+                { href: '/galoy-project', localeString: 'nav.galoyProject' },
+                { href: '/breez-sdk', localeString: 'nav.breezSDK' },
+                { href: '/ibex-mercado', localeString: 'nav.ibexMercado' },
+                { href: '/btcpay-server', localeString: 'nav.btcpayServer' }
+            ]
+        },
+        {
             title: 'nav.businessDev',
             links: [
                 { href: '/business', localeString: 'nav.forBusiness' },
