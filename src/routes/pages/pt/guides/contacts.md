@@ -4,7 +4,7 @@ description: Aprenda como acessar, adicionar e interagir com contatos no aplicat
 ---
 
 
-# Gerenciando Seus Contatos no Flash
+## Gerenciando Seus Contatos no Flash
 
 Este guia fornece uma visão completa do recurso de Contatos do Flash, explicando como encontrar, adicionar e interagir com seus contatos para mensagens e pagamentos em Bitcoin.
 

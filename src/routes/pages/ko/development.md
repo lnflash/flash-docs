@@ -3,7 +3,7 @@ title: 개발자용
 description: Flash API, SDK, 통합 도구로 비트코인 애플리케이션을 구축하세요
 ---
 
-# 개발자를 위한 Flash
+## 개발자를 위한 Flash
 
 Flash의 강력한 API와 SDK로 비트코인과 라이트닝 네트워크 기능을 애플리케이션에 통합하세요.
 

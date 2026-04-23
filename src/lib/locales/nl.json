@@ -57,7 +57,7 @@
         "topUp": "Opwaarderen (Bankoverschrijving)",
         "upgradeAccount": "Account Upgraden",
         "cashWallet": "Geldportemonnee",
-        "bitcoinWallet": "Bitcoin-portemonnee", 
+        "bitcoinWallet": "Bitcoin-portemonnee",
         "swap": "Wisselen Tussen Wallets",
         "whatIs": "Galoy Project",
         "whyWeNeed": "Breez SDK",
@@ -128,7 +128,11 @@
     },
     "breadcrumbs": {
         "home": "Home",
-        "training": "Training"
+        "training": "Training",
+        "userGuides": "Gebruikershandleidingen"
     },
-    "backToHome": "← Terug naar home"
+    "backToHome": "← Terug naar home",
+    "search": {
+        "placeholder": "Zoek in documentatie..."
+    }
 }

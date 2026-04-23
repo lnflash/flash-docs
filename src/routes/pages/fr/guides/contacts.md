@@ -3,7 +3,7 @@ title: Gérer Vos Contacts dans Flash
 description: Apprenez comment accéder, ajouter et interagir avec les contacts dans l'application Flash
 ---
 
-# Gérer Vos Contacts dans Flash
+## Gérer Vos Contacts dans Flash
 
 Ce guide fournit un aperçu complet de la fonctionnalité Contacts de Flash, expliquant comment trouver, ajouter et interagir avec vos contacts pour la messagerie et les paiements Bitcoin.
 

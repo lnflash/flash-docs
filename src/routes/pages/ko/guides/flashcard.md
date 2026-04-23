@@ -3,7 +3,7 @@ title: Flashcard 가이드
 description: Flashcard를 설정하고 모든 구매 시 비트코인 리워드를 적립하는 방법
 ---
 
-# Flashcard 시작하기
+## Flashcard 시작하기
 
 Flashcard는 일상적인 구매를 비트코인 적립 기회로 바꿔줍니다. 기존 카드를 연결하고 평소처럼 사용하기만 하면 자동으로 비트코인 리워드를 받을 수 있습니다.
 

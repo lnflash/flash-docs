@@ -4,7 +4,7 @@ description: Una guía para usar la Pestaña Chat de Flash para mensajería y pa
 ---
 
 
-# Mensajería y Pagos con Flash Chat
+## Mensajería y Pagos con Flash Chat
 
 Esta guía proporciona una visión completa de la función Chat de Flash, explicando cómo usar mensajería segura y resistente a la censura con pagos Bitcoin integrados a través del protocolo NOSTR.
 

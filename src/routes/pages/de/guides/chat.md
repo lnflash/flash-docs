@@ -3,7 +3,7 @@ title: Verbinden Sie sich mit Freunden über die Chat-Registerkarte
 description: Ein Leitfaden zur Verwendung der Flash Chat-Registerkarte für Nachrichten und Zahlungen
 ---
 
-# Nachrichten & Zahlungen mit Flash Chat
+## Nachrichten & Zahlungen mit Flash Chat
 
 Dieser Leitfaden bietet einen vollständigen Überblick über die Chat-Funktion von Flash und erklärt, wie Sie sichere, zensurresistente Nachrichten und integrierte Bitcoin-Zahlungen über das NOSTR-Protokoll nutzen können.
 

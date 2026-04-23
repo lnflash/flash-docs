@@ -57,7 +57,7 @@
         "topUp": "Ongeza Fedha (Uhamisho wa Benki)",
         "upgradeAccount": "Boresha Akaunti Yako",
         "cashWallet": "Pochi ya Pesa",
-        "bitcoinWallet": "Pochi ya Bitcoin", 
+        "bitcoinWallet": "Pochi ya Bitcoin",
         "swap": "Badili Kati ya Pochi",
         "whatIs": "Mradi wa Galoy",
         "whyWeNeed": "Breez SDK",
@@ -128,7 +128,11 @@
     },
     "breadcrumbs": {
         "home": "Nyumbani",
-        "training": "Mafunzo"
+        "training": "Mafunzo",
+        "userGuides": "Miongozo ya Mtumiaji"
     },
-    "backToHome": "← Rudi nyumbani"
+    "backToHome": "← Rudi nyumbani",
+    "search": {
+        "placeholder": "Tafuta nyaraka..."
+    }
 }

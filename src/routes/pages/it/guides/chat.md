@@ -4,7 +4,7 @@ description: Una guida per usare la Scheda Chat di Flash per messaggi e pagament
 ---
 
 
-# Messaggi e Pagamenti con Flash Chat
+## Messaggi e Pagamenti con Flash Chat
 
 Questa guida fornisce una panoramica completa della funzione Chat di Flash, spiegando come utilizzare la messaggistica sicura e resistente alla censura e i pagamenti Bitcoin integrati attraverso il protocollo NOSTR.
 

@@ -1,6 +1,6 @@
 <script lang="ts">
     import { supportedLocales } from '$lib/config/l10n';
-    import { locale } from 'svelte-i18n';
+    import { _, locale } from 'svelte-i18n';
     import { onMount } from 'svelte';
     import { fade } from 'svelte/transition';
 
@@ -18,7 +18,7 @@
 
     // Breadcrumb navigation
     $: breadcrumbs = [
-        { label: 'Home', href: `/${$locale}` },
+        { label: $_('breadcrumbs.home'), href: `/${$locale}` },
         { label: data.title, href: null }
     ];
 </script>

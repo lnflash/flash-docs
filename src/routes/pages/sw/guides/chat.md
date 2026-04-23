@@ -3,7 +3,7 @@ title: Unganisha na Marafiki ukitumia Kichupo cha Mazungumzo
 description: Mwongozo wa kutumia Kichupo cha Mazungumzo cha Flash kwa kutuma jumbe na malipo
 ---
 
-# Kutuma Ujumbe na Malipo na Flash Chat
+## Kutuma Ujumbe na Malipo na Flash Chat
 
 Mwongozo huu hutoa muhtasari kamili wa kipengele cha Chat cha Flash, ukieleza jinsi ya kutumia ujumbe salama usiopingwa na malipo ya bitcoin yaliyoongezwa kupitia itifaki ya NOSTR.
 

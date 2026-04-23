@@ -4,7 +4,7 @@ description: Scopri come accedere, aggiungere e interagire con i contatti nell'a
 ---
 
 
-# Gestire i Tuoi Contatti in Flash
+## Gestire i Tuoi Contatti in Flash
 
 Questa guida fornisce una panoramica completa della funzione Contatti di Flash, spiegando come trovare, aggiungere e interagire con i tuoi contatti per messaggi e pagamenti Bitcoin.
 

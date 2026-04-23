@@ -121,7 +121,7 @@
                                 bind:this={searchInput}
                                 bind:value={$searchQuery}
                                 type="search"
-                                placeholder="Search documentation..."
+                                placeholder={$_('search.placeholder')}
                                 class="w-full px-4 py-2 pl-10 pr-4 text-sm rounded-full
                                        bg-flash-gray-100 dark:bg-flash-gray-900
                                        border border-flash-gray-200 dark:border-flash-gray-800

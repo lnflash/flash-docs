@@ -3,8 +3,6 @@ title: Managing Your Contacts in Flash
 description: Learn how to access, add, and interact with contacts in the Flash app
 ---
 
-# Managing Your Contacts in Flash
-
 This guide provides a complete overview of Flash's Contacts feature, explaining how to find, add, and interact with your contacts for messaging and bitcoin payments.
 
 ## Table of Contents

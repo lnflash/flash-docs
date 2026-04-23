@@ -6,7 +6,7 @@ description: Comece a usar Flash em 3 passos simples - baixar, criar carteira, a
 <div class="get-started-container max-w-4xl mx-auto px-6 py-8">
   <!-- Hero section -->
   <div class="text-center mb-12">
-    <h1 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">Começar com Flash</h1>
+    <h2 class="text-3xl font-bold mb-4 text-purple-600 dark:text-purple-400">Começar com Flash</h2>
     <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">Pagamentos Bitcoin ultra-rápidos em apenas 3 passos simples</p>
   </div>
   

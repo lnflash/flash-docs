@@ -3,7 +3,7 @@ title: 사용자 가이드
 description: Flash 앱, Flashcard 리워드, 비트코인 거래를 최대한 활용하기 위한 종합 가이드
 ---
 
-# Flash 사용자 가이드
+## Flash 사용자 가이드
 
 Flash를 최대한 활용할 수 있도록 도와드리는 단계별 가이드를 찾아보세요.
 

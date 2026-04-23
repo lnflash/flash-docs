@@ -3,7 +3,7 @@ title: Connectez-vous avec vos Amis via l'Onglet Chat
 description: Un guide pour utiliser l'Onglet Chat Flash pour la messagerie et les paiements utilisant le protocole NOSTR
 ---
 
-# Messagerie et Paiements avec Flash Chat
+## Messagerie et Paiements avec Flash Chat
 
 Ce guide fournit un aperçu complet de la fonctionnalité Chat de Flash, expliquant comment utiliser la messagerie sécurisée et résistante à la censure ainsi que les paiements Bitcoin intégrés via le protocole NOSTR.
 

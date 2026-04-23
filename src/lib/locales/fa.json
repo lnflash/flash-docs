@@ -46,5 +46,13 @@
     "errors": {
         "noTranslationTitle": "ترجمه یافت نشد",
         "noTranslationMessage": "متاسفانه ترجمه ای برای این صفحه موجود نیست. اگر به ساخت این صفحه علاقه مندید لطفا با ما تماس بگیرید."
+    },
+    "search": {
+        "placeholder": "جستجو در مستندات..."
+    },
+    "breadcrumbs": {
+        "home": "خانه",
+        "userGuides": "راهنماهای کاربر",
+        "training": "آموزش"
     }
 }
