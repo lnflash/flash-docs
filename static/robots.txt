@@ -1,0 +1,12 @@
+# https://documentation.getflash.io/robots.txt
+# Flash Documentation crawl rules
+
+User-agent: *
+Allow: /
+
+# Don't index internal/utility routes
+Disallow: /api/
+Disallow: /health
+Disallow: /test/
+
+Sitemap: https://documentation.getflash.io/sitemap.xml

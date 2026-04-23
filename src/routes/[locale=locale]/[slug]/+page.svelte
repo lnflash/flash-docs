@@ -26,13 +26,31 @@
 <svelte:head>
     <title>{data.title} - Flash Documentation</title>
     <meta name="description" content={data.description} />
+    <link rel="canonical" href="https://documentation.getflash.io/{$locale}/{data.slug}" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{data.title} - Flash Documentation" />
+    <meta property="og:description" content={data.description} />
+    <meta property="og:url" content="https://documentation.getflash.io/{$locale}/{data.slug}" />
+    <meta property="og:locale" content={$locale} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:title" content="{data.title} - Flash Documentation" />
+    <meta name="twitter:description" content={data.description} />
+
+    <!-- hreflang alternates for sibling translations -->
     {#each otherLocales as supportedLocale}
         <link
             rel="alternate"
             hreflang={supportedLocale}
-            href="https://flash.how/{supportedLocale}/{data.slug}"
+            href="https://documentation.getflash.io/{supportedLocale}/{data.slug}"
         />
     {/each}
+    <link
+        rel="alternate"
+        hreflang="x-default"
+        href="https://documentation.getflash.io/en/{data.slug}"
+    />
 </svelte:head>
 
 {#if mounted}
