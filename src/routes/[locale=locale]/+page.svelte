@@ -51,6 +51,16 @@
 <svelte:head>
     <title>Flash Docs</title>
     <meta name="description" content="Flash Docs helps Caribbean users get started with Cash Wallet, Bitcoin Wallet, Swap, top ups, cash outs, and merchant tools." />
+    <link rel="canonical" href="https://documentation.getflash.io/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Flash Documentation" />
+    <meta property="og:description" content="Flash Docs helps Caribbean users get started with Cash Wallet, Bitcoin Wallet, Swap, top ups, cash outs, and merchant tools." />
+    <meta property="og:url" content="https://documentation.getflash.io/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:title" content="Flash Documentation" />
+    <meta name="twitter:description" content="Flash Docs helps Caribbean users get started with Cash Wallet, Bitcoin Wallet, Swap, top ups, cash outs, and merchant tools." />
 </svelte:head>
 
 {#if mounted}
