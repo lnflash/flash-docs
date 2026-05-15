@@ -1,47 +1,15 @@
 ---
 title: How to Top Up
-description: Add funds to your Flash wallet via bank transfer or in person at a Flashpoint.
+description: Add funds to your Flash wallet in person at any Flashpoint location.
 ---
 
-Add funds to your Flash wallet. Choose the method that works best for you.
+Add funds to your Flash wallet.
 
-> **Note:** Bank transfer top-ups currently require contacting support to complete. Automated top-up is coming soon.
-
----
-
-## Option 1: Bank Transfer (JMD)
-
-Transfer JMD from your Jamaican bank account to Flash.
-
-**Step 1: Make the bank transfer**
-
-Send funds to Flash's bank account:
-
-| Field | Details |
-|-------|---------|
-| Account Name | ISLAND BITCOIN JAMAICA LIMITED |
-| Bank | First Global Bank |
-| Account Number | 990858892950 |
-| Account Type | Savings |
-| Currency | JMD |
-| Branch | Liguanea |
-
-**Step 2: Contact support**
-
-After completing the transfer, message Flash support with:
-- Your Flash username
-- The amount transferred
-- Your bank transfer confirmation or reference number
-
-**Step 3: Funds credited**
-
-Support will verify the deposit and credit your Flash wallet. You'll receive a confirmation when it's done.
-
-**Processing time:** Same business day for transfers received during banking hours.
+> **Bank transfer top-ups are temporarily unavailable.** We are working on re-enabling this feature soon. In the meantime, you can top up at a Flashpoint location.
 
 ---
 
-## Option 2: Top Up at a Flashpoint (In Person)
+## Top Up at a Flashpoint (In Person)
 
 Top up your Flash wallet in person at any Flashpoint merchant location using cash or card.
 
@@ -59,6 +27,4 @@ Find your nearest Flashpoint on the Map tab in the Flash app.
 
 Contact Flash support via the app.
 
----
 
-> **Coming soon:** Instant top-up — add funds without contacting support.

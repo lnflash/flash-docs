@@ -15,7 +15,7 @@ You need a **Level 2 Pro or Level 3 Merchant account**. If you have not upgraded
 
 Cash out destinations:
 - **JMD** — any Jamaican bank account
-- **USD** — First Global Bank only
+- **USD** — contact support for available options
 
 ---
 
