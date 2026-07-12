@@ -1,0 +1,52 @@
+---
+title: Flash Documentation
+description: Everything you need to know about using Flash — Bitcoin payments, rewards, and merchant tools for the Caribbean.
+template: splash
+hero:
+  tagline: Bitcoin financial services, built for the Caribbean. Send money, accept payments, and cash out to your bank — all from your phone.
+  actions:
+    - text: Get Started
+      link: /get-started/
+      icon: right-arrow
+      variant: primary
+    - text: What is Flash?
+      link: /what-is-flash/
+      icon: open-book
+      variant: minimal
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Choose your path
+
+<CardGrid>
+	<LinkCard
+		title="🚀 Get Started"
+		href="/get-started/"
+		description="New to Flash? Download the app, create a wallet, and add funds in three steps."
+	/>
+	<LinkCard
+		title="💵 Cash Wallet"
+		href="/guides/cash-wallet/"
+		description="Your USD wallet, shown in your local currency."
+	/>
+	<LinkCard
+		title="₿ Bitcoin Wallet"
+		href="/guides/bitcoin-wallet/"
+		description="Send and receive Bitcoin over Lightning or on-chain."
+	/>
+	<LinkCard
+		title="🏪 For Merchants"
+		href="/training/flash-pos/"
+		description="Accept Flash payments with the POS app and Flashcard."
+	/>
+</CardGrid>
+
+## Popular topics
+
+<CardGrid>
+	<LinkCard title="Top Up" href="/guides/top-up/" description="Add funds from your bank or a Flashpoint." />
+	<LinkCard title="Cash Out" href="/guides/cash-out/" description="Move money from Flash to your bank account." />
+	<LinkCard title="Swap Between Wallets" href="/guides/swap/" description="Move value between your Cash and Bitcoin wallets." />
+	<LinkCard title="Upgrade Your Account" href="/guides/upgrade-account/" description="Unlock higher limits and merchant tools." />
+</CardGrid>
