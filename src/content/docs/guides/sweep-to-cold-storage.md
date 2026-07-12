@@ -1,0 +1,361 @@
+---
+title: Sweep to Cold Storage
+description: Complete guide to moving your Bitcoin from mobile wallets to hardware security
+---
+
+This guide provides step-by-step instructions for securing your Bitcoin in cold
+storage using hardware wallets. Follow these detailed steps to ensure your
+Bitcoin is safely transferred from mobile wallets to long-term secure storage.
+
+## Table of Contents
+
+- [Understanding Cold Storage](#understanding-cold-storage)
+- [Preparing for the Transfer](#preparing-for-the-transfer)
+- [Setting Up Your Hardware Wallet](#setting-up-your-hardware-wallet)
+- [Transferring Bitcoin from Mobile Wallets](#transferring-bitcoin-from-mobile-wallets)
+  - [From Flash Wallet](#from-flash-wallet)
+  - [From Other Mobile Wallets](#from-other-mobile-wallets)
+- [Verifying Your Transfer](#verifying-your-transfer)
+- [Best Practices for Cold Storage](#best-practices-for-cold-storage)
+- [Recovery and Backup Procedures](#recovery-and-backup-procedures)
+- [Advanced Cold Storage Options](#advanced-cold-storage-options)
+
+## Understanding Cold Storage
+
+Cold storage refers to keeping your Bitcoin private keys offline on a dedicated
+hardware device, dramatically reducing potential attack vectors compared to
+mobile or online wallets.
+
+### Benefits of Hardware Wallets
+
+- **Enhanced Security**: Private keys never leave the device
+- **Protection from Malware**: Immune to computer viruses and keyloggers
+- **Physical Verification**: Transactions require physical confirmation
+- **Disaster Recovery**: Built-in backup and recovery options
+- **Long-term Storage**: Designed for secure, long-term Bitcoin storage
+
+### When to Use Cold Storage
+
+Cold storage is recommended when:
+
+- Your Bitcoin holdings exceed $1,000 in value
+- You plan to hold Bitcoin for more than 6 months
+- You want maximum protection against remote attacks
+- You're creating a long-term savings plan or inheritance
+
+## Preparing for the Transfer
+
+Before beginning the transfer process, prepare the following:
+
+1. **Hardware wallet device** (Bitkey, ColdCard, or Trezor)
+2. **Pen and paper** for recording recovery phrases
+3. **Secure location** free from cameras or onlookers
+4. **Mobile wallet** with Bitcoin to transfer
+5. **Small amount for testing** (always send a test transaction first)
+6. **Time without distractions** (30-60 minutes for setup)
+7. **Stable internet connection** (for the mobile wallet side)
+
+## Setting Up Your Hardware Wallet
+
+Each hardware wallet has a specific setup process. Select your device below.
+
+### Bitkey
+
+:::note[About Bitkey]
+Bitkey uses a "two-of-three" multi-signature security model with a mobile app component, hardware component, and recovery key component.
+:::
+
+#### Setting Up Your Bitkey
+
+1. **Initial Hardware Setup**
+   - Unbox your Bitkey hardware device
+   - Power on by pressing the circular button
+   - Follow on-screen instructions to set up your device PIN
+   - Verify the device displays an untampered seal message
+2. **Install the Bitkey Mobile App**
+   - Download the Bitkey app from the App Store or Google Play
+   - Open the app and select "Set up a new wallet"
+   - Follow the pairing instructions to connect to your hardware device
+   - Create a secure PIN for the app
+3. **Create Your Recovery Key**
+   - When prompted, the app will guide you through creating a recovery key
+   - Write down all 12 or 24 seed words IN ORDER on provided recovery cards
+   - Verify each word carefully - these words ARE your Bitcoin
+   - Store recovery cards in a secure, private location
+4. **Verify Your Setup**
+   - Complete the recovery phrase verification test on both devices
+   - Ensure both the hardware and mobile components show the same wallet balance
+   - Test the approval process for a small transaction
+
+#### Creating a Receive Address with Bitkey
+
+1. **Connect Your Wallet**
+   - Open the Bitkey mobile app on your smartphone
+   - Ensure it's properly paired with your hardware device
+   - Verify both devices are powered on and responsive
+2. **Generate Address**
+   - Tap "Receive" in the mobile app
+   - The app will generate a new Bitcoin address
+   - Your hardware device will display a verification request
+3. **Verify Address**
+   - Important: Confirm the address matches on both mobile and hardware devices
+   - This verification step protects against address replacement attacks
+   - Never use an address you haven't verified on the hardware device
+4. **Label the Address (Optional)**
+   - Add a description like "Flash Transfer - March 2025"
+   - This helps track the source of funds later
+   - Labels are stored locally and not on the blockchain
+
+### ColdCard
+
+:::note[About ColdCard]
+ColdCard is a Bitcoin-only hardware wallet that can operate completely air-gapped and offers advanced security features.
+:::
+
+#### Setting Up Your ColdCard
+
+1. **Initial Hardware Setup**
+   - Unbox your ColdCard
+   - Insert a microSD card (optional but recommended)
+   - Connect the device using the included USB cable
+   - Create a new wallet when prompted
+   - Set up a strong PIN with both a prefix and suffix
+2. **Backup Your Seed Words**
+   - Carefully write down all 24 seed words in order
+   - Double-check each word against the ColdCard screen
+   - Consider stamping seed words on metal for fire/water resistance
+   - Secure your backup in a safe location
+3. **Advanced Security Setup**
+   - Set up a BrickMe PIN (emergency delete function)
+   - Configure Duress PIN if desired (shows limited funds)
+   - Set up a passphrase for additional security (optional)
+   - Test your PINs to ensure they work correctly
+4. **Install Companion Software**
+   - For desktop interaction, install [Sparrow Wallet](https://sparrowwallet.com/)
+   - Connect your ColdCard via USB or use the microSD card for air-gapped operation
+   - Export the wallet public key to Sparrow using the microSD card
+   - Verify the wallet appears correctly in Sparrow
+
+#### Creating a Receive Address with ColdCard
+
+1. **Connect Your Wallet**
+   - Option 1 (USB): Connect ColdCard via USB cable to your computer
+   - Option 2 (Air-gapped): Use microSD card for complete isolation
+   - Open Sparrow Wallet on your computer
+2. **Generate Address**
+   - In Sparrow Wallet, select the "Receive" tab
+   - Choose the address type (Native SegWit recommended)
+   - Sparrow will display a new Bitcoin address and QR code
+3. **Verify Address**
+   - Crucial security step: Verify the address on ColdCard's screen
+   - On ColdCard, navigate to Address Explorer
+   - Compare the address shown in Sparrow with the one on ColdCard
+   - Only proceed if addresses match exactly
+4. **Label the Address (Optional)**
+   - In Sparrow, add a label such as "Flash Transfer - March 2025"
+   - This helps you track which deposits came from where
+   - Labels are stored in Sparrow, not on the blockchain
+
+### Trezor
+
+:::note[About Trezor]
+Trezor offers an intuitive user experience with a simple interface while maintaining strong security.
+:::
+
+#### Setting Up Your Trezor
+
+1. **Initial Hardware Setup**
+   - Unbox your Trezor device
+   - Connect it to your computer via USB cable
+   - Visit [trezor.io/start](https://trezor.io/start)
+   - Follow the on-screen instructions
+   - Create a new wallet when prompted
+2. **Create Device PIN**
+   - Create a strong PIN following the on-screen instructions
+   - The PIN entry uses a randomized keypad for protection
+   - Remember this PIN - it protects physical access to your device
+3. **Backup Recovery Seed**
+   - Write down all 12 or 24 seed words in exact order
+   - Verify the recovery seed when prompted by the setup wizard
+   - Store in a secure, private location away from potential threats
+   - Consider creating a metal backup for fire/water resistance
+4. **Setup Trezor Suite**
+   - Install Trezor Suite on your computer
+   - Connect your device and unlock it with your PIN
+   - Create a Bitcoin wallet in Trezor Suite
+   - Optionally add a passphrase for additional security
+
+#### Creating a Receive Address with Trezor
+
+1. **Connect Your Wallet**
+   - Connect Trezor to your computer via USB cable
+   - Open Trezor Suite on your computer
+   - Unlock your device with your PIN
+   - Enter passphrase if you've set one up
+2. **Generate Address**
+   - In Trezor Suite, click on the "Receive" tab
+   - Select the account you want to receive to (if multiple)
+   - Choose address type (Native SegWit recommended for lower fees)
+   - Trezor Suite will generate a new Bitcoin address
+3. **Verify Address**
+   - Trezor will prompt you to confirm the address on the device
+   - Compare the address on your screen with the one on Trezor
+   - Only approve if they match completely
+   - This step protects against malware that might try to display fake addresses
+4. **Label the Address (Optional)**
+   - Add a descriptive label like "Flash Transfer - March 2025"
+   - Trezor Suite will save this label with the address
+   - Makes it easier to identify funds and their source later
+
+## Transferring Bitcoin from Mobile Wallets
+
+Now you're ready to send Bitcoin from your mobile wallet to your hardware
+wallet:
+
+### From Flash Wallet
+
+1. **Open Flash App**
+   - Go to the "Wallet" tab
+   - Ensure you have sufficient balance
+   - Check that your Lightning channels have enough outbound capacity
+2. **Initiate Transfer**
+   - Tap "Send" or "Withdraw"
+   - Select "On-chain withdrawal"
+   - Note that on-chain withdrawals have higher fees than Lightning
+3. **Enter Details**
+   - Paste your hardware wallet's receive address
+   - Double-check the address is correct (first and last few characters)
+   - Start with a small test amount (e.g., 0.0001 BTC or 10,000 sats)
+   - Enter an amount that's high enough to cover network fees
+4. **Review and Confirm**
+   - Check the withdrawal fee (higher fees confirm faster)
+   - Prioritize security over saving on fees for cold storage transfers
+   - Verify all details are correct one final time
+   - Tap "Confirm" to initiate the transfer
+5. **Initial Test Verification**
+   - Wait for the test transaction to confirm (10-60 minutes)
+   - View the transaction status in the Flash app
+   - Verify receipt on your hardware wallet
+   - Once confirmed, proceed with transferring larger amounts
+
+### From Other Mobile Wallets
+
+1. **Open Your Mobile Wallet**
+   - Access the wallet containing your Bitcoin
+   - Navigate to Send/Transfer function
+   - Make sure your wallet is updated to the latest version
+2. **Enter Hardware Wallet Address**
+   - Paste your verified hardware wallet address
+   - Double-check the entire address if possible
+   - For large transfers, verify the address through multiple channels
+   - Never manually type addresses - always copy and paste
+3. **Set Transaction Fee**
+   - Choose an appropriate fee based on urgency
+   - For cold storage, medium priority is usually sufficient
+   - Check [mempool.space](https://mempool.space) for current fee recommendations
+   - Consider the tradeoff between confirmation time and cost
+4. **Send Test Transaction**
+   - Start with a minimal amount (0.0001 BTC or equivalent)
+   - Review all details before confirming
+   - Confirm the transaction in your wallet
+   - Record the transaction ID/hash for reference
+5. **Complete the Transfer**
+   - After confirming receipt of test transaction
+   - Send remaining amount in one or multiple transactions
+   - Consider privacy implications of transaction patterns
+   - Keep transaction IDs for future reference
+
+:::caution[Security Reminder]
+Always verify the receiving address on your hardware wallet's secure screen before sending any funds. A compromised computer could display a different address than the one you intended to use.
+:::
+
+## Verifying Your Transfer
+
+After sending, verify the transfer was successful:
+
+1. **Check Transaction Status**
+   - Use a block explorer like [mempool.space](https://mempool.space)
+   - Enter your transaction ID or wallet address
+   - Monitor confirmations (6+ is considered extremely secure)
+
+2. **Verify on Hardware Wallet**
+   - Bitkey: Check balance in both mobile app and hardware device
+   - ColdCard: Check balance in Sparrow Wallet or via microSD export
+   - Trezor: Check balance in Trezor Suite
+
+3. **Document the Transfer**
+   - Record the transaction ID
+   - Note the date, amount, and sending address
+   - Store this information securely for future reference
+
+## Best Practices for Cold Storage
+
+Maximize your security with these best practices:
+
+1. **Multiple Hardware Wallets**
+   - Consider using different brands for diversification
+   - Separate wallets for different purposes (spending vs. long-term)
+
+2. **Regular Verification**
+   - Check device functionality every 6-12 months
+   - Update firmware when security updates are released
+   - Perform test recoveries annually
+
+3. **Secure Storage Environment**
+   - Keep hardware wallets in cool, dry locations
+   - Protect from electromagnetic interference
+   - Consider a fireproof, waterproof container
+
+4. **Physical Security**
+   - Don't discuss hardware wallet ownership publicly
+   - Consider a home safe or bank safety deposit box
+   - Have a "decoy" wallet with small funds if concerned about physical threats
+
+5. **Avoid Common Mistakes**
+   - Never enter seed phrases on a computer or phone
+   - Don't store seed phrases in cloud services or digital formats
+   - Don't share photos of seed phrases or hardware wallets
+   - Beware of phishing attempts targeting hardware wallet users
+
+## Recovery and Backup Procedures
+
+Prepare for emergencies with proper backup procedures:
+
+1. **Seed Phrase Protection**
+   - Store seed phrases separately from hardware devices
+   - Consider metal backup solutions (Cryptosteel, BlockPlate, etc.)
+   - Split backups across multiple secure locations
+
+2. **Test Recovery Procedure**
+   - Practice recovery without actual funds
+   - Understand the process before an emergency
+   - Document steps for heirs or trusted individuals
+
+3. **Inheritance Planning**
+   - Create clear instructions for heirs
+   - Consider multi-signature setups for inheritance
+   - Establish legal frameworks appropriate to your jurisdiction
+
+## Advanced Cold Storage Options
+
+For users seeking maximum security:
+
+1. **Multi-Signature Setups**
+   - Require multiple devices to approve transactions
+   - Distribute risk across different security models
+   - Popular options: [Sparrow Wallet](https://sparrowwallet.com/) multisig,
+     [Caravan](https://unchained.com/caravan/)
+
+2. **Air-Gapped Operations**
+   - Keep signing device completely offline
+   - Transfer transaction data via microSD or QR codes
+   - ColdCard and some Trezor models support this workflow
+
+3. **Geographic Distribution**
+   - Store backup components in different physical locations
+   - Consider jurisdictional diversification for large holdings
+   - Balance security with practical accessibility
+
+:::note[Need Help?]
+If you encounter any issues during the transfer process, reach out to Flash support through the app or visit our community forums for assistance.
+:::

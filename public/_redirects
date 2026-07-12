@@ -1,0 +1,6 @@
+# Preserve inbound links from the old SvelteKit site (all content lived under /en/).
+/en/docs-home      /                      301
+/en/user-guides    /guides/cash-wallet/   301
+/en/zaps           /send-bitcoin/         301
+/en/               /                      301
+/en/*              /:splat                301
