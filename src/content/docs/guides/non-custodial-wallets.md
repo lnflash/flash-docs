@@ -5,8 +5,6 @@ description: Learn about non-custodial Bitcoin wallets and which ones might be r
 
 ![Bitkey Hardware Wallet](/images/badges/webp/bitkey2.webp)
 
-![ColdCard Hardware Wallet](/images/badges/png/coldcard.png)
-
 ## What Are Non-Custodial Wallets?
 
 Non-custodial wallets are Bitcoin wallets where you, and only you, control the private keys to your funds. This means you have complete ownership and control over your Bitcoin without relying on a third party to hold or manage your assets.
@@ -53,8 +51,11 @@ Physical devices designed specifically for securely storing cryptocurrency priva
 **Popular options:**
 - [Bitkey](https://bitkey.world) - Popular hardware wallet with advanced inheritance and recovery features
 - [Trezor](https://trezor.io/) - Open-source hardware wallets with strong security features
-- [ColdCard](https://coldcard.com/) - Bitcoin-only hardware wallet with advanced security features
 - [BitBox](https://shiftcrypto.ch/) - Minimalist design with strong security
+
+:::note
+ColdCard was removed from this list following Coinkite's July 2026 [security advisory](https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/) about weak seed generation on affected devices. If you hold funds on a ColdCard-generated seed, see the advisory for migration steps.
+:::
 
 ### Paper Wallets
 
@@ -114,8 +115,6 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
      - Creating recovery procedures for family members
      - Configuring time-locked recovery options
      - Documenting your Bitcoin estate plan
-
-   ![ColdCard Recovery Options](/images/badges/png/coldcard.png)
 
    ![Hardware Wallet Inheritance Planning](/images/badges/webp/bitkey2.webp)
 

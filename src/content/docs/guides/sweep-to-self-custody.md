@@ -44,7 +44,7 @@ Flash allows direct withdrawals to on-chain Bitcoin addresses:
 
 1. **Choose a self-custody wallet**
    - Mobile options: [Blue Wallet](https://bluewallet.io/), [Blockstream Green](https://blockstream.com/green/), or [Muun](https://muun.com/)
-   - Hardware options: [Ledger](https://www.ledger.com/), [Trezor](https://trezor.io/), or [ColdCard](https://coldcard.com/) (for larger amounts)
+   - Hardware options: [Ledger](https://www.ledger.com/) or [Trezor](https://trezor.io/) (for larger amounts)
 
 2. **Set up your wallet**
    - Download and install your chosen wallet
@@ -105,7 +105,7 @@ For optimal Bitcoin management with Flash:
 3. **Layer your security**
    - Small amounts: Mobile wallet apps
    - Medium amounts: Hardware wallets like Ledger or Trezor
-   - Large amounts: Air-gapped solutions like ColdCard or multi-signature setups
+   - Large amounts: Air-gapped signing workflows or multi-signature setups
 
 ## Key Concepts: Lightning, On-Chain, and Self-Custody
 
