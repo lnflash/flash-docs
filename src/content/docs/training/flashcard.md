@@ -1,42 +1,42 @@
 ---
 title: Flashcard Training
-description: Learn how the Flashcard works with your Flash account and Flashpoint merchants.
+description: A short walkthrough of the Flashcard for new users, with links to the full guide.
 ---
 
-The Flashcard is your physical card for using Flash at supported merchants.
+The Flashcard is a contactless card with its own Bitcoin balance. Tap it at a Flashpoint to pay. Full details are in the [Flashcard Guide](/guides/flashcard/).
 
 ## What the Flashcard does
 
-- Hold its own balance, separate from your Flash wallets
-- Spend at Flashpoint merchants
-- Show its balance and recent activity in the Flash app
-- Help you use Flash in person, without typing a username
+- Holds its own balance in sats, separate from your Flash wallets
+- Pays at any merchant running Flash POS with a tap
+- Shows its balance and recent activity in the Flash app after you tap it
 
 ## Getting started
 
-1. Get your Flashcard from Flash or an authorized merchant
-2. Add the card to the Flash app by tapping it against your phone (**Read NFC card**)
-3. Test a small purchase at a supported merchant
+1. Get a card from a Flashpoint
+2. In the app, tap **Flashcard** → **Read NFC card** and hold the card to your phone
+3. Load it with **Reload Card** (from your Flash wallet, minimum 100 sats) or **Topup via QR** (anyone pays the card's QR code)
+4. Test a small purchase
 
 ## Using the card
 
-- Tap the card at a supported merchant
-- Confirm the payment on your phone if prompted
-- Keep an eye on the card balance in the app; it refreshes when you tap the card again
+- The merchant enters the amount; you tap the card on their device
+- Nothing to confirm on your phone
+- To see the new balance, tap the card again in the app
 
 ## Tips
 
 - Treat the card like cash: there is no PIN, no freeze, and no recovery
 - If you lose it, the funds on it are not recoverable, so keep the balance small
 - **Remove Card** in the app only removes the card from your phone; it does not disable the card
-- Flashcard is separate from the Bitcoin Wallet flow
+- Rewards, when a merchant offers them, arrive on the card as sats
 
 ## Related guides
 
+- [Flashcard Guide](/guides/flashcard/)
+- [Discover Local Merchants using the Map Tab](/guides/map/)
 - [Cash Wallet](/guides/cash-wallet/)
-- [Top Up](/guides/top-up/)
-- [Cash Out](/guides/cash-out/)
 
 ## Need help?
 
-Contact Flash support via the app.
+Settings → **Need help? Contact us.**, or email support@getflash.io.

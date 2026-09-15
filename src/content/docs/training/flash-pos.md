@@ -1,39 +1,53 @@
 ---
 title: Flash POS Training
-description: Learn the current Flash POS flow for merchants on mobile, iOS, and rewards.
+description: Set up the Flash POS app, take a payment, print a receipt, read a Flashcard, and understand the reward and event settings.
 ---
 
-Flash POS is the merchant experience for accepting Flash payments in person.
+Flash POS is the merchant app for taking Flash payments at the counter on Android and iOS.
 
-## What merchants can do
+## Set up
 
-- Accept payments at the counter
-- Use the app on **Android** and **iOS**
-- Read NFC / card taps on supported devices
-- Print or share receipts where supported
-- Track rewards and merchant activity
+1. Install Flash POS and open it.
+2. Enter your Flash username and pick your currency, then tap **Start**. There is no password: the POS takes payments to the Flash account that owns that username.
+3. Check the **Profile** tab. It shows your Lightning address and your **PayCode** (merchant QR code), and holds the reward, event, and security settings.
 
-## Platform notes
+## Take a payment
 
-- **Android** and **iOS** do not behave exactly the same
-- On iOS, NFC and printing flows use the system UI more often
-- Merchants should test their setup before going live
+1. On the **POS** tab, type the amount on the keypad.
+2. Show the invoice QR code, or let the customer tap a Flashcard on the device. On iPhone, tap the NFC button on the invoice screen first to start the read.
+3. When the payment lands, the success screen offers **Print** (then **Reprint**). There is no share button; receipts go to the connected printer.
 
-## What merchants need to know
+A printed receipt shows the amount, the reward if any ("≈ N points"), who was paid, date, time, status, the description, and a QR code that downloads the Flash app.
 
-1. Install and sign in to the POS app
-2. Set up merchant details
-3. Test a small payment
-4. Confirm receipt / printing behavior on the device
-5. Make sure your team knows how to handle refunds or failed payments
+## Flashcard balance
+
+With the keypad open, a tapped Flashcard shows its balance. Customers who want to check a card can ask you to do this.
+
+## Paycode
+
+**Profile → PayCode → Print QR code** prints a static QR code customers can scan to pay you any amount. Useful for a second till or a delivery bag.
+
+## Rewards and events
+
+Rewards are off unless your build has them enabled and you have switched on **Rewards System** in the Profile's reward settings and entered your reward pool's Pull Payment ID. When they are on, each Lightning payment sends a reward in sats to the customer's Flashcard, within the rate, minimum and maximum you set; the **Rewards** tab lets you give a standalone reward to a tapped card. **Event Mode** applies a temporary rate and budget for a promotion.
+
+Only promise rewards to customers when they are switched on for your device. The reward figures on receipts are labelled "points"; they are sats.
+
+## Admin PIN
+
+**Profile → Security → Set Admin PIN** protects the reward settings from staff changes. Keep it with the owner or manager.
+
+## Refunds and failed payments
+
+The POS has no refund action. **Transaction History** has a *Refund* filter for records that were marked as refunds, and a **Reprint** button for any past receipt. To return money to a customer, send it from your Flash app to their username.
+
+## Support
+
+The **Support** tab opens a chat with Flash support from inside the POS.
 
 ## Related guides
 
+- [Flashcard Guide](/guides/flashcard/)
 - [Upgrade Your Account](/guides/upgrade-account/)
 - [Cash Wallet](/guides/cash-wallet/)
-- [Top Up](/guides/top-up/)
-- [Cash Out](/guides/cash-out/)
-
-## Need help?
-
-Contact Flash support via the app.
+- [How to Cash Out](/guides/cash-out/)

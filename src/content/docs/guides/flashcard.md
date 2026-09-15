@@ -1,114 +1,77 @@
 ---
 title: Flashcard Guide
-description: Learn how to use the Flash rewards card for purchases and maximize your rewards
+description: What the Flashcard is, how to add it to the Flash app, how to reload it, and how merchant rewards reach it.
 ---
 
-## Understanding Your Flashcard
+The Flashcard is a contactless NFC card with its own Bitcoin balance. You tap it at a merchant's Flash POS to pay. The balance lives on the card's own account, not in your Flash Cash Wallet, and the app is a window onto it: you can see the balance, reload it, and let others top it up.
 
-The Flashcard is a prepaid rewards card that seamlessly integrates with your Flash app while maintaining its own independent balance. This guide will walk you through everything you need to know about using your Flashcard effectively.
+This is the canonical Flashcard page. [Flashcard Training](/training/flashcard/) is the short walkthrough.
 
-### What is a Flashcard?
+---
 
-The Flashcard is a physical prepaid card that:
-- Works at all merchants with Flashpoint devices
-- Maintains a balance separate from your Flash app wallets
-- Automatically enrolls you in the Flash rewards network
-- Can be linked to your app for easy management
-- Earns points on every purchase at participating merchants
+## What the Flashcard is
 
-### Getting Your Flashcard
+- A physical NFC card. There is no chip to insert and no card number to type; everything happens by tap.
+- It carries a balance in sats that is separate from your Cash Wallet and your Bitcoin Wallet.
+- It has no PIN, no lock or freeze, and no recovery. See [Keeping Your Card Safe](#keeping-your-card-safe).
 
-To obtain a Flashcard:
-1. Visit a participating Flash merchant or exchange point
-2. Request a Flashcard from the merchant
-3. Load your initial balance onto the card
-4. Download the Flash app if you haven't already
-5. Link your card to the app for full functionality
+---
 
-### Linking Your Card to the App
+## Getting Your Flashcard
 
-Connecting your Flashcard to the Flash app unlocks powerful features:
+Ask at a participating Flashpoint. Merchants that hand out cards are on the [Map](/guides/map/).
 
-1. **Open the Flash app** and navigate to the Cards section
-2. **Tap "Add Card"** and follow the prompts
-3. **Enter your card number** or scan the QR code on your card
-4. **Verify ownership** with the security code
-5. **Name your card** for easy identification
+---
 
-Once linked, you can:
-- Check your card balance in real-time
-- View transaction history
-- Top up your card from your app wallets
-- Track rewards points earned
-- Receive notifications for card activity
+## Adding the Card to the App
 
-### Making Purchases
+1. On the home screen tap **Flashcard** (or **Add Flashcard**). If no card is stored yet the screen says "No Cards Found. Tap a Flashcard to add it here."
+2. Tap **Read NFC card** and hold the card against the back of your phone.
+3. The card's balance and recent activity appear. The app stores one card at a time.
 
-Using your Flashcard is simple:
+The app must have NFC available and enabled; otherwise it says so ("NFC is not supported on this device" / "NFC is not enabled on this device"). If the tap fails, the app reports "Card data not readable", "No card detected", or "Unsupported NFC card".
 
-1. **Look for Flashpoint devices** at participating merchants
-2. **Present your card** when ready to pay
-3. **Tap or insert** your card on the Flashpoint device
-4. **Confirm the amount** on the merchant's screen
-5. **Complete the transaction** - it's that fast!
+You can also read a card from the *Get Started* screen before logging in, to check a balance.
 
-Your rewards points are automatically credited after each purchase.
+---
 
-### Managing Your Balance
+## Checking the Balance
 
-#### Checking Balance
-- **In-app**: View real-time balance in the Cards section
-- **At merchants**: Ask any Flashpoint merchant to check your balance
-- **Transaction receipts**: Balance is printed on every receipt
+- **In the app:** open **Flashcard**. The balance is read when you tap the card. It does not update on its own; tap the sync icon and hold the card to refresh it.
+- **At a merchant:** the Flash POS keypad screen reads the balance when the card is tapped.
 
-#### Topping Up Your Card
-You can add funds to your Flashcard several ways:
+---
 
-**From the Flash App:**
-1. Go to the Cards section
-2. Select your linked Flashcard
-3. Tap "Top Up"
-4. Choose amount and source wallet (USD or BTC)
-5. Confirm the transfer
+## Reloading the Card
 
-**At Flash Merchants:**
-1. Visit any Flashpoint location
-2. Request a top-up
-3. Pay with cash or from your app
-4. Funds are instantly available
+From the Flashcard screen:
 
-**Direct Deposits:**
-Some merchants offer direct cash-to-card deposits. Ask your local Flashpoint merchant about this option.
+- **Reload Card** opens the Send flow with the card as the destination. Pick the amount (minimum 100 sats) and confirm. The sats move from your Flash wallet to the card.
+- **Topup via QR** shows the card's own payment QR code. Anyone with a Lightning wallet can scan it to add funds to the card.
 
-### Maximizing Rewards
+Merchants that exchange cash (the **Cash** badge on the map) can also load a card for you by paying its QR code.
 
-The Flashcard rewards program helps you earn while you spend:
+---
 
-#### Earning Points
-- **Base rate**: Earn points on every purchase at Flashpoint merchants
-- **Bonus categories**: Some merchants offer extra points during promotions
-- **Special events**: Look for double or triple point days
-- **Referrals**: Earn bonus points when friends get their Flashcard
+## Paying with the Card
 
-#### Redeeming Points
-Your points are valuable and flexible:
+1. The merchant enters the amount on Flash POS.
+2. Tap the card on the merchant's device. On iPhone-based POS setups the merchant taps a button first to start the NFC read.
+3. The card pays the invoice. There is no confirmation on your phone.
 
-**At Flashpoint Merchants:**
-- Use points like cash at checkout
-- Combine points with card balance
-- No minimum redemption amount
+The merchant can print a receipt showing the amount, the reward if any ("≈ N points"), who was paid, date, time, and status. The receipt does not show your card balance.
 
-**Online Partners:**
-- Purchase gift cards at bitrefill.com
-- Shop at thebitcoincompany.com
-- Convert points to bitcoin in your app
+---
 
-**In the Flash App:**
-- Convert points directly to bitcoin
-- Transfer point value to your card balance
-- Send points to other Flash users
+## Rewards
 
-### Keeping Your Card Safe
+Rewards are optional and set by each merchant. When a merchant has rewards switched on in Flash POS, a reward in sats is sent to your card after you pay; the POS shows "… sats sent to your NFC card!". The percentage, minimum and maximum are the merchant's settings, so they differ from shop to shop, and many merchants have rewards off.
+
+There is no points balance, no redemption step, no partner catalogue, and no way to send rewards to another user. Rewards are sats on the card; spend them the same way as the rest of the balance.
+
+---
+
+## Keeping Your Card Safe
 
 The Flashcard has no PIN, no lock or freeze, and no way to recover the balance from a lost card. Anyone holding the card can spend what is on it, exactly like cash. The app shows this warning on the Flashcard screen: "Do not throw away your card! If your card is lost, the funds are not recoverable."
 
@@ -118,49 +81,27 @@ The Flashcard has no PIN, no lock or freeze, and no way to recover the balance f
 - Store the card the way you would store cash
 - If you lose the card, treat the balance as spent; Flash support cannot restore it
 
-### Best Practices
+---
 
-To get the most from your Flashcard:
+## Troubleshooting
 
-1. **Keep it linked**: Always maintain the app connection for full features
-2. **Monitor balance**: Check regularly to avoid declined transactions
-3. **Keep the balance modest**: A lost card cannot be frozen or refunded
-4. **Stack rewards**: Look for merchant promotions to maximize points
+**Card not working at the merchant?**
+- Ask the merchant to check the card balance on their keypad screen
+- Make sure the amount does not exceed the balance
+- Hold the card still against the reader; on iPhone the merchant must start the read first
 
-### Troubleshooting
+**Balance looks old?**
+- Tap the sync icon and hold the card to refresh
 
-**Card not working?**
-- Ensure sufficient balance for your purchase
-- Check if the merchant's Flashpoint device is online
-- Try cleaning the card's chip with a soft cloth
+**Can't add the card?**
+- Check that NFC is on
+- Try the tap again; the card must touch the phone's NFC area
+- If the app says "Unsupported NFC card", it is not a Flashcard
 
-**Points not showing?**
-- Points may take a few minutes to appear
-- Refresh the app by pulling down on the rewards screen
-- Ensure the merchant participates in the rewards program
-- Contact support if points don't appear within 24 hours
+---
 
-**Can't link card to app?**
-- Double-check the card number entry
-- Ensure you have the latest app version
-- Try scanning the QR code instead of manual entry
-- Contact support with your card number for assistance
+## Support
 
-### Advanced Features
-
-**Virtual Card Numbers**: Generate temporary card numbers in the app for online purchases
-
-**Spending Insights**: View detailed analytics of your spending patterns and rewards earned
-
-**Auto Top-Up**: Set rules to automatically refill your card when balance is low
-
-**Family Cards**: Link family member cards to monitor and manage spending
-
-### Support
-
-Need help with your Flashcard?
-- **In-app support**: Contact Flash support from the app
-- **Merchant assistance**: Any Flashpoint merchant can help with basic card services
-- **Email**: support@getflash.io
-
-Remember, your Flashcard is more than just a payment method - it's your key to the Flash rewards ecosystem and a convenient way to manage your everyday spending while earning valuable rewards.
+- **In-app:** Settings → **Need help? Contact us.** (App chat, WhatsApp, or Email)
+- **Email:** support@getflash.io
+- **At a merchant:** any Flashpoint can check a balance or load a card for you
