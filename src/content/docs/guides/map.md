@@ -1,114 +1,50 @@
 ---
 title: Discover Local Merchants using the Map Tab
-description: A comprehensive guide to using the Flash Map Tab to find businesses that accept Bitcoin and exchange cash
+description: Find Flashpoints on the map, see which services a merchant offers, get directions, pay, or chat, and add your own business pin.
 ---
 
-## What is the Map Tab?
+## What the Map tab shows
 
-The Map Tab is a powerful feature in Flash that helps you discover local businesses and individuals accepting Bitcoin payments through Flash. This interactive map shows "Flashpoints" in your area, creating a global network of Bitcoin-friendly locations where you can:
-
--   Spend your Bitcoin at local businesses
--   Exchange Bitcoin for physical cash
--   Find Flash community members near you
--   Support the growing Bitcoin economy
-
-## What is a Flashpoint?
-
-A Flashpoint is a local business or individual accepting Flash payments for goods, services, or cash exchange. Flashpoints are displayed on the map as distinctive orange pins, making them easy to spot.
+The **Map** tab shows Flashpoints: businesses and individuals that accept Flash. Each is an orange pin. All pins look the same; what a Flashpoint offers is on its card, not in the pin colour.
 
 ![map pin](/images/map-pin.webp)
 
-Flashpoints come in several categories:
+## Location permission
 
--   **Merchants** - Businesses accepting Bitcoin payments for goods and services
--   **Exchanges** - Locations where you can exchange Bitcoin for physical cash or vice versa
--   **Community Hubs** - Places where Flash and Bitcoin enthusiasts gather
--   **Rewards** - Locations offering special promotions or discounts for Flash users
+When you first open the map, Android asks "Locate yourself on the map" with **OK**, **Cancel**, or **Remind me later**; iOS asks to use your location to "Find Merchant who accepts Lightning payments". The permission is optional. Without it the map still works; you scroll to the area you want.
 
-## Using the Map Tab
+## Finding a Flashpoint
 
-### Setting Up Location Permissions
+- Scroll and zoom the map. There is no search box and no filter.
+- Tap the refresh button to reload pins.
+- Tap a pin to open the merchant card.
 
-Since this is a GPS-enabled map, Flash may need your location to show nearby Flashpoints. When you first open the Map Tab, you'll be asked to grant Flash permission to use your location. This permission is optional - if you prefer not to share your location, you can manually navigate the map to find Flashpoints.
-
-To enable location services:
-
-1. Tap the Map Tab
-2. When prompted, select "Allow" for location access
-3. Your current location will appear on the map with nearby Flashpoints
-
-For privacy-conscious users, you can:
-
--   Grant location permission only while using the app
--   Manually search areas without sharing your location
--   Turn location services off when not needed
-
-### Finding Flashpoints Near You
-
-The Map Tab makes it easy to discover Flashpoints wherever you are:
-
-1. Open the Flash app and tap the Map icon
-2. Browse the map to see orange pins indicating Flashpoints
-3. Use the filter options to find specific types of Flashpoints
-4. Tap on a pin to view details about the location
-
-You can also search for specific locations or businesses using the search bar at the top of the screen.
-
-## Interacting with Flashpoints
-
-Once you find a nearby Flashpoint, tap on its pin to reveal detailed information:
+## The merchant card
 
 ![map pin details](/images/map-pin-details.webp)
 
-The details panel shows:
+The card shows the business name, its `@username`, a verified tick where applicable, and three service badges under *Available Services*. A badge is coloured when the merchant offers the service and grey when not:
 
--   Business name and description
--   Address and contact information
--   Operating hours
--   Services offered (merchant, exchange, etc.)
--   User ratings and reviews
--   Action buttons for payments, directions, or communication
+| Badge | Meaning |
+|-------|---------|
+| Flash Pay | Accepts Flash payments |
+| Cash | Exchanges cash: top up your balance or take cash out in person |
+| Rewards | Gives Flashcard rewards on purchases |
 
-### Making Payments to Businesses
+Buttons on the card:
 
-You can pay a business directly from the Map Tab:
+- **Directions** opens your maps app
+- **Pay Flashpoint** starts a payment to the merchant's username
+- **Chat** appears when you have Chat enabled and the merchant has a username; if they have no chat profile yet the app says "Chat Unavailable"
 
-1. Tap on the business's Flashpoint
-2. Select **Pay this Business** from the action buttons
-3. Enter the amount and complete the payment
+There are no ratings, reviews, opening hours, ordering, or exchange requests in the app. Arrange a cash exchange with the merchant directly, in chat or in person.
 
-Some businesses also offer online ordering or reservation options directly through the map interface.
+## Adding your business
 
-### Exchange Services
+Business accounts can add a pin: tap the add button, tap your location on the map, and confirm **Add Flashpoint**. The app notes that "Your pin request will be processed within 24 hours." See [Flash Business Accounts](/business/).
 
-Many Flashpoints offer exchange services, allowing you to convert your Bitcoin to physical cash. The process typically works like this:
+## Safety when exchanging cash
 
-1. Find a Flashpoint offering exchange
-2. Initiate the exchange request through the app
-3. Meet the business owner or representative at the location
-4. Complete the exchange safely
-
-## Chat with the Business
-
-Need to ask questions before visiting a Flashpoint? You can connect with businesses directly:
-
-1. Tap on a Flashpoint
-2. Select the "Chat" button
-3. Start a conversation with the business owner
-
-This feature leverages the Flash [Chat Tab](/guides/chat/), powered by the Nostr protocol, ensuring secure and direct communication.
-
-## Becoming a Flashpoint
-
-If you're a business owner interested in becoming a Flashpoint, check out our [Business Accounts](/business/) page to learn how to get listed on the map and start accepting Bitcoin payments through Flash. You can also join our rewards program to attract more customers and promote your business within the Flash community.
-
-## Privacy and Security Tips
-
-When using the Map Tab and interacting with Flashpoints:
-
--   Always meet for cash exchanges in public, well-lit areas
--   Start with smaller transactions when using a new Flashpoint
--   Check reviews and ratings before large exchanges
--   Use the Chat feature to verify details before visiting
-
-The Flash Map is continuously growing with new Flashpoints being added globally every day. Help build the network by encouraging local businesses to join Flash!
+- Meet in a public place during business hours
+- Start with a small amount at a new Flashpoint
+- Confirm the amount and any charge in chat before you go
