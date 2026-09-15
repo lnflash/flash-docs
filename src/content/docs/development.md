@@ -45,4 +45,4 @@ Get started with the Flash API in minutes:
 For technical support and questions:
 
 - **Documentation**: [docs.flashapp.me](https://docs.flashapp.me)
-- **Email**: [support@flashapp.me](mailto:support@flashapp.me)
+- **Email**: [support@getflash.io](mailto:support@getflash.io)

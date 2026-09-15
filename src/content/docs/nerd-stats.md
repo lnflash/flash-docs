@@ -1,9 +1,9 @@
 ---
 title: Nerd Stats
-description: A hidden technical hub for the building blocks and future ideas behind Flash.
+description: The building blocks and future ideas behind Flash, for readers who want the technical detail.
 ---
 
-This is a hidden builder page. It is not part of the normal user journey.
+This is a builder page: the technology behind Flash, for readers who want the detail. Everyday use is covered by the guides.
 
 ## What’s in Flash’s stack?
 
