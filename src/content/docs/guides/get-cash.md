@@ -1,92 +1,37 @@
 ---
-title: Top up your Flash Wallet
-description: How to top up your Flash wallet from a bank, another wallet, a customer payment, or a Flashpoint.
+title: Get Cash Into Your Flash Wallet
+description: The ways money arrives in your Flash wallet, and which Bitcoin and Lightning wallets around the world can send to it.
 ---
 
-## Overview: Ways to Top up
+There are four ways to get a balance into Flash:
 
-Flash offers multiple ways to top up your Flash wallet. Here's a quick summary of your options:
+1. **Top up** from a card or a bank. See [How to Top Up](/guides/top-up/) for the current methods and limits.
+2. **Receive from another wallet.** Any Lightning or Bitcoin wallet can pay you. Steps below.
+3. **Accept payments** for goods or services with your Paycode or a printed QR code. Steps below.
+4. **In person** at a Flashpoint that exchanges cash. See [How to Top Up](/guides/top-up/#in-person).
 
-1. **Bank Transfer** - Add funds directly from your bank account
-2. **Receive from Another Wallet** - Accept a top up from another Flash wallet, or any Bitcoin or Lightning compatible wallet (e.g., Coinbase, Binance, Blue Wallet, Phoenix, Breez)
-3. **Accept Payments** - Receive payments directly to your Flash wallet for goods or services you provide
-4. **From Exchange Points** - Visit a local Flashpoint to turn physical cash into a balance in your Flash wallet
+---
 
-Choose the method that works best for your situation, or use a combination of these approaches to build your Flash balance.
+## Receive from another wallet
 
-## Detailed Methods
+1. Tap **Receive** on the home screen.
+2. Pick how you want to be paid: **Lightning** (an invoice for a set amount), **Paycode** (your Lightning address, reusable), or **Onchain** (a Bitcoin address). Lightning is the default. Paycode needs a Flash username; the app prompts you to set one if you have not.
+3. Show the QR code to the sender, or tap the request text to copy it. The share icon opens your phone's share sheet.
+4. Lightning payments arrive in seconds. On-chain payments arrive after network confirmations, which can take from minutes to over an hour depending on the network.
 
-### Bank Transfer
+Payments received this way land in your Cash Wallet unless you have enabled the Bitcoin Wallet and chosen it as your default. See [Your Bitcoin Wallet](/guides/bitcoin-wallet/).
 
-Add Cash directly to your Flash wallet from your Jamaican bank account with these steps:
+---
 
-#### Step 1: Initiate a top up in the Flash app
+## Accept payments for goods or services
 
-1. Open your Flash app and log in
-2. Tap the "Top Up" button on the home screen
-3. Enter the amount you wish to transfer
-4. Tap "Confirm" to create a unique reference code for this transfer
-5. Copy the reference code to your clipboard or write it down
-6. Review the bank transfer instructions provided in the app
+- **Paycode.** Tap **Receive** → **Paycode**. It is your Lightning address (`username@flashapp.me`) as a QR code; customers scan it and enter the amount.
+- **Printed QR code.** Settings → *Ways to get paid* → **Printable Static QR Code** opens a printable version you can put at the counter or on an invoice.
+- **Point of sale.** Merchants who take payments all day should use the [Flash POS](/training/flash-pos/) app.
 
-#### Step 2: Set up Flash as a recipient in your bank account (one-time setup)
+---
 
-1. Access your bank's website or mobile app
-2. Enter your credentials to log in to your online banking account
-3. Navigate to the "Transfer" or "Payments" section
-4. Select "Add New Recipient" or "Manage Payees" in your banking portal
-5. Enter Flash's banking details. For security, Flash's bank account information isn't published here — contact [support@flashapp.me](mailto:support@flashapp.me) or visit your nearest Flashpoint to get the current account details (account name, bank, branch, and account number) to add Flash as a recipient.
-
-#### Step 3: Make your transfer
-
-1. Choose "Make a Transfer" or "New Payment" in your banking portal
-2. Select Flash from your list of recipients
-3. Enter the amount you wish to transfer
-4. Choose ACH (for smaller amounts) or RTGS (for larger transfers)
-5. In the reference field, enter the unique reference code you copied earlier
-   _IMPORTANT: This reference code is essential for Flash to credit your account_
-
-#### Step 4: Confirm and wait for funds
-
-1. Review the transfer details and confirm the transaction
-2. You'll receive a confirmation notification from your bank
-3. The funds will appear in your Flash app typically within one hour of Flash receiving them
-4. Transfers are processed same-day if initiated during business hours on weekdays
-5. Weekend transfers will be processed on the next business day
-
-### Receive Cash from Another Wallet
-
-You can receive Cash from any Bitcoin or Lightning wallet worldwide:
-
-1. Open your Flash app and tap the "Receive" button
-2. Choose whether to use your Lightning address or Bitcoin address
-3. Tap "Copy" to copy your address to the clipboard
-4. Share your address with the sender via messaging app, email, etc.
-5. Wait for the Bitcoin to arrive in your wallet as Cash (typically within seconds to minutes)
-
-For in-person transfers, have the sender scan your QR code directly from your screen for instant transfers.
-
-### Accept Cash for Goods or Services
-
-As a business owner or freelancer, you can easily accept Flash payments:
-
-1. Set up a Flash account with your business details
-2. Generate a payment request for the specific amount due
-3. Have customers scan your QR code or send to your Lightning address
-4. Receive instant confirmation when payment is complete
-
-For frequent payments, consider printing out dedicated QR codes for specific products or services. You can find the dedicated QR code in the settings of your Flash app under "Printable Static QR Code".
-
-### Top up from exchange points (Flashpoints)
-
-If you prefer starting with physical cash, you can use exchange points:
-
-1. Locate a Flashpoint on the "Map" tab in your app
-2. Visit the location with your physical cash
-3. Follow the exchange point's process to convert to Bitcoin in your wallet
-4. Confirm the funds appear in your Flash wallet
-
-## Bitcoin and Lightning Wallets by Country
+## Bitcoin and Lightning wallets by country
 
 Flash interoperates with a wide range of Bitcoin wallets worldwide. Here's a country-by-country breakdown of compatible wallets.
 
@@ -132,9 +77,10 @@ These wallets are available worldwide and can send Bitcoin that arrives as Cash 
 
 -   [Pouch Wallet](https://pouch.ph) - A mobile wallet for iOS and Android, available in the Philippines
 
+---
+
 ## Next Steps
 
-Now that you have Cash in your Flash wallet, explore what you can do with it:
-
--   [How to Cash Out](/guides/cash-out/) - Send your Cash Wallet balance to your bank account
--   [Sweep to Cold Storage](/guides/sweep-to-cold-storage/) - Secure your Bitcoin by moving it to a hardware wallet
+-   [How to Top Up](/guides/top-up/) - Card, bank, and in-person methods
+-   [How to Cash Out](/guides/cash-out/) - Settle your Cash Wallet balance to a bank account
+-   [Sweep sats to a self-custody wallet](/guides/sweep-to-self-custody/) - Move Bitcoin you want to hold long term out of Flash
