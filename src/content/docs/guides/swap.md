@@ -1,64 +1,48 @@
 ---
 title: Swap Between Wallets
-description: Move value between your Cash Wallet and Bitcoin Wallet in a few taps.
+description: Move value between your Cash Wallet and your Bitcoin Wallet inside the Flash app. Available once Advanced Mode is on.
 ---
 
-## What is Swap?
+## What Swap is
 
-Swap lets you move value between your **Cash Wallet** and **Bitcoin Wallet** inside the Flash app.
+Swap converts value between your **Cash Wallet** (dollars, held by Flash) and your **Bitcoin Wallet** (sats, held by you). It is a conversion between your own two accounts, not a payment to anyone.
 
 Use it when you want to:
-- Move from USD to Bitcoin
-- Move from Bitcoin back to USD
-- Keep your money in the wallet that matches how you want to use it
+- Move dollars into Bitcoin to hold
+- Move Bitcoin back into dollars to spend or cash out
 
 ---
 
-## How Swap Works
+## Before you swap
 
-Flash shows you the sending account, the receiving account, the amount you are converting, the conversion fee, and the exchange rate before you confirm.
+Swap only appears once the Bitcoin Wallet is enabled: turn on Advanced Mode from the **Enable BTC wallet** card on Home or Settings → **Enable Bitcoin Account (Advanced Mode)**. See [Managing Your Bitcoin](/manage-your-sats/).
 
-### Example
-
-- Swap from **Cash Wallet** to **Bitcoin Wallet**
-- Or swap from **Bitcoin Wallet** to **Cash Wallet**
-
-The app calculates the conversion in real time so you can see what you will send and what you will receive before you confirm.
-
----
-
-## Before You Swap
-
-Make sure you understand the difference between your wallets:
-
+Know which balance is which:
 - **Cash Wallet** = USD, shown in your local currency
 - **Bitcoin Wallet** = BTC / sats
-
-If you want a refresher, see:
-- [Cash Wallet](/guides/cash-wallet/)
-- [Bitcoin Wallet](/guides/bitcoin-wallet/)
 
 ---
 
 ## Steps
 
-1. Open the Flash app
-2. Tap **Swap**
-3. Choose which wallet you are sending from and which wallet you are receiving into
-4. Enter the amount
-5. Review the conversion fee and exchange rate
-6. Tap **Confirm**
+1. On the home screen tap **Swap**.
+2. Choose the direction: Cash to Bitcoin, or Bitcoin to Cash.
+3. Enter the amount, or use the percentage buttons (*% to convert*).
+4. Tap **Next**.
+5. Review the conversion: what you send, what you receive, the rate, and any fee.
+6. Tap **Convert**.
+
+The receiving balance updates once the conversion settles; Bitcoin-side conversions can take up to a minute to confirm.
 
 ---
 
-## Important Notes
+## Important notes
 
-- Swap is a conversion between your own Flash wallets
-- It is not the same as **Top Up** or **Cash Out**
-- If you want to add cash from a bank or remove cash to a bank, use the Top Up or Cash Out guides
+- Swap is not **Transfer**. Transfer (Top Up and Settle) moves money between Flash and your bank; Swap moves it between your two Flash balances. See [How to Top Up](/guides/top-up/) and [How to Cash Out](/guides/cash-out/).
+- Bitcoin you swap into the Bitcoin Wallet is now in a self-custodial wallet. Back up the recovery phrase before you rely on it.
 
 ---
 
 ## Need Help?
 
-Contact Flash support via the app.
+Settings → **Need help? Contact us.**, or email support@getflash.io.

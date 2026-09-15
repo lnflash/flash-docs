@@ -5,7 +5,7 @@ description: Take full control of your Bitcoin by moving funds from Flash to a s
 
 ## Who is this guide for?
 
-If you're using Flash to receive and store Bitcoin, you're currently using a custodial lightning wallet. While convenient for daily transactions, keeping all your Bitcoin in a custodial solution isn't ideal for long-term storage.
+Flash has two balances. The Cash Wallet is custodial: Flash holds it for you. The Bitcoin Wallet, once you enable it, is already self-custodial, with the keys as a recovery phrase on your phone. Either way, a phone wallet is for spending; for long-term savings you want a wallet built for cold storage. See [Managing Your Bitcoin](/manage-your-sats/) for how the two balances differ.
 
 This guide is for anyone who:
 - Has accumulated Bitcoin in their Flash wallet
@@ -55,13 +55,12 @@ Flash allows direct withdrawals to on-chain Bitcoin addresses:
    - In your new wallet, find the "Receive" section
    - Copy your Bitcoin address (starts with "bc1" or "3" or "1")
 
-4. **Withdraw from Flash**
-   - Open Flash and go to the Wallet tab
-   - Tap "Send" or "Withdraw"
-   - Select "On-chain withdrawal"
-   - Paste your Bitcoin address
-   - Enter the amount (consider starting with a small test amount)
-   - Confirm the withdrawal
+4. **Send from Flash**
+   - On the home screen tap **Send**
+   - If you have Advanced Mode on, pick the account to send from (**Bitcoin Account** for sats you hold, **Cash Account** for dollars you want converted on the way out)
+   - Paste your Bitcoin address; the app recognises it as an on-chain destination
+   - Enter the amount and start with a small test amount. From the Bitcoin Account the minimum is 5,500 sats and you choose a **Fast**, **Medium**, or **Slow** fee; from the Cash Account Flash sets the fee and shows it on the confirmation screen
+   - Tap **Next**, review, and tap **Confirm payment**. Full steps: [Sending Bitcoin in Flash](/send-bitcoin/)
 
 5. **Verify receipt**
    - On-chain transactions typically take 10-60 minutes to confirm
@@ -76,8 +75,8 @@ Flash's peer-to-peer network enables in-person exchanges:
 
 2. **Find an Exchange Point**
    - Open Flash and go to the Map tab
-   - Look for Exchange Points in your area (orange pins)
-   - Alternatively, use the Flash Support chat to find remote exchange partners
+   - Tap a pin; merchants that exchange cash show the **Cash** badge under *Available Services* (all pins are the same colour)
+   - Alternatively, ask in the Flash support group chat for exchange partners
 
 3. **Arrange the exchange**
    - Contact the Exchange Point through Flash Chat
@@ -148,7 +147,7 @@ Flash primarily uses Lightning for its payments, giving you the speed and low co
 
 ### Custodial vs Self-Custodial
 
-- **Custodial solutions** (like Flash's default wallet):
+- **Custodial solutions** (like Flash's Cash Wallet):
   - A third party holds your private keys
   - Simple and convenient
   - No technical knowledge required

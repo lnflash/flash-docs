@@ -161,28 +161,7 @@ wallet:
 
 ### From Flash Wallet
 
-1. **Open Flash App**
-   - Go to the "Wallet" tab
-   - Ensure you have sufficient balance
-2. **Initiate Transfer**
-   - Tap "Send" or "Withdraw"
-   - Select "On-chain withdrawal"
-   - Note that on-chain withdrawals have higher fees than Lightning
-3. **Enter Details**
-   - Paste your hardware wallet's receive address
-   - Double-check the address is correct (first and last few characters)
-   - Start with a small test amount (e.g., 0.0001 BTC or 10,000 sats)
-   - Enter an amount that's high enough to cover network fees
-4. **Review and Confirm**
-   - Check the withdrawal fee (higher fees confirm faster)
-   - Prioritize security over saving on fees for cold storage transfers
-   - Verify all details are correct one final time
-   - Tap "Confirm" to initiate the transfer
-5. **Initial Test Verification**
-   - Wait for the test transaction to confirm (10-60 minutes)
-   - View the transaction status in the Flash app
-   - Verify receipt on your hardware wallet
-   - Once confirmed, proceed with transferring larger amounts
+The Flash-side steps are in [Sweep sats to a self-custody wallet](/guides/sweep-to-self-custody/#method-1-direct-on-chain-withdrawal-recommended-for-beginners). In short: **Send** on the home screen, pick the account if Advanced Mode is on, paste the hardware wallet's verified receive address, start with a small test amount, and tap **Next** then **Confirm payment**. From the Bitcoin Account you choose a Fast, Medium, or Slow fee; from the Cash Account Flash sets it. Wait for the test to confirm on the hardware wallet before sending the rest.
 
 ### From Other Mobile Wallets
 
@@ -203,7 +182,7 @@ wallet:
 4. **Send Test Transaction**
    - Start with a minimal amount (0.0001 BTC or equivalent)
    - Review all details before confirming
-   - Confirm the transaction in your wallet
+   - Confirm the transaction in your wallet (in Flash the button is **Confirm payment**)
    - Record the transaction ID/hash for reference
 5. **Complete the Transfer**
    - After confirming receipt of test transaction

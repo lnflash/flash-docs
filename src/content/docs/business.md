@@ -1,47 +1,45 @@
 ---
 title: Flash Business Accounts
-description: Accept Flash payments, manage your business finances, and join the global network of Flash-enabled merchants
+description: Accept Flash payments, get listed as a Flashpoint on the map, and take payments at the counter with Flash POS.
 ---
 
-Flash Business Accounts enable merchants and business owners to accept Flash payments, manage finances, and connect with Flash users worldwide.
+A Flash Business account lets a merchant accept Flash payments, appear on the Flash Map as a Flashpoint, and run the [Flash POS](/training/flash-pos/) app at the counter.
 
-## Key Benefits
+## Key benefits
 
-### Global, Borderless Payments
+### Payments without the card network
 
--   Accept payments from anywhere instantly
--   Avoid high credit card processing fees
--   Eliminate chargebacks and payment disputes
--   Receive funds directly without intermediaries
+-   Accept payments from any Flash user, any Lightning wallet, or a Bitcoin address
+-   No chargebacks: Lightning and Bitcoin payments are final
+-   Receive funds directly to your Flash account
 
-### Enhanced Local Commerce
+### Local discovery
 
--   Get listed on the Flash Map for local discovery
--   Enable cash exchange services to attract foot traffic
--   Join a community of Flash-friendly businesses
+-   Get listed as a Flashpoint on the Flash Map, with badges for Flash Pay, Cash exchange, and Rewards
+-   Customers can get directions, pay you, and chat with you from your map card
 
-### Financial Flexibility
+### Getting paid out
 
--   Hold funds in Flash to protect against inflation
--   Instantly convert to local currency when needed
--   Set custom exchange rates and fees
--   Reduce banking dependencies
+-   Settle your Cash balance to a Jamaican bank account, or to a US account where the international option is enabled. See [How to Cash Out](/guides/cash-out/)
+-   Optional Flashcard rewards for customers, configured in Flash POS
 
-## Business Account Verification
+## Setting up a Business account
 
-To set up a Flash Business Account:
-
-1. **Download Flash**: Get the app from your device's app store
-2. **Register**: Select "Upgrade Account" after pressing start
-3. **Complete KYC**: Select merchant account, and provide business information including:
+1. **Download Flash** and create an account.
+2. **Verify** your account: Home → **Upgrade your account** → **Verify your account**.
+3. In the same *Do more with Flash* hub, under *Grow*, tap **Business** and provide:
     - Business name
-    - Business address verification
-    - Banking Information
-    - Owner identification
-4. **Map Listing**: Your verified business will be added to the Flash Map
+    - Business address (picked from the map search)
+    - Your ID
+    - Bank name, branch, account type, currency, and account number
+4. Submit. The app confirms "Your business upgrade request has been submitted for review." You can also tick **Do you want a Flash terminal?** in the Bank cash-out step if you want a POS device.
 
-The verification process typically takes 0-2 business days after all required information is approved.
+Full steps: [How to Upgrade Your Account](/guides/upgrade-account/#business).
 
-## Want to Learn More?
+## Getting on the map
 
-Ready to transform your business as a Flashpoint? [Sign up online using this link](https://flash-merchant-signup-ov4yh.ondigitalocean.app/form) or contact us at [support@flashapp.me](mailto:support@flashapp.me) and we'll help you get started!
+Once approved, add your pin: open the **Map** tab, tap the add button, tap your location, and confirm **Add Flashpoint**. The app says the pin request is processed within 24 hours. See [Discover Local Merchants using the Map Tab](/guides/map/).
+
+## Want to learn more?
+
+Contact support from the app (Settings → **Need help? Contact us.**) or email support@getflash.io and we'll help you get started.
