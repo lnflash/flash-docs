@@ -31,7 +31,7 @@ Non-custodial wallets come in various forms, each with different security and co
 Perfect for everyday use with smaller amounts of Bitcoin. These wallets run on your smartphone, making your Bitcoin accessible wherever you go.
 
 **Popular options:**
-- [Flash Non-Custodial Wallet](https://getflash.io/) - Our recommended option with seamless integration with Flash's custodial services
+- [Flash Bitcoin Wallet](/guides/bitcoin-wallet/) - Built into the Flash app; enable it with **Enable BTC wallet** or Settings → **Enable Bitcoin Account (Advanced Mode)**. Non-custodial, backed up by a 12-word recovery phrase, next to your custodial Cash Wallet
 - [Blue Wallet](https://bluewallet.io/) - Feature-rich with both Lightning and on-chain support
 - [Phoenix](https://phoenix.acinq.co/) - Lightning-focused with simplified channel management
 
@@ -65,7 +65,7 @@ The most basic form of cold storage, where private keys are printed on paper and
 
 The best wallet depends on your specific needs:
 
-- **For beginners**: Start with Flash's non-custodial wallet for a seamless experience
+- **For beginners**: Start with the Bitcoin Wallet inside the Flash app
 - **For everyday spending**: Mobile wallets offer convenience for daily transactions
 - **For larger amounts**: Hardware wallets like Bitkey provide the best security for savings
 - **For privacy concerns**: Wallets like Sparrow offer enhanced privacy features
@@ -91,14 +91,14 @@ When using non-custodial wallets, follow these security practices:
 
 Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
 
-1. **Start with Flash Custodial**
-   - Your initial Flash wallet is custodial for simplicity and ease of use
+1. **Start with the Cash Wallet**
+   - Your Cash Wallet is custodial: Flash holds the dollar balance for you
    - Perfect for beginners and everyday transactions
 
-2. **Move to Flash Non-Custodial Wallet**
-   - Within the Flash app, use the swap function to move funds to your non-custodial wallet
-   - This gives you direct control of your private keys while maintaining the Flash experience
-   - You now have self-custody while still enjoying Lightning and on-chain functionality
+2. **Enable the Bitcoin Wallet**
+   - Turn on Advanced Mode and back up the 12-word recovery phrase; see [Managing Your Bitcoin](/manage-your-sats/)
+   - Use **Swap** to move value from the Cash Wallet into the Bitcoin Wallet
+   - You now hold those keys yourself while keeping Lightning and on-chain in the same app
 
 3. **Upgrade to a Hardware Wallet for Large Amounts**
    - For significant savings, consider moving to a hardware wallet like Bitkey
@@ -120,4 +120,4 @@ Flash offers a seamless journey from custodial to non-custodial Bitcoin storage:
 
 This tiered approach gives you progressively more security and control as your Bitcoin holdings grow, while starting with the familiar Flash interface.
 
-For detailed instructions on the first step of moving your Bitcoin from the Flash custodial wallet to cold storage, see our [Sweep to Cold Storage](/guides/sweep-to-cold-storage/) guide.
+For step-by-step instructions on moving Bitcoin out of Flash, see [Sweep sats to a self-custody wallet](/guides/sweep-to-self-custody/); for hardware-wallet setup, see [Sweep to Cold Storage](/guides/sweep-to-cold-storage/).
