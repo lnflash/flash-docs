@@ -7,19 +7,6 @@ This guide provides step-by-step instructions for securing your Bitcoin in cold
 storage using hardware wallets. Follow these detailed steps to ensure your
 Bitcoin is safely transferred from mobile wallets to long-term secure storage.
 
-## Table of Contents
-
-- [Understanding Cold Storage](#understanding-cold-storage)
-- [Preparing for the Transfer](#preparing-for-the-transfer)
-- [Setting Up Your Hardware Wallet](#setting-up-your-hardware-wallet)
-- [Transferring Bitcoin from Mobile Wallets](#transferring-bitcoin-from-mobile-wallets)
-  - [From Flash Wallet](#from-flash-wallet)
-  - [From Other Mobile Wallets](#from-other-mobile-wallets)
-- [Verifying Your Transfer](#verifying-your-transfer)
-- [Best Practices for Cold Storage](#best-practices-for-cold-storage)
-- [Recovery and Backup Procedures](#recovery-and-backup-procedures)
-- [Advanced Cold Storage Options](#advanced-cold-storage-options)
-
 ## Understanding Cold Storage
 
 Cold storage refers to keeping your Bitcoin private keys offline on a dedicated
@@ -177,7 +164,6 @@ wallet:
 1. **Open Flash App**
    - Go to the "Wallet" tab
    - Ensure you have sufficient balance
-   - Check that your Lightning channels have enough outbound capacity
 2. **Initiate Transfer**
    - Tap "Send" or "Withdraw"
    - Select "On-chain withdrawal"
@@ -303,7 +289,7 @@ For users seeking maximum security:
    - Require multiple devices to approve transactions
    - Distribute risk across different security models
    - Popular options: [Sparrow Wallet](https://sparrowwallet.com/) multisig,
-     [Caravan](https://unchained.com/caravan/)
+     [Caravan](https://www.caravanmultisig.com/)
 
 2. **Air-Gapped Operations**
    - Keep signing device completely offline

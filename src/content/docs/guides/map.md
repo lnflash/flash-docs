@@ -1,16 +1,16 @@
 ---
 title: Discover Local Merchants using the Map Tab
-description: A comprehensive guide to using the Flash Map Tab to find businesses that accept bitcoin and exchange cash
+description: A comprehensive guide to using the Flash Map Tab to find businesses that accept Bitcoin and exchange cash
 ---
 
 ## What is the Map Tab?
 
-The Map Tab is a powerful feature in Flash that helps you discover local businesses and individuals accepting bitcoin payments through Flash. This interactive map shows "Flashpoints" in your area, creating a global network of bitcoin-friendly locations where you can:
+The Map Tab is a powerful feature in Flash that helps you discover local businesses and individuals accepting Bitcoin payments through Flash. This interactive map shows "Flashpoints" in your area, creating a global network of Bitcoin-friendly locations where you can:
 
--   Spend your bitcoin at local businesses
--   Exchange bitcoin for physical cash
+-   Spend your Bitcoin at local businesses
+-   Exchange Bitcoin for physical cash
 -   Find Flash community members near you
--   Support the growing bitcoin economy
+-   Support the growing Bitcoin economy
 
 ## What is a Flashpoint?
 
@@ -20,9 +20,9 @@ A Flashpoint is a local business or individual accepting Flash payments for good
 
 Flashpoints come in several categories:
 
--   **Merchants** - Businesses accepting bitcoin payments for goods and services
--   **Exchanges** - Locations where you can exchange bitcoin for physical cash or vice versa
--   **Community Hubs** - Places where Flash and bitcoin enthusiasts gather
+-   **Merchants** - Businesses accepting Bitcoin payments for goods and services
+-   **Exchanges** - Locations where you can exchange Bitcoin for physical cash or vice versa
+-   **Community Hubs** - Places where Flash and Bitcoin enthusiasts gather
 -   **Rewards** - Locations offering special promotions or discounts for Flash users
 
 ## Using the Map Tab
@@ -74,14 +74,14 @@ The details panel shows:
 You can pay a business directly from the Map Tab:
 
 1. Tap on the business's Flashpoint
-2. Select "Pay Business" from the action buttons
+2. Select **Pay this Business** from the action buttons
 3. Enter the amount and complete the payment
 
 Some businesses also offer online ordering or reservation options directly through the map interface.
 
 ### Exchange Services
 
-Many Flashpoints offer exchange services, allowing you to convert your bitcoin to physical cash. The process typically works like this:
+Many Flashpoints offer exchange services, allowing you to convert your Bitcoin to physical cash. The process typically works like this:
 
 1. Find a Flashpoint offering exchange
 2. Initiate the exchange request through the app
@@ -96,11 +96,11 @@ Need to ask questions before visiting a Flashpoint? You can connect with busines
 2. Select the "Chat" button
 3. Start a conversation with the business owner
 
-This feature leverages the Flash [Chat Tab](/guides/chat/), powered by the NOSTR protocol, ensuring secure and direct communication.
+This feature leverages the Flash [Chat Tab](/guides/chat/), powered by the Nostr protocol, ensuring secure and direct communication.
 
 ## Becoming a Flashpoint
 
-If you're a business owner interested in becoming a Flashpoint, check out our [Business Accounts](/business/) page to learn how to get listed on the map and start accepting bitcoin payments through Flash. You can also join our rewards program to attract more customers and promote your business within the Flash community.
+If you're a business owner interested in becoming a Flashpoint, check out our [Business Accounts](/business/) page to learn how to get listed on the map and start accepting Bitcoin payments through Flash. You can also join our rewards program to attract more customers and promote your business within the Flash community.
 
 ## Privacy and Security Tips
 

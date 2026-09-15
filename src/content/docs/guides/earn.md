@@ -35,7 +35,7 @@ shoppers looking for forward-thinking businesses.
 ## Next steps
 
 Now you know the many ways to earn Flash, it is important to understand how to
-keep your bitcoin safe. Here are a few guides that will help you do that:
+keep your Bitcoin safe. Here are a few guides that will help you do that:
 
--   [How to Store Your Cash in Cold Storage](/guides/sweep-to-cold-storage/)
--   [Learn more about the Bitcoin protocol and the lightning network](/bitcoin-protocol/)
+-   [Sweep to Cold Storage](/guides/sweep-to-cold-storage/)
+-   [Learn more about the Bitcoin protocol](/Bitcoin-protocol/) and [the Lightning Network](/lightning-network/)

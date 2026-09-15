@@ -3,8 +3,6 @@ title: Flash POS Training
 description: Learn the current Flash POS flow for merchants on mobile, iOS, and rewards.
 ---
 
-## Flash POS Training
-
 Flash POS is the merchant experience for accepting Flash payments in person.
 
 ## What merchants can do

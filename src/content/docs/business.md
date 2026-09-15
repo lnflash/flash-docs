@@ -1,11 +1,9 @@
 ---
 title: Flash Business Accounts
-description: Accept Flashpoint payments, manage your business finances, and join the global network of Flash-enabled merchants
+description: Accept Flash payments, manage your business finances, and join the global network of Flash-enabled merchants
 ---
 
-## Flash Business Accounts
-
-Flash Business Accounts enable merchants and business owners to accept Flashpoint payments, manage finances, and connect with Flashpoint users worldwide.
+Flash Business Accounts enable merchants and business owners to accept Flash payments, manage finances, and connect with Flash users worldwide.
 
 ## Key Benefits
 
@@ -20,11 +18,11 @@ Flash Business Accounts enable merchants and business owners to accept Flashpoin
 
 -   Get listed on the Flash Map for local discovery
 -   Enable cash exchange services to attract foot traffic
--   Join a community of Flashpoint-friendly businesses
+-   Join a community of Flash-friendly businesses
 
 ### Financial Flexibility
 
--   Hold funds in Flashpoint to protect against inflation
+-   Hold funds in Flash to protect against inflation
 -   Instantly convert to local currency when needed
 -   Set custom exchange rates and fees
 -   Reduce banking dependencies
@@ -46,4 +44,4 @@ The verification process typically takes 0-2 business days after all required in
 
 ## Want to Learn More?
 
-Ready to transform your business as a Flashpoint? [Signup online using this link](https://flash-merchant-signup-ov4yh.ondigitalocean.app/form) or contact us at [support@flashapp.me](mailto:support@flashapp.me) and we'll help you get started!
+Ready to transform your business as a Flashpoint? [Sign up online using this link](https://flash-merchant-signup-ov4yh.ondigitalocean.app/form) or contact us at [support@flashapp.me](mailto:support@flashapp.me) and we'll help you get started!

@@ -1,16 +1,16 @@
 ---
 title: How to Upgrade Your Account
-description: Unlock higher limits and features like cashout by upgrading your Flash account.
+description: Unlock higher limits and features like cash-out by upgrading your Flash account.
 ---
 
-Flash has four account levels. Upgrading unlocks higher limits and additional features like cashout and merchant tools.
+Flash has four account levels. Upgrading unlocks higher limits and additional features like cash-out and merchant tools.
 
 | Level | Name | Features |
 |-------|------|----------|
 | L0 | Trial | Basic wallet, send/receive Bitcoin |
 | L1 | Personal | Phone-verified, higher limits |
-| L2 | Pro | Cashout to bank, buy/sell Bitcoin |
-| L3 | Merchant | All Pro features + merchant tools, lower cashout fee |
+| L2 | Pro | Cash out to bank, buy/sell Bitcoin |
+| L3 | Merchant | All Pro features + merchant tools, lower cash-out fee |
 
 ---
 

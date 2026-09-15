@@ -1,6 +1,6 @@
 ---
 title: Flash Infrastructure
-description: Learn about the technical architecture powering Flash's Bitcoin, Lightning, and NOSTR capabilities
+description: Learn about the technical architecture powering Flash's Bitcoin, Lightning, and Nostr capabilities
 ---
 
 ## How Flash Works Under the Hood
@@ -27,9 +27,9 @@ Flash uses [LND](https://github.com/lightningnetwork/lnd) for Lightning function
 
 Enabling instant payments, sub-cent micropayments, and cross-border transactions.
 
-### 3. NOSTR Protocol Integration
+### 3. Nostr Protocol Integration
 
-Flash incorporates NOSTR via:
+Flash incorporates Nostr via:
 - **Multiple relay connections** for censorship resistance
 - **Client-side key management** for identity control
 - **End-to-end encryption** for private messages
@@ -56,11 +56,11 @@ Flash's architecture is designed for reliability, scalability, and security with
 
 ### Server Components
 - API Layer, Authentication Service, Lightning Service
-- Bitcoin Service, NOSTR Relay, eCash Mint
+- Bitcoin Service, Nostr Relay, eCash Mint
 - Database Cluster, Analytics Engine, BTCPay Server
 
 ### Client Components
-- Secure Key Storage, Local Database, NOSTR Client
+- Secure Key Storage, Local Database, Nostr Client
 - Backup Systems, Payment Logic
 
 ## Security Model
@@ -75,15 +75,15 @@ Flash employs multiple security layers:
 
 Flash builds upon and contributes to:
 - [LND](https://github.com/lightningnetwork/lnd) - Lightning Network implementation
-- [Galoy](https://github.com/GaloyMoney/galoy) - Bitcoin banking infrastructure
-- [NOSTR](https://github.com/nostr-protocol/nostr) - Decentralized social protocol
-- [Breez SDK](https://github.com/breez/breez-sdk) - Lightning SDK components
+- [Galoy](https://github.com/GaloyMoney/blink) - Bitcoin banking infrastructure
+- [Nostr](https://github.com/nostr-protocol/nostr) - Decentralized social protocol
+- [Breez SDK](https://github.com/breez/spark-sdk) - Lightning SDK components
 - [Cashu](https://github.com/cashubtc/cashu) - eCash implementation
 - [BTCPay Server](https://github.com/btcpayserver/btcpayserver) - Self-hosted payment processor
 
 ## Developer Resources
 
-- [API Documentation](https://docs.flashapp.me/api)
+- [API Documentation](https://docs.flashapp.me)
 - [GitHub Repositories](https://github.com/LNFlash)
 - [Developer Discord](https://discord.gg/flashbitcoin)
 - [Technical Blog](https://blog.flashapp.me/tech)

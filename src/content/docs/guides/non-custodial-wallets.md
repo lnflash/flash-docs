@@ -31,7 +31,7 @@ Non-custodial wallets come in various forms, each with different security and co
 Perfect for everyday use with smaller amounts of Bitcoin. These wallets run on your smartphone, making your Bitcoin accessible wherever you go.
 
 **Popular options:**
-- [Flash Non-Custodial Wallet](https://flashapp.me/) - Our recommended option with seamless integration with Flash's custodial services
+- [Flash Non-Custodial Wallet](https://getflash.io/) - Our recommended option with seamless integration with Flash's custodial services
 - [Blue Wallet](https://bluewallet.io/) - Feature-rich with both Lightning and on-chain support
 - [Phoenix](https://phoenix.acinq.co/) - Lightning-focused with simplified channel management
 
@@ -40,7 +40,7 @@ Perfect for everyday use with smaller amounts of Bitcoin. These wallets run on y
 More robust options that run on your computer, offering better security and features than mobile wallets.
 
 **Popular options:**
-- [BlueWallet](https://bluewallet.io/desktop/) - Desktop version of the popular mobile wallet
+- [BlueWallet](https://bluewallet.io/) - Desktop version of the popular mobile wallet
 - [Sparrow Wallet](https://sparrowwallet.com/) - Privacy-focused with coin control features
 - [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) - The reference implementation that runs a full node
 

@@ -94,8 +94,8 @@ Developers interested in Galoy can contribute in several ways:
 
 ### For Developers
 
-- **GitHub**: Explore and contribute to the [Galoy codebase](https://github.com/GaloyMoney/galoy)
-- **Development Documentation**: Get started with the [developer docs](https://dev.galoy.io)
+- **GitHub**: Explore and contribute to the [Galoy codebase](https://github.com/GaloyMoney/blink)
+- **Development Documentation**: Get started with the [Blink repository](https://github.com/GaloyMoney/blink)
 - **Community Chat**: Join discussions on [Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA)
 
 ### For Businesses
@@ -117,8 +117,7 @@ The Galoy project continues to evolve with features that will benefit Flash user
 ## Resources
 
 - [Galoy Website](https://galoy.io)
-- [GitHub Repository](https://github.com/GaloyMoney/galoy)
-- [Documentation](https://dev.galoy.io)
+- [GitHub Repository](https://github.com/GaloyMoney/blink)
 - [Twitter](https://twitter.com/GaloyMoney)
 
 As Flash continues to grow, its foundation on Galoy's open-source infrastructure ensures that it remains at the cutting edge of Bitcoin financial technology while maintaining the security and reliability that users expect.

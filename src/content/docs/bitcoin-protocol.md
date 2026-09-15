@@ -122,13 +122,13 @@ Unlike government currencies with flexible supply, Bitcoin follows a fixed, pred
 
 - **Initial Reward**: 50 bitcoins per block (2009-2012)
 - **Halving Events**: Reward cuts in half approximately every four years
-- **Current Reward**: 6.25 bitcoins per block (as of 2023)
+- **Current Reward**: 3.125 bitcoins per block (since the April 2024 halving)
 - **Final Issuance**: Around year 2140 when all 21 million bitcoins are mined
 
 ### Supply Schedule
 
-- **Current Supply**: ~19 million bitcoins in circulation
-- **Remaining Supply**: ~2 million bitcoins yet to be issued
+- **Current Supply**: about 95% of all bitcoins have already been issued
+- **Remaining Supply**: the last ~5% will be issued over the next century
 - **Lost Coins**: An estimated 3-4 million bitcoins permanently inaccessible
 - **Effective Supply**: Decreasing over time due to loss and increasing demand
 
@@ -221,6 +221,6 @@ To deepen your understanding of Bitcoin:
 
 - [Bitcoin Magazine](https://bitcoinmagazine.com): News and analysis
 - [Andreas Antonopoulos](https://www.youtube.com/user/aantonop): Educational videos
-- [Flash Learning Resources](https://docs.flashapp.me/learn): Our own educational materials
+- [The Lightning Network](/lightning-network/): How Flash makes Bitcoin instant
 
 The Bitcoin protocol represents one of the most significant technological innovations of the 21st century. As money built for the digital age, it enables Flash to provide financial services that are open, borderless, and accessible to everyone. While the technology is complex, Flash makes Bitcoin simple enough for anyone to use in their daily lives.

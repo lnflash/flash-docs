@@ -3,8 +3,6 @@ title: Mobile App Training
 description: Learn the current Flash app flow, from setup to wallets, swap, top up, and cash out.
 ---
 
-## Flash Mobile App Training
-
 This page is a quick overview of the current Flash app for new users.
 
 ## What users can do in the app

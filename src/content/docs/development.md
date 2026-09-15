@@ -5,46 +5,44 @@ description: Resources and documentation for developers looking to integrate wit
 
 ## API Documentation
 
-Our comprehensive API documentation is available at:
+Flash exposes a single GraphQL API. Everything the Flash apps do is available to you through it.
 
 ### 🚀 Flash API Documentation
 
-Access our full API reference, integration guides, and code examples.
+Access the full API reference, integration guides, and code examples.
 
 [Visit API Documentation](https://docs.flashapp.me)
 
 ### What You'll Find
 
-At our API documentation portal, you'll discover:
+At the API documentation portal, you'll find:
 
-- **RESTful API Reference**: Complete endpoint documentation with request/response examples
-- **Authentication Guide**: Secure API key management and OAuth implementation
-- **SDKs & Libraries**: Official client libraries for popular programming languages
-- **Integration Tutorials**: Step-by-step guides for common use cases
-- **Webhook Events**: Real-time notifications for payment and transaction events
-- **Testing Environment**: Sandbox access for development and testing
+- **GraphQL Reference**: Every query, mutation, subscription, and type, generated from the live schema
+- **Authentication Guide**: Phone-number login that returns a session token for apps acting on behalf of a user
+- **API Keys**: Long-lived, scoped keys for server-to-server integrations
+- **Examples**: Copy-and-paste queries and mutations with sample responses
+- **Error Handling**: How the API reports errors
+- **Testing Environment**: A test endpoint you can use while you build
 
 ### Quick Start
 
 Get started with the Flash API in minutes:
 
-1. **Sign up** for a developer account at [docs.flashapp.me](https://docs.flashapp.me)
-2. **Generate** your API credentials
-3. **Explore** our interactive API explorer
-4. **Build** your integration using our SDKs
+1. **Create** a Flash account in the app
+2. **Authenticate** with your phone number to get a session token, or create an API key from that session
+3. **Explore** the API against the test endpoint
+4. **Build** your integration following the guides
 
 ### Popular Integration Scenarios
 
-- **E-commerce**: Accept bitcoin payments in your online store
-- **Point of Sale**: Process in-person payments with Flashpoint devices
-- **Payroll**: Automate bitcoin salary payments
-- **Exchanges**: Integrate Flash for liquidity and settlement
-- **Apps**: Add bitcoin functionality to your mobile or web application
+- **E-commerce**: Accept Bitcoin payments in your online store
+- **Point of Sale**: Process in-person payments
+- **Payroll**: Automate Bitcoin salary payments
+- **Apps**: Add Bitcoin functionality to your mobile or web application
 
 ### Developer Support
 
 For technical support and questions:
 
 - **Documentation**: [docs.flashapp.me](https://docs.flashapp.me)
-- **Email**: [development@flashapp.me](mailto:development@flashapp.me)
-- **Community**: Join our developer community for discussions and updates
+- **Email**: [support@flashapp.me](mailto:support@flashapp.me)

@@ -6,7 +6,7 @@ description: Cash out your Flash balance to your Jamaican bank account.
 Cash out your Flash balance to your bank account. This guide covers both Pro and Merchant accounts.
 
 :::note
-This process currently requires contacting support. Automated cashout is coming soon.
+This process currently requires contacting support. Automated cash-out is coming soon.
 :::
 
 ---
@@ -67,9 +67,3 @@ Fees are deducted from the amount transferred to your bank.
 ## Need Help?
 
 Contact Flash support via the app.
-
----
-
-:::note[Coming soon]
-Automated cashout — complete the process in seconds without contacting support.
-:::

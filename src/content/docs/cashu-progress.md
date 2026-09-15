@@ -3,8 +3,6 @@ title: Cashu NFC Cards Progress
 description: Current progress on Cashu NFC cards and the NUT-XX work behind them.
 ---
 
-## Cashu NFC Cards Progress
-
 This page tracks the work behind Flash’s future Cashu NFC card experience.
 
 It is **not** the Cash Wallet. The Cash Wallet is Flash’s current IBEX USD wallet.

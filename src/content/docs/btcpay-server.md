@@ -3,8 +3,6 @@ title: BTCPay Server (Legacy)
 description: Legacy notes about Flash's old BTCPay integration.
 ---
 
-## BTCPay Server
-
 Flash used to rely on BTCPay Server for some payment flows.
 
 That integration is now legacy. If you are looking for today's user flows, see:

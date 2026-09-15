@@ -3,16 +3,7 @@ title: Managing Your Contacts in Flash
 description: Learn how to access, add, and interact with contacts in the Flash app
 ---
 
-This guide provides a complete overview of Flash's Contacts feature, explaining how to find, add, and interact with your contacts for messaging and bitcoin payments.
-
-## Table of Contents
-
--   [Accessing Your Contacts](#accessing-your-contacts)
--   [Finding Contacts](#finding-contacts)
--   [Adding New Contacts](#adding-new-contacts)
--   [Interacting with Contacts](#interacting-with-contacts)
--   [Sending bitcoin to Contacts](#sending-bitcoin-to-contacts)
--   [Contact Privacy & Security](#contact-privacy-and-security)
+This guide provides a complete overview of Flash's Contacts feature, explaining how to find, add, and interact with your contacts for messaging and Bitcoin payments.
 
 ## Accessing Your Contacts
 
@@ -66,7 +57,7 @@ Once you've added contacts, you can interact with them in several ways:
 
 -   From a contact's profile, tap the "Message" button to open or create a chat thread
 -   You can also send messages directly from the chat tab by selecting the contact
--   Messages are end-to-end encrypted when both users are on the NOSTR protocol
+-   Messages are end-to-end encrypted when both users are on the Nostr protocol
 
 ### Viewing Transaction History
 
@@ -74,9 +65,9 @@ Once you've added contacts, you can interact with them in several ways:
 -   This helps you track your financial interactions over time
 -   The history includes payment amounts, dates, and any attached notes
 
-## Sending bitcoin to Contacts
+## Sending Bitcoin to Contacts
 
-Flash makes it simple to send bitcoin to your contacts:
+Flash makes it simple to send Bitcoin to your contacts:
 
 ### Send from Contact Profile
 
@@ -100,12 +91,12 @@ Flash makes it simple to send bitcoin to your contacts:
 
 Your Flash contacts are designed with privacy and security as priorities:
 
--   **Local Storage**: Your contact list is stored on decentralized NOSTR servers, not on Flash's servers
+-   **Local Storage**: Your contact list is stored on decentralized Nostr servers, not on Flash's servers
 
 -   **Private Relationships**: Your transaction history remains private between you and each contact
 
--   **NOSTR Integration**: Contacts who also use NOSTR provide end-to-end encrypted messaging
+-   **Nostr Integration**: Contacts who also use Nostr provide end-to-end encrypted messaging
 
 -   **Manual Control**: You can remove any contact at any time by swiping left on their entry and tapping the delete icon
 
-The Contacts feature in Flash creates a seamless bridge between your social connections and financial transactions, making bitcoin payments as simple as sending a message.
+The Contacts feature in Flash creates a seamless bridge between your social connections and financial transactions, making Bitcoin payments as simple as sending a message.

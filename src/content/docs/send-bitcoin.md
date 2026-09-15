@@ -3,8 +3,6 @@ title: Sending Bitcoin in Flash
 description: Learn how to send Bitcoin to anyone using Flash — via Lightning, on-chain, or to a Flash username.
 ---
 
-## Sending Bitcoin
-
 Flash makes it easy to send Bitcoin to anyone, anywhere. There are three ways to send:
 
 ## 1. Send to a Flash Username

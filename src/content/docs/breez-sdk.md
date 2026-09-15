@@ -3,8 +3,6 @@ title: Lightning Wallet Technology
 description: How Flash handles fast Bitcoin payments and wallet recovery behind the scenes.
 ---
 
-## Lightning Wallet Technology
-
 Flash uses modern Lightning wallet technology to let you send and receive Bitcoin quickly.
 
 For most users, the important part is simple:

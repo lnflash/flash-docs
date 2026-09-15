@@ -3,8 +3,6 @@ title: Flash Partners
 description: A short overview of the technology partners that have helped Flash evolve.
 ---
 
-## Flash Partners
-
 Flash has worked with a number of technology partners over time. Some of those integrations are now legacy, and some remain part of the current stack.
 
 ### Current or recent building blocks

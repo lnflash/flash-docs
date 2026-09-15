@@ -3,8 +3,6 @@ title: Support Flash
 description: Help us build the future of Bitcoin and Lightning with your contribution to the Flash project.
 ---
 
-## Support the Flash Project
-
 Flash is an open-source project dedicated to making Bitcoin and Lightning accessible to everyone. Your contributions help us develop new features, improve documentation, and expand our reach.
 
 Every sat counts in helping us build a more inclusive financial future.

@@ -1,16 +1,16 @@
 ---
 title: Top up your Flash Wallet
-description: How to top up your wallet from anywhere in the world using Flash, and how to earn by learning about bitcoin.
+description: How to top up your Flash wallet from a bank, another wallet, a customer payment, or a Flashpoint.
 ---
 
 ## Overview: Ways to Top up
 
-Flash offers multiple ways to top up your flash wallet. Here's a quick summary of your options:
+Flash offers multiple ways to top up your Flash wallet. Here's a quick summary of your options:
 
 1. **Bank Transfer** - Add funds directly from your bank account
-2. **Receive from Another Wallet** - Accept a top up from another Flash wallet, or any bitcoin or Lightning compatible wallet (e.g., Coinbase, Binance, Blue Wallet, Phoenix, Breez)
+2. **Receive from Another Wallet** - Accept a top up from another Flash wallet, or any Bitcoin or Lightning compatible wallet (e.g., Coinbase, Binance, Blue Wallet, Phoenix, Breez)
 3. **Accept Payments** - Receive payments directly to your Flash wallet for goods or services you provide
-4. **From Exchange Points** - Visit local Flash exchange points to convert bitcoin to physical cash
+4. **From Exchange Points** - Visit a local Flashpoint to turn physical cash into a balance in your Flash wallet
 
 Choose the method that works best for your situation, or use a combination of these approaches to build your Flash balance.
 
@@ -56,13 +56,13 @@ Add Cash directly to your Flash wallet from your Jamaican bank account with thes
 
 ### Receive Cash from Another Wallet
 
-You can receive Cash from any bitcoin or Lightning wallet worldwide:
+You can receive Cash from any Bitcoin or Lightning wallet worldwide:
 
 1. Open your Flash app and tap the "Receive" button
-2. Choose whether to use your Lightning address or bitcoin address
+2. Choose whether to use your Lightning address or Bitcoin address
 3. Tap "Copy" to copy your address to the clipboard
 4. Share your address with the sender via messaging app, email, etc.
-5. Wait for the bitcoin to arrive in your wallet as Cash (typically within seconds to minutes)
+5. Wait for the Bitcoin to arrive in your wallet as Cash (typically within seconds to minutes)
 
 For in-person transfers, have the sender scan your QR code directly from your screen for instant transfers.
 
@@ -75,7 +75,7 @@ As a business owner or freelancer, you can easily accept Flash payments:
 3. Have customers scan your QR code or send to your Lightning address
 4. Receive instant confirmation when payment is complete
 
-For frequent payments, consider printing out dedicated QR codes for specific products or services. You can find the dedicated QR code in the settings of your Flash app under "Printable Static QR Codes".
+For frequent payments, consider printing out dedicated QR codes for specific products or services. You can find the dedicated QR code in the settings of your Flash app under "Printable Static QR Code".
 
 ### Top up from exchange points (Flashpoints)
 
@@ -83,19 +83,19 @@ If you prefer starting with physical cash, you can use exchange points:
 
 1. Locate a Flashpoint on the "Map" tab in your app
 2. Visit the location with your physical cash
-3. Follow the exchange point's process to convert to bitcoin in your wallet
+3. Follow the exchange point's process to convert to Bitcoin in your wallet
 4. Confirm the funds appear in your Flash wallet
 
-## bitcoin and Lightning Wallets by Country
+## Bitcoin and Lightning Wallets by Country
 
-Flash interoperates with a wide range of bitcoin wallets worldwide. Here's a country-by-country breakdown of compatible wallets.
+Flash interoperates with a wide range of Bitcoin wallets worldwide. Here's a country-by-country breakdown of compatible wallets.
 
 ### Global 🌍
 
-These wallets are available worldwide and can send bitcoin that arrives as Cash in your Flash wallet:
+These wallets are available worldwide and can send Bitcoin that arrives as Cash in your Flash wallet:
 
 -   [Blue Wallet](https://bluewallet.io/) - A mobile wallet for iOS and Android
--   [Phoenix Wallet](https://phoenix.acinq.co/) - A mobile wallet for Android
+-   [Phoenix Wallet](https://phoenix.acinq.co/) - A mobile wallet for iOS and Android
 -   [Breez Wallet](https://breez.technology/) - A mobile wallet for iOS and Android
 -   [Green Wallet](https://blockstream.com/green/) - A mobile wallet for iOS and Android
 -   [Wallet of Satoshi](https://www.walletofsatoshi.com/) - A mobile wallet for iOS and Android
@@ -104,24 +104,24 @@ These wallets are available worldwide and can send bitcoin that arrives as Cash 
 
 -   [Strike Wallet](https://strike.me/) - A mobile wallet for iOS and Android
 -   [Cash App](https://cash.app/) - A regulated neobank and mobile wallet for iOS and Android
--   [River Wallet](https://river.com/) - A regulated bitcoin neobank and mobile wallet for iOS and Android
+-   [River Wallet](https://river.com/) - A regulated Bitcoin neobank and mobile wallet for iOS and Android
 
 ### Canada 🇨🇦
 
--   [Bull bitcoin](https://bullbitcoin.com/) - A non-custodial bitcoin-only exchange and payments service
--   [Bitcoin Well](https://bitcoinwell.com) - A Non-custodial exchange available in Canada
+-   [Bull Bitcoin](https://bullbitcoin.com/) - A non-custodial Bitcoin-only exchange and payments service
+-   [Bitcoin Well](https://bitcoinwell.com) - A non-custodial exchange available in Canada
 
 ### Latin America 🇸🇻🇬🇹🇨🇷🇲🇽🇧🇷
 
 -   [Blink Wallet](https://blink.sv/) - A mobile wallet for iOS and Android, built by the team at [Galoy](https://galoy.io/) originally for El Salvador, now available globally
--   [bitcoin Jungle](https://play.google.com/store/apps/details?id=app.bitcoinjungle.mobile) - A mobile wallet for iOS and Android, available for people in Costa Rica
+-   [Bitcoin Jungle](https://play.google.com/store/apps/details?id=app.bitcoinjungle.mobile) - A mobile wallet for iOS and Android, available for people in Costa Rica
 -   [Osmo Wallet](https://osmowallet.com/) - A mobile wallet for iOS and Android, available for people in Guatemala, El Salvador, Costa Rica, Mexico and Brazil
--   [Bull bitcoin](https://bullbitcoin.com/) - A non-custodial bitcoin-only exchange and payments available in Costa Rica, Mexico and Brazil
+-   [Bull Bitcoin](https://bullbitcoin.com/) - A non-custodial Bitcoin-only exchange and payments available in Costa Rica, Mexico and Brazil
 
 ### UK & Europe 🇬🇧🇪🇺
 
 -   [CoinCorner](https://www.coincorner.com/) - A mobile wallet for iOS and Android, available in the UK and Europe
--   [Hodl Hodl](https://hodlhodl.com/) - Non-custodial bitcoin trading solution, available in the UK and Europe
+-   [Hodl Hodl](https://hodlhodl.com/) - Non-custodial Bitcoin trading solution, available in the UK and Europe
 
 ### Africa 🇿🇦🇳🇬🇬🇭🇹🇬🇨🇲🇰🇪🇨🇮🇪🇹🇲🇦🇿🇲🇲🇿🇿🇼🇹🇿
 
@@ -131,11 +131,10 @@ These wallets are available worldwide and can send bitcoin that arrives as Cash 
 ### Asia 🇵🇭🇻🇳🇹🇭🇯🇵
 
 -   [Pouch Wallet](https://pouch.ph) - A mobile wallet for iOS and Android, available in the Philippines
--   [Neutronpay](https://neutronpay.com/personal) - A mobile wallet for iOS and Android, available in Vietnam
 
 ## Next Steps
 
 Now that you have Cash in your Flash wallet, explore what you can do with it:
 
--   [Cash Settlement](/guides/cash-out/) - Learn how to convert your Cash to physical cash
--   [Sweep to Cold Storage](/guides/sweep-to-cold-storage/) - Secure your Cash by transferring it to a cold storage wallet
+-   [How to Cash Out](/guides/cash-out/) - Send your Cash Wallet balance to your bank account
+-   [Sweep to Cold Storage](/guides/sweep-to-cold-storage/) - Secure your Bitcoin by moving it to a hardware wallet

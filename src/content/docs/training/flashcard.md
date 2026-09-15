@@ -3,8 +3,6 @@ title: Flashcard Training
 description: Learn how the Flashcard works with your Flash account and Flashpoint merchants.
 ---
 
-## Flashcard Training
-
 The Flashcard is your physical card for using Flash at supported merchants.
 
 ## What the Flashcard does

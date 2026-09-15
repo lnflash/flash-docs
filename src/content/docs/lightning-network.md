@@ -142,7 +142,7 @@ Lightning follows the Basis of Lightning Technology (BOLT) specifications:
 Several implementations power the Lightning Network:
 
 - **LND**: Lightning Network Daemon (used by Flash)
-- **c-lightning**: Implementation by Blockstream
+- **Core Lightning (CLN)**: Implementation by Blockstream
 - **Eclair**: Implementation by ACINQ
 - **LDK**: Lightning Development Kit by Spiral
 

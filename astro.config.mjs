@@ -75,6 +75,9 @@ export default defineConfig({
 						'ibex-mercado',
 						'flash-infrastructure',
 						'nerd-stats',
+						'breez-sdk',
+						'third-party-vendors',
+						'btcpay-server',
 					],
 				},
 				{

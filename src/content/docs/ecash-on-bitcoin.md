@@ -192,7 +192,7 @@ Flash continues to develop its Cash capabilities with several planned improvemen
 
 ## Resources
 
-- [Cash Technical Documentation](https://docs.flashapp.me/cash)
+- [Cashu NFC Cards Progress](/cashu-progress/)
 - [Original Chaumian Cash Papers](https://www.chaum.com/publications/)
 - [Flash Privacy Policy](https://flashapp.me/privacy)
 - [Community Support](https://community.flashapp.me)

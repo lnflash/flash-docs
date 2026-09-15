@@ -21,7 +21,7 @@ Flash wouldn't exist without these open-source projects:
 
 - **[Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)** — The reference implementation of Bitcoin
 - **[Lightning Network](https://lightning.network/)** — Instant, low-fee Bitcoin payments
-- **[Breez SDK](https://sdk.breez.technology/)** — Lightning wallet toolkit powering Flash's BTC wallet
+- **[Breez SDK](https://sdk-doc-spark.breez.technology/)** — Lightning wallet toolkit powering Flash's BTC wallet
 - **[Galoy](https://galoy.io/)** — Open-source Bitcoin banking infrastructure
 - **[IBEX Mercado](https://www.ibexmercado.com/)** — Lightning Network infrastructure
 

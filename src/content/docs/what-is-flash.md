@@ -3,8 +3,6 @@ title: What is Flash?
 description: Flash is a Bitcoin-based financial app for the Caribbean — send money, accept payments, and cash out to your bank.
 ---
 
-## What is Flash?
-
 Flash is a Bitcoin service provider building financial products specifically for the Caribbean. Our flagship product is the **Flash app** — a mobile wallet that lets you send, receive, and manage Bitcoin using the Lightning Network.
 
 Flash is built for everyday people. You don't need a bank account to get started. You don't need to understand Bitcoin deeply. You just need your phone.
@@ -55,4 +53,4 @@ Flash is currently focused on **Jamaica**, with expansion across the Caribbean p
 
 ## Ready to get started?
 
-[Download Flash](https://flashapp.me) and see [Get Started](/get-started/) for setup instructions.
+[Download Flash](https://getflash.io) and see [Get Started](/get-started/) for setup instructions.

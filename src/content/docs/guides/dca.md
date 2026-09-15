@@ -17,4 +17,4 @@ The goal of dollar-cost averaging is to take the emotion out of investing. It co
 
 Adopting a DCA strategy requires some discipline and a long term outlook. It won't always yield the best possible returns, but it does set an investor up for a growing bitcoin position over time.
 
-Big Props and Attribution go out to Alex Leishman and the team over at River Financial for making great Bitcoin financial products for users in the U.S. Check out their full article on DCA at [river.com](https://river.com/learn/what-is-bitcoin/dollar-cost-averaging-bitcoin).
+Big Props and Attribution go out to Alex Leishman and the team over at River Financial for making great Bitcoin financial products for users in the U.S. Check out their full article on DCA at [river.com](https://river.com/learn/what-is-dollar-cost-averaging/).

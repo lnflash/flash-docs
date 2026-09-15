@@ -3,8 +3,6 @@ title: Secure Chat
 description: Message Flash contacts and get help in the built-in support group.
 ---
 
-## Secure Chat
-
 Flash Chat lets you send private messages to other Flash users and talk to support when you need help.
 
 It is built into the app, so you do not need a separate messenger.
