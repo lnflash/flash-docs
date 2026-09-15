@@ -7,28 +7,28 @@ The Flashcard is your physical card for using Flash at supported merchants.
 
 ## What the Flashcard does
 
-- Link to your Flash account
+- Hold its own balance, separate from your Flash wallets
 - Spend at Flashpoint merchants
-- Work with your Cash Wallet balance
+- Show its balance and recent activity in the Flash app
 - Help you use Flash in person, without typing a username
 
 ## Getting started
 
 1. Get your Flashcard from Flash or an authorized merchant
-2. Link the card to your Flash account
-3. Set your PIN or security details if required
-4. Test a small purchase at a supported merchant
+2. Add the card to the Flash app by tapping it against your phone (**Read NFC card**)
+3. Test a small purchase at a supported merchant
 
 ## Using the card
 
 - Tap the card at a supported merchant
 - Confirm the payment on your phone if prompted
-- Keep an eye on your Cash Wallet balance
+- Keep an eye on the card balance in the app; it refreshes when you tap the card again
 
 ## Tips
 
-- Treat the card like cash
-- If you lose it, contact support right away
+- Treat the card like cash: there is no PIN, no freeze, and no recovery
+- If you lose it, the funds on it are not recoverable, so keep the balance small
+- **Remove Card** in the app only removes the card from your phone; it does not disable the card
 - Flashcard is separate from the Bitcoin Wallet flow
 
 ## Related guides

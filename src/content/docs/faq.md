@@ -126,13 +126,11 @@ See our [Flashcard guide](/guides/flashcard/) for details.
 
 ### What if my Flashcard is lost or stolen?
 
-1. Open the Flash app immediately
-2. Go to your Flashcard on the home screen
-3. Select your lost card
-4. Tap **Sweep to Wallet**
-5. If you do not see the **Sweep to Wallet** option, contact support to "sweep" funds from the lost card to your Flash wallet
+The balance lives on the card itself, not in your Flash account. If the card is lost, the funds on it are not recoverable, and Flash cannot freeze or block the card. The app shows the same warning on the Flashcard screen: "Do not throw away your card! If your card is lost, the funds are not recoverable."
 
-_Note: Sweeping a card transfers the remaining balance to your Flash wallet. The card will be deactivated and cannot be used again. If you have not linked your card to the Flash app, we may not be able to sweep the card, so please link your card to the Flash app as soon as you receive it._
+Tapping **Remove Card** in the app only removes the card from your phone. It does not disable the card, and the balance stays on the card.
+
+Treat the card like cash: keep the balance small, reload it as you go, and keep the card somewhere safe.
 
 ### How do Flashcard rewards work?
 

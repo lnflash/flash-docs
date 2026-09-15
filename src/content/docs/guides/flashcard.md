@@ -108,15 +108,15 @@ Your points are valuable and flexible:
 - Transfer point value to your card balance
 - Send points to other Flash users
 
-### Security Features
+### Keeping Your Card Safe
 
-Your Flashcard includes multiple security layers:
+The Flashcard has no PIN, no lock or freeze, and no way to recover the balance from a lost card. Anyone holding the card can spend what is on it, exactly like cash. The app shows this warning on the Flashcard screen: "Do not throw away your card! If your card is lost, the funds are not recoverable."
 
-- **PIN protection**: Set a PIN for added security
-- **Transaction limits**: Daily and per-transaction limits for safety
-- **Instant lock**: Freeze your card instantly in the app if needed
-- **Zero liability**: Protected against unauthorized transactions
-- **Real-time alerts**: Get notified of every transaction
+**Remove Card** in the app only forgets the card on your phone. It does not disable the card, and the balance stays on the card.
+
+- Keep the balance small and reload it as you go
+- Store the card the way you would store cash
+- If you lose the card, treat the balance as spent; Flash support cannot restore it
 
 ### Best Practices
 
@@ -124,17 +124,14 @@ To get the most from your Flashcard:
 
 1. **Keep it linked**: Always maintain the app connection for full features
 2. **Monitor balance**: Check regularly to avoid declined transactions
-3. **Protect your PIN**: Never share your PIN with anyone
-4. **Report issues quickly**: Contact support immediately if your card is lost or stolen
-5. **Stack rewards**: Look for merchant promotions to maximize points
-6. **Set alerts**: Enable notifications for low balance warnings
+3. **Keep the balance modest**: A lost card cannot be frozen or refunded
+4. **Stack rewards**: Look for merchant promotions to maximize points
 
 ### Troubleshooting
 
 **Card not working?**
 - Ensure sufficient balance for your purchase
 - Check if the merchant's Flashpoint device is online
-- Verify your card isn't locked in the app
 - Try cleaning the card's chip with a soft cloth
 
 **Points not showing?**
@@ -162,9 +159,8 @@ To get the most from your Flashcard:
 ### Support
 
 Need help with your Flashcard?
-- **In-app support**: Access help directly from the Cards section
+- **In-app support**: Contact Flash support from the app
 - **Merchant assistance**: Any Flashpoint merchant can help with basic card services
-- **Email**: support@flashapp.me
-- **Lost card hotline**: Available 24/7 for card freezing
+- **Email**: support@getflash.io
 
 Remember, your Flashcard is more than just a payment method - it's your key to the Flash rewards ecosystem and a convenient way to manage your everyday spending while earning valuable rewards.
