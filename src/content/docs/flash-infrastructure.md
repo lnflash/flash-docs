@@ -1,91 +1,69 @@
 ---
 title: Flash Infrastructure
-description: Learn about the technical architecture powering Flash's Bitcoin, Lightning, and Nostr capabilities
+description: The services Flash actually runs, who holds what, and which parts of the older architecture are history.
 ---
 
-## How Flash Works Under the Hood
+This page describes the Flash backend as it is deployed today. It replaces an earlier version that listed Bitcoin nodes, Lightning nodes, an eCash mint, and BTCPay Server as running components; those came from the upstream Galoy design and are not part of Flash's deployment. Where something is historical or future, it says so.
 
-Flash combines open-source technologies to create a seamless financial application. This page explains the technical infrastructure powering Flash.
+## The shape of it
 
-## Core Technology Stack
+Flash is a Galoy-derived banking backend that does not run its own Bitcoin or Lightning nodes. Two partners hold the keys:
 
-### 1. Bitcoin Core Integration
+- **IBEX Mercado** holds the custodial Cash balances and provides Lightning and on-chain settlement for them. The backend talks to IBEX over its API and webhooks.
+- **Breez SDK (Spark)** runs inside the mobile app for the optional Bitcoin Wallet. Its keys never leave the user's phone, so the backend only records that wallet as an *external* wallet with no server-side balance.
 
-Flash connects to the Bitcoin network through:
-- **Bitcoin Core nodes** for blockchain validation
-- **Electrum Server** for efficient data access
-- **Address indexing** for fast balance lookups
+The Cash balance is held at IBEX as a dollar-denominated wallet. Since July 2026 new accounts get a USDT-denominated wallet; older USD-denominated wallets remain until migrated.
 
-This provides on-chain Bitcoin functionality with self-custody withdrawals, transaction verification, and deposit detection.
+## Deployed services
 
-### 2. Lightning Network Implementation
+The `flash` Helm chart and the deployments repo bring up:
 
-Flash uses [LND](https://github.com/lightningnetwork/lnd) for Lightning functionality:
+| Component | Role |
+|-----------|------|
+| API, trigger, websocket, exporter | The Flash backend (GraphQL API, background jobs, subscriptions, metrics) |
+| Apollo Router | Fronts the public GraphQL API |
+| Ory Kratos + Postgres | Identity and sessions (phone and email login, TOTP) |
+| Ory Oathkeeper | Authentication gateway for the API and API keys |
+| MongoDB, Redis | Ledger, accounts, caches, rate limits |
+| Price service | Exchange rates for display currencies |
+| strfry + nostr-multiplexer | The Nostr relay behind Flash Chat |
+| IBEX, Bridge, Fygaro webhook receivers | Settlement, US bank rails, and card top-ups |
+| ERPNext | Back-office and accounting |
+| OpenTelemetry collector | Tracing and metrics |
 
-- **LND nodes** provide core Lightning capabilities
-- **Custom middleware** manages channel liquidity
+Not deployed: bitcoind, Electrum, LND, a Cashu mint, BTCPay Server. The chart's LND and bria settings are upstream leftovers switched off (`lndTasksEnabled: false`), and the backend's `LndService` code path is unused.
 
-Enabling instant payments, sub-cent micropayments, and cross-border transactions.
+## Integrations users see
 
-### 3. Nostr Protocol Integration
+- **Lightning and on-chain for Cash**: IBEX. Invoices, Lightning addresses (`username@flashapp.me`), and on-chain deposits all settle through it.
+- **Bitcoin Wallet**: Breez SDK Spark in the app. See [Lightning Wallet Technology](/breez-sdk/).
+- **Card top-ups**: Fygaro checkout, credited to the Cash Wallet.
+- **US bank rails**: Bridge, for the USD virtual bank account and international settlement.
+- **Chat**: Nostr, over Flash's own relay plus public relays.
+- **Flashcard and POS rewards**: the card is an NFC LNURL card; Flash POS pays rewards from a BTCPay Server pull payment configured by each merchant. That BTCPay instance is merchant tooling, not part of the Flash backend.
 
-Flash incorporates Nostr via:
-- **Multiple relay connections** for censorship resistance
-- **Client-side key management** for identity control
-- **End-to-end encryption** for private messages
+## Historical and future
 
-Powering direct messaging, group chats, and business communication.
+- **Galoy**: Flash's backend began as a fork of Galoy (now Blink). The [Galoy Project](/galoy-project/) page describes that lineage. The backend repo's `ARCHITECTURE.md` still describes the upstream node-based design and should be read as history.
+- **BTCPay Server** in the Flash backend: retired. See [BTCPay Server (Legacy)](/btcpay-server/).
+- **Cashu eCash and NFC cards**: research in progress, not shipped. See [Cashu NFC Cards Progress](/cashu-progress/) and [eCash on Bitcoin](/ecash-on-bitcoin/).
 
-### 4. eCash System
+## Security model
 
-Flash implements a chaumian eCash system offering:
-- **Full transaction privacy**
-- **Off-chain scaling**
-- **Offline payment capabilities**
+- Flash holds no Bitcoin or Lightning node keys. Custody of Cash balances is with IBEX; custody of the Bitcoin Wallet is with the user.
+- API access is gated by Oathkeeper with Kratos sessions or scoped API keys, with per-key rate limits.
+- Databases run in replicated mode on Kubernetes with automated failover.
 
-### 5. BTCPay Server Integration
+## Open source components
 
-Flash leverages [BTCPay Server](https://btcpayserver.org/) for:
-- **Flash Cards** payment processing
-- **Rewards system** management
-- **Merchant services** infrastructure
+- [Galoy / Blink](https://github.com/GaloyMoney/blink): the backend's origin
+- [Breez SDK](https://github.com/breez/spark-sdk): the in-app Bitcoin Wallet
+- [Nostr](https://github.com/nostr-protocol/nostr): the chat protocol; [strfry](https://github.com/hoytech/strfry) is the relay
+- [Ory Kratos and Oathkeeper](https://github.com/ory): identity and gateway
+- [Apollo Router](https://github.com/apollographql/router)
 
-## System Architecture
+## Developer resources
 
-Flash's architecture is designed for reliability, scalability, and security with these key components:
-
-### Server Components
-- API Layer, Authentication Service, Lightning Service
-- Bitcoin Service, Nostr Relay, eCash Mint
-- Database Cluster, Analytics Engine, BTCPay Server
-
-### Client Components
-- Secure Key Storage, Local Database, Nostr Client
-- Backup Systems, Payment Logic
-
-## Security Model
-
-Flash employs multiple security layers:
-- HSM-protected nodes for Lightning and Bitcoin keys
-- Multi-signature wallets for cold storage reserves
-- Regular security audits and encrypted databases
-- Rate limiting and anomaly detection systems
-
-## Open Source Components
-
-Flash builds upon and contributes to:
-- [LND](https://github.com/lightningnetwork/lnd) - Lightning Network implementation
-- [Galoy](https://github.com/GaloyMoney/blink) - Bitcoin banking infrastructure
-- [Nostr](https://github.com/nostr-protocol/nostr) - Decentralized social protocol
-- [Breez SDK](https://github.com/breez/spark-sdk) - Lightning SDK components
-- [Cashu](https://github.com/cashubtc/cashu) - eCash implementation
-- [BTCPay Server](https://github.com/btcpayserver/btcpayserver) - Self-hosted payment processor
-
-## Developer Resources
-
-- [API Documentation](https://docs.flashapp.me)
-- [GitHub Repositories](https://github.com/LNFlash)
-- [Developer Discord](https://discord.gg/flashbitcoin)
-- [Technical Blog](https://blog.flashapp.me/tech)
-
-Flash is committed to open-source development and welcomes community contributions.
+- [API documentation](https://docs.flashapp.me)
+- [GitHub repositories](https://github.com/lnflash)
+- Community: the Discord link is in the app under Settings → **Need help? Contact us.** → *Join the community*

@@ -27,7 +27,7 @@ Learn more: [BTCPay Server docs](https://docs.btcpayserver.org)
 ### Cashu / eCash
 Cashu represents a future direction for Flash: privacy-preserving, offline-capable money movement with NFC card support.
 
-This is **not** the Cash Wallet. The Cash Wallet is an IBEX USD wallet. Cashu is a separate protocol and product direction.
+This is **not** the Cash Wallet. The Cash Wallet is a dollar-denominated wallet held at IBEX (USDT-denominated since the July 2026 cutover; older USD wallets remain until migrated). Cashu is a separate protocol and product direction.
 
 ### Why it matters
 
@@ -61,4 +61,4 @@ Learn more: [Nostr](https://nostr.org)
 
 ## Note
 
-Cashu is a future-looking protocol page. It does not describe the current Cash Wallet, which is an IBEX USD wallet.
+Cashu is a future-looking protocol page. It does not describe the current Cash Wallet, which is a dollar-denominated wallet held at IBEX.

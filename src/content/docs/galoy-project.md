@@ -5,7 +5,7 @@ description: Learn about Galoy, the open-source Bitcoin banking infrastructure t
 
 ## What is Galoy?
 
-Galoy is the open-source Bitcoin banking infrastructure that powers Flash and other Bitcoin applications around the world. Created to make Bitcoin and Lightning Network accessible to communities globally, Galoy provides the foundation for modern, inclusive financial services built on Bitcoin.
+Galoy (now called Blink) is the open-source Bitcoin banking infrastructure that Flash was forked from. This page describes Galoy as a project; Flash's backend has since diverged, and several components below (LND nodes, Bitcoin Core, cold storage) describe Galoy's design rather than Flash's deployment. See [Flash Infrastructure](/flash-infrastructure/) for what Flash runs today. Created to make Bitcoin and Lightning Network accessible to communities globally, Galoy provides the foundation for modern, inclusive financial services built on Bitcoin.
 
 ## Galoy's Mission
 
@@ -31,7 +31,7 @@ Flash is built on top of Galoy's infrastructure, leveraging its battle-tested co
 
 ### Backend Infrastructure
 
-- **API Layer**: RESTful and GraphQL APIs for client applications
+- **API Layer**: a GraphQL API for client applications
 - **Authentication System**: Secure user authentication and authorization
 - **Accounting Engine**: Double-entry bookkeeping system for financial accuracy
 - **Notification Service**: Push notifications for transactions and account updates
@@ -96,7 +96,6 @@ Developers interested in Galoy can contribute in several ways:
 
 - **GitHub**: Explore and contribute to the [Galoy codebase](https://github.com/GaloyMoney/blink)
 - **Development Documentation**: Get started with the [Blink repository](https://github.com/GaloyMoney/blink)
-- **Community Chat**: Join discussions on [Slack](https://join.slack.com/t/galoymoney-workspace/shared_invite/zt-rvnhsdb5-72AZCD_jzw6_Q05aCs0SgA)
 
 ### For Businesses
 

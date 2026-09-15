@@ -13,36 +13,37 @@ Access the full API reference, integration guides, and code examples.
 
 [Visit API Documentation](https://docs.flashapp.me)
 
-### What You'll Find
+### What you'll find
 
-At the API documentation portal, you'll find:
+- **GraphQL reference**: every query, mutation, subscription, and type, generated from the live schema
+- **Authentication guide**: the phone-code login that returns a session token, and TOTP
+- **API keys**: long-lived, scoped keys for server-to-server integrations
+- **Examples**: queries and mutations with sample responses, targeting the TEST environment
+- **Error handling**: gateway, GraphQL, and payload errors
 
-- **GraphQL Reference**: Every query, mutation, subscription, and type, generated from the live schema
-- **Authentication Guide**: Phone-number login that returns a session token for apps acting on behalf of a user
-- **API Keys**: Long-lived, scoped keys for server-to-server integrations
-- **Examples**: Copy-and-paste queries and mutations with sample responses
-- **Error Handling**: How the API reports errors
-- **Testing Environment**: A test endpoint you can use while you build
+There is no interactive playground: the endpoints answer POST requests only. Use any GraphQL client or `curl`.
 
-### Quick Start
+### What exists beyond the docs
 
-Get started with the Flash API in minutes:
+- **JavaScript client**: [`lnflash/flash-client`](https://github.com/lnflash/flash-client), a JavaScript client library for the Flash fork of the Galoy stack. It is not yet covered by the API docs.
+- **Webhooks**: `callbackEndpointAdd` (admin scope) registers a URL that receives exactly two events today, `receive.intraledger` and `receive.lightning`. There are no send, on-chain, or USDT events.
+- **Fee probes**: `lnInvoiceFeeProbe`, `lnUsdInvoiceFeeProbe`, `lnNoAmountInvoiceFeeProbe`, `lnNoAmountUsdInvoiceFeeProbe`, `onChainTxFee`, `onChainUsdTxFee`, and `onChainUsdTxFeeAsBtcDenominated` return the fee a send would cost without sending. They are read-only; the fee they return is an estimate at that moment, not a quoted rate.
+
+### Quick start
 
 1. **Create** a Flash account in the app
 2. **Authenticate** with your phone number to get a session token, or create an API key from that session
-3. **Explore** the API against the test endpoint
+3. **Explore** the API against `https://api.test.flashapp.me/graphql`
 4. **Build** your integration following the guides
 
-### Popular Integration Scenarios
+### Popular integration scenarios
 
-- **E-commerce**: Accept Bitcoin payments in your online store
-- **Point of Sale**: Process in-person payments
-- **Payroll**: Automate Bitcoin salary payments
-- **Apps**: Add Bitcoin functionality to your mobile or web application
+- **E-commerce**: accept Bitcoin payments in your online store
+- **Point of sale**: process in-person payments
+- **Payroll**: automate Bitcoin salary payments
+- **Apps**: add Bitcoin functionality to your mobile or web application
 
-### Developer Support
-
-For technical support and questions:
+### Developer support
 
 - **Documentation**: [docs.flashapp.me](https://docs.flashapp.me)
 - **Email**: [support@getflash.io](mailto:support@getflash.io)

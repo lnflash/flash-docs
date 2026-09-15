@@ -5,7 +5,7 @@ description: Current progress on Cashu NFC cards and the NUT-XX work behind them
 
 This page tracks the work behind Flash’s future Cashu NFC card experience.
 
-It is **not** the Cash Wallet. The Cash Wallet is Flash’s current IBEX USD wallet.
+It is **not** the Cash Wallet. The Cash Wallet is Flash’s current dollar-denominated wallet held at IBEX.
 
 ---
 
@@ -52,7 +52,7 @@ This is the low-level card implementation work. It is the piece that makes the N
 - protocol and applet work are in progress
 - the direction is Cashu + NFC + offline-friendly payments
 - this is **separate** from the Cash Wallet
-- the current Cash Wallet remains the IBEX USD wallet users already see in the app
+- the current Cash Wallet remains the IBEX-held dollar wallet users already see in the app
 
 ---
 

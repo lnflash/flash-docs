@@ -1,11 +1,15 @@
 ---
 title: eCash on Bitcoin
-description: How Flash implements digital cash using Bitcoin for truly private, bearer transactions
+description: Research note on Chaumian eCash on Bitcoin and how a future Flash eCash wallet could work. Not a description of the current Cash Wallet.
 ---
 
-## What is Cash?
+:::note[Research, not a shipped feature]
+This page describes eCash (Chaumian digital cash) as a technology and how Flash might use it. Flash does not run a mint today, and the **Cash Wallet** in the app is not eCash: it is a dollar balance held by Flash. Current work on Cashu NFC cards is tracked on [Cashu NFC Cards Progress](/cashu-progress/).
+:::
 
-Cash is a form of digital cash built on Bitcoin that combines the privacy of physical cash with the convenience of digital payments. In Flash, Cash enables fully private transactions that work even without an internet connection, creating a true digital equivalent to physical cash.
+## What is eCash?
+
+eCash is a form of digital cash built on Bitcoin that combines the privacy of physical cash with the convenience of digital payments. In Flash, Cash enables fully private transactions that work even without an internet connection, creating a true digital equivalent to physical cash.
 
 Based on cryptographic techniques developed by David Chaum in the 1980s, Cash represents a significant privacy advancement for Bitcoin users while maintaining the security and decentralization of the underlying Bitcoin network.
 
@@ -194,7 +198,6 @@ Flash continues to develop its Cash capabilities with several planned improvemen
 
 - [Cashu NFC Cards Progress](/cashu-progress/)
 - [Original Chaumian Cash Papers](https://www.chaum.com/publications/)
-- [Flash Privacy Policy](https://flashapp.me/privacy)
-- [Community Support](https://community.flashapp.me)
+- [Cashu](https://cashu.space)
 
 Cash represents an important privacy innovation in the Bitcoin ecosystem. Through Flash, this powerful technology becomes accessible to everyone, providing true digital cash that works anywhere, anytime, with complete privacy.

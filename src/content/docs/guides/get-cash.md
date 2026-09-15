@@ -21,6 +21,11 @@ There are four ways to get a balance into Flash:
 
 Payments received this way land in your Cash Wallet unless you have enabled the Bitcoin Wallet and chosen it as your default. See [Your Bitcoin Wallet](/guides/bitcoin-wallet/).
 
+### Withdrawal links and NFC cards
+
+- **Redeem Bitcoin.** If someone gives you a withdrawal link or QR code (an LNURL-withdraw), scan it with the **Scan** tab. The *Redeem Bitcoin* screen shows the allowed range ("Min … Max …"); pick the amount and the sender's wallet pays your Flash wallet.
+- **Receive from NFC.** Settings → **Receive from NFC** reads a withdrawal link from an NFC card into your wallet ("Only receive from NFC is available for now"). The card has to carry an LNURL-withdraw link, such as a Flashcard.
+
 ---
 
 ## Accept payments for goods or services

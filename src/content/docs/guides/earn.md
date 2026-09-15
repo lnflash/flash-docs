@@ -32,6 +32,10 @@ shoppers looking for forward-thinking businesses.
 ![Flash Accepted Here](/images/badges/png/Flash-Accepted-Here.png)
 ![Bitcoin Accepted Here](/images/badges/png/Bitcoin-Accepted-Here.png)
 
+## Invite friends
+
+The **Invite Friends** card on Home sends an invitation by phone number or email, and **My Referrals** lists who joined. The card advertises "Get up to US$5 for inviting friends to Flash"; referral rewards have been paused since 1 September 2026, so invitations still work but do not currently pay out. Check the card in the app for the current offer.
+
 ## Next steps
 
 Now you know the many ways to earn Flash, it is important to understand how to

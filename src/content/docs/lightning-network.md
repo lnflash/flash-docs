@@ -67,12 +67,11 @@ Flash leverages Lightning Network technology to provide a seamless payment exper
 
 ### Core Lightning Infrastructure
 
-Behind the scenes, Flash maintains sophisticated Lightning infrastructure:
+Flash does not run Lightning nodes of its own. Behind the scenes:
 
-- **Lightning Nodes**: High-capacity nodes with robust connections
-- **Liquidity Management**: Ensuring payments route successfully
-- **Channel Balancing**: Optimizing for both sending and receiving capability
-- **24/7 Monitoring**: Constant oversight for reliability
+- **IBEX Mercado** provides the Lightning nodes, liquidity, and routing for Cash Wallet payments
+- **Breez SDK (Spark)** provides Lightning for the in-app Bitcoin Wallet
+- **Flash's backend** handles accounts, invoices, and settlement between the two; see [Flash Infrastructure](/flash-infrastructure/)
 
 ### User Experience Simplification
 
@@ -141,7 +140,7 @@ Lightning follows the Basis of Lightning Technology (BOLT) specifications:
 
 Several implementations power the Lightning Network:
 
-- **LND**: Lightning Network Daemon (used by Flash)
+- **LND**: Lightning Network Daemon (used by many custodians; Flash's Lightning access is through IBEX and, in the app, Breez SDK Spark)
 - **Core Lightning (CLN)**: Implementation by Blockstream
 - **Eclair**: Implementation by ACINQ
 - **LDK**: Lightning Development Kit by Spiral
@@ -170,7 +169,6 @@ Flash makes using Lightning Network simple:
 
 For users wanting deeper Lightning integration:
 
-- **Connect to Your Own Node**: Use Flash with your personal Lightning node
 - **Run a Routing Node**: Help strengthen the network (advanced users)
 - **Explore Developer APIs**: Build on Flash's Lightning capabilities
 - **Join the Community**: Participate in Lightning development
