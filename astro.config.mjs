@@ -51,6 +51,7 @@ export default defineConfig({
 					label: 'Merchants & Flashcard',
 					items: [
 						'training/flash-pos',
+						'guides/payment-splits',
 						'guides/flashcard',
 						'training/flashcard',
 						'training/mobile-app',
